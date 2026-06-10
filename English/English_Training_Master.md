@@ -1,113 +1,324 @@
-# English Training Master
+# English Training Master v1.0
 
-## 目标
+## Student Profile
 
-我的英语目标不是追求复杂表达，而是先做到：
+**Name:** John (Zhou Yongxin)
 
-- 能做简单自我介绍
-- 能说明项目经验
-- 能回答基础面试问题
-- 能和客户做简单技术沟通
-- 说不出来时，可以用简单英语绕过去
+**Experience:** 20+ years in IT
 
-## 当前定位
+**Main Skills:**
 
-- 基础偏弱
-- 可以照着念
-- 自发说容易卡住
-- 需要反复练习固定句型
-- 优先练“简单、能说出口、面试可用”的表达
+* Java
+* Spring
+* Spring Boot
+* MuleSoft
+* REST
+* SOAP
 
-## 固定自我介绍方向
+**Current English Level:**
 
-```text
-My name is John.
-I have over 20 years of experience in IT.
-I mainly work with Java, Spring Boot, and MuleSoft.
-I have experience in API development and system integration.
-In my recent project, I worked on a MuleSoft API migration project.
+* Technical knowledge: Strong
+* English output: Beginner
+* Can answer basic technical interview questions with guidance
+
+**Goal:**
+Complete a basic English technical interview within 3 months.
+
+---
+
+# Training Rules
+
+## Daily Training Structure
+
+### 1. Review (70%)
+
+Review previously learned questions.
+
+### 2. Error Correction (20%)
+
+Focus on repeated mistakes.
+
+### 3. New Question (10%)
+
+Only one new question per day.
+
+### 4. Simple English Dialogue
+
+Practice short conversations.
+
+---
+
+# Learned Questions
+
+## Q1 Tell me about yourself
+
+### Status
+
+Basic
+
+### Answer
+
+I have over twenty years of experience in the IT industry.
+
+I mainly worked on business systems.
+
+I have experience with Java, Spring Boot, and MuleSoft.
+
+I am good at solving problems.
+
+I can work independently.
+
+---
+
+## Q2 Can you describe your MuleSoft project?
+
+### Status
+
+Basic
+
+### Answer
+
+It was a modernization project.
+
 The old system was built with PHP.
-My role was API design, development, and testing.
-I worked with the backend team to check data and test APIs.
-```
 
-## MuleSoft 项目固定表达
-
-### 简单版
-
-```text
-I worked on a MuleSoft API migration project.
-The old system was built with PHP.
 We used MuleSoft to integrate APIs.
+
 My role was API design, development, and testing.
-I worked with the backend team to check data and test requests and responses.
-The main challenge was compatibility with the old system.
-```
 
-### 稍微正式版
+---
 
-```text
-In my recent project, I worked on a MuleSoft API migration project.
-The old system was based on PHP, REST, and SOAP.
-We used MuleSoft to modernize the API integration.
-I was responsible for API design, development, testing, and troubleshooting.
-I also worked with backend and operation teams to keep the APIs stable and maintainable.
-```
+## Q3 Why did you use MuleSoft?
 
-## 高频句型
+### Status
 
-### 我负责……
+Needs More Practice
 
-```text
-I was responsible for API design and development.
-I was responsible for testing and troubleshooting.
-I was responsible for checking request and response data.
-```
+### Answer
 
-### 我使用……
+The old system was difficult to maintain.
 
-```text
+The goal was to modernize the system.
+
+We used MuleSoft to integrate APIs.
+
+---
+
+## Q4 What technologies did you use?
+
+### Status
+
+Good
+
+### Answer
+
 I used Java and Spring Boot for development.
+
 I used MuleSoft, REST, and SOAP for API integration.
-```
 
-### 项目难点
+---
 
-```text
-The main challenge was understanding the old system.
-The main challenge was compatibility with the old system.
-The main challenge was checking data between the old system and the new API.
-```
+## Q5 What was your role?
 
-### 解决方法
+### Status
 
-```text
-I checked the business logic carefully.
-I compared request and response data.
-I tested the API with the backend team.
-I fixed issues step by step.
-```
+Good
 
-## 每日训练规则
+### Answer
 
-1. 先复习旧句子 5～10 句
-2. 再练今天的新句子 3～5 句
-3. 每句都要能自然说出口
-4. 不追求高级词，优先追求稳定
-5. 说错的句子放入 `WrongAnswers.md`
+My role was API design, development, and testing.
 
-## 每日文件命名
+I worked with the backend team.
 
-```text
-English/Daily/Day10.md
-English/Daily/Day11.md
-English/Daily/Day12.md
-```
+---
 
-## 当前重点
+## Q6 How did you test the APIs?
 
-- MuleSoft 项目说明
-- Java / Spring Boot 项目说明
-- 自我介绍
-- 面试常见问题
-- 简单沟通句
+### Status
+
+Basic
+
+### Answer
+
+We checked the request data.
+
+We checked the response data.
+
+We checked the data format carefully.
+
+We did integration testing.
+
+---
+
+## Q7 What was the biggest challenge?
+
+### Status
+
+Basic
+
+### Answer
+
+The biggest challenge was compatibility.
+
+We checked the data format carefully.
+
+We worked with the backend team.
+
+We did a lot of testing.
+
+---
+
+## Q8 How do you handle production issues?
+
+### Status
+
+Basic
+
+### Answer
+
+First, I check the logs.
+
+Then, I identify the root cause.
+
+Then, I fix the problem.
+
+Finally, I test the solution.
+
+---
+
+## Q9 How do you work with other teams?
+
+### Status
+
+Basic
+
+### Answer
+
+I often work with the backend team.
+
+We checked the data format together.
+
+We tested the APIs together.
+
+---
+
+## Q10 What is your strength?
+
+### Status
+
+Good
+
+### Answer
+
+I am good at solving problems.
+
+I have over twenty years of experience in IT.
+
+I can work independently.
+
+---
+
+## Q11 What is your weakness?
+
+### Status
+
+Good
+
+### Answer
+
+My English is still improving.
+
+I study English every day.
+
+---
+
+# Common Mistakes
+
+## MuleSoft
+
+Wrong:
+
+* new software
+* NewSoft
+* NeoSoft
+
+Correct:
+
+* MuleSoft
+
+---
+
+## Past Tense
+
+Wrong:
+
+* I use
+
+Correct:
+
+* I used
+
+---
+
+## Old System
+
+Wrong:
+
+* older system
+
+Correct:
+
+* old system
+
+---
+
+## Modernize
+
+Wrong:
+
+* modernization system
+
+Correct:
+
+* to modernize the system
+
+---
+
+## Data Format
+
+Wrong:
+
+* data formatter
+
+Correct:
+
+* data format
+
+---
+
+## Compatibility
+
+Wrong:
+
+* the compatibility
+
+Correct:
+
+* compatibility
+
+---
+
+# Next Stage (Day10-Day30)
+
+## Focus
+
+* Simple English conversation
+* Daily work discussion
+* Project discussion
+* Team collaboration
+* Achievement questions
+* Production support questions
+
+## Target
+
+Be able to maintain a 5-10 minute English technical conversation about a MuleSoft project.
