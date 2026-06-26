@@ -3,7 +3,8 @@ setlocal EnableExtensions EnableDelayedExpansion
 
 REM IBM Process Mining 2.0.3 one-click restore launcher for Windows
 REM Run this from a local clone of the repo.
-REM It uploads the backup bundle and remote restore script to the NEW VM, then executes restore.
+REM It converts the remote restore script to LF, uploads the backup bundle and script
+REM to the NEW VM, then executes restore.
 REM Do NOT store real passwords in this file or commit backup bundles to GitHub.
 
 REM ===== Edit these values =====
@@ -12,11 +13,12 @@ set "NEW_HOSTNAME=<NEW_VM_HOSTNAME>"
 set "SSH_PORT=2223"
 set "SSH_USER=itzuser"
 set "SSH_KEY=C:\IBM_PM\pem_ibmcloudvsi_download.pem"
-set "BACKUP_BUNDLE=C:\IBM_PM_Backups\pm_backup_YYYYMMDD_HHMMSS.tar.gz"
+set "BACKUP_BUNDLE=C:\IBM_PM_Backups\pm_full_backup_YYYYMMDD_HHMMSS.tar.gz"
 REM ============================
 
 set "SCRIPT_DIR=%~dp0"
 set "REMOTE_RESTORE_SCRIPT=%SCRIPT_DIR%..\linux\pm_restore_remote.sh"
+set "REMOTE_RESTORE_SCRIPT_LF=%TEMP%\pm_restore_remote_lf.sh"
 
 if "%NEW_IP%"=="<NEW_VM_PUBLIC_IP>" (
   echo ERROR: Please edit NEW_IP in this file first.
@@ -66,12 +68,16 @@ if "%DB_PASS%"=="" (
 )
 
 echo.
+echo [0/5] Convert remote restore script to LF line endings
+powershell -NoProfile -ExecutionPolicy Bypass -Command "$src='%REMOTE_RESTORE_SCRIPT%'; $dst='%REMOTE_RESTORE_SCRIPT_LF%'; $txt=[System.IO.File]::ReadAllText($src); $txt=$txt.Replace([string][char]13 + [string][char]10, [string][char]10); [System.IO.File]::WriteAllText($dst, $txt, [System.Text.UTF8Encoding]::new($false))"
+if errorlevel 1 goto :error
+
 echo [1/5] Upload backup bundle to NEW VM
 scp -P %SSH_PORT% -i "%SSH_KEY%" "%BACKUP_BUNDLE%" %SSH_USER%@%NEW_IP%:/home/%SSH_USER%/pm_restore_bundle.tar.gz
 if errorlevel 1 goto :error
 
 echo [2/5] Upload remote restore script to NEW VM
-scp -P %SSH_PORT% -i "%SSH_KEY%" "%REMOTE_RESTORE_SCRIPT%" %SSH_USER%@%NEW_IP%:/home/%SSH_USER%/pm_restore_remote.sh
+scp -P %SSH_PORT% -i "%SSH_KEY%" "%REMOTE_RESTORE_SCRIPT_LF%" %SSH_USER%@%NEW_IP%:/home/%SSH_USER%/pm_restore_remote.sh
 if errorlevel 1 goto :error
 
 echo [3/5] Run remote restore on NEW VM
