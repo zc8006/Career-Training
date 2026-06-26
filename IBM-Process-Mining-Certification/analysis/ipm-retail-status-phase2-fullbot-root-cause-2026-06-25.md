@@ -496,3 +496,283 @@ AIUQMU5 是人工账号、系统账号、机器人账号，还是自动化 fallb
 4. 滚动表的截图只能代表可见 Top 行，不能代表全量结论。
 5. 多 Activity 之间可能存在 case 重叠，百分比不能简单相加作为独立贡献。
 6. 最终结论依赖 AIUQMU5 账号属性确认。
+
+---
+
+## 13. 关键账号对比 Dashboard 最新进展
+
+### 13.1 分析目的与页面结构
+
+新增 Dashboard：`关键账号对比`。
+
+分析目的：
+
+> 验证 Phase2 FullBot Ratio 下降过程中，AIUQMU5 和 CNVISP97 是否处理同一类业务场景，还是分别集中在不同系统、活动和 OCRFeedback。
+
+当前页面保留三类组件：
+
+| 组件 | 作用 |
+|---|---|
+| 关键账号 Activity + System 对比 | 判断两个账号分别集中在哪个系统和活动 |
+| 关键账号 OCRFeedback 对比 | 判断两个账号分别集中在哪类业务反馈 |
+| 录入完成 × EBS大于阈值账号对比 | 验证特定交叉场景的账号 Case 数 |
+
+页面过滤口径：
+
+```text
+Phase2：LAST_EVENT_TIME >= 2025-10-01T00:00:00.000Z
+        LAST_EVENT_TIME < 2026-06-01T00:00:00.000Z
+排除 DDD
+非审批活动：ACTIVITY NOT IN ('审批结束','审批拒绝')
+```
+
+### 13.2 Activity + System 对比结果
+
+当前可见主要结果：
+
+| Resource | System | Activity | Cases |
+|---|---|---|---:|
+| AIUQMU5 | EBS | 录入完成 | 3,802 |
+| CNVISP97 | EBS | 录入完成 | 3,021 |
+| CNVISP97 | JDE | 录入完成 | 1,043 |
+| AIUQMU5 | JDE | 意见征询 | 1,023 |
+| AIUQMU5 | EBS | 意见征询 | 991 |
+| AIUQMU5 | JDE | 录入完成 | 920 |
+| CNVISP97 | JDE | 意见征询 | 588 |
+| CNVISP97 | EBS | 意见征询 | 415 |
+| CNVISP97 | EBS | 废弃删除 | 393 |
+| AIUQMU5 | JDE | 废弃删除 | 231 |
+| CNVISP97 | EBS | OCR完成 | 154 |
+| AIUQMU5 | JDE | OCR完成 | 151 |
+| CNVISP97 | JDE | 废弃删除 | 89 |
+| CNVISP97 | JDE | OCR完成 | 77 |
+| CNVISP97 | JDE | OCR待处理 | 1 |
+
+阶段性判断：
+
+- 两个账号都大量参与 `EBS + 录入完成`，AIUQMU5 数量更高。
+- AIUQMU5 在意见征询中的参与更明显，且同时覆盖 JDE 和 EBS。
+- CNVISP97 更集中于录入完成，但也参与意见征询、废弃删除和 OCR完成。
+- 当前结果支持“两个账号均对非审批人工参与有明显贡献”，但尚不能把不同 Activity 的 Case 数直接相加，因为同一 Case 可能出现在多个 Activity 中。
+
+### 13.3 OCRFeedback 对比结果
+
+当前可见主要结果：
+
+| Resource | OCRFeedback | Cases |
+|---|---|---:|
+| AIUQMU5 | EBS_大于阈值需检查 | 1,327 |
+| AIUQMU5 | JDE | 1,213 |
+| CNVISP97 | EBS_大于阈值需检查 | 1,059 |
+| CNVISP97 | JDE | 870 |
+| AIUQMU5 | EBS_大于阈值需检查_凭证抵扣Y | 431 |
+| AIUQMU5 | EBS | 428 |
+| AIUQMU5 | EBS_初始化读取_其他_疑_税额/发票... | 323 |
+| CNVISP97 | EBS_初始化读取_电子发票 | 275 |
+| CNVISP97 | EBS | 273 |
+| CNVISP97 | JDE_JDE OU未定义_税额 | 263 |
+| AIUQMU5 | JDE_JDE OU未定义_税额 | 259 |
+| AIUQMU5 | EBS_初始化读取_电子发票 | 247 |
+
+阶段性判断：
+
+> 两个账号的主要业务来源高度重合，均集中于 `EBS_大于阈值需检查` 和 `JDE`。这更像是特定业务规则或异常处理分支导致账号参与，而不是随机出现。
+
+### 13.4 三组数字的口径关系
+
+当前 Dashboard 中存在三组容易混淆的数字：
+
+| Resource | EBS + 录入完成（全部反馈） | EBS_大于阈值需检查（全部非审批活动） | 两条件交集：录入完成 + EBS_大于阈值需检查 |
+|---|---:|---:|---:|
+| AIUQMU5 | 3,802 | 1,327 | 1,250 |
+| CNVISP97 | 3,021 | 1,059 | 1,020 |
+
+正确解释：
+
+- `3,802 / 3,021`：EBS 系统中“录入完成”的全部 Case，不限定 OCRFeedback。
+- `1,327 / 1,059`：OCRFeedback 为“EBS_大于阈值需检查”的全部非审批活动 Case，不限定 Activity。
+- `1,250 / 1,020`：同时满足“录入完成 + EBS_大于阈值需检查”的交集 Case。
+
+差额：
+
+```text
+AIUQMU5：1,327 - 1,250 = 77
+CNVISP97：1,059 - 1,020 = 39
+```
+
+这些差额 Case 属于 `EBS_大于阈值需检查`，但未落入对应账号的“录入完成”交集。
+
+底部组件建议使用准确标题：
+
+```text
+录入完成 × EBS大于阈值账号对比
+```
+
+不要使用“最大来源账号验证”，因为该组件验证的是一个特定交叉场景，并非全局最大来源。
+
+---
+
+## 14. 下一步：计算两个关键账号的去重 Case 与重叠
+
+### 14.1 为什么必须做去重
+
+Activity 表中的 Case 可能重复。例如，同一个 Case 可能同时经历：
+
+```text
+录入完成
+意见征询
+废弃删除
+OCR完成
+```
+
+因此不能把各 Activity 的 Cases 简单相加。下一步需要新增四个单值 KPI，计算两个账号影响的去重 Case 及交集。
+
+所有 KPI：
+
+```text
+From = eventlog
+度量 = COUNT(DISTINCT caseid)
+表头过滤器 = Phase2 Not DDD（2025/10—2026/05）
+```
+
+### 14.2 KPI 1：至少一个关键账号参与
+
+标题：
+
+```text
+至少一个关键账号参与
+```
+
+过滤器：
+
+```sql
+resource IN ('AIUQMU5', 'CNVISP97')
+AND ACTIVITY NOT IN ('审批结束', '审批拒绝')
+```
+
+### 14.3 KPI 2：两个账号共同参与
+
+标题：
+
+```text
+两个账号共同参与
+```
+
+过滤器：
+
+```sql
+caseid IN (
+  SELECT caseid
+  FROM eventlog
+  WHERE resource = 'AIUQMU5'
+    AND ACTIVITY NOT IN ('审批结束', '审批拒绝')
+)
+AND caseid IN (
+  SELECT caseid
+  FROM eventlog
+  WHERE resource = 'CNVISP97'
+    AND ACTIVITY NOT IN ('审批结束', '审批拒绝')
+)
+```
+
+### 14.4 KPI 3：仅 AIUQMU5 参与
+
+标题：
+
+```text
+仅 AIUQMU5 参与（两个关键账号中）
+```
+
+过滤器：
+
+```sql
+caseid IN (
+  SELECT caseid
+  FROM eventlog
+  WHERE resource = 'AIUQMU5'
+    AND ACTIVITY NOT IN ('审批结束', '审批拒绝')
+)
+AND caseid NOT IN (
+  SELECT caseid
+  FROM eventlog
+  WHERE resource = 'CNVISP97'
+    AND ACTIVITY NOT IN ('审批结束', '审批拒绝')
+)
+```
+
+### 14.5 KPI 4：仅 CNVISP97 参与
+
+标题：
+
+```text
+仅 CNVISP97 参与（两个关键账号中）
+```
+
+过滤器：
+
+```sql
+caseid IN (
+  SELECT caseid
+  FROM eventlog
+  WHERE resource = 'CNVISP97'
+    AND ACTIVITY NOT IN ('审批结束', '审批拒绝')
+)
+AND caseid NOT IN (
+  SELECT caseid
+  FROM eventlog
+  WHERE resource = 'AIUQMU5'
+    AND ACTIVITY NOT IN ('审批结束', '审批拒绝')
+)
+```
+
+### 14.6 校验公式
+
+四个 KPI 完成后必须满足：
+
+```text
+仅 AIUQMU5
++ 仅 CNVISP97
++ 两个账号共同参与
+= 至少一个关键账号参与
+```
+
+注意：
+
+> 这里的“仅 AIUQMU5 / 仅 CNVISP97”只表示两个关键账号中只有一个出现，不代表 Case 中没有其他人工账号。
+
+---
+
+## 15. 最终结论前仍需完成的判断
+
+### 15.1 确认账号性质
+
+必须向业务方确认：
+
+```text
+AIUQMU5 是人工账号、机器人账号、系统账号，还是半自动/fallback 账号？
+CNVISP97 是人工账号、机器人账号、系统账号，还是半自动/fallback 账号？
+```
+
+### 15.2 去重账号参与不等于可恢复的 FullBot Case
+
+“至少一个关键账号参与”的 Case 数表示两个账号的覆盖范围，但不能直接当作：
+
+```text
+移除两个账号后新增的 FullBot Cases
+```
+
+因为部分 Case 还可能存在其他人工账号的非审批活动。
+
+若两个账号被确认是机器人/系统账号，最终还需要重算：
+
+> 将 AIUQMU5 / CNVISP97 从人工账号清单中移除后，仍无任何其他人工账号参与的去重 Case 数，以及新的 FullBot Cases / FullBot Ratio。
+
+### 15.3 新窗口续接顺序
+
+新窗口应按以下顺序继续：
+
+1. 先创建“至少一个关键账号参与”KPI并确认数字。
+2. 再创建“两个账号共同参与”“仅 AIUQMU5”“仅 CNVISP97”三个 KPI。
+3. 使用校验公式确认四个 KPI 口径一致。
+4. 确认 AIUQMU5、CNVISP97 的真实账号属性。
+5. 根据账号属性决定是否调整人工账号清单并重新计算 FullBot Ratio。
