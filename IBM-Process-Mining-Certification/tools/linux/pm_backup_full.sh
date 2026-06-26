@@ -65,7 +65,10 @@ echo "[3/10] Backup PostgreSQL database"
 if command -v pg_dump >/dev/null 2>&1 || [ -x /usr/pgsql-15/bin/pg_dump ]; then
   PG_DUMP_BIN="$(command -v pg_dump || true)"
   [ -z "${PG_DUMP_BIN}" ] && PG_DUMP_BIN="/usr/pgsql-15/bin/pg_dump"
-  sudo -u postgres "${PG_DUMP_BIN}" -Fc -d "${DB_NAME}" -f "${BACKUP_DIR}/postgres_${DB_NAME}.dump"
+  TMP_DUMP="/tmp/postgres_${DB_NAME}_${DATE}.dump"
+  sudo -u postgres "${PG_DUMP_BIN}" -Fc -d "${DB_NAME}" -f "${TMP_DUMP}"
+  sudo mv "${TMP_DUMP}" "${BACKUP_DIR}/postgres_${DB_NAME}.dump"
+  sudo chown "${PM_USER}:${PM_USER}" "${BACKUP_DIR}/postgres_${DB_NAME}.dump"
 else
   echo "WARN: pg_dump not found, PostgreSQL dump skipped"
 fi
