@@ -71,9 +71,9 @@ extract_bundle() {
   rm -rf "${WORK_DIR}"
   mkdir -p "${WORK_DIR}"
   tar -xzf "${BACKUP_BUNDLE}" -C "${WORK_DIR}"
-  BACKUP_DIR="$(find "${WORK_DIR}" -maxdepth 1 -type d -name 'pm_backup_*' | head -1)"
+  BACKUP_DIR="$(find "${WORK_DIR}" -maxdepth 1 -type d \( -name 'pm_full_backup_*' -o -name 'pm_backup_*' \) | head -1)"
   if [ -z "${BACKUP_DIR}" ]; then
-    echo "ERROR: could not find pm_backup_* directory in bundle"
+    echo "ERROR: could not find pm_full_backup_* or pm_backup_* directory in bundle"
     exit 1
   fi
   echo "Backup directory: ${BACKUP_DIR}"
@@ -128,9 +128,13 @@ restore_postgres_dump_or_init() {
   POSTGRES_DUMP="${BACKUP_DIR}/postgres_${DB_NAME}.dump"
   if [ -f "${POSTGRES_DUMP}" ]; then
     echo "Found PostgreSQL dump: ${POSTGRES_DUMP}"
+    TMP_RESTORE_DUMP="/tmp/postgres_${DB_NAME}_restore_$(date +%Y%m%d_%H%M%S).dump"
+    sudo cp "${POSTGRES_DUMP}" "${TMP_RESTORE_DUMP}"
+    sudo chown postgres:postgres "${TMP_RESTORE_DUMP}"
     sudo -u postgres dropdb --if-exists "${DB_NAME}"
     sudo -u postgres createdb -O "${DB_USER}" "${DB_NAME}"
-    sudo -u postgres pg_restore -d "${DB_NAME}" "${POSTGRES_DUMP}"
+    sudo -u postgres pg_restore -d "${DB_NAME}" "${TMP_RESTORE_DUMP}"
+    sudo rm -f "${TMP_RESTORE_DUMP}"
   else
     echo "WARN: PostgreSQL dump not found. Falling back to postgres-utils.sh initialization."
     export JAVA_HOME="${PM_HOME}/jdk/linux/ibm-openjdk-semeru"
