@@ -12,7 +12,7 @@ set "OLD_IP=<OLD_VM_PUBLIC_IP>"
 set "SSH_PORT=2223"
 set "SSH_USER=itzuser"
 set "SSH_KEY=C:\IBM_PM\pem_ibmcloudvsi_download.pem"
-set "LOCAL_BACKUP_DIR=%USERPROFILE%\IBM_PM_Backups"
+set "LOCAL_BACKUP_DIR=C:\IBM_PM\backups"
 REM ============================
 
 set "SCRIPT_DIR=%~dp0"
@@ -73,9 +73,13 @@ echo [4/4] Download backup bundle to local folder
 scp -P %SSH_PORT% -i "%SSH_KEY%" %SSH_USER%@%OLD_IP%:%REMOTE_BUNDLE% "%LOCAL_BACKUP_DIR%\"
 if errorlevel 1 goto :error
 
+for %%A in ("%REMOTE_BUNDLE%") do set "BUNDLE_NAME=%%~nxA"
+set "LOCAL_BUNDLE=%LOCAL_BACKUP_DIR%\%BUNDLE_NAME%"
+
 echo.
 echo Backup completed successfully.
-echo Local folder: %LOCAL_BACKUP_DIR%
+echo Local folder : %LOCAL_BACKUP_DIR%
+echo Local bundle : %LOCAL_BUNDLE%
 echo.
 pause
 exit /b 0
