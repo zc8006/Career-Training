@@ -13,8 +13,19 @@ set "NEW_HOSTNAME=<NEW_VM_HOSTNAME>"
 set "SSH_PORT=2223"
 set "SSH_USER=itzuser"
 set "SSH_KEY=C:\IBM_PM\pem_ibmcloudvsi_download.pem"
-set "BACKUP_BUNDLE=C:\IBM_PM_Backups\pm_full_backup_YYYYMMDD_HHMMSS.tar.gz"
+set "BACKUP_DIR=C:\IBM_PM_Backups"
+set "BACKUP_BUNDLE="
 REM ============================
+
+for /f "delims=" %%F in ('powershell -NoProfile -Command "Get-ChildItem '%BACKUP_DIR%' -Filter 'pm_full_backup_*' | Sort-Object LastWriteTime -Descending | Select-Object -First 1 -ExpandProperty FullName"') do (
+    set "BACKUP_BUNDLE=%%F"
+)
+
+if "%BACKUP_BUNDLE%"=="" (
+  echo ERROR: No backup bundle found in %BACKUP_DIR%
+  pause
+  exit /b 1
+)
 
 set "SCRIPT_DIR=%~dp0"
 set "REMOTE_RESTORE_SCRIPT=%SCRIPT_DIR%..\linux\pm_restore_remote.sh"
@@ -58,7 +69,6 @@ echo SSH_USER     : %SSH_USER%
 echo BACKUP_BUNDLE: %BACKUP_BUNDLE%
 echo.
 
-REM Read DB password without echoing it to the console.
 for /f "usebackq delims=" %%P in (`powershell -NoProfile -Command "$p=Read-Host 'Enter PostgreSQL processmining DB plain password' -AsSecureString; $b=[Runtime.InteropServices.Marshal]::SecureStringToBSTR($p); [Runtime.InteropServices.Marshal]::PtrToStringAuto($b)"`) do set "DB_PASS=%%P"
 
 if "%DB_PASS%"=="" (
@@ -101,7 +111,6 @@ curl.exe -k -I https://pm.processmining
 echo.
 echo Restore completed.
 echo Open: https://pm.processmining/signin
-echo.
 pause
 exit /b 0
 
