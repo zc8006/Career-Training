@@ -9,6 +9,8 @@
 | Day 27 | MyBatis 核心回炉 + 主键回填/分页/缓存 | [day27-mybatis-core.md](./day27-mybatis-core.md) |
 | Day 28 | MyBatis 回炉 + Spring Boot 三层结构 + 事务失效 | [day28-spring-transaction.md](./day28-spring-transaction.md) |
 | Day 29 | Spring IOC/AOP/Bean 生命周期 + 事务 AOP 原理 | [day29-spring-core.md](./day29-spring-core.md) |
+| Day 44 | Spring 事务管理器、隔离级别与 private 方法事务失效 | [day44-spring-transaction-manager-private.md](./day44-spring-transaction-manager-private.md) |
+| Day 45 | Spring 事务管理器、异常捕获与手动回滚 | [day45-spring-transaction-manager-catch-rollback.md](./day45-spring-transaction-manager-catch-rollback.md) |
 
 ## 固定训练规则
 
@@ -20,18 +22,19 @@
 
 ## 当前重点问题
 
-### 必须继续卡的题
+### Day 46 必回炉
 
-1. MyBatis 模糊查询 `like` 写法：必须说出 `where name like concat('%', #{keyword}, '%')`
-2. Spring 事务和 AOP 的关系
-3. Bean 初始化方式：`@PostConstruct`、`InitializingBean`、`init-method`
-4. Bean 销毁方式：`@PreDestroy`、`DisposableBean`、`destroy-method`
+1. `TransactionManager` 作用：事务开启、提交、回滚，不要和数据源 / 连接池混淆。
+2. `setRollbackOnly()` 是否立即回滚：不是立即回滚，是标记当前事务最终必须回滚。
 
-### 轻回炉题
+### Day 46 轻回炉
 
-1. `rollbackFor = Exception.class`
-2. 同类内部调用事务为什么失效
-3. 动态 SQL 标签不要漏 `set`
+1. `MANDATORY` / `NEVER`
+2. `REQUIRED` 拼写
+3. 隔离级别和传播行为的区别
+4. 多事务管理器 `transactionManager` 拼写
+5. `DataSourceTransactionManager` 和 `JpaTransactionManager`
+6. 多 Mapper 操作如何通过 Service 层事务保证一致性
 
 ## 高频保命句总览
 
