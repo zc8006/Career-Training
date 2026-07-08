@@ -11,6 +11,7 @@
 | Day 29 | Spring IOC/AOP/Bean 生命周期 + 事务 AOP 原理 | [day29-spring-core.md](./day29-spring-core.md) |
 | Day 44 | Spring 事务管理器、隔离级别与 private 方法事务失效 | [day44-spring-transaction-manager-private.md](./day44-spring-transaction-manager-private.md) |
 | Day 45 | Spring 事务管理器、异常捕获与手动回滚 | [day45-spring-transaction-manager-catch-rollback.md](./day45-spring-transaction-manager-catch-rollback.md) |
+| Day 47 | Spring AOP、Bean 生命周期与循环依赖回炉 | [day47-spring-aop-bean-lifecycle.md](./day47-spring-aop-bean-lifecycle.md) |
 
 ## 固定训练规则
 
@@ -22,19 +23,25 @@
 
 ## 当前重点问题
 
-### Day 46 必回炉
+### Day 48 必回炉
 
-1. `TransactionManager` 作用：事务开启、提交、回滚，不要和数据源 / 连接池混淆。
-2. `setRollbackOnly()` 是否立即回滚：不是立即回滚，是标记当前事务最终必须回滚。
+1. `BeanFactory` 和 `ApplicationContext` 区别
+2. Spring Bean 作用域：`singleton`、`prototype`、`request`、`session`、`application`
+3. Bean 生命周期完整流程：实例化、属性注入、初始化、使用、销毁
+4. `BeanPostProcessor` 是什么，以及它和 AOP 代理生成的关系
+5. `@PostConstruct` 执行时机：属性注入完成后、Bean 使用前
+6. `@SpringBootApplication` 三个核心注解拼写
+7. Spring Boot 自动配置原理：starter 引入依赖，自动配置类根据条件创建 Bean
+8. Spring 三级缓存分别放什么
+9. 为什么 setter 循环依赖能解决，构造器循环依赖不能解决
 
-### Day 46 轻回炉
+### 后续全覆盖台账
 
-1. `MANDATORY` / `NEVER`
-2. `REQUIRED` 拼写
-3. 隔离级别和传播行为的区别
-4. 多事务管理器 `transactionManager` 拼写
-5. `DataSourceTransactionManager` 和 `JpaTransactionManager`
-6. 多 Mapper 操作如何通过 Service 层事务保证一致性
+1. Spring AOP 执行链与多切面顺序
+2. Spring Boot 自动配置源码级流程
+3. Spring Boot 启动流程
+4. Spring MVC 完整请求链路
+5. MyBatis 执行链、缓存与插件机制
 
 ## 高频保命句总览
 
@@ -49,4 +56,8 @@
 9. IOC 管对象，DI 管注入。
 10. AOP 抽取事务、日志、权限等公共逻辑，在不修改业务代码的情况下增强方法。
 11. Spring AOP 是动态代理，有接口用 JDK 动态代理，没有接口用 CGLIB。
-12. Spring Bean 生命周期：创建对象 → 注入依赖 → 初始化 → 使用 → 销毁。
+12. Spring Bean 生命周期：实例化 → 属性注入 → 初始化 → 使用 → 销毁。
+13. BeanFactory 是基础容器，ApplicationContext 是更完整、更常用的高级容器。
+14. starter 负责把依赖带进来，自动配置负责根据条件创建 Bean。
+15. BeanPostProcessor 是 Bean 初始化前后的扩展点，AOP 代理很多就是靠它在初始化后生成的。
+16. Spring 通过三级缓存提前暴露单例 Bean 的早期引用，解决 setter 循环依赖。
