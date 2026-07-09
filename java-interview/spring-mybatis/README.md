@@ -12,6 +12,7 @@
 | Day 44 | Spring 事务管理器、隔离级别与 private 方法事务失效 | [day44-spring-transaction-manager-private.md](./day44-spring-transaction-manager-private.md) |
 | Day 45 | Spring 事务管理器、异常捕获与手动回滚 | [day45-spring-transaction-manager-catch-rollback.md](./day45-spring-transaction-manager-catch-rollback.md) |
 | Day 47 | Spring AOP、Bean 生命周期与循环依赖回炉 | [day47-spring-aop-bean-lifecycle.md](./day47-spring-aop-bean-lifecycle.md) |
+| Day 49 | Spring AOP、Spring Boot 启动流程与 Spring MVC 请求链路 | [day49-spring-aop-boot-mvc.md](./day49-spring-aop-boot-mvc.md) |
 
 ## 固定训练规则
 
@@ -23,25 +24,25 @@
 
 ## 当前重点问题
 
-### Day 48 必回炉
+### Day 50 必回炉
 
-1. `BeanFactory` 和 `ApplicationContext` 区别
-2. Spring Bean 作用域：`singleton`、`prototype`、`request`、`session`、`application`
-3. Bean 生命周期完整流程：实例化、属性注入、初始化、使用、销毁
-4. `BeanPostProcessor` 是什么，以及它和 AOP 代理生成的关系
-5. `@PostConstruct` 执行时机：属性注入完成后、Bean 使用前
-6. `@SpringBootApplication` 三个核心注解拼写
-7. Spring Boot 自动配置原理：starter 引入依赖，自动配置类根据条件创建 Bean
-8. Spring 三级缓存分别放什么
-9. 为什么 setter 循环依赖能解决，构造器循环依赖不能解决
+1. `BeanPostProcessor` 是什么
+2. Spring 三级缓存分别放什么
+3. setter 循环依赖和构造器循环依赖区别
+4. Spring AOP 执行链
+5. Spring MVC 请求链路
+6. `HandlerMapping` 和 `HandlerAdapter`
+7. `DispatcherServlet` 的作用
+8. `@SpringBootApplication` 三个注解拼写
+9. `@PostConstruct` 准确执行时机
+10. Bean 生命周期里要说“实例化”，不要说“加载”
 
 ### 后续全覆盖台账
 
-1. Spring AOP 执行链与多切面顺序
+1. Spring AOP 多切面顺序与 `@Order`
 2. Spring Boot 自动配置源码级流程
-3. Spring Boot 启动流程
-4. Spring MVC 完整请求链路
-5. MyBatis 执行链、缓存与插件机制
+3. Spring MVC 参数绑定、返回值处理、统一异常处理
+4. MyBatis 执行链、缓存与插件机制
 
 ## 高频保命句总览
 
@@ -61,3 +62,6 @@
 14. starter 负责把依赖带进来，自动配置负责根据条件创建 Bean。
 15. BeanPostProcessor 是 Bean 初始化前后的扩展点，AOP 代理很多就是靠它在初始化后生成的。
 16. Spring 通过三级缓存提前暴露单例 Bean 的早期引用，解决 setter 循环依赖。
+17. AOP 执行链就是拦截器链：先按顺序执行前置增强，再执行目标方法，最后反向执行后置增强。
+18. DispatcherServlet 是 Spring MVC 的统一入口，负责接收请求、分发请求、调用 Controller，并处理返回结果。
+19. HandlerMapping 负责找到 Controller 方法，HandlerAdapter 负责调用 Controller 方法。
