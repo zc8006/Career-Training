@@ -59,6 +59,7 @@
 - `||` 拼接
 - Dashboard Filter 联动
 - 饼图查询需要简化为 Category + Value 两列
+- 可以用 `100.000000` 配合 `ROUND(..., 4)` 提高 SQL 端百分比计算精度
 
 ## 2. 已经澄清的重要认识
 
@@ -105,6 +106,19 @@ PO、QA、SYSTEM 只是一级分类。后续必须继续拆分二级原因并结
 - RERUN
 - 等待时间
 
+### 认识四：Case 属性分析最终要下钻到 Event
+
+当前很多页面仍以 Case 属性和 Comment 分布为主。下一阶段需要结合 Event 数据回答：
+
+- 人工介入前后具体发生了哪些活动？
+- 从哪一个 Event 开始进入人工等待？
+- 人工修复后经过哪些 Event 回到 BOT？
+- 同一个 Case 是否经历多次人工介入和多次 RERUN？
+- 哪些 Event 路径最容易导致更改 PO、QA 或 SYSTEM 问题？
+- 人工介入增加了多少真实流程时间，而不是仅看 Case 最终状态？
+
+Event 分析将成为从“字段统计”升级到“流程行为分析”的关键步骤。
+
 ## 3. 当前最值得推进的分析
 
 ### PO 号更改分析
@@ -141,14 +155,36 @@ PO、QA、SYSTEM 只是一级分类。后续必须继续拆分二级原因并结
 - 多次 RERUN
 - 人工修复后 BOT 完成
 
+### Event 级流程分析
+
+下一阶段计划：
+
+1. 明确 Event 表及关键字段：`UUID`、Activity、Timestamp、Resource/Processor。
+2. 为每个 Case 按时间排序 Event。
+3. 标记人工 Event、BOT Event、RERUN Event、录入完成、审批结束等关键节点。
+4. 计算人工介入前等待、人工处理、处理后恢复 BOT 的时间段。
+5. 识别典型路径，例如：
+
+```text
+RPA范围外
+→ 人工修改 PO / SYSTEM / QA
+→ RERUN
+→ BOT录入
+→ 审批结束
+```
+
+6. 对比 Phase1、过渡期和 Phase2 的 Event 路径变化。
+7. 将 Event 路径与 Comment 分类结合，形成真正的根因与流程影响分析。
+
 ## 4. 当前未完成的问题
 
 - Phase1 Comment 明细覆盖不足，不能直接与 Phase2 做同口径比较
-- 尚未确定最可靠的人工介入等待时间起止事件
+- 尚未确定最可靠的人工介入等待时间起止 Event
 - 尚未建立完整的二级分类字典
 - 尚未完成多次人工介入 Case 的流程还原
 - 尚未形成最终优化优先级矩阵
 - 现有 PO/QA/SYSTEM 页面仍有部分“字段分布多、结论少”的问题
+- 尚未完成 Event 表结构确认和关键活动映射
 
 ## 5. 后续演进原则
 
@@ -178,6 +214,8 @@ Dashboard 组件
 再想这个图能说明什么
 ```
 
+当问题涉及等待时间、状态切换、多次人工介入或返工时，优先考虑 Event 序列，而不是只依赖 Case 最终字段。
+
 ## 6. 对话沉淀规则
 
 后续与 IBM Process Mining 相关的重要讨论，应持续更新到本目录：
@@ -187,7 +225,7 @@ Dashboard 组件
 - 新的分类规则 → `03-comment-classification-and-root-cause.md`
 - 新的 SQL 写法或踩坑 → `04-advanced-sql-notes.md`
 - 新的 Dashboard/PPT 结构 → `05-dashboard-and-presentation.md`
-- 阶段性总结 → 本文件
+- 阶段性总结与 Event 分析路线 → 本文件
 
 目标不是简单保存聊天记录，而是把反复试错转化为：
 
