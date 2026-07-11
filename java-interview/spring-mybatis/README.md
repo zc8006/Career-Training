@@ -13,33 +13,20 @@
 | Day 45 | Spring 事务管理器、异常捕获与手动回滚 | [day45-spring-transaction-manager-catch-rollback.md](./day45-spring-transaction-manager-catch-rollback.md) |
 | Day 47 | Spring AOP、Bean 生命周期与循环依赖回炉 | [day47-spring-aop-bean-lifecycle.md](./day47-spring-aop-bean-lifecycle.md) |
 | Day 49 | Spring AOP、Spring Boot 启动流程与 Spring MVC 请求链路 | [day49-spring-aop-boot-mvc.md](./day49-spring-aop-boot-mvc.md) |
+| Day 50 | Spring AOP 注解、代理限制与事务回炉 | [day50-spring-aop-annotation-transaction.md](./day50-spring-aop-annotation-transaction.md) |
 
-## 固定训练规则
+## Day51 必回炉
 
-1. 旧题回炉 8～10 道
-2. 新题 4 道以内
-3. 追问最多 3 个
-4. 最后整理背诵清单
-5. 答错题标记为第二天回炉
+1. BeanPostProcessor
+2. Spring 三级缓存细节
+3. JoinPoint / ProceedingJoinPoint
+4. private 与 this 调用事务失效区别
+5. @Order 多切面顺序
+6. AOP 代理限制
 
-## 当前重点问题
+## 后续全覆盖台账
 
-### Day 50 必回炉
-
-1. `BeanPostProcessor` 是什么
-2. Spring 三级缓存分别放什么
-3. setter 循环依赖和构造器循环依赖区别
-4. Spring AOP 执行链
-5. Spring MVC 请求链路
-6. `HandlerMapping` 和 `HandlerAdapter`
-7. `DispatcherServlet` 的作用
-8. `@SpringBootApplication` 三个注解拼写
-9. `@PostConstruct` 准确执行时机
-10. Bean 生命周期里要说“实例化”，不要说“加载”
-
-### 后续全覆盖台账
-
-1. Spring AOP 多切面顺序与 `@Order`
+1. Spring AOP 多切面顺序与 @Order
 2. Spring Boot 自动配置源码级流程
 3. Spring MVC 参数绑定、返回值处理、统一异常处理
 4. MyBatis 执行链、缓存与插件机制
@@ -65,3 +52,6 @@
 17. AOP 执行链就是拦截器链：先按顺序执行前置增强，再执行目标方法，最后反向执行后置增强。
 18. DispatcherServlet 是 Spring MVC 的统一入口，负责接收请求、分发请求、调用 Controller，并处理返回结果。
 19. HandlerMapping 负责找到 Controller 方法，HandlerAdapter 负责调用 Controller 方法。
+20. JoinPoint 获取切点信息，ProceedingJoinPoint 通过 proceed() 执行目标方法。
+21. private 方法不能被代理增强，this 调用失效是因为没有经过代理对象。
+22. 普通 Exception 默认不回滚，需要 rollbackFor 指定。
