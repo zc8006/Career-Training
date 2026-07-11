@@ -24,25 +24,9 @@ COUNT(DISTINCT comments_detail_tbl.UUID)
 / total.TotalCount
 ```
 
-使用系统的百分比类型时，如果 SQL 本身只保留较少小数，页面就只会显示对应精度，因此多项显示值相加时可能出现 99.9% 或 99.998% 的情况。
+百分比最终保留和显示多少位小数，取决于 `ROUND` 的第二个参数。
 
-当前稳定写法：
-
-```sql
-RTRIM(
-    ROUND(
-        COUNT(DISTINCT comments_detail_tbl.UUID)
-        * 100.0
-        / total.TotalCount,
-        1
-    ),
-    0
-) || '%' AS Percent
-```
-
-### 提高计算与展示精度
-
-已验证可以通过增加乘数的小数位并提高 `ROUND` 精度，让查询结果直接保留并显示更多小数：
+例如：
 
 ```sql
 ROUND(
@@ -53,12 +37,23 @@ ROUND(
 ) AS Percent
 ```
 
-说明：
+这里：
 
-- `100.000000` 用于提高表达式的数值精度。
-- `ROUND(..., 4)` 保留并显示 4 位小数。
-- IPM 展示层本身不会额外限制小数位；最终显示精度主要由 SQL 返回值和度量格式决定。
-- 如果需要带 `%`，可以使用 `|| '%'` 拼接。
+- `ROUND(..., 4)` 表示保留并显示 4 位小数。
+- `ROUND(..., 1)` 表示保留并显示 1 位小数。
+- 小数位限制只与 `ROUND` 的位数参数有关，与 IPM 展示层无关。
+- `100.000000` 可保证百分比表达式按小数参与计算，但不会决定最终显示几位；最终位数仍由 `ROUND` 控制。
+
+如果需要带 `%`，可以使用：
+
+```sql
+ROUND(
+    COUNT(DISTINCT comments_detail_tbl.UUID)
+    * 100.000000
+    / total.TotalCount,
+    4
+) || '%' AS Percent
+```
 
 注意：
 
@@ -72,15 +67,12 @@ ROUND(
 SELECT
   case_attributes_tbl.System AS "SYSTEM",
   COUNT(DISTINCT comments_category_detail.UUID) AS CaseCount,
-  RTRIM(
-    ROUND(
+  ROUND(
       COUNT(DISTINCT comments_category_detail.UUID)
-      * 100.0
+      * 100.000000
       / total.TotalCount,
-      1
-    ),
-    0
-  ) || '%' AS Percent
+      4
+  ) AS Percent
 FROM comments_category_detail
 JOIN case_attributes_tbl
   ON comments_category_detail.UUID = case_attributes_tbl.UUID
@@ -174,6 +166,7 @@ EXTRACT(MONTH FROM sys.epoch(case_attributes_tbl.InputDate / 1000))
 
 - 不要假设 `TO_TIMESTAMP()`、`TO_CHAR()`、`CAST()` 一定可用。
 - 不要用 `SUBSTRING()` 直接处理毫秒时间戳。
-- 如果需要更多小数位，应直接提高 SQL 中的数值精度和 `ROUND` 位数。
-- `100.000000` 配合 `ROUND(..., 4)` 可以同时提高计算精度和显示精度。
-- 对于需要严格合计 100% 的场景，先确认各行原始精度，再决定是否保留更多小数或做显示层校正。
+- 小数位只由 `ROUND(..., n)` 中的 `n` 决定。
+- `100.000000` 不负责限制或增加显示位数；它只参与数值计算。
+- 需要更高精度时，直接提高 `ROUND` 的位数，例如从 `ROUND(..., 1)` 改为 `ROUND(..., 4)`。
+- 对于需要严格合计 100% 的场景，优先保留更多小数位，避免过早舍入造成显示合计偏差。
