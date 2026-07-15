@@ -19,6 +19,12 @@
 5. [05-dashboard-and-presentation.md](./05-dashboard-and-presentation.md)  
    Dashboard 页面规划、PPT 讲解顺序、分类说明页和演示注意点。
 
+6. [06-current-progress-and-evolution.md](./06-current-progress-and-evolution.md)  
+   当前进展、重要认识、Event 级分析路线和后续演进原则。
+
+7. [07-phase1-phase2-rpa-analysis-2026-07-13-14.md](./07-phase1-phase2-rpa-analysis-2026-07-13-14.md)  
+   2026-07-13～2026-07-14 的 Phase1/Phase2 RPA 判断规则、Excel 验证、Tracker 补充认定、DDD 排除、人工 Activity 分类、百分比及 Dashboard 口径。
+
 ## 当前主线
 
 Retail Demo 当前最重要的分析主线是：
@@ -37,10 +43,20 @@ Retail Demo 当前最重要的分析主线是：
 形成优化优先级
 ```
 
+当前 Phase 分析还需要特别区分：
+
+```text
+Phase1：判断过程中是否出现人工介入
+Phase2：判断最终是否由 RPA 完成
+```
+
 ## 重要提醒
 
 - `#Comment` 与 `#Case` 必须严格区分。
 - 同一个 UUID 可以对应多条 Comment。
 - Comment 分类使用 `CASE WHEN` 时，应保证分类互斥并明确优先级。
 - Phase1、过渡期和 Phase2 的数据覆盖范围不同，展示时必须说明。
+- Phase1 与 Phase2 的 RPA 判断规则不同，不能直接套用同一口径。
+- Phase2 的 Tracker 规则只补充 Eventlog 未直接认定的 RPA Case，不能重复计数。
+- Activity 分布使用 `COUNT(DISTINCT CASEID)`，同一 Case 可出现在多个 Activity 中，因此覆盖率合计可能超过 100%。
 - 高级 Analytics 查询遵循 MonetDB 风格，不应直接假设完整 PostgreSQL 语法可用。
