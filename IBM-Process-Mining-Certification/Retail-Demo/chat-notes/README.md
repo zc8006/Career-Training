@@ -31,6 +31,9 @@
 9. [09-comment-count-and-visualization-2026-07-16.md](./09-comment-count-and-visualization-2026-07-16.md)  
    2026-07-16 的 Comment 条数与 Case 数口径、`DISTINCT` 修正、`COMMENT_COUNT`、三类饼图设计、图表命名及排除 `SYSTEM` 分类。
 
+10. [10-manual-only-rpa-return-analysis-2026-07-16.md](./10-manual-only-rpa-return-analysis-2026-07-16.md)  
+    2026-07-16 的 Phase2 纯人工 Case 未回流 RPA 分析，包括 Tracker 覆盖缺口、RPA/人工字段对照、人工前后 Activity、4,761 个直接人工两事件 Case、ApplyType/POCompareResult/POResult/OCRFeedback 结论及后续大样本组合分析路线。
+
 ## 当前主线
 
 Retail Demo 当前最重要的分析主线是：
@@ -73,6 +76,23 @@ CASE_COUNT：涉及的去重 Case 数
 CASE_PERCENT：涉及 Case 占对应人工 Activity 总 Case 的比例
 ```
 
+当前“为什么纯人工 Case 没有回流 RPA”的分析采用：
+
+```text
+流程路径证据
++ RPA 与人工的大样本字段对照
++ Comment/OCRFeedback 作为解释材料
+```
+
+已经验证：
+
+```text
+Phase2 RPA_PROCESS = 11,520
+Phase2 MANUAL_ONLY = 9,648
+人工录入后直接审批结束 = 9,620（约 99.7%）
+仅有“人工录入完成 → 审批结束”两条事件 = 4,761
+```
+
 ## 重要提醒
 
 - `#Comment` 与 `#Case` 必须严格区分。
@@ -89,3 +109,8 @@ CASE_PERCENT：涉及 Case 占对应人工 Activity 总 Case 的比例
 - Tracker 留言字段为 `case_attributes_tbl_all.Comment_Clean`。
 - `SYSTEM` 当前作为状态说明从根因分析中排除，不并入 `OTHER`。
 - 高级 Analytics 查询遵循 MonetDB 风格，不应直接假设完整 PostgreSQL 语法可用。
+- Tracker 字段分析必须从 eventlog Case 出发并 `LEFT JOIN case_attributes_tbl_all`，否则会漏掉无 Tracker 记录的 Case；当前纯人工中有 241 个此类 Case。
+- 基于 Comment 语义定义 `HIGH/MEDIUM` 恢复潜力只是业务假设，不能作为正式结论。
+- OCRFeedback 可能是多个标签拼接的结果，也可能是转人工后的异常说明，不能单独用人工率证明流程阻断原因。
+- 直接人工数量大不代表直接人工率高，必须同时比较 RPA 数量、人工数量和总量。
+- 小样本细分只用于举例，主分析应优先保留 `TOTAL_CASE_COUNT >= 50` 的组合。
