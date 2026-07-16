@@ -28,6 +28,9 @@
 8. [08-comment-and-tracker-analysis-2026-07-15.md](./08-comment-and-tracker-analysis-2026-07-15.md)  
    2026-07-15 的 Comments detail 与 Tracker `Comment_Clean` 分析、NO_COMMENT/BLANK 口径、Activity 分类、Excel 对账及合并展示方法。
 
+9. [09-comment-count-and-visualization-2026-07-16.md](./09-comment-count-and-visualization-2026-07-16.md)  
+   2026-07-16 的 Comment 条数与 Case 数口径、`DISTINCT` 修正、`COMMENT_COUNT`、三类饼图设计、图表命名及排除 `SYSTEM` 分类。
+
 ## 当前主线
 
 Retail Demo 当前最重要的分析主线是：
@@ -39,9 +42,9 @@ Retail Demo 当前最重要的分析主线是：
     ↓
 分析人工介入原因
     ↓
-聚焦 PO / QA / SYSTEM
+聚焦 PO / QA / 业务类原因
     ↓
-比较频率、时间、返工和 Phase 变化
+比较频率、影响范围、时间、返工和 Phase 变化
     ↓
 形成优化优先级
 ```
@@ -62,10 +65,20 @@ Tracker Comment_Clean：Case 级补充留言
 
 两类来源可以合并展示，但必须保留 `COMMENT_SOURCE`，不能混成同一数据口径。
 
+当前 Comment 统计同时保留：
+
+```text
+COMMENT_COUNT：实际留言条数
+CASE_COUNT：涉及的去重 Case 数
+CASE_PERCENT：涉及 Case 占对应人工 Activity 总 Case 的比例
+```
+
 ## 重要提醒
 
 - `#Comment` 与 `#Case` 必须严格区分。
 - 同一个 UUID 可以对应多条 Comment。
+- Comments Detail 统计真实留言条数时不能提前按 `UUID + 分类` 使用 `DISTINCT`。
+- Tracker `Comment_Clean` 是 Case 级字段，关联 Eventlog 时需要去重，避免事件行放大。
 - Comment 分类使用 `CASE WHEN` 时，应保证分类互斥并明确优先级。
 - `NO_COMMENT` 表示完全没有 Comments detail 记录；`BLANK` 表示有记录但没有有效文字内容。
 - Activity 与 Comment 通过 UUID 关联时属于 Case 级共现，不能直接证明某条 Comment 是该 Activity 的直接原因。
@@ -74,4 +87,5 @@ Tracker Comment_Clean：Case 级补充留言
 - Phase2 的 Tracker 规则只补充 Eventlog 未直接认定的 RPA Case，不能重复计数。
 - Activity 分布使用 `COUNT(DISTINCT CASEID)`，同一 Case 可出现在多个 Activity 中，因此覆盖率合计可能超过 100%。
 - Tracker 留言字段为 `case_attributes_tbl_all.Comment_Clean`。
+- `SYSTEM` 当前作为状态说明从根因分析中排除，不并入 `OTHER`。
 - 高级 Analytics 查询遵循 MonetDB 风格，不应直接假设完整 PostgreSQL 语法可用。
