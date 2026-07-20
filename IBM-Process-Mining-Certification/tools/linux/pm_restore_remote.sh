@@ -27,6 +27,7 @@ PM_HOME="${PM_HOME:-/opt/processmining}"
 PM_USER="${PM_USER:-itzuser}"
 DB_USER="${DB_USER:-processmining}"
 DB_NAME="${DB_NAME:-processmining}"
+PGDATA_DIR="${PGDATA_DIR:-/var/lib/pgsql/15/data}"
 WORK_DIR="/home/${PM_USER}/pm_restore_work"
 RESTORE_LOG="/home/${PM_USER}/pm_restore_$(date +%Y%m%d_%H%M%S).log"
 
@@ -38,6 +39,7 @@ echo "NEW_PUBLIC_IP : ${NEW_PUBLIC_IP}"
 echo "NEW_HOSTNAME  : ${NEW_HOSTNAME}"
 echo "PM_HOME       : ${PM_HOME}"
 echo "DB_NAME       : ${DB_NAME}"
+echo "PGDATA_DIR    : ${PGDATA_DIR}"
 echo "LOG           : ${RESTORE_LOG}"
 echo
 
@@ -56,11 +58,22 @@ install_packages() {
 
 init_postgres() {
   echo "[2/12] Initialize and start PostgreSQL 15"
-  if [ ! -f /var/lib/pgsql/15/data/PG_VERSION ]; then
-    sudo postgresql-15-setup initdb
-  else
+  sudo systemctl stop postgresql-15 >/dev/null 2>&1 || true
+
+  if [ -f "${PGDATA_DIR}/PG_VERSION" ]; then
     echo "PostgreSQL data directory already initialized"
+  else
+    if [ -d "${PGDATA_DIR}" ] && [ "$(sudo find "${PGDATA_DIR}" -mindepth 1 -maxdepth 1 2>/dev/null | head -1)" != "" ]; then
+      BROKEN_DIR="/var/lib/pgsql/15/data.broken.$(date +%Y%m%d_%H%M%S)"
+      echo "WARN: PostgreSQL data directory is not empty but PG_VERSION is missing. Moving it to ${BROKEN_DIR}"
+      sudo mv "${PGDATA_DIR}" "${BROKEN_DIR}"
+    fi
+    sudo mkdir -p "${PGDATA_DIR}"
+    sudo chown postgres:postgres "${PGDATA_DIR}"
+    sudo chmod 700 "${PGDATA_DIR}"
+    sudo postgresql-15-setup initdb
   fi
+
   sudo systemctl enable postgresql-15
   sudo systemctl start postgresql-15
   sudo systemctl status postgresql-15 --no-pager || true
@@ -113,6 +126,7 @@ update_hosts() {
 
 setup_postgres_user_db() {
   echo "[7/12] Create PostgreSQL user/database"
+  pushd /tmp >/dev/null
   if ! sudo -u postgres psql -tAc "SELECT 1 FROM pg_roles WHERE rolname='${DB_USER}'" | grep -q 1; then
     sudo -u postgres createuser "${DB_USER}"
   fi
@@ -121,6 +135,7 @@ setup_postgres_user_db() {
   if ! sudo -u postgres psql -tAc "SELECT 1 FROM pg_database WHERE datname='${DB_NAME}'" | grep -q 1; then
     sudo -u postgres createdb -O "${DB_USER}" "${DB_NAME}"
   fi
+  popd >/dev/null
 }
 
 restore_postgres_dump_or_init() {
@@ -131,9 +146,11 @@ restore_postgres_dump_or_init() {
     TMP_RESTORE_DUMP="/tmp/postgres_${DB_NAME}_restore_$(date +%Y%m%d_%H%M%S).dump"
     sudo cp "${POSTGRES_DUMP}" "${TMP_RESTORE_DUMP}"
     sudo chown postgres:postgres "${TMP_RESTORE_DUMP}"
+    pushd /tmp >/dev/null
     sudo -u postgres dropdb --if-exists "${DB_NAME}"
     sudo -u postgres createdb -O "${DB_USER}" "${DB_NAME}"
     sudo -u postgres pg_restore -d "${DB_NAME}" "${TMP_RESTORE_DUMP}"
+    popd >/dev/null
     sudo rm -f "${TMP_RESTORE_DUMP}"
   else
     echo "WARN: PostgreSQL dump not found. Falling back to postgres-utils.sh initialization."
