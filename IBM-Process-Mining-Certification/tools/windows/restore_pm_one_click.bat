@@ -95,13 +95,37 @@ if not "x%DB_PASS:'=%"=="x%DB_PASS%" (
   exit /b 1
 )
 
+for /f "usebackq delims=" %%B in (`powershell -NoProfile -Command "[Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes($env:DB_PASS))"`) do set "DB_PASS_B64=%%B"
+
+if "%DB_PASS_B64%"=="" (
+  echo ERROR: Failed to encode DB password.
+  pause
+  exit /b 1
+)
+
 echo.
 echo [0/7] Convert remote restore script to LF line endings
 powershell -NoProfile -ExecutionPolicy Bypass -Command "$src='%REMOTE_RESTORE_SCRIPT%'; $dst='%REMOTE_RESTORE_SCRIPT_LF%'; $txt=[System.IO.File]::ReadAllText($src); $txt=$txt.Replace([string][char]13 + [string][char]10, [string][char]10); [System.IO.File]::WriteAllText($dst, $txt, [System.Text.UTF8Encoding]::new($false))"
 if errorlevel 1 goto :error
 
 echo [1/7] Create remote nohup restore runner
-powershell -NoProfile -ExecutionPolicy Bypass -Command "$b64=[Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes($env:DB_PASS)); $s=@'`n#!/bin/bash`nset -euo pipefail`nREMOTE_LOG=\"/home/%SSH_USER%/pm_restore_run.log\"`nREMOTE_PID=\"/home/%SSH_USER%/pm_restore_run.pid\"`nREMOTE_SCRIPT=\"/home/%SSH_USER%/pm_restore_remote.sh\"`nREMOTE_BUNDLE=\"/home/%SSH_USER%/pm_restore_bundle.tar.gz\"`nNEW_IP=\"%NEW_IP%\"`nNEW_HOSTNAME=\"%NEW_HOSTNAME%\"`nDB_PASS=\"$(printf ''%s'' ''__DB_PASS_B64__'' | base64 -d)\"`nrm -f \"$REMOTE_LOG\" \"$REMOTE_PID\"`nchmod +x \"$REMOTE_SCRIPT\"`nnohup bash \"$REMOTE_SCRIPT\" \"$REMOTE_BUNDLE\" \"$NEW_IP\" \"$NEW_HOSTNAME\" \"$DB_PASS\" > \"$REMOTE_LOG\" 2>&1 < /dev/null &`necho $! > \"$REMOTE_PID\"`necho \"Restore started in background. PID=$(cat \"$REMOTE_PID\")\"`nrm -f \"$0\"`n'@; $s=$s.Replace('__DB_PASS_B64__',$b64).TrimStart(); [System.IO.File]::WriteAllText('%REMOTE_RUNNER_SCRIPT%', $s, [System.Text.UTF8Encoding]::new($false))"
+(
+  echo #!/bin/bash
+  echo set -euo pipefail
+  echo REMOTE_LOG="%REMOTE_LOG%"
+  echo REMOTE_PID="%REMOTE_PID%"
+  echo REMOTE_SCRIPT="%REMOTE_SCRIPT%"
+  echo REMOTE_BUNDLE="%REMOTE_BUNDLE%"
+  echo NEW_IP="%NEW_IP%"
+  echo NEW_HOSTNAME="%NEW_HOSTNAME%"
+  echo DB_PASS="$(printf '%%s' '%DB_PASS_B64%' ^| base64 -d)"
+  echo rm -f "$REMOTE_LOG" "$REMOTE_PID"
+  echo chmod +x "$REMOTE_SCRIPT"
+  echo nohup bash "$REMOTE_SCRIPT" "$REMOTE_BUNDLE" "$NEW_IP" "$NEW_HOSTNAME" "$DB_PASS" ^> "$REMOTE_LOG" 2^>^&1 ^< /dev/null ^&
+  echo echo $! ^> "$REMOTE_PID"
+  echo echo "Restore started in background. PID=$(cat "$REMOTE_PID")"
+  echo rm -f "$0"
+) > "%REMOTE_RUNNER_SCRIPT%"
 if errorlevel 1 goto :error
 
 echo [2/7] Upload backup bundle to NEW VM
