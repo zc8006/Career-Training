@@ -89,7 +89,26 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command "$src='%REMOTE_RESTORE_SC
 if errorlevel 1 goto :error
 
 echo [1/7] Create remote nohup restore runner
-powershell -NoProfile -ExecutionPolicy Bypass -Command "$q=[char]39; $db=$env:DB_PASS; if($db.Contains($q)){throw 'DB password contains single quote'}; $lines=@('#!/bin/bash','set -euo pipefail','REMOTE_LOG="%REMOTE_LOG%"','REMOTE_PID="%REMOTE_PID%"','REMOTE_SCRIPT="%REMOTE_SCRIPT%"','REMOTE_BUNDLE="%REMOTE_BUNDLE%"','NEW_IP="%NEW_IP%"','NEW_HOSTNAME="%NEW_HOSTNAME%"','DB_PASS='+$q+$db+$q,'rm -f "$REMOTE_LOG" "$REMOTE_PID"','chmod +x "$REMOTE_SCRIPT"','nohup bash "$REMOTE_SCRIPT" "$REMOTE_BUNDLE" "$NEW_IP" "$NEW_HOSTNAME" "$DB_PASS" > "$REMOTE_LOG" 2>&1 < /dev/null &','echo $! > "$REMOTE_PID"','echo "Restore started in background. PID=$(cat "$REMOTE_PID")"','rm -f "$0"'); [IO.File]::WriteAllText('%REMOTE_RUNNER_SCRIPT%',($lines -join "`n")+"`n",[Text.UTF8Encoding]::new($false))"
+(
+  echo #!/bin/bash
+  echo set -eu
+  echo REMOTE_LOG="%REMOTE_LOG%"
+  echo REMOTE_PID="%REMOTE_PID%"
+  echo REMOTE_SCRIPT="%REMOTE_SCRIPT%"
+  echo REMOTE_BUNDLE="%REMOTE_BUNDLE%"
+  echo NEW_IP="%NEW_IP%"
+  echo NEW_HOSTNAME="%NEW_HOSTNAME%"
+  echo DB_PASS='%DB_PASS%'
+  echo rm -f "$REMOTE_LOG" "$REMOTE_PID"
+  echo chmod +x "$REMOTE_SCRIPT"
+  echo nohup bash "$REMOTE_SCRIPT" "$REMOTE_BUNDLE" "$NEW_IP" "$NEW_HOSTNAME" "$DB_PASS" ^> "$REMOTE_LOG" 2^>^&1 ^< /dev/null ^&
+  echo echo $! ^> "$REMOTE_PID"
+  echo echo "Restore started in background. PID=$(cat "$REMOTE_PID")"
+  echo rm -f "$0"
+) > "%REMOTE_RUNNER_SCRIPT%"
+if errorlevel 1 goto :error
+
+powershell -NoProfile -ExecutionPolicy Bypass -Command "$p='%REMOTE_RUNNER_SCRIPT%'; $txt=[IO.File]::ReadAllText($p); $txt=$txt.Replace([string][char]13+[string][char]10,[string][char]10); [IO.File]::WriteAllText($p,$txt,[Text.UTF8Encoding]::new($false))"
 if errorlevel 1 goto :error
 
 echo [2/7] Check or upload backup bundle to NEW VM
