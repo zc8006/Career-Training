@@ -72,12 +72,18 @@ if not exist "%REMOTE_RESTORE_SCRIPT%" (
   exit /b 1
 )
 
+for %%A in ("%BACKUP_BUNDLE%") do (
+  set "LOCAL_BUNDLE_SIZE=%%~zA"
+  set "LOCAL_BUNDLE_NAME=%%~nxA"
+)
+
 echo === IBM Process Mining one-click restore ^(background mode^) ===
 echo NEW_IP       : %NEW_IP%
 echo NEW_HOSTNAME : %NEW_HOSTNAME%
 echo SSH_PORT     : %SSH_PORT%
 echo SSH_USER     : %SSH_USER%
 echo BACKUP_BUNDLE: %BACKUP_BUNDLE%
+echo BUNDLE_SIZE  : %LOCAL_BUNDLE_SIZE% bytes
 echo REMOTE_LOG   : %REMOTE_LOG%
 echo.
 
@@ -131,9 +137,24 @@ if errorlevel 1 goto :error
 powershell -NoProfile -ExecutionPolicy Bypass -Command "$p='%REMOTE_RUNNER_SCRIPT%'; $txt=[System.IO.File]::ReadAllText($p); $txt=$txt.Replace([string][char]13 + [string][char]10, [string][char]10); [System.IO.File]::WriteAllText($p, $txt, [System.Text.UTF8Encoding]::new($false))"
 if errorlevel 1 goto :error
 
-echo [2/7] Upload backup bundle to NEW VM
-scp -P %SSH_PORT% -i "%SSH_KEY%" "%BACKUP_BUNDLE%" %SSH_USER%@%NEW_IP%:%REMOTE_BUNDLE%
-if errorlevel 1 goto :error
+echo [2/7] Check or upload backup bundle to NEW VM
+set "REMOTE_BUNDLE_SIZE="
+for /f "usebackq delims=" %%S in (`ssh -p %SSH_PORT% -i "%SSH_KEY%" %SSH_USER%@%NEW_IP% "if [ -f %REMOTE_BUNDLE% ]; then stat -c %%s %REMOTE_BUNDLE%; fi"`) do set "REMOTE_BUNDLE_SIZE=%%S"
+
+if "%REMOTE_BUNDLE_SIZE%"=="%LOCAL_BUNDLE_SIZE%" (
+  echo Remote bundle already exists with same size. Skipping upload.
+  echo Remote bundle: %REMOTE_BUNDLE%
+) else (
+  if not "%REMOTE_BUNDLE_SIZE%"=="" (
+    echo Remote bundle exists but size is different. Re-uploading.
+    echo Remote size: %REMOTE_BUNDLE_SIZE% bytes
+    echo Local size : %LOCAL_BUNDLE_SIZE% bytes
+  ) else (
+    echo Remote bundle not found. Uploading.
+  )
+  scp -P %SSH_PORT% -i "%SSH_KEY%" "%BACKUP_BUNDLE%" %SSH_USER%@%NEW_IP%:%REMOTE_BUNDLE%
+  if errorlevel 1 goto :error
+)
 
 echo [3/7] Upload remote restore script and runner to NEW VM
 scp -P %SSH_PORT% -i "%SSH_KEY%" "%REMOTE_RESTORE_SCRIPT_LF%" %SSH_USER%@%NEW_IP%:%REMOTE_SCRIPT%
