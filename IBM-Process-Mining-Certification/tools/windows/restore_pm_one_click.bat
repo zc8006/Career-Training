@@ -135,6 +135,8 @@ echo [4/7] Start remote restore in VM background
 ssh -p %SSH_PORT% -i "%SSH_KEY%" %SSH_USER%@%NEW_IP% "chmod +x %REMOTE_RUNNER% && bash %REMOTE_RUNNER%"
 if errorlevel 1 goto :error
 
+del "%REMOTE_RUNNER_SCRIPT%" >nul 2>&1
+
 echo Restore started. Polling remote log. This may take a while...
 echo.
 set /a POLL_COUNT=0
@@ -149,11 +151,11 @@ for /f "usebackq delims=" %%S in (`ssh -p %SSH_PORT% -i "%SSH_KEY%" %SSH_USER%@%
 if "%RESTORE_DONE%"=="DONE" goto :restore_done
 
 set "RESTORE_FAILED="
-for /f "usebackq delims=" %%S in (`ssh -p %SSH_PORT% -i "%SSH_KEY%" %SSH_USER%@%NEW_IP% "grep -Eiq '(^ERROR:|FATAL:|pg_restore: error|tar: .*Error|No space left on device)' %REMOTE_LOG% 2>/dev/null && echo FAILED || true"`) do set "RESTORE_FAILED=%%S"
+for /f "usebackq delims=" %%S in (`ssh -p %SSH_PORT% -i "%SSH_KEY%" %SSH_USER%@%NEW_IP% "grep -Eiq '(^ERROR:|FATAL:|pg_restore: error|tar: .*Error|No space left on device|Data directory is not empty)' %REMOTE_LOG% 2>/dev/null && echo FAILED || true"`) do set "RESTORE_FAILED=%%S"
 if "%RESTORE_FAILED%"=="FAILED" goto :restore_failed
 
 set "RESTORE_RUNNING="
-for /f "usebackq delims=" %%S in (`ssh -p %SSH_PORT% -i "%SSH_KEY%" %SSH_USER%@%NEW_IP% "PID=\$(cat %REMOTE_PID% 2>/dev/null || true); if [ -n \"\$PID\" ] && kill -0 \"\$PID\" 2>/dev/null; then echo RUNNING; else echo STOPPED; fi"`) do set "RESTORE_RUNNING=%%S"
+for /f "usebackq delims=" %%S in (`ssh -p %SSH_PORT% -i "%SSH_KEY%" %SSH_USER%@%NEW_IP% "PID=$(cat %REMOTE_PID% 2>/dev/null || true); if [ -n \"$PID\" ] && kill -0 \"$PID\" 2>/dev/null; then echo RUNNING; else echo STOPPED; fi"`) do set "RESTORE_RUNNING=%%S"
 if "%RESTORE_RUNNING%"=="STOPPED" goto :restore_stopped
 
 if %POLL_COUNT% GEQ %MAX_POLLS% goto :timeout
