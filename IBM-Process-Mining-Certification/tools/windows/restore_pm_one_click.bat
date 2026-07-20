@@ -128,6 +128,9 @@ echo [1/7] Create remote nohup restore runner
 ) > "%REMOTE_RUNNER_SCRIPT%"
 if errorlevel 1 goto :error
 
+powershell -NoProfile -ExecutionPolicy Bypass -Command "$p='%REMOTE_RUNNER_SCRIPT%'; $txt=[System.IO.File]::ReadAllText($p); $txt=$txt.Replace([string][char]13 + [string][char]10, [string][char]10); [System.IO.File]::WriteAllText($p, $txt, [System.Text.UTF8Encoding]::new($false))"
+if errorlevel 1 goto :error
+
 echo [2/7] Upload backup bundle to NEW VM
 scp -P %SSH_PORT% -i "%SSH_KEY%" "%BACKUP_BUNDLE%" %SSH_USER%@%NEW_IP%:%REMOTE_BUNDLE%
 if errorlevel 1 goto :error
