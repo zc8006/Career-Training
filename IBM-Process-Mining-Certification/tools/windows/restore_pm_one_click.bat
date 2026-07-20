@@ -1,12 +1,9 @@
 @echo off
-setlocal EnableExtensions EnableDelayedExpansion
+setlocal EnableExtensions
 
-REM IBM Process Mining 2.0.3 one-click restore launcher for Windows
-REM Run this from a local clone of the repo.
-REM It converts the remote restore script to LF, uploads the backup bundle and scripts
-REM to the NEW VM, starts restore in the VM background with nohup, polls the remote log,
-REM then updates Windows hosts and tests the endpoint.
-REM Do NOT store real passwords in this file or commit backup bundles to GitHub.
+REM IBM Process Mining 2.0.3 one-click restore launcher for Windows.
+REM Starts restore in the target VM background and polls the remote log.
+REM Do NOT commit real passwords or backup bundles to GitHub.
 
 REM ===== Edit these values =====
 set "NEW_IP=<NEW_VM_PUBLIC_IP>"
@@ -17,7 +14,6 @@ set "SSH_KEY=C:\IBM_PM\pem_ibmcloudvsi_download.pem"
 set "BACKUP_DIR=C:\IBM_PM\backups"
 set "BACKUP_DIR_FALLBACK=C:\IBM_PM_Backups"
 set "BACKUP_BUNDLE="
-REM Poll every 30 seconds, up to 180 tries = about 90 minutes.
 set "POLL_SECONDS=30"
 set "MAX_POLLS=180"
 REM ============================
@@ -32,49 +28,37 @@ set "REMOTE_RUNNER=/home/%SSH_USER%/pm_restore_runner.sh"
 set "REMOTE_LOG=/home/%SSH_USER%/pm_restore_run.log"
 set "REMOTE_PID=/home/%SSH_USER%/pm_restore_run.pid"
 
-for /f "delims=" %%F in ('powershell -NoProfile -Command "$paths=@('%BACKUP_DIR%','%BACKUP_DIR_FALLBACK%'); Get-ChildItem -Path $paths -Filter 'pm_full_backup_*.tar.gz' -File -ErrorAction SilentlyContinue | Sort-Object LastWriteTime -Descending | Select-Object -First 1 -ExpandProperty FullName"') do (
-    set "BACKUP_BUNDLE=%%F"
-)
+for /f "delims=" %%F in ('powershell -NoProfile -Command "$paths=@('%BACKUP_DIR%','%BACKUP_DIR_FALLBACK%'); Get-ChildItem -Path $paths -Filter 'pm_full_backup_*.tar.gz' -File -ErrorAction SilentlyContinue | Sort-Object LastWriteTime -Descending | Select-Object -First 1 -ExpandProperty FullName"') do set "BACKUP_BUNDLE=%%F"
 
 if "%BACKUP_BUNDLE%"=="" (
   echo ERROR: No backup bundle found in %BACKUP_DIR% or %BACKUP_DIR_FALLBACK%
   pause
   exit /b 1
 )
-
 if "%NEW_IP%"=="<NEW_VM_PUBLIC_IP>" (
   echo ERROR: Please edit NEW_IP in this file first.
   pause
   exit /b 1
 )
-
 if "%NEW_HOSTNAME%"=="<NEW_VM_HOSTNAME>" (
   echo ERROR: Please edit NEW_HOSTNAME in this file first.
   pause
   exit /b 1
 )
-
 if not exist "%SSH_KEY%" (
   echo ERROR: SSH key not found: %SSH_KEY%
   pause
   exit /b 1
 )
-
 if not exist "%BACKUP_BUNDLE%" (
   echo ERROR: Backup bundle not found: %BACKUP_BUNDLE%
   pause
   exit /b 1
 )
-
 if not exist "%REMOTE_RESTORE_SCRIPT%" (
   echo ERROR: Remote restore script not found: %REMOTE_RESTORE_SCRIPT%
   pause
   exit /b 1
-)
-
-for %%A in ("%BACKUP_BUNDLE%") do (
-  set "LOCAL_BUNDLE_SIZE=%%~zA"
-  set "LOCAL_BUNDLE_NAME=%%~nxA"
 )
 
 echo === IBM Process Mining one-click restore ^(background mode^) ===
@@ -83,7 +67,6 @@ echo NEW_HOSTNAME : %NEW_HOSTNAME%
 echo SSH_PORT     : %SSH_PORT%
 echo SSH_USER     : %SSH_USER%
 echo BACKUP_BUNDLE: %BACKUP_BUNDLE%
-echo BUNDLE_SIZE  : %LOCAL_BUNDLE_SIZE% bytes
 echo REMOTE_LOG   : %REMOTE_LOG%
 echo.
 
@@ -94,64 +77,31 @@ if "%DB_PASS%"=="" (
   pause
   exit /b 1
 )
-
 if not "x%DB_PASS:'=%"=="x%DB_PASS%" (
   echo ERROR: DB password contains a single quote. Please change it first, then rerun restore.
   pause
   exit /b 1
 )
 
-for /f "usebackq delims=" %%B in (`powershell -NoProfile -Command "[Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes($env:DB_PASS))"`) do set "DB_PASS_B64=%%B"
-
-if "%DB_PASS_B64%"=="" (
-  echo ERROR: Failed to encode DB password.
-  pause
-  exit /b 1
-)
-
 echo.
 echo [0/7] Convert remote restore script to LF line endings
-powershell -NoProfile -ExecutionPolicy Bypass -Command "$src='%REMOTE_RESTORE_SCRIPT%'; $dst='%REMOTE_RESTORE_SCRIPT_LF%'; $txt=[System.IO.File]::ReadAllText($src); $txt=$txt.Replace([string][char]13 + [string][char]10, [string][char]10); [System.IO.File]::WriteAllText($dst, $txt, [System.Text.UTF8Encoding]::new($false))"
+powershell -NoProfile -ExecutionPolicy Bypass -Command "$src='%REMOTE_RESTORE_SCRIPT%'; $dst='%REMOTE_RESTORE_SCRIPT_LF%'; $txt=[IO.File]::ReadAllText($src); $txt=$txt.Replace([string][char]13+[string][char]10,[string][char]10); [IO.File]::WriteAllText($dst,$txt,[Text.UTF8Encoding]::new($false))"
 if errorlevel 1 goto :error
 
 echo [1/7] Create remote nohup restore runner
-(
-  echo #!/bin/bash
-  echo set -euo pipefail
-  echo REMOTE_LOG="%REMOTE_LOG%"
-  echo REMOTE_PID="%REMOTE_PID%"
-  echo REMOTE_SCRIPT="%REMOTE_SCRIPT%"
-  echo REMOTE_BUNDLE="%REMOTE_BUNDLE%"
-  echo NEW_IP="%NEW_IP%"
-  echo NEW_HOSTNAME="%NEW_HOSTNAME%"
-  echo DB_PASS="$(printf '%%s' '%DB_PASS_B64%' ^| base64 -d)"
-  echo rm -f "$REMOTE_LOG" "$REMOTE_PID"
-  echo chmod +x "$REMOTE_SCRIPT"
-  echo nohup bash "$REMOTE_SCRIPT" "$REMOTE_BUNDLE" "$NEW_IP" "$NEW_HOSTNAME" "$DB_PASS" ^> "$REMOTE_LOG" 2^>^&1 ^< /dev/null ^&
-  echo echo $! ^> "$REMOTE_PID"
-  echo echo "Restore started in background. PID=$(cat "$REMOTE_PID")"
-  echo rm -f "$0"
-) > "%REMOTE_RUNNER_SCRIPT%"
-if errorlevel 1 goto :error
-
-powershell -NoProfile -ExecutionPolicy Bypass -Command "$p='%REMOTE_RUNNER_SCRIPT%'; $txt=[System.IO.File]::ReadAllText($p); $txt=$txt.Replace([string][char]13 + [string][char]10, [string][char]10); [System.IO.File]::WriteAllText($p, $txt, [System.Text.UTF8Encoding]::new($false))"
+powershell -NoProfile -ExecutionPolicy Bypass -Command "$q=[char]39; $db=$env:DB_PASS; if($db.Contains($q)){throw 'DB password contains single quote'}; $lines=@('#!/bin/bash','set -euo pipefail','REMOTE_LOG="%REMOTE_LOG%"','REMOTE_PID="%REMOTE_PID%"','REMOTE_SCRIPT="%REMOTE_SCRIPT%"','REMOTE_BUNDLE="%REMOTE_BUNDLE%"','NEW_IP="%NEW_IP%"','NEW_HOSTNAME="%NEW_HOSTNAME%"','DB_PASS='+$q+$db+$q,'rm -f "$REMOTE_LOG" "$REMOTE_PID"','chmod +x "$REMOTE_SCRIPT"','nohup bash "$REMOTE_SCRIPT" "$REMOTE_BUNDLE" "$NEW_IP" "$NEW_HOSTNAME" "$DB_PASS" > "$REMOTE_LOG" 2>&1 < /dev/null &','echo $! > "$REMOTE_PID"','echo "Restore started in background. PID=$(cat "$REMOTE_PID")"','rm -f "$0"'); [IO.File]::WriteAllText('%REMOTE_RUNNER_SCRIPT%',($lines -join "`n")+"`n",[Text.UTF8Encoding]::new($false))"
 if errorlevel 1 goto :error
 
 echo [2/7] Check or upload backup bundle to NEW VM
-set "REMOTE_BUNDLE_SIZE="
-for /f "usebackq delims=" %%S in (`ssh -p %SSH_PORT% -i "%SSH_KEY%" %SSH_USER%@%NEW_IP% "if [ -f %REMOTE_BUNDLE% ]; then stat -c %%s %REMOTE_BUNDLE%; fi"`) do set "REMOTE_BUNDLE_SIZE=%%S"
-
-if "%REMOTE_BUNDLE_SIZE%"=="%LOCAL_BUNDLE_SIZE%" (
+set "LOCAL_SIZE="
+for /f "usebackq delims=" %%S in (`powershell -NoProfile -Command "(Get-Item '%BACKUP_BUNDLE%').Length"`) do set "LOCAL_SIZE=%%S"
+set "REMOTE_SIZE="
+for /f "usebackq delims=" %%S in (`ssh -p %SSH_PORT% -i "%SSH_KEY%" %SSH_USER%@%NEW_IP% "stat -c %%s %REMOTE_BUNDLE% 2>/dev/null || true"`) do set "REMOTE_SIZE=%%S"
+if "%LOCAL_SIZE%"=="%REMOTE_SIZE%" (
   echo Remote bundle already exists with same size. Skipping upload.
   echo Remote bundle: %REMOTE_BUNDLE%
 ) else (
-  if not "%REMOTE_BUNDLE_SIZE%"=="" (
-    echo Remote bundle exists but size is different. Re-uploading.
-    echo Remote size: %REMOTE_BUNDLE_SIZE% bytes
-    echo Local size : %LOCAL_BUNDLE_SIZE% bytes
-  ) else (
-    echo Remote bundle not found. Uploading.
-  )
+  echo Uploading backup bundle to NEW VM...
   scp -P %SSH_PORT% -i "%SSH_KEY%" "%BACKUP_BUNDLE%" %SSH_USER%@%NEW_IP%:%REMOTE_BUNDLE%
   if errorlevel 1 goto :error
 )
@@ -168,7 +118,6 @@ if errorlevel 1 goto :error
 
 echo Restore started. Polling remote log. This may take a while...
 echo.
-
 set /a POLL_COUNT=0
 
 :poll_loop
@@ -189,7 +138,6 @@ for /f "usebackq delims=" %%S in (`ssh -p %SSH_PORT% -i "%SSH_KEY%" %SSH_USER%@%
 if "%RESTORE_RUNNING%"=="STOPPED" goto :restore_stopped
 
 if %POLL_COUNT% GEQ %MAX_POLLS% goto :timeout
-
 echo Waiting %POLL_SECONDS% seconds...
 ping -n %POLL_SECONDS% 127.0.0.1 >nul
 goto :poll_loop
@@ -209,12 +157,10 @@ if errorlevel 1 (
 echo [7/7] Test PM endpoint from Windows
 powershell -NoProfile -Command "Test-NetConnection pm.processmining -Port 443"
 curl.exe -k -I https://pm.processmining
-
 echo.
 echo Restore completed.
 echo Open      : https://pm.processmining/signin
 echo Remote log: %REMOTE_LOG%
-echo.
 pause
 exit /b 0
 
