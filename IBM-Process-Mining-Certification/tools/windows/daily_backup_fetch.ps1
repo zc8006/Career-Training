@@ -9,6 +9,19 @@ New-Item -ItemType Directory -Force -Path $LocalBackupDir | Out-Null
 $RunStamp = Get-Date -Format "yyyyMMdd_HHmmss"
 $LocalLog = Join-Path $LogDir "daily_backup_fetch_$RunStamp.log"
 
+# Server-side backup can be started in two ways:
+# 1) Windows-triggered background backup: /home/itzuser/pm_backup_run.log
+# 2) Server cron backup: /home/itzuser/pm_daily_backup/pm_backup_cron.log
+# Check both so the 17:00 Windows download task works after either workflow.
+$RemoteBackupLogs = @(
+    "/home/itzuser/pm_daily_backup/pm_backup_cron.log",
+    "/home/itzuser/pm_backup_run.log"
+)
+$RemoteBackupPids = @(
+    "/home/itzuser/pm_daily_backup/pm_backup_cron.pid",
+    "/home/itzuser/pm_backup_run.pid"
+)
+
 function Write-Log {
     param([string]$Message)
     $line = "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') $Message"
@@ -21,9 +34,14 @@ function Run-Remote {
     ssh -p $SshPort -i $SshKey "$SshUser@$ServerIp" $Command
 }
 
+function Escape-SingleQuoteForBash {
+    param([string]$Value)
+    return $Value.Replace("'", "'\''")
+}
+
 Write-Log "=== Fetch IBM PM daily backup ==="
 Write-Log "Server          : $ServerIp / $ServerHostName"
-Write-Log "Remote log      : $RemoteBackupLog"
+Write-Log "Remote logs     : $($RemoteBackupLogs -join ', ')"
 Write-Log "Local backup dir: $LocalBackupDir"
 Write-Log "Local log       : $LocalLog"
 
@@ -35,31 +53,53 @@ $MaxWaitMinutes = 120
 $SleepSeconds = 60
 $MaxLoops = [int](($MaxWaitMinutes * 60) / $SleepSeconds)
 $RemoteBackupPath = ""
+$MatchedRemoteLog = ""
 
 for ($i = 1; $i -le $MaxLoops; $i++) {
     Write-Log "Check backup status $i/$MaxLoops"
 
-    $line = Run-Remote "grep 'Backup completed:' $RemoteBackupLog 2>/dev/null | tail -1" 2>$null
+    foreach ($logPath in $RemoteBackupLogs) {
+        $safeLogPath = Escape-SingleQuoteForBash $logPath
+        $line = Run-Remote "grep 'Backup completed:' '$safeLogPath' 2>/dev/null | tail -1" 2>$null
 
-    if ($line -match "Backup completed:\s+(.+\.tar\.gz)") {
-        $RemoteBackupPath = $Matches[1].Trim()
-        Write-Log "Backup completed: $RemoteBackupPath"
+        if ($line -match "Backup completed:\s+(.+\.tar\.gz)") {
+            $RemoteBackupPath = $Matches[1].Trim()
+            $MatchedRemoteLog = $logPath
+            Write-Log "Backup completed according to ${MatchedRemoteLog}: $RemoteBackupPath"
+            break
+        }
+    }
+
+    if (![string]::IsNullOrWhiteSpace($RemoteBackupPath)) {
         break
     }
 
-    $running = Run-Remote 'PID=$(cat /home/itzuser/pm_backup_run.pid 2>/dev/null || true); if [ -n "$PID" ] && kill -0 "$PID" 2>/dev/null; then echo RUNNING; else echo STOPPED; fi' 2>$null
+    # Cron-launched backups do not have a reliable PID file, so also detect running backup/tar/pg_dump processes.
+    $running = Run-Remote "if pgrep -f 'pm_backup_full.sh|tar -czf|pg_dump' >/dev/null 2>&1; then echo RUNNING; else echo STOPPED; fi" 2>$null
 
     if ($running -eq "STOPPED") {
+        # As a fallback, choose the newest finished-looking bundle created today or recently.
+        $latestBundle = Run-Remote "ls -1t /home/itzuser/pm_full_backup_*.tar.gz 2>/dev/null | head -1" 2>$null
+        if ($latestBundle -match "^/home/.+\.tar\.gz$") {
+            $RemoteBackupPath = $latestBundle.Trim()
+            Write-Log "No completion marker found, but found latest bundle: $RemoteBackupPath"
+            break
+        }
+
         Write-Log "Backup process is not running and completed line was not found. Showing last log lines."
-        Run-Remote "tail -100 $RemoteBackupLog 2>/dev/null || true" 2>&1 | Tee-Object -FilePath $LocalLog -Append
-        throw "Backup may have failed. Check remote log: $RemoteBackupLog"
+        foreach ($logPath in $RemoteBackupLogs) {
+            $safeLogPath = Escape-SingleQuoteForBash $logPath
+            Write-Log "--- $logPath ---"
+            Run-Remote "tail -100 '$safeLogPath' 2>/dev/null || echo NO_LOG" 2>&1 | Tee-Object -FilePath $LocalLog -Append
+        }
+        throw "Backup may have failed. Check remote logs: $($RemoteBackupLogs -join ', ')"
     }
 
     Start-Sleep -Seconds $SleepSeconds
 }
 
 if ([string]::IsNullOrWhiteSpace($RemoteBackupPath)) {
-    throw "Backup not completed within $MaxWaitMinutes minutes. Check remote log: $RemoteBackupLog"
+    throw "Backup not completed within $MaxWaitMinutes minutes. Check remote logs: $($RemoteBackupLogs -join ', ')"
 }
 
 $FileName = Split-Path $RemoteBackupPath -Leaf
