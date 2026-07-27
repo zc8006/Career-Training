@@ -16,12 +16,15 @@ set "BACKUP_DIR_FALLBACK=C:\IBM_PM_Backups"
 set "BACKUP_BUNDLE="
 set "POLL_SECONDS=30"
 set "MAX_POLLS=180"
+REM After restore succeeds, install server-side cron backup at Beijing 16:30 and Windows fetch task at 17:00.
+set "INSTALL_DAILY_BACKUP_AFTER_RESTORE=1"
 REM ============================
 
 set "SCRIPT_DIR=%~dp0"
 set "REMOTE_RESTORE_SCRIPT=%SCRIPT_DIR%..\linux\pm_restore_remote.sh"
 set "REMOTE_RESTORE_SCRIPT_LF=%TEMP%\pm_restore_remote_lf.sh"
 set "REMOTE_RUNNER_SCRIPT=%TEMP%\pm_restore_runner_lf.sh"
+set "DAILY_BACKUP_INSTALLER=%SCRIPT_DIR%install_pm_daily_backup_schedule.ps1"
 set "REMOTE_BUNDLE=/home/%SSH_USER%/pm_restore_bundle.tar.gz"
 set "REMOTE_SCRIPT=/home/%SSH_USER%/pm_restore_remote.sh"
 set "REMOTE_RUNNER=/home/%SSH_USER%/pm_restore_runner.sh"
@@ -68,6 +71,7 @@ echo SSH_PORT     : %SSH_PORT%
 echo SSH_USER     : %SSH_USER%
 echo BACKUP_BUNDLE: %BACKUP_BUNDLE%
 echo REMOTE_LOG   : %REMOTE_LOG%
+echo INSTALL_DAILY_BACKUP_AFTER_RESTORE: %INSTALL_DAILY_BACKUP_AFTER_RESTORE%
 echo.
 
 for /f "usebackq delims=" %%P in (`powershell -NoProfile -Command "$p=Read-Host 'Enter PostgreSQL processmining DB plain password' -AsSecureString; $b=[Runtime.InteropServices.Marshal]::SecureStringToBSTR($p); try { [Runtime.InteropServices.Marshal]::PtrToStringAuto($b) } finally { [Runtime.InteropServices.Marshal]::ZeroFreeBSTR($b) }"`) do set "DB_PASS=%%P"
@@ -165,7 +169,24 @@ goto :poll_loop
 
 :restore_done
 echo.
-echo [6/7] Update Windows hosts if this BAT is running as Administrator
+echo [6/8] Install server daily backup cron and Windows daily fetch task
+if "%INSTALL_DAILY_BACKUP_AFTER_RESTORE%"=="1" (
+  if exist "%DAILY_BACKUP_INSTALLER%" (
+    powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%DAILY_BACKUP_INSTALLER%" -ServerIp "%NEW_IP%" -ServerHostName "%NEW_HOSTNAME%" -SshPort %SSH_PORT% -SshUser "%SSH_USER%" -SshKey "%SSH_KEY%"
+    if errorlevel 1 (
+      echo WARN: Restore succeeded, but daily backup schedule installation failed.
+      echo You can rerun manually:
+      echo powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%DAILY_BACKUP_INSTALLER%" -ServerIp %NEW_IP% -ServerHostName %NEW_HOSTNAME%
+    )
+  ) else (
+    echo WARN: Daily backup installer not found: %DAILY_BACKUP_INSTALLER%
+  )
+) else (
+  echo Daily backup schedule installation skipped.
+)
+
+echo.
+echo [7/8] Update Windows hosts if this BAT is running as Administrator
 net session >nul 2>&1
 if errorlevel 1 (
   echo WARN: Not running as Administrator. Please update Windows hosts manually:
@@ -175,13 +196,15 @@ if errorlevel 1 (
   echo Windows hosts updated.
 )
 
-echo [7/7] Test PM endpoint from Windows
+echo [8/8] Test PM endpoint from Windows
 powershell -NoProfile -Command "Test-NetConnection pm.processmining -Port 443"
 curl.exe -k -I https://pm.processmining
 echo.
 echo Restore completed.
 echo Open      : https://pm.processmining/signin
 echo Remote log: %REMOTE_LOG%
+echo Daily server backup: Beijing 16:30 / UTC 08:30
+echo Daily Windows fetch: 17:00, task name IBM PM Daily Backup Fetch
 pause
 exit /b 0
 
