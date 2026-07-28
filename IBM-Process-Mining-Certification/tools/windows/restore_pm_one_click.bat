@@ -139,6 +139,26 @@ echo [4/7] Start remote restore in VM background
 ssh -p %SSH_PORT% -i "%SSH_KEY%" %SSH_USER%@%NEW_IP% "chmod +x %REMOTE_RUNNER% && bash %REMOTE_RUNNER%"
 if errorlevel 1 goto :error
 
+REM Install the daily backup schedule immediately after the background restore starts.
+REM This is intentionally before polling, so even if the local window times out or disconnects later,
+REM the new server already has the Beijing 16:30 cron job and Windows has the 17:00 fetch config.
+echo [4.5/7] Pre-install daily backup cron and Windows daily fetch task
+if "%INSTALL_DAILY_BACKUP_AFTER_RESTORE%"=="1" (
+  if exist "%DAILY_BACKUP_INSTALLER%" (
+    powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%DAILY_BACKUP_INSTALLER%" -ServerIp "%NEW_IP%" -ServerHostName "%NEW_HOSTNAME%" -SshPort %SSH_PORT% -SshUser "%SSH_USER%" -SshKey "%SSH_KEY%"
+    if errorlevel 1 (
+      echo WARN: Daily backup schedule pre-install failed. Restore will continue.
+      echo You can rerun manually:
+      echo powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%DAILY_BACKUP_INSTALLER%" -ServerIp %NEW_IP% -ServerHostName %NEW_HOSTNAME%
+    )
+  ) else (
+    echo WARN: Daily backup installer not found: %DAILY_BACKUP_INSTALLER%
+  )
+) else (
+  echo Daily backup schedule pre-install skipped.
+)
+echo.
+
 del "%REMOTE_RUNNER_SCRIPT%" >nul 2>&1
 
 echo Restore started. Polling remote log. This may take a while...
@@ -169,7 +189,7 @@ goto :poll_loop
 
 :restore_done
 echo.
-echo [6/8] Install server daily backup cron and Windows daily fetch task
+echo [6/8] Refresh daily backup cron and Windows daily fetch task
 if "%INSTALL_DAILY_BACKUP_AFTER_RESTORE%"=="1" (
   if exist "%DAILY_BACKUP_INSTALLER%" (
     powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%DAILY_BACKUP_INSTALLER%" -ServerIp "%NEW_IP%" -ServerHostName "%NEW_HOSTNAME%" -SshPort %SSH_PORT% -SshUser "%SSH_USER%" -SshKey "%SSH_KEY%"
