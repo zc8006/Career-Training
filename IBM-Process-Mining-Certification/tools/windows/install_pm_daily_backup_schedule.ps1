@@ -32,8 +32,8 @@ $ErrorActionPreference = "Stop"
 $RemoteDir = "/home/$SshUser/pm_daily_backup"
 $RemoteScript = "$RemoteDir/pm_backup_full.sh"
 $RemoteCronLog = "$RemoteDir/pm_backup_cron.log"
+$RemotePid = "$RemoteDir/pm_backup_run.pid"
 $RemoteRunLog = "/home/$SshUser/pm_backup_run.log"
-$RemotePid = "/home/$SshUser/pm_backup_run.pid"
 
 $LogDir = "C:\IBM_PM\logs"
 New-Item -ItemType Directory -Force -Path $LogDir | Out-Null
@@ -75,7 +75,8 @@ if (!(Test-Path $FetchScript)) {
 }
 
 if ([string]::IsNullOrWhiteSpace($ServerHostName)) {
-    Write-Log "ServerHostName is empty. It is okay for cron, but Windows hosts still needs the real hostname when you update it."
+    Write-Log "ServerHostName is empty. Fetching hostname from server."
+    $ServerHostName = (& ssh -p $SshPort -i $SshKey "$SshUser@$ServerIp" "hostname" 2>$null).Trim()
 }
 
 $UtcHour = ($BackupHourBeijing - 8) % 24
@@ -86,9 +87,10 @@ Write-Log "=== Install IBM PM daily backup schedule ==="
 Write-Log "Server             : $ServerIp / $ServerHostName"
 Write-Log "Backup schedule    : Beijing $($BackupHourBeijing.ToString('00')):$($BackupMinute.ToString('00')) / UTC $($UtcHour.ToString('00')):$($BackupMinute.ToString('00'))"
 Write-Log "Windows fetch time : $FetchTime"
+Write-Log "Remote dir         : $RemoteDir"
 Write-Log "Remote script      : $RemoteScript"
 Write-Log "Remote cron log    : $RemoteCronLog"
-Write-Log "Remote run log     : $RemoteRunLog"
+Write-Log "Remote legacy log  : $RemoteRunLog"
 Write-Log "Local backup dir   : $LocalBackupDir"
 Write-Log "Config path        : $ConfigPath"
 Write-Log "Local log          : $LocalLog"
@@ -116,15 +118,24 @@ Run-Command "Show current server crontab" {
     ssh -p $SshPort -i $SshKey "$SshUser@$ServerIp" "crontab -l"
 }
 
+# This config is intentionally regenerated on every restore / scheduler install.
+# TechZone servers are recreated frequently, so ServerIp and ServerHostName must NOT be static.
 $config = @'
 $ServerIp = "__SERVER_IP__"
 $ServerHostName = "__SERVER_HOSTNAME__"
+
 $SshPort = __SSH_PORT__
 $SshUser = "__SSH_USER__"
 $SshKey = "__SSH_KEY__"
+
+$LinuxBackupScript = "__LOCAL_BACKUP_SCRIPT__"
 $LocalBackupDir = "__LOCAL_BACKUP_DIR__"
+
+$RemoteBackupScript = "__REMOTE_BACKUP_SCRIPT__"
+$RemoteBackupRunner = "__REMOTE_BACKUP_RUNNER__"
 $RemoteBackupLog = "__REMOTE_BACKUP_LOG__"
 $RemoteBackupPid = "__REMOTE_BACKUP_PID__"
+$RemoteLegacyBackupLog = "__REMOTE_LEGACY_BACKUP_LOG__"
 '@
 
 $config = $config.Replace("__SERVER_IP__", $ServerIp)
@@ -132,12 +143,16 @@ $config = $config.Replace("__SERVER_HOSTNAME__", $ServerHostName)
 $config = $config.Replace("__SSH_PORT__", [string]$SshPort)
 $config = $config.Replace("__SSH_USER__", $SshUser)
 $config = $config.Replace("__SSH_KEY__", $SshKey)
+$config = $config.Replace("__LOCAL_BACKUP_SCRIPT__", $LocalBackupScript)
 $config = $config.Replace("__LOCAL_BACKUP_DIR__", $LocalBackupDir)
-$config = $config.Replace("__REMOTE_BACKUP_LOG__", $RemoteRunLog)
+$config = $config.Replace("__REMOTE_BACKUP_SCRIPT__", $RemoteScript)
+$config = $config.Replace("__REMOTE_BACKUP_RUNNER__", "$RemoteDir/pm_backup_runner.sh")
+$config = $config.Replace("__REMOTE_BACKUP_LOG__", $RemoteCronLog)
 $config = $config.Replace("__REMOTE_BACKUP_PID__", $RemotePid)
+$config = $config.Replace("__REMOTE_LEGACY_BACKUP_LOG__", $RemoteRunLog)
 
 [System.IO.File]::WriteAllText($ConfigPath, $config, [System.Text.UTF8Encoding]::new($false))
-Write-Log "Updated local config: $ConfigPath"
+Write-Log "Regenerated local config for current server: $ConfigPath"
 
 $TaskName = "IBM PM Daily Backup Fetch"
 $TaskCommand = "powershell.exe -NoProfile -ExecutionPolicy Bypass -File `"$FetchScript`""
@@ -149,5 +164,5 @@ Write-Log "=== Done ==="
 Write-Host ""
 Write-Host "Installed server cron: $CronLine"
 Write-Host "Installed Windows task: $TaskName at $FetchTime"
-Write-Host "Config file: $ConfigPath"
+Write-Host "Config file regenerated for: $ServerIp / $ServerHostName"
 Write-Host "Next check: schtasks /Query /TN `"$TaskName`""
