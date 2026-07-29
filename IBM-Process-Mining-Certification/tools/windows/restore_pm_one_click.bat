@@ -4,6 +4,7 @@ setlocal EnableExtensions
 REM IBM Process Mining 2.0.3 one-click restore launcher for Windows.
 REM Starts restore in the target VM background and polls the remote log.
 REM Do NOT commit real passwords or backup bundles to GitHub.
+REM Optional: set a local Windows environment variable PM_DB_PASS to avoid typing the DB password every time.
 
 REM ===== Edit these values =====
 set "NEW_IP=<NEW_VM_PUBLIC_IP>"
@@ -74,7 +75,13 @@ echo REMOTE_LOG   : %REMOTE_LOG%
 echo INSTALL_DAILY_BACKUP_AFTER_RESTORE: %INSTALL_DAILY_BACKUP_AFTER_RESTORE%
 echo.
 
-for /f "usebackq delims=" %%P in (`powershell -NoProfile -Command "$p=Read-Host 'Enter PostgreSQL processmining DB plain password' -AsSecureString; $b=[Runtime.InteropServices.Marshal]::SecureStringToBSTR($p); try { [Runtime.InteropServices.Marshal]::PtrToStringAuto($b) } finally { [Runtime.InteropServices.Marshal]::ZeroFreeBSTR($b) }"`) do set "DB_PASS=%%P"
+set "DB_PASS=%PM_DB_PASS%"
+if "%DB_PASS%"=="" (
+  echo PM_DB_PASS is not set. Please input PostgreSQL processmining DB plain password.
+  for /f "usebackq delims=" %%P in (`powershell -NoProfile -Command "$p=Read-Host 'Enter PostgreSQL processmining DB plain password' -AsSecureString; $b=[Runtime.InteropServices.Marshal]::SecureStringToBSTR($p); try { [Runtime.InteropServices.Marshal]::PtrToStringAuto($b) } finally { [Runtime.InteropServices.Marshal]::ZeroFreeBSTR($b) }"`) do set "DB_PASS=%%P"
+) else (
+  echo Using DB password from local environment variable PM_DB_PASS.
+)
 
 if "%DB_PASS%"=="" (
   echo ERROR: DB password is empty.
