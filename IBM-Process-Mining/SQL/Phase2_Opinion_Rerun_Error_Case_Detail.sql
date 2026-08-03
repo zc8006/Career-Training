@@ -1,6 +1,6 @@
 /*
 IBM Process Mining 2.0.3
-Phase2 意见征询后机器人录入报错 Case 明细
+Phase2 意见征询后机器人录入报错 Case 明细（稳定版）
 
 统一口径：
 - Dashboard 过滤器：Phase2
@@ -10,12 +10,17 @@ Phase2 意见征询后机器人录入报错 Case 明细
 - 人工后重新出现 BOT
 - BOT 活动为“录入中发生错误”
 
-时间处理规则（已在 IPM 2.0.3 弹性组件中验证）：
+时间处理规则（已在 IPM 2.0.3 弹性组件中实测通过）：
 - STARTTIME 为毫秒 UNIX 时间戳
 - 使用 sys.epoch(时间字段 / 1000)
-- 普通表格直接输出日期类型仍可能显示 13 位时间戳
-- 使用 EXTRACT + || 拼接为可读文本
+- 使用 EXTRACT + || 拼接成文本
 - 不使用 TO_TIMESTAMP、TO_CHAR、RIGHT、LPAD
+
+说明：
+原完整版本同时计算最后人工、最后BOT、Case最后事件，嵌套过深，
+在 IPM 2.0.3 弹性组件中会出现“查询错误”。
+本版先保留稳定可执行的核心字段、OCR、业务属性和 Comment 分类。
+最后人工/最后BOT/Case最后事件应拆成独立组件验证后再逐步合并。
 */
 
 SELECT
@@ -56,52 +61,6 @@ SELECT
         ELSE '1次'
     END AS "报错次数区间",
 
-    last_manual."最后人工活动",
-
-    EXTRACT(YEAR FROM sys.epoch(last_manual."最后人工时间" / 1000))
-    || '-' ||
-    EXTRACT(MONTH FROM sys.epoch(last_manual."最后人工时间" / 1000))
-    || '-' ||
-    EXTRACT(DAY FROM sys.epoch(last_manual."最后人工时间" / 1000))
-    || ' ' ||
-    EXTRACT(HOUR FROM sys.epoch(last_manual."最后人工时间" / 1000))
-    || ':' ||
-    EXTRACT(MINUTE FROM sys.epoch(last_manual."最后人工时间" / 1000))
-    || ':' ||
-    CAST(EXTRACT(SECOND FROM sys.epoch(last_manual."最后人工时间" / 1000)) AS INTEGER)
-        AS "最后人工时间",
-
-    last_bot."最后机器人活动",
-
-    EXTRACT(YEAR FROM sys.epoch(last_bot."最后机器人时间" / 1000))
-    || '-' ||
-    EXTRACT(MONTH FROM sys.epoch(last_bot."最后机器人时间" / 1000))
-    || '-' ||
-    EXTRACT(DAY FROM sys.epoch(last_bot."最后机器人时间" / 1000))
-    || ' ' ||
-    EXTRACT(HOUR FROM sys.epoch(last_bot."最后机器人时间" / 1000))
-    || ':' ||
-    EXTRACT(MINUTE FROM sys.epoch(last_bot."最后机器人时间" / 1000))
-    || ':' ||
-    CAST(EXTRACT(SECOND FROM sys.epoch(last_bot."最后机器人时间" / 1000)) AS INTEGER)
-        AS "最后机器人时间",
-
-    last_case."Case最后活动",
-    last_case."Case最后角色",
-
-    EXTRACT(YEAR FROM sys.epoch(last_case."Case最后时间" / 1000))
-    || '-' ||
-    EXTRACT(MONTH FROM sys.epoch(last_case."Case最后时间" / 1000))
-    || '-' ||
-    EXTRACT(DAY FROM sys.epoch(last_case."Case最后时间" / 1000))
-    || ' ' ||
-    EXTRACT(HOUR FROM sys.epoch(last_case."Case最后时间" / 1000))
-    || ':' ||
-    EXTRACT(MINUTE FROM sys.epoch(last_case."Case最后时间" / 1000))
-    || ':' ||
-    CAST(EXTRACT(SECOND FROM sys.epoch(last_case."Case最后时间" / 1000)) AS INTEGER)
-        AS "Case最后时间",
-
     MAX(TRIM(attr.System)) AS "系统",
     MAX(TRIM(attr.OCRFeedback)) AS "OCR反馈",
     MAX(TRIM(attr.TrackerStatus)) AS "Tracker状态",
@@ -134,7 +93,7 @@ FROM (
       AND TRIM(e.ACTIVITY) = '录入中发生错误'
       AND recovery.HAS_MANUAL_TO_BOT = 1
       AND e.STARTTIME > recovery.FIRST_MANUAL_TIME
-      AND COALESCE(TRIM(scope_attr.System), '') <> 'DDD'
+      AND TRIM(scope_attr.System) <> 'DDD'
       AND TRIM(scope_attr.TrackerStatus) = '审批结束'
 
       AND TRIM(e.CASEID) IN (
@@ -151,94 +110,6 @@ FROM (
         TRIM(e.CASEID)
 ) result
 
-LEFT JOIN (
-    SELECT
-        manual_time.CASEID,
-        manual_time."最后人工时间",
-        MAX(TRIM(manual_event.ACTIVITY)) AS "最后人工活动"
-
-    FROM (
-        SELECT
-            TRIM(e1.CASEID) AS CASEID,
-            MAX(e1.STARTTIME) AS "最后人工时间"
-
-        FROM eventlog e1
-
-        WHERE TRIM(e1.ROLE) = 'MANUAL'
-
-        GROUP BY
-            TRIM(e1.CASEID)
-    ) manual_time
-
-    INNER JOIN eventlog manual_event
-        ON TRIM(manual_event.CASEID) = manual_time.CASEID
-       AND manual_event.STARTTIME = manual_time."最后人工时间"
-       AND TRIM(manual_event.ROLE) = 'MANUAL'
-
-    GROUP BY
-        manual_time.CASEID,
-        manual_time."最后人工时间"
-) last_manual
-    ON result.CASEID = last_manual.CASEID
-
-LEFT JOIN (
-    SELECT
-        bot_time.CASEID,
-        bot_time."最后机器人时间",
-        MAX(TRIM(bot_event.ACTIVITY)) AS "最后机器人活动"
-
-    FROM (
-        SELECT
-            TRIM(e2.CASEID) AS CASEID,
-            MAX(e2.STARTTIME) AS "最后机器人时间"
-
-        FROM eventlog e2
-
-        WHERE TRIM(e2.ROLE) = 'BOT'
-
-        GROUP BY
-            TRIM(e2.CASEID)
-    ) bot_time
-
-    INNER JOIN eventlog bot_event
-        ON TRIM(bot_event.CASEID) = bot_time.CASEID
-       AND bot_event.STARTTIME = bot_time."最后机器人时间"
-       AND TRIM(bot_event.ROLE) = 'BOT'
-
-    GROUP BY
-        bot_time.CASEID,
-        bot_time."最后机器人时间"
-) last_bot
-    ON result.CASEID = last_bot.CASEID
-
-LEFT JOIN (
-    SELECT
-        case_time.CASEID,
-        case_time."Case最后时间",
-        MAX(TRIM(case_event.ACTIVITY)) AS "Case最后活动",
-        MAX(TRIM(case_event.ROLE)) AS "Case最后角色"
-
-    FROM (
-        SELECT
-            TRIM(e3.CASEID) AS CASEID,
-            MAX(e3.STARTTIME) AS "Case最后时间"
-
-        FROM eventlog e3
-
-        GROUP BY
-            TRIM(e3.CASEID)
-    ) case_time
-
-    INNER JOIN eventlog case_event
-        ON TRIM(case_event.CASEID) = case_time.CASEID
-       AND case_event.STARTTIME = case_time."Case最后时间"
-
-    GROUP BY
-        case_time.CASEID,
-        case_time."Case最后时间"
-) last_case
-    ON result.CASEID = last_case.CASEID
-
 LEFT JOIN case_attributes_tbl_all attr
     ON result.CASEID = TRIM(attr.UUID)
 
@@ -249,14 +120,7 @@ GROUP BY
     result.CASEID,
     result."录入报错次数",
     result."第一次报错时间",
-    result."最后一次报错时间",
-    last_manual."最后人工活动",
-    last_manual."最后人工时间",
-    last_bot."最后机器人活动",
-    last_bot."最后机器人时间",
-    last_case."Case最后活动",
-    last_case."Case最后角色",
-    last_case."Case最后时间"
+    result."最后一次报错时间"
 
 ORDER BY
     result."录入报错次数" DESC;
