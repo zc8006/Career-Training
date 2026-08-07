@@ -14,21 +14,26 @@
 | Day 47 | Spring AOP、Bean 生命周期与循环依赖回炉 | [day47-spring-aop-bean-lifecycle.md](./day47-spring-aop-bean-lifecycle.md) |
 | Day 49 | Spring AOP、Spring Boot 启动流程与 Spring MVC 请求链路 | [day49-spring-aop-boot-mvc.md](./day49-spring-aop-boot-mvc.md) |
 | Day 50 | Spring AOP 注解、代理限制与事务回炉 | [day50-spring-aop-annotation-transaction.md](./day50-spring-aop-annotation-transaction.md) |
+| Day 51 | AOP 代理限制与 Spring MVC 全局异常处理 | [day51-aop-proxy-spring-mvc-exception.md](./day51-aop-proxy-spring-mvc-exception.md) |
 
-## Day51 必回炉
+## Day52 必回炉
 
 1. BeanPostProcessor
-2. Spring 三级缓存细节
-3. JoinPoint / ProceedingJoinPoint
-4. private 与 this 调用事务失效区别
-5. @Order 多切面顺序
-6. AOP 代理限制
+2. Spring 三级缓存
+3. JoinPoint 和 ProceedingJoinPoint
+4. private 方法与内部 this 调用失效区别
+5. `@Order` 执行顺序
+6. final 类和 final 方法为什么不能被 CGLIB 代理
+7. 全局异常处理的两个核心注解
+8. ControllerAdvice 和 RestControllerAdvice
+9. 局部与全局 ExceptionHandler 的生效范围
+10. 局部异常处理优先于全局异常处理
 
 ## 后续全覆盖台账
 
-1. Spring AOP 多切面顺序与 @Order
-2. Spring Boot 自动配置源码级流程
-3. Spring MVC 参数绑定、返回值处理、统一异常处理
+1. Spring Boot 自动配置源码级流程
+2. Spring MVC 参数绑定、消息转换器与返回值处理
+3. Spring MVC 拦截器、过滤器与统一响应
 4. MyBatis 执行链、缓存与插件机制
 
 ## 高频保命句总览
@@ -55,3 +60,10 @@
 20. JoinPoint 获取切点信息，ProceedingJoinPoint 通过 proceed() 执行目标方法。
 21. private 方法不能被代理增强，this 调用失效是因为没有经过代理对象。
 22. 普通 Exception 默认不回滚，需要 rollbackFor 指定。
+23. `@Order` 数字越小优先级越高，高优先级切面先进入、后退出。
+24. CGLIB 基于继承和方法重写，final 类不能继承，final 方法不能重写。
+25. RequestParam 取查询参数，PathVariable 取路径参数，RequestBody 取请求体。
+26. `RestController = Controller + ResponseBody`。
+27. 全局异常处理使用 `@RestControllerAdvice` 配合 `@ExceptionHandler`。
+28. Controller 内部的 ExceptionHandler 只处理当前 Controller，全局 Advice 可以处理多个 Controller。
+29. 局部 ExceptionHandler 通常优先于全局异常处理。
