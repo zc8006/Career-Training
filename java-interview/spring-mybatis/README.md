@@ -16,14 +16,17 @@
 | Day 50 | Spring AOP 注解、代理限制与事务回炉 | [day50-spring-aop-annotation-transaction.md](./day50-spring-aop-annotation-transaction.md) |
 | Day 51 | AOP 代理限制与 Spring MVC 全局异常处理 | [day51-aop-proxy-spring-mvc-exception.md](./day51-aop-proxy-spring-mvc-exception.md) |
 | Day 52 | Spring Boot 自动配置与自我成长模式 | [day52-spring-boot-auto-configuration.md](./day52-spring-boot-auto-configuration.md) |
+| Day 53 | Spring 回顾 + Java 集合基础 + 成长记录 | [day53-java-collection-spring-review.md](./day53-java-collection-spring-review.md) |
 
-## Day53 必回炉
+## Day54 必回炉
 
 1. BeanPostProcessor
 2. Spring 三级缓存
 3. JoinPoint / ProceedingJoinPoint
-4. Spring Boot 自动配置源码流程
-5. Conditional 条件装配
+4. Conditional 条件装配
+5. HashMap 源码细节
+6. ConcurrentHashMap 原理
+7. equals / hashCode 契约
 
 ## 自我成长模式
 
@@ -52,6 +55,9 @@
 2. Spring MVC 参数绑定、消息转换器与返回值处理
 3. Spring MVC 拦截器、过滤器与统一响应
 4. MyBatis 执行链、缓存与插件机制
+5. Java 集合源码
+6. JVM
+7. Java 并发编程
 
 ## 高频保命句总览
 
@@ -69,3 +75,5 @@
 12. DispatcherServlet 是 Spring MVC 请求入口。
 13. HandlerMapping 找 Controller，HandlerAdapter 调 Controller。
 14. 全局异常处理使用 RestControllerAdvice + ExceptionHandler。
+15. HashMap JDK8 是数组+链表+红黑树，树化是为了优化极端 hash 冲突查询性能。
+16. equals 相等的对象必须保证 hashCode 相等。
