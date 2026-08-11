@@ -1,6 +1,6 @@
 # Spring + Spring Boot + MyBatis 面试训练
 
-本目录用于记录 Java 面试训练中 Spring、Spring Boot、MyBatis 相关的高频题、保命句、错题回炉和每日背诵清单。
+本目录用于记录 Java 面试训练中 Spring、Spring Boot、MyBatis 相关的高频题、保命句、错题回炉和每日背诵清单。当前训练范围已逐步扩展到 Java 集合、JVM、并发等 Java 核心主题。
 
 ## 当前进度
 
@@ -17,20 +17,24 @@
 | Day 51 | AOP 代理限制与 Spring MVC 全局异常处理 | [day51-aop-proxy-spring-mvc-exception.md](./day51-aop-proxy-spring-mvc-exception.md) |
 | Day 52 | Spring Boot 自动配置与自我成长模式 | [day52-spring-boot-auto-configuration.md](./day52-spring-boot-auto-configuration.md) |
 | Day 53 | Spring 回顾 + Java 集合基础 + 成长记录 | [day53-java-collection-spring-review.md](./day53-java-collection-spring-review.md) |
+| Day 55 | Java 集合回炉 + JVM 入门 + 长期记忆策略 | [day55-java-collections-jvm.md](./day55-java-collections-jvm.md) |
 
-## Day54 必回炉
+## Day56 必回炉
 
-1. BeanPostProcessor
-2. Spring 三级缓存
-3. JoinPoint / ProceedingJoinPoint
-4. Conditional 条件装配
-5. HashMap 源码细节
-6. ConcurrentHashMap 原理
-7. equals / hashCode 契约
+1. `@ConditionalOnClass` / `@ConditionalOnMissingBean`
+2. ConcurrentHashMap：JDK7 Segment + ReentrantLock；JDK8 CAS + synchronized
+3. JVM 五大运行时内存区域
+4. 堆和栈的区别
+5. StackOverflowError
+6. OutOfMemoryError
+7. HashMap put 流程
+8. HashMap 树化 8 + 64
+9. Spring 三级缓存
+10. 历史高频随机题 1 道
 
 ## 自我成长模式
 
-后续训练不仅关注面试八股，还加入技术成长闭环：
+后续训练不仅关注面试八股，还加入技术成长闭环。
 
 ### 四层成长模型
 
@@ -48,6 +52,39 @@
 - 能否向别人讲清楚？
 
 目标：从背面试题，提升到工程能力。
+
+## 长期记忆机制（Day55 起）
+
+用户明确反馈：短期记忆不等于长期掌握，可能昨天会、过几天就忘。因此训练增加“间隔回炉 + 稳定度”机制。
+
+### 间隔回炉
+
+- 新题 / 错题：D+1 必回炉
+- D+1 答对：D+3 再抽查
+- D+3 答对：D+7 再抽查
+- D+7 答对：D+14 再抽查
+- 任意节点遗忘：立即降级，并重新从 D+1 开始
+
+### 每日 10 道回顾组成
+
+1. 最近 3 天错题 / 0 分题
+2. 最近 7 天会但不稳定的知识点
+3. 历史高频弱点随机抽查
+4. 已熟练题少量穿插，防止假性掌握
+
+### 掌握判定
+
+一次答对只表示“当前会”，不直接标记长期熟练。
+
+- 当天会：当前记忆
+- 次日会：短期稳定
+- 3 天后会：初步长期记忆
+- 7 天后会：较稳定
+- 14 天后会：长期稳定
+
+原则：
+
+> 训练目标不是“当天会”，而是“隔几天后，无提示仍然能说出来”。
 
 ## 后续全覆盖台账
 
@@ -77,3 +114,9 @@
 14. 全局异常处理使用 RestControllerAdvice + ExceptionHandler。
 15. HashMap JDK8 是数组+链表+红黑树，树化是为了优化极端 hash 冲突查询性能。
 16. equals 相等的对象必须保证 hashCode 相等。
+17. HashMap put：算 hash → 定位桶 → 判断冲突 → equals 比较 → 覆盖或插入 → 判断扩容。
+18. HashMap 树化：链表达到 8，容量达到 64；容量不足 64 先扩容。
+19. ConcurrentHashMap：JDK7 Segment + ReentrantLock；JDK8 无 Segment，CAS + synchronized。
+20. JVM 内存主要包括堆、虚拟机栈、程序计数器、本地方法栈和方法区。
+21. 对象主要在堆，方法执行信息主要在栈；堆共享，栈私有。
+22. 递归过深容易导致 StackOverflowError；内存无法继续分配可能导致 OutOfMemoryError。
