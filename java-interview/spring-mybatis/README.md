@@ -18,18 +18,19 @@
 | Day 52 | Spring Boot 自动配置与自我成长模式 | [day52-spring-boot-auto-configuration.md](./day52-spring-boot-auto-configuration.md) |
 | Day 53 | Spring 回顾 + Java 集合基础 + 成长记录 | [day53-java-collection-spring-review.md](./day53-java-collection-spring-review.md) |
 | Day 55 | Java 集合回炉 + JVM 入门 + 长期记忆策略 | [day55-java-collections-jvm.md](./day55-java-collections-jvm.md) |
+| Day 56 | JVM GC 基础 + 长期记忆复测 | [day56-jvm-gc-review.md](./day56-jvm-gc-review.md) |
 
-## Day56 必回炉
+## Day57 必回炉
 
-1. `@ConditionalOnClass` / `@ConditionalOnMissingBean`
-2. ConcurrentHashMap：JDK7 Segment + ReentrantLock；JDK8 CAS + synchronized
-3. JVM 五大运行时内存区域
-4. 堆和栈的区别
-5. StackOverflowError
-6. OutOfMemoryError
-7. HashMap put 流程
-8. HashMap 树化 8 + 64
-9. Spring 三级缓存
+1. StackOverflowError
+2. JVM 五大运行时内存区域
+3. GC Roots
+4. 强引用 / 软引用 / 弱引用 / 虚引用
+5. 标记清除 / 复制 / 标记整理 / 分代收集
+6. `@ConditionalOnClass` / `@ConditionalOnMissingBean`
+7. ConcurrentHashMap：JDK7 Segment + ReentrantLock；JDK8 CAS + synchronized
+8. Spring 三级缓存：二级缓存 = 早期 Bean 引用
+9. OutOfMemoryError
 10. 历史高频随机题 1 道
 
 ## 自我成长模式
@@ -86,6 +87,28 @@
 
 > 训练目标不是“当天会”，而是“隔几天后，无提示仍然能说出来”。
 
+## Day56 成长观察
+
+### 开始趋稳
+- HashMap put 主流程
+- HashMap 树化 8 + 64
+- MyBatis Mapper 动态代理
+
+### 有进步但术语未稳
+- ConcurrentHashMap：JDK7 / JDK8 边界已改善，`synchronized` 术语仍需强化
+- JVM 内存区域：从“堆、栈”进步到能说出程序计数器
+- 堆 vs 栈：从 0 分进步到能说主区别
+
+### 顽固错题
+- StackOverflowError：仍与 OOM 混淆
+- `@ConditionalOnClass`：仍未固定成“classpath 有类才生效”
+- Spring 二级缓存：仍习惯说“声明好的 Bean”，正确术语是“早期 Bean 引用”
+
+### JVM 新增弱点
+- GC Roots
+- 强 / 软 / 弱 / 虚引用
+- GC 基础算法
+
 ## 后续全覆盖台账
 
 1. Spring Boot 自动配置源码级流程
@@ -120,3 +143,7 @@
 20. JVM 内存主要包括堆、虚拟机栈、程序计数器、本地方法栈和方法区。
 21. 对象主要在堆，方法执行信息主要在栈；堆共享，栈私有。
 22. 递归过深容易导致 StackOverflowError；内存无法继续分配可能导致 OutOfMemoryError。
+23. GC 从 GC Roots 出发做可达性分析，不可达对象才可能被回收。
+24. GC Roots 先记：栈、静态、常量、Native。
+25. 强 > 软 > 弱 > 虚，引用保留能力逐渐减弱。
+26. GC 基础算法：标记清除、复制、标记整理、分代收集。
