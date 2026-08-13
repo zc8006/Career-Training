@@ -6,6 +6,7 @@ import argparse
 import py_compile
 import re
 import shutil
+import stat
 import subprocess
 import tempfile
 import zipfile
@@ -27,6 +28,26 @@ OVERRIDE_PATHS = [
     "writing-skills/SKILL.md",
     "mcp-builder/scripts/evaluation.py",
 ]
+
+
+def _safe_target(base: Path, member_name: str) -> Path:
+    member = Path(member_name)
+    if member.is_absolute() or ".." in member.parts:
+        raise SystemExit(f"Unsafe archive path: {member_name}")
+    base = base.resolve()
+    target = (base / member).resolve()
+    if target != base and base not in target.parents:
+        raise SystemExit(f"Unsafe archive path: {member_name}")
+    return target
+
+
+def safe_extract_zip(zf: zipfile.ZipFile, destination: Path) -> None:
+    for info in zf.infolist():
+        _safe_target(destination, info.filename)
+        mode = (info.external_attr >> 16) & 0o170000
+        if mode == stat.S_IFLNK:
+            raise SystemExit(f"Archive contains unsupported symlink: {info.filename}")
+    zf.extractall(destination)
 
 
 def locate_skills(root: Path) -> Path:
@@ -94,12 +115,21 @@ def clean(skills: Path) -> None:
     for pyc in skills.rglob("*.pyc"):
         pyc.unlink(missing_ok=True)
 
+    legacy_ref = skills / "writing-skills/anthropic-best-practices.md"
+    legacy_ref.unlink(missing_ok=True)
+
     fonts = skills / "canvas-design/canvas-fonts"
     if fonts.exists():
         shutil.rmtree(fonts)
     canvas = skills / "canvas-design/SKILL.md"
     if canvas.exists():
-        text = canvas.read_text(encoding="utf-8").replace("canvas-fonts/", "system-installed fonts / user-provided fonts")
+        text = canvas.read_text(encoding="utf-8")
+        text = text.replace(
+            "Search the `./canvas-fonts` directory.",
+            "Use system-installed fonts or user-provided/licensed fonts available in the environment.",
+        )
+        text = text.replace("`./canvas-fonts`", "system-installed or user-provided fonts")
+        text = text.replace("canvas-fonts/", "system-installed fonts / user-provided fonts")
         if "Bundled font binaries are intentionally not included" not in text:
             text += "\n\n## Codex portability note\n\nBundled font binaries are intentionally not included in this Codex distribution. Use system-installed fonts or user-provided/licensed fonts. Do not assume a font file exists inside the skill directory.\n"
         canvas.write_text(text, encoding="utf-8")
@@ -124,7 +154,7 @@ def validate(skills: Path) -> None:
         if not re.search(r"^description:\s*.+$", block, re.M):
             issues.append(f"{directory.name}: missing description")
 
-    blocker = re.compile(r"~/.claude|CLAUDE\.md|superpowers:|from anthropic|Anthropic\(|claude-[0-9]", re.I)
+    blocker = re.compile(r"~/.claude|CLAUDE\.md|superpowers:|from anthropic|Anthropic\(|claude-[0-9]|\./canvas-fonts", re.I)
     for path in skills.rglob("*"):
         if path.is_file() and path.suffix.lower() in TEXT_SUFFIXES:
             try:
@@ -132,7 +162,6 @@ def validate(skills: Path) -> None:
             except UnicodeDecodeError:
                 continue
             if blocker.search(text):
-                # Migration guidance may intentionally mention old names; active dependencies must not remain.
                 for line_no, line in enumerate(text.splitlines(), 1):
                     if blocker.search(line) and "migration example" not in line.lower():
                         issues.append(f"{path.relative_to(skills)}:{line_no}: stale dependency")
@@ -170,7 +199,7 @@ def main() -> None:
     with tempfile.TemporaryDirectory(prefix="codex-skills-build-") as tmp:
         tmp_path = Path(tmp)
         with zipfile.ZipFile(args.input_zip) as zf:
-            zf.extractall(tmp_path)
+            safe_extract_zip(zf, tmp_path)
         skills = locate_skills(tmp_path)
         rewrite_text(skills)
         copy_overrides(skills, script_dir)
