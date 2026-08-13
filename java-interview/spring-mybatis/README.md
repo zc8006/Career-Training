@@ -12,25 +12,26 @@
 | Day 44 | Spring 事务管理器、隔离级别与 private 方法事务失效 | [day44-spring-transaction-manager-private.md](./day44-spring-transaction-manager-private.md) |
 | Day 45 | Spring 事务管理器、异常捕获与手动回滚 | [day45-spring-transaction-manager-catch-rollback.md](./day45-spring-transaction-manager-catch-rollback.md) |
 | Day 47 | Spring AOP、Bean 生命周期与循环依赖回炉 | [day47-spring-aop-bean-lifecycle.md](./day47-spring-aop-bean-lifecycle.md) |
-| Day 49 | Spring AOP、Spring Boot 启动流程与 Spring MVC 请求链路 | [day49-spring-aop-boot-mvc.md](./day49-spring-aop-boot-mvc.md) |
+| Day 49 | Spring AOP、Spring Boot 启动流程与 Spring MVC 请求链路 | [day49-spring-aop-boot-mvc.md](./day49-spring-boot-mvc.md) |
 | Day 50 | Spring AOP 注解、代理限制与事务回炉 | [day50-spring-aop-annotation-transaction.md](./day50-spring-aop-annotation-transaction.md) |
 | Day 51 | AOP 代理限制与 Spring MVC 全局异常处理 | [day51-aop-proxy-spring-mvc-exception.md](./day51-aop-proxy-spring-mvc-exception.md) |
 | Day 52 | Spring Boot 自动配置与自我成长模式 | [day52-spring-boot-auto-configuration.md](./day52-spring-boot-auto-configuration.md) |
 | Day 53 | Spring 回顾 + Java 集合基础 + 成长记录 | [day53-java-collection-spring-review.md](./day53-java-collection-spring-review.md) |
 | Day 55 | Java 集合回炉 + JVM 入门 + 长期记忆策略 | [day55-java-collections-jvm.md](./day55-java-collections-jvm.md) |
 | Day 56 | JVM GC 基础 + 长期记忆复测 | [day56-jvm-gc-review.md](./day56-jvm-gc-review.md) |
+| Day 57 | JVM GC 间隔回炉 + Spring/并发复测 + 自我成长 | [day57-jvm-gc-spaced-review.md](./day57-jvm-gc-spaced-review.md) |
 
-## Day57 必回炉
+## Day58 必回炉
 
-1. StackOverflowError
-2. JVM 五大运行时内存区域
-3. GC Roots
-4. 强引用 / 软引用 / 弱引用 / 虚引用
-5. 标记清除 / 复制 / 标记整理 / 分代收集
-6. `@ConditionalOnClass` / `@ConditionalOnMissingBean`
-7. ConcurrentHashMap：JDK7 Segment + ReentrantLock；JDK8 CAS + synchronized
-8. Spring 三级缓存：二级缓存 = 早期 Bean 引用
-9. OutOfMemoryError
+1. GC Roots 常见有哪些
+2. 强引用 / 软引用 / 弱引用 / 虚引用
+3. 标记清除 / 复制 / 标记整理 / 分代收集
+4. Minor GC / Major GC / Full GC
+5. Eden / S0 / S1
+6. 对象晋升老年代条件
+7. JVM 五大运行时内存区域
+8. StackOverflowError vs OutOfMemoryError
+9. `@ConditionalOnClass` / `@ConditionalOnMissingBean` 延迟复测
 10. 历史高频随机题 1 道
 
 ## 自我成长模式
@@ -87,27 +88,29 @@
 
 > 训练目标不是“当天会”，而是“隔几天后，无提示仍然能说出来”。
 
-## Day56 成长观察
+## Day57 成长观察
 
-### 开始趋稳
-- HashMap put 主流程
-- HashMap 树化 8 + 64
-- MyBatis Mapper 动态代理
+### 已明显趋稳
+- Spring 事务失效：多轮无提示仍能完整回答，进入长期较稳定阶段
+- ConcurrentHashMap：JDK7 Segment + ReentrantLock；JDK8 CAS + synchronized，版本边界基本稳定
+- Spring 三级缓存：二级缓存终于能稳定说成“早期 Bean 引用”
+- `@ConditionalOnClass` / `@ConditionalOnMissingBean`：从持续答偏进步到基本完整
 
-### 有进步但术语未稳
-- ConcurrentHashMap：JDK7 / JDK8 边界已改善，`synchronized` 术语仍需强化
-- JVM 内存区域：从“堆、栈”进步到能说出程序计数器
-- 堆 vs 栈：从 0 分进步到能说主区别
+### 正在形成稳定记忆
+- StackOverflowError：已能从 OOM 中区分出来，并主动说出递归过深
+- 堆 vs 栈：能够说出对象在堆、方法执行信息在栈，继续强化“堆共享、栈私有”
 
-### 顽固错题
-- StackOverflowError：仍与 OOM 混淆
-- `@ConditionalOnClass`：仍未固定成“classpath 有类才生效”
-- Spring 二级缓存：仍习惯说“声明好的 Bean”，正确术语是“早期 Bean 引用”
+### 顽固弱点
+- GC Roots：Day56 学过，Day57 仍完全遗忘
+- 强 / 软 / 弱 / 虚引用：只能说出部分，大约处于“知道但不能完整输出”
+- GC 基础算法：只主动想起复制算法
+- JVM 五大运行时区域：本地方法栈、方法区仍容易漏掉
 
-### JVM 新增弱点
-- GC Roots
-- 强 / 软 / 弱 / 虚引用
-- GC 基础算法
+### Day57 新建立的 JVM 对象生命周期主线
+
+`新对象 → Eden → Minor GC → Survivor → 多次存活 → 晋升老年代`
+
+后续 JVM 训练优先沿着这条主线继续扩展，不再只记孤立八股。
 
 ## 后续全覆盖台账
 
@@ -147,3 +150,8 @@
 24. GC Roots 先记：栈、静态、常量、Native。
 25. 强 > 软 > 弱 > 虚，引用保留能力逐渐减弱。
 26. GC 基础算法：标记清除、复制、标记整理、分代收集。
+27. Minor GC 主要回收年轻代；Full GC 范围更大；Major GC 通常理解为老年代 GC。
+28. 年轻代 = Eden + S0 + S1。
+29. 年轻代对象死得快、活得少，所以适合复制算法。
+30. 对象在年轻代多次 GC 后仍存活，达到晋升条件时可能进入老年代。
+31. 事务失效本质看两件事：有没有经过代理，异常有没有正确抛出来。
