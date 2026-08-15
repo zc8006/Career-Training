@@ -20,18 +20,19 @@
 | Day 55 | Java 集合回炉 + JVM 入门 + 长期记忆策略 | [day55-java-collections-jvm.md](./day55-java-collections-jvm.md) |
 | Day 56 | JVM GC 基础 + 长期记忆复测 | [day56-jvm-gc-review.md](./day56-jvm-gc-review.md) |
 | Day 57 | JVM GC 间隔回炉 + Spring/并发复测 + 自我成长 | [day57-jvm-gc-spaced-review.md](./day57-jvm-gc-spaced-review.md) |
+| Day 58 | JVM 年轻代、Survivor、对象晋升与 GC 原理链路 | [day58-jvm-young-generation-review.md](./day58-jvm-young-generation-review.md) |
 
-## Day58 必回炉
+## Day59 必回炉
 
-1. GC Roots 常见有哪些
-2. 强引用 / 软引用 / 弱引用 / 虚引用
+1. GC Roots：补齐 Native / JNI
+2. 强引用 / 软引用 / 弱引用 / 虚引用，重点强引用和虚引用
 3. 标记清除 / 复制 / 标记整理 / 分代收集
-4. Minor GC / Major GC / Full GC
-5. Eden / S0 / S1
-6. 对象晋升老年代条件
-7. JVM 五大运行时内存区域
-8. StackOverflowError vs OutOfMemoryError
-9. `@ConditionalOnClass` / `@ConditionalOnMissingBean` 延迟复测
+4. JVM 五大运行时内存区域，重点本地方法栈、方法区
+5. 年轻代结构：Eden + S0 + S1
+6. Survivor 为什么需要两个区
+7. 新对象为什么通常先进入 Eden
+8. 对象实例与对象引用分别通常在哪里
+9. Minor GC vs Full GC
 10. 历史高频随机题 1 道
 
 ## 自我成长模式
@@ -88,29 +89,35 @@
 
 > 训练目标不是“当天会”，而是“隔几天后，无提示仍然能说出来”。
 
-## Day57 成长观察
+## Day58 成长观察
 
 ### 已明显趋稳
-- Spring 事务失效：多轮无提示仍能完整回答，进入长期较稳定阶段
-- ConcurrentHashMap：JDK7 Segment + ReentrantLock；JDK8 CAS + synchronized，版本边界基本稳定
-- Spring 三级缓存：二级缓存终于能稳定说成“早期 Bean 引用”
-- `@ConditionalOnClass` / `@ConditionalOnMissingBean`：从持续答偏进步到基本完整
+- StackOverflowError：已能无提示说出方法调用过深、无限递归，开始进入较稳定阶段
+- HashMap 树化：8 + 64 条件连续多轮答对，且知道容量不足 64 时先扩容
+- MyBatis `#{}` / `${}`：预编译参数绑定、JDBC 与 SQL 注入风险均能完整输出
+- 对象晋升老年代：Day57 新学，Day58 能主动说出“经历多次 GC、活得够久后晋升”
 
-### 正在形成稳定记忆
-- StackOverflowError：已能从 OOM 中区分出来，并主动说出递归过深
-- 堆 vs 栈：能够说出对象在堆、方法执行信息在栈，继续强化“堆共享、栈私有”
+### 正在从“知道”进入“理解”
+- 年轻代对象存活少，所以适合复制算法
+- 两个 Survivor 用于配合复制算法，在 S0 / S1 之间来回复制
+- 大多数新对象生命周期短，所以优先进入 Eden
+- 老年代存活对象多，复制大量对象的时间和空间成本高，因此不适合一直使用复制算法
+
+### 有进步但仍不稳定
+- GC Roots：从 Day57 完全遗忘进步到能主动说出栈、静态、常量，只漏 Native / JNI
+- Minor GC vs Full GC：已能说出 Minor GC 针对年轻代，但仍容易把 Full GC 简化成“老年代满了”
 
 ### 顽固弱点
-- GC Roots：Day56 学过，Day57 仍完全遗忘
-- 强 / 软 / 弱 / 虚引用：只能说出部分，大约处于“知道但不能完整输出”
-- GC 基础算法：只主动想起复制算法
-- JVM 五大运行时区域：本地方法栈、方法区仍容易漏掉
+- JVM 五大运行时区域：仍反复漏掉本地方法栈、方法区
+- 四种引用：软/弱方向较清楚，但强引用、虚引用仍会说反或说偏
+- GC 基础算法：只能主动想起复制法和模糊的“标记回收”
+- 年轻代结构：Eden + S0 + S1 在无提示情况下仍会遗忘，重置为 D+1
 
-### Day57 新建立的 JVM 对象生命周期主线
+### Day58 对象生命周期主线
 
-`新对象 → Eden → Minor GC → Survivor → 多次存活 → 晋升老年代`
+`new 对象 → Eden → Minor GC → Survivor → 多次存活 → 晋升老年代`
 
-后续 JVM 训练优先沿着这条主线继续扩展，不再只记孤立八股。
+后续 JVM 训练继续沿这条链路扩展，并逐步加入应用题，而不是把知识点拆成孤立八股。
 
 ## 后续全覆盖台账
 
@@ -155,3 +162,8 @@
 29. 年轻代对象死得快、活得少，所以适合复制算法。
 30. 对象在年轻代多次 GC 后仍存活，达到晋升条件时可能进入老年代。
 31. 事务失效本质看两件事：有没有经过代理，异常有没有正确抛出来。
+32. Eden 放新对象，Survivor 放 Minor GC 后仍存活的对象。
+33. 两个 Survivor 是为了配合复制算法，让存活对象在 S0 / S1 之间来回复制。
+34. 引用可以在栈，对象通常在堆；新对象一般先到 Eden。
+35. 大多数对象生命周期短，所以优先放年轻代，提高垃圾回收效率。
+36. 年轻代存活对象少，适合复制；老年代存活对象多，复制成本高。
