@@ -36,6 +36,7 @@ Java
 │   └── Day27.md                      # 当前进度模板
 └── Notes
     ├── Interview_Training_Rules.md   # 训练规则和节奏
+    ├── Fuzhou_Small_Company_Real_Interview.md # 福州小厂真实面经 1～3（含答案）
     └── MyBatis_SpringBoot_SpringBatch_Master.md
 ```
 
@@ -45,6 +46,13 @@ Java
 - Notes：按专题整理，比如 MyBatis、Spring Boot、Spring Batch、排查题
 - WrongAnswers：只放真正答错、说不稳、容易混的内容
 - Master：只放最后面试前要背的稳定答案，不堆流水账
+
+## 真实面经每日抽查
+
+- `Notes/Fuzhou_Small_Company_Real_Interview.md` 已整理三份福州小厂 Java 真实面经，共 30 道题并附面试口语版答案。
+- 每天从真实面经随机抽取 3～4 题，混入当天 8～10 道旧题回炉。
+- 至少覆盖 1 道 Java/Spring、1 道数据库/缓存、1 道项目表达。
+- B/C 题分别在之后 1 天、3 天、7 天重复抽查。
 
 ## 后续整理计划
 
