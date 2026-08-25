@@ -60,4 +60,4 @@ Java
 
 ## 后续整理计划
 
-目前已先整理可访问到的历史练习内容：Day 8～Day 12、MyBatis、Spring Boot 排查、Spring Batch、部分错题。Day 13～Day 27 的完整记录如果有本地文件或聊天内容，可以继续补到 `Daily` 和 `WrongAnswers`.
+目前已先整理可访问到的历史练习内容：Day 8～Day 12、MyBatis、Spring Boot 排查、Spring Batch、部分错题。Day 13～Day 27 的完整记录如果有本地文件或聊天内容，可以继续补到 `Daily` 和 `WrongAnswers`。
