@@ -7,6 +7,7 @@
 - 最新进度：Day 27
 - 当前主线：Java 基础、集合、并发、JVM、MySQL、MyBatis、Spring、Spring Boot、Redis、项目排查
 - 训练目标：不是单纯看完资料，而是把高频题练到能说出口、能接追问、能结合项目经验回答
+- 福州小厂专项：30 道原题已完成第一轮，当前进入独立回炉验证阶段
 
 ## 训练方法
 
@@ -37,6 +38,7 @@ Java
 └── Notes
     ├── Interview_Training_Rules.md   # 训练规则和节奏
     ├── Fuzhou_Small_Company_Real_Interview.md # 福州小厂真实面经 1～3（含答案）
+    ├── Fuzhou_Small_Company_Self_Growth.md    # 第一轮进度与自我成长模式
     └── MyBatis_SpringBoot_SpringBatch_Master.md
 ```
 
@@ -47,13 +49,15 @@ Java
 - WrongAnswers：只放真正答错、说不稳、容易混的内容
 - Master：只放最后面试前要背的稳定答案，不堆流水账
 
-## 真实面经每日抽查
+## 福州小厂真实面经专项
 
-- `Notes/Fuzhou_Small_Company_Real_Interview.md` 已整理三份福州小厂 Java 真实面经，共 30 道题并附面试口语版答案。
-- 每天从真实面经随机抽取 3～4 题，混入当天 8～10 道旧题回炉。
-- 至少覆盖 1 道 Java/Spring、1 道数据库/缓存、1 道项目表达。
+- `Notes/Fuzhou_Small_Company_Real_Interview.md`：三份福州小厂 Java 真实面经，共 30 道题及面试口语版答案。
+- `Notes/Fuzhou_Small_Company_Self_Growth.md`：第一轮训练情况、独立达标标准、B/C 回炉计划和实战扩展门槛。
+- 当前只做原题独立复测，一次一道，不提前显示答案。
+- 看答案后立即复述正确只算“引导通过”，不能直接记为稳定 A。
 - B/C 题分别在之后 1 天、3 天、7 天重复抽查。
+- 30 道全部独立达标后，才加入项目实战级追问；不问源码。
 
 ## 后续整理计划
 
-目前已先整理可访问到的历史练习内容：Day 8～Day 12、MyBatis、Spring Boot 排查、Spring Batch、部分错题。Day 13～Day 27 的完整记录如果有本地文件或聊天内容，可以继续补到 `Daily` 和 `WrongAnswers`。
+目前已先整理可访问到的历史练习内容：Day 8～Day 12、MyBatis、Spring Boot 排查、Spring Batch、部分错题。Day 13～Day 27 的完整记录如果有本地文件或聊天内容，可以继续补到 `Daily` 和 `WrongAnswers`.
