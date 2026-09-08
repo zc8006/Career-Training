@@ -14,14 +14,14 @@
 - 线上地址：https://meme-scout.zc8006.chatgpt.site
 - 托管：ChatGPT Sites（底层为 Cloudflare Worker）
 - 访问范围：仅站点所有者
-- 当前线上版本：v5
-- 新版源码提交：`1230913 Add fixed-IP GMGN snapshot pipeline`
-- 注意：新版源码已保存到 Sites 源码仓库，但尚未发布，因此线上仍是 v5
+- 当前线上版本：v7
+- 当前源码提交：`77b814a Support fingerprint-only collector pairing`
+- v7 已发布，D1 试运行数据库和候选结果跟踪接口已生效
 - 尚未镜像到独立的私有 GitHub 仓库
 
 ## 3. 已完成
 
-### 当前线上 v5
+### 当前线上 v7
 
 - 接入 DEX Screener 真实行情
 - 支持 SOL、BNB、BASE 筛选
@@ -30,7 +30,7 @@
 - Boost 推广提示、基础行情风险提示、观察池与合约地址复制
 - 明确显示未接入的数据源，避免把演示数据当成真实结论
 
-### 已完成但尚未发布的新版源码
+### 已上线的采集与试运行功能
 
 - 固定 IPv4 GMGN 只读采集器：`collector/gmgn-collector.mjs`
 - 默认每 5 分钟串行采集；最短间隔限制为 60 秒
@@ -55,7 +55,7 @@
 | 数据源 | 状态 | 用途 |
 |---|---|---|
 | DEX Screener | 已上线 | 候选发现与实时行情 |
-| GMGN | 采集与入库代码已完成，待 VPS 与新版发布 | 热门榜、安全字段、Holder、狙击/机器人/Bundler 指标 |
+| GMGN | v7 接口已上线，待 VPS 后台服务启动 | 热门榜、安全字段、Holder、狙击/机器人/Bundler 指标 |
 | GoPlus | 未接入 | 合约权限、蜜罐等安全检查 |
 | Moralis | 方案讨论过，未启用 | Holder 数量和变化交叉验证 |
 | Birdeye | 未接入 | Solana 新币发现 |
@@ -77,7 +77,7 @@ Windows 本地执行以下命令成功：
 npx.cmd --yes gmgn-cli market trending --chain sol --interval 1h --limit 1 --raw
 ```
 
-结论：GMGN API Key 与账号正常，问题是 Cloudflare 共享出口 IP。换 Cloudflare 域名或 Worker 无效；GitHub Actions 也不适合作为长期采集器。
+结论：GMGN API Key 与账号正常，问题是 Cloudflare 共享出口 IP。新加坡 Vultr VPS 已实测成功返回榜单；固定 IP 方案可用。真实响应为 `data.data.rank`，采集器已兼容。
 
 ## 6. 新版架构
 
@@ -94,7 +94,7 @@ Cloudflare Site 入库接口
   └─ DEX 实时行情 + 最新 GMGN 风险快照
 ```
 
-GMGN Key 只存在 VPS 环境变量中；站点只持有独立的入库 Token，不持有 GMGN Key。
+GMGN Key 和入库 Token 只存在 VPS 环境变量中；站点只保存入库 Token 的 SHA-256 指纹，不持有两个原始密钥。候选掉出 GMGN 热榜后仍由 DEX Screener 跟踪 48 小时。
 
 ## 7. GMGN 硬性风险闸门 v1
 
@@ -122,7 +122,7 @@ GMGN Key 只存在 VPS 环境变量中；站点只持有独立的入库 Token，
 - 不在截图、聊天、URL、前端代码或日志中暴露 Key
 - 不启用 GMGN 交易权限，不配置钱包私钥
 - VPS 使用 `GMGN_API_KEY` 与 `MEME_SCOUT_INGEST_TOKEN`
-- Site 使用同值的运行时密钥 `GMGN_INGEST_TOKEN`
+- Site 使用 Token 指纹 `GMGN_INGEST_TOKEN_SHA256`，原始 Token 不离开 VPS
 
 Windows 临时测试后清理：
 
@@ -133,14 +133,13 @@ Remove-Variable SecureKey,Ptr
 
 ## 9. 下一步（按顺序）
 
-1. 准备一台带固定公网 IPv4 的小型 VPS；优先先跑 Solana 单链。
-2. 生成一个新的长随机入库 Token，分别配置到 Site 与 VPS；不要发到聊天或 GitHub。
-3. 发布新版 Site，使 D1 迁移和入库接口生效。
-4. 在 VPS 上使用新的 GMGN 只读 Key，执行一次 `--once` 连通性测试。
-5. 单次测试成功后启用 systemd 服务，观察至少 24 小时的 429、匹配率和数据量。
-6. 根据真实样本校准硬性闸门，随后计算 Holder、成交、流动性变化速度与候选分。
-7. 再接 Birdeye、Moralis/GoPlus；最后接 Google Trends 与社媒作为叙事确认信号。
-8. 有条件时建立独立的 `meme-scout` 私有 GitHub 仓库并镜像完整源码。
+1. 在 VPS 生成独立的长随机入库 Token，并只提交 SHA-256 指纹给 Site。
+2. 从本仓库的 `Projects/meme-scout/collector/` 安装采集器、配置文件和 systemd 服务。
+3. 使用新的 GMGN 只读 Key 执行一次 `--once` 测试。
+4. 单次成功后启用 systemd，持续采集并跟踪候选币。
+5. 自动保存入选价格以及 1h、6h、24h 结果、最高涨幅和最大回撤。
+6. 至少积累 30 个完整 24h 样本后再展示试运行胜率并校准规则。
+7. 再接入 X 喊单质量、GoPlus 安全和 BTC/SOL/BNB 大趋势模型。
 
 ## 10. 重要边界
 
