@@ -1,0 +1,22 @@
+[Unit]
+Description=Meme Scout GMGN read-only collector
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=meme-scout
+Group=meme-scout
+WorkingDirectory=/opt/meme-scout
+EnvironmentFile=/etc/meme-scout/gmgn.env
+ExecStart=/usr/bin/node /opt/meme-scout/collector/gmgn-collector.mjs
+Restart=on-failure
+RestartSec=30
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/meme-scout
+
+[Install]
+WantedBy=multi-user.target
