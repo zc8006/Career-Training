@@ -1,0 +1,8 @@
+GMGN_API_KEY=replace-with-read-only-key
+MEME_SCOUT_INGEST_URL=https://meme-scout.zc8006.chatgpt.site/api/ingest/gmgn
+MEME_SCOUT_TRACKING_URL=https://meme-scout.zc8006.chatgpt.site/api/ingest/tracking
+MEME_SCOUT_INGEST_TOKEN=replace-with-long-random-secret
+GMGN_CHAINS=sol
+GMGN_INTERVAL_SECONDS=300
+GMGN_RESULT_LIMIT=50
+MEME_SCOUT_STATE_PATH=/var/lib/meme-scout/collector-state.json
