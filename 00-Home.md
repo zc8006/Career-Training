@@ -11,6 +11,12 @@ aliases:
 
 > 这是整个 Obsidian Vault 的入口。目标不是把资料“存起来”，而是把学习、项目、面试和职业能力连接起来。
 
+## 📘 Collaboration Rules
+
+- [[KNOWLEDGE_RULES|Zhou Knowledge Base 协作规则]]
+
+> 新窗口或任何“整理到知识库”的任务，优先以协作规则、相关 MOC、Master 和现有知识文件为准。
+
 ## 🎯 Current Focus
 
 - [[Java/Java_MOC|Java Backend & Interview]]
@@ -63,6 +69,7 @@ graph TD
 4. **MOC**：Map of Content，负责把相关知识连接起来。
 5. 每篇长期知识笔记尽量包含 `Related` 区域，至少连接 2 个相关主题。
 6. 不为了 Graph 好看而滥用标签，优先使用真正有意义的 `[[双链]]`。
+7. 详细规则以 [[KNOWLEDGE_RULES]] 为准。
 
 ## 🏷 Recommended Tags
 
