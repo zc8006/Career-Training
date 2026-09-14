@@ -1,5 +1,19 @@
 # Zhou Knowledge Base 协作规则 v1
 
+## 0. 唯一知识库根目录
+
+`Career-Training/Obsidian/` 是 Zhou Knowledge Base 的**唯一正式知识库根目录**。
+
+从本规则生效起：
+
+- 所有“整理到知识库”“继续 Zhou Knowledge Base”“更新 Master / Daily / WrongAnswers / MOC / Project”等操作，只允许写入 `Obsidian/` 目录及其子目录。
+- 仓库根目录中的 `Java/`、`Japanese/`、`MuleSoft/`、`PEGA/`、`Projects/` 等现有目录视为**历史资料 / 来源资料**，可以读取和迁移，但不再作为新的知识库写入目标。
+- 如旧窗口仍按旧路径更新，ChatGPT 应先停止直接写入旧目录，改为读取旧内容后，将整理结果写入 `Obsidian/` 对应位置。
+- 同一知识点不得同时维护“旧目录版”和“Obsidian 版”两份长期正文；正式版本以 `Obsidian/` 内文件为准。
+- 任何新聊天窗口在写入前，都必须先读取本文件，并确认目标路径以 `Obsidian/` 开头。
+
+> 简单规则：**以后知识库新增和更新，一律进 `Obsidian/`。**
+
 ## 1. 知识库定位
 
 `Zhou Knowledge Base` 是用户与 ChatGPT 共同长期维护的个人知识库。
@@ -12,17 +26,17 @@
 
 原则：
 
-> 内容最终以 GitHub 中的 Markdown 为准。Obsidian 负责展示，ChatGPT 负责协助维护。
+> 内容最终以 GitHub 中 `Obsidian/` 下的 Markdown 为准。Obsidian 负责展示，ChatGPT 负责协助维护。
 
 ## 2. 核心原则
 
 ### 2.1 先查再写
 
-新增任何知识之前，先检查知识库中是否已经存在相关内容。
+新增任何知识之前，先搜索 `Obsidian/` 中是否已经存在相关内容；必要时再读取仓库其他历史目录作为来源资料。
 
 优先级：
-1. 更新已有文件
-2. 补充已有 Master
+1. 更新 `Obsidian/` 已有文件
+2. 补充 `Obsidian/` 已有 Master
 3. 增加已有知识页内容
 4. 最后才创建新文件
 
@@ -52,13 +66,16 @@ MOC = Map of Content。只负责知识导航和关系，不堆大量正文。
 
 ## 4. 目录职责
 
+以下路径均相对于 `Obsidian/`：
+
 - `00-Home.md`：知识库总入口、当前重点、主要领域、项目和学习路线
-- `Java`：Java Core、Spring、Spring Boot、MyBatis、MySQL、Redis、JVM、并发、Interview
-- `Japanese`：会话、Shadowing、N2、Vocabulary、Grammar、面试日语、项目表达、WrongAnswers
-- `PEGA`：CPSA、官方知识点、英文关键词、Exam Notes、WrongAnswers
-- `MuleSoft`：基础、API Design、DataWeave、Error Handling、Integration、Migration、Certification、Project Experience
-- `Projects`：真实做过或正在做的项目
-- `01-Career`：简历、面试、自我介绍、项目表达、求职策略、技术面试准备
+- `Java/`：Java Core、Spring、Spring Boot、MyBatis、MySQL、Redis、JVM、并发、Interview
+- `Japanese/`：会话、Shadowing、N2、Vocabulary、Grammar、面试日语、项目表达、WrongAnswers
+- `PEGA/`：CPSA、官方知识点、英文关键词、Exam Notes、WrongAnswers
+- `MuleSoft/`：基础、API Design、DataWeave、Error Handling、Integration、Migration、Certification、Project Experience
+- `Projects/`：真实做过或正在做的项目
+- `01-Career/`：简历、面试、自我介绍、项目表达、求职策略、技术面试准备
+- `99-Templates/`：知识卡、Daily、Project 等模板
 
 ## 5. Daily → Knowledge 沉淀规则
 
@@ -109,16 +126,18 @@ MOC = Map of Content。只负责知识导航和关系，不堆大量正文。
 ## 9. ChatGPT 维护规则
 
 当用户说“整理到知识库”时，默认执行：
-1. 判断所属领域
-2. 搜索已有文件
-3. 判断属于 Daily / WrongAnswers / Master / Project
-4. 优先更新已有知识
-5. 避免重复创建
-6. 增加必要双链
-7. 更新相关 MOC
-8. 保持已有文件结构
-9. 不随意删除历史内容
-10. 提交 GitHub
+1. 先读取 `Obsidian/KNOWLEDGE_RULES.md`
+2. 判断所属领域
+3. 搜索 `Obsidian/` 已有文件
+4. 必要时读取旧目录中的来源资料
+5. 判断属于 Daily / WrongAnswers / Master / Project
+6. 优先更新已有知识
+7. 避免重复创建
+8. 增加必要双链
+9. 更新相关 MOC
+10. 所有写入路径必须位于 `Obsidian/`
+11. 不随意删除历史内容
+12. 提交 GitHub
 
 ## 10. 新聊天窗口规则
 
@@ -126,9 +145,9 @@ MOC = Map of Content。只负责知识导航和关系，不堆大量正文。
 - “继续 Zhou Knowledge Base”
 - “整理到知识库”
 
-ChatGPT 应优先查看 `KNOWLEDGE_RULES.md`，以及相关 MOC、Master 和已有知识文件。不能仅依赖聊天记忆判断目录和知识状态。
+ChatGPT 应优先查看 `Obsidian/KNOWLEDGE_RULES.md`，以及 `Obsidian/` 下相关 MOC、Master 和已有知识文件。不能仅依赖聊天记忆判断目录和知识状态。
 
-GitHub 中的内容优先于 ChatGPT 对过去聊天的记忆。
+GitHub `Obsidian/` 中的内容优先于 ChatGPT 对过去聊天的记忆，也优先于仓库旧目录中的历史版本。
 
 ## 11. 内容冲突规则
 
