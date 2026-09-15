@@ -9,7 +9,8 @@ tags:
 [[00-Home|← Home]]
 
 ## Certification
-- [[PEGACPSA25V1]]
+- [[PEGACPSA25V1/STUDY_RULES|PEGACPSA25V1 学习规则]]
+- [[PEGACPSA25V1/01-Low-code-defined|01 Low-code defined]]
 - [[PEGA System Architect]]
 - [[PEGA Exam English]]
 - [[PEGA Wrong Answers]]
