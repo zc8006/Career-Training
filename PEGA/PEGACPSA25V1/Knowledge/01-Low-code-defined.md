@@ -3,7 +3,7 @@
 > Certification: **Certified Pega System Architect '25**  
 > Exam: **PEGACPSA25V1**  
 > Source: Pega Academy — System Architect Mission / Low-code defined  
-> Status: **已完成第一轮学习 + 官方 5 题练习 + 复盘题**
+> Status: **已完成模块学习 + 官方 5 题 + 两轮复盘 + 考试风格巩固**
 
 ---
 
@@ -128,6 +128,7 @@ Pega low-code 的核心不是“完全不写代码”，而是：
 - background processing
 - operational health
 - technical administration
+- queue processors / 后台处理器监控
 
 典型用户：
 
@@ -139,6 +140,7 @@ Pega low-code 的核心不是“完全不写代码”，而是：
 - background processing
 - administration
 - operational health
+- system health
 
 ### 3.4 Prediction Studio
 
@@ -163,7 +165,9 @@ Pega low-code 的核心不是“完全不写代码”，而是：
 - analytics
 - business decisions
 
-> 当前薄弱点：容易把 **Prediction Studio** 和 **Dev Studio** 混淆，需要后续反复复习。
+当前仍需强化：
+
+> **Prediction Studio = 分析 / 预测 / 数据科学**，不要和 Dev Studio 或 App Studio 混淆。
 
 ---
 
@@ -185,15 +189,25 @@ Pega low-code 的核心不是“完全不写代码”，而是：
 > App Studio 使用更业务化、更易懂的名称。  
 > Dev Studio 暴露更底层、更技术化的 Rule 和配置。
 
+固定判断：
+
+> **能在 App Studio 完成，就优先 App Studio；只有高级/底层配置才进入 Dev Studio。**
+
 ---
 
 ## 5. Rule reuse 与 scope
 
 ### 5.1 reuse
 
-**reuse = 复用。**
+**reuse = 复用 / 再次使用。**
 
 一个 Process 不必只服务一个 Case Type，可以通过配置扩大使用范围，在更多 Case Type 或整个应用中复用。
+
+重要区分：
+
+> **reuse ≠ copy**
+
+复制意味着产生重复 Process；复用表示多个 Case Type 共享同一个已有 Process。
 
 ### 5.2 scope
 
@@ -209,6 +223,10 @@ Pega low-code 的核心不是“完全不写代码”，而是：
 
 > 创建普通业务流程 → App Studio  
 > 修改底层 Rule 的 scope → Dev Studio
+
+考试反射：
+
+> **reuse + more Case Types + no duplicate copies → increase / extend scope**
 
 ---
 
@@ -263,6 +281,7 @@ Pega 可以通过图形化方式将外部数据映射到应用中。
 | scope | 作用范围 |
 | extend / increase the scope | 扩大作用范围 |
 | reuse | 复用 |
+| duplicate copy | 重复副本 |
 | entire | 整个 |
 | underlying rule | 底层规则 |
 | analytics | 分析 |
@@ -274,10 +293,13 @@ Pega 可以通过图形化方式将外部数据映射到应用中。
 | background processing | 后台处理 |
 | operational health | 运行健康状态 |
 | predictive model | 预测模型 |
+| expose | 提供 / 暴露（功能、API、设置） |
+| not exposed in App Studio | App Studio 中没有开放出来 |
+| legacy system | 旧系统 |
 
 ---
 
-## 8. 本次错题与误区
+## 8. 错题与误区记录
 
 ### 错误 1：Prediction Studio 与 Admin Studio 混淆
 
@@ -332,9 +354,48 @@ Pega 可以通过图形化方式将外部数据映射到应用中。
 
 > analytics + predictive models + business decisions → Prediction Studio
 
-说明：
+### 错误 5：`reuse` 误选为“复制”
 
-> Prediction Studio 是当前本模块最需要重复复习的知识点。
+正确理解：
+
+> reuse = 复用 / 再次使用  
+> copy = 复制
+
+考试中看到多个 Case Type 需要使用同一个 Process，应优先考虑复用，而不是复制。
+
+### 错误 6：复用场景误选 Copy Process
+
+题型：
+
+> reuse the same Process in train and bus Case Types
+
+错误原因：
+
+- 从“能实现”的角度选了 copy，没有从 Pega 的 reuse / scope 设计思想判断。
+
+正确判断：
+
+> Increase the scope of the underlying Flow Rule in Dev Studio.
+
+### 错误 7：Prediction Studio 场景误选 App Studio
+
+题型：
+
+> analytics, predictive modeling, business decision support
+
+正确判断：
+
+> Prediction Studio
+
+### 错误 8：系统监控场景误选 App Studio
+
+题型：
+
+> monitor queue processors and review the operational status of the Pega environment
+
+正确判断：
+
+> Admin Studio
 
 ---
 
@@ -342,7 +403,7 @@ Pega 可以通过图形化方式将外部数据映射到应用中。
 
 本模块暴露出的主要问题不是 Pega 概念完全不会，而是：
 
-> 英文长句会影响对知识点的判断。
+> 英文长句和个别关键动词会影响知识点判断。
 
 后续固定采用：
 
@@ -369,49 +430,99 @@ Pega 可以通过图形化方式将外部数据映射到应用中。
 
 ---
 
-## 10. 当前掌握状态
+## 10. 2026-09-15 巩固结果
 
-### 已掌握
+### 第一轮 5 题
 
-- App Studio 与 Dev Studio 的基本区别
-- Admin Studio 的定位
-- low-code 与 traditional development 的基本区别
-- Rule reuse / scope 的基本概念
-- 有 API 与无 API 场景的基础判断
+结果：**5 / 5**
 
-### 需要加强
+说明：
 
-1. Prediction Studio 与 Dev Studio 的区分
-2. 英文长句拆解
-3. Pega 高频英文词的快速识别
-4. 看到否定词和限制条件时不要漏读
+- App Studio 已较稳定。
+- Dev Studio 已较稳定。
+- Prediction Studio 本轮答对。
+- Admin Studio 本轮答对。
+- Pega low-code 基本概念稳定。
+
+### 英文词汇专项 5 题
+
+结果：**4 / 5**
+
+错误：
+
+- `reuse` 误选为“复制”。
+
+结论：
+
+> `reuse = 复用` 需要继续随机复习。
+
+### 考试风格场景题 10 题
+
+主要错误：
+
+1. `reuse the same Process` 场景误选 Copy Process。
+2. `analytics / predictive modeling / business decision support` 误选 App Studio。
+3. `monitor queue processors / operational status` 误选 App Studio。
+
+后续重点：
+
+- Prediction Studio
+- Admin Studio
+- reuse ≠ copy
+- scope / underlying Rule
+
+---
+
+## 11. 当前掌握状态
+
+### 已基本掌握
+
+- App Studio 与 Dev Studio 的区别
+- App Studio 优先原则
+- Dev Studio 的高级配置定位
+- Admin Studio 基本定位
+- Prediction Studio 基本定位
+- low-code 与 traditional development 的区别
+- 有 API → Connector；无 API → RPA
+- scope / underlying Rule 的基本含义
+
+### 仍需随机复习
+
+1. Prediction Studio 场景识别
+2. Admin Studio 场景识别
+3. reuse 与 copy 的区别
+4. 英文长句中的限制条件
+5. Pega 高频英文词快速识别
 
 重点限制词：
 
 - without
 - not available
 - does not provide
+- not exposed
 - only
 - advanced
 
 ---
 
-## 11. 后续复习计划
+## 12. 后续复习策略
 
-后续随机插入旧题，重点复习：
+进入第二模块后，不再连续大量复习本模块，但会在新模块训练中随机插入旧题。
+
+优先随机抽查：
 
 - Prediction Studio
+- Admin Studio
+- reuse / scope
 - App Studio vs Dev Studio
-- `deal with`
-- `scope / underlying rule / reuse`
 - API vs RPA
 
-复习目标：
+目标：
 
-> 不依赖完整翻译，只抓关键词也能稳定判断。
+> 在没有提示、没有完整中文翻译的情况下，仍能通过关键词稳定判断。
 
 ---
 
-## 12. 一句话总结
+## 13. 一句话总结
 
-> **App 做业务，Dev 做高级技术，Admin 管运行，Prediction 做分析预测；先看懂英文限制条件，再判断 Studio。**
+> **App 做业务，Dev 做高级技术，Admin 管运行，Prediction 做分析预测；reuse 是复用不是复制，跨 Case Type 共享 Process 要想到 scope。**
