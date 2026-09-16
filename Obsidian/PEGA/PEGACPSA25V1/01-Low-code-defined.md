@@ -215,6 +215,22 @@ Pega 也可以通过 graphical mapping 把 external system 的数据映射进应
 4. scope / underlying Rule
 5. 英文长句限制条件
 
+## 2026-09-16 前两单元复习结果
+
+本次使用英文题进行复习。Unit 1 相关题目回答稳定，核心概念未出现新的高频错误。
+
+### 本次确认掌握
+
+- Low-code ≠ zero code。
+- Low-code 价值包括 visual tools、reusable components、faster development、business/technical collaboration。
+- `business users / app makers / low-code / visual development` → **App Studio**。
+- `advanced technical configuration` → **Dev Studio**。
+- App Studio 与 Dev Studio 可以配合使用：业务侧低代码配置 + 开发侧高级技术配置。
+
+### 当前判断
+
+> **Unit 1：通过。** 后续只需在综合题中随机复习，不再单独连续刷基础题。
+
 ## 一句话总结
 
 > **App 做业务，Dev 做高级技术，Admin 管运行，Prediction 做分析预测；先看懂英文限制条件，再判断 Studio。**
