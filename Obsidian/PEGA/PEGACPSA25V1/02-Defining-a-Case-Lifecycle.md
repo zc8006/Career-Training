@@ -41,8 +41,8 @@ Java 类比：`Case Type ≈ class`，`Case ≈ object instance`。
 | Stage type | 作用 | 考试判断词 |
 |---|---|---|
 | **Create Stage** | 用户录入创建 Case 所需的初始数据 | initial data / first stage |
-| **Primary Stage** | 正常业务处理路径 | usual Case processing / primary path |
-| **Alternate Stage** | 处理偏离正常主路径的情况 | deviation from the primary path / exception |
+| **Primary Stage** | 正常业务处理路径 | usual Case processing / primary path / normal path |
+| **Alternate Stage** | 处理偏离正常主路径的情况 | deviation from the primary path / exception / special path |
 | **Resolution Stage** | 定义 Case Lifecycle 结束时的处理 | end of the Case Lifecycle / resolve |
 
 快速判断：
@@ -90,9 +90,11 @@ Facilities 和 IT 可以同时准备，因此配置为 **Parallel Processes**。
 
 - `at the same time`
 - `simultaneously`
+- `in any order`
+- `independently`
 - `parallel`
 
-看到“同时进行”优先想到 **Parallel Processes**。
+看到“同时进行 / 独立完成 / 任意顺序”优先想到 **Parallel Processes**。
 
 ## 5. Stage transitions
 
@@ -162,7 +164,22 @@ Stage A → Stage B
 
 本模块曾出现一次 `Submit` 与 `Resolve` 混淆，后续需要随机复习。
 
-## 8. Multi-step Forms
+## 8. View 与 Assignment
+
+这两个概念需要和 Case Lifecycle 一起区分：
+
+- **View**：定义用户在屏幕上看到和输入的信息。
+- **Assignment**：表示分配给某个用户 / operator 完成的工作。
+
+考试反射：
+
+> `fields / screen / see / enter information` → **View**
+
+> `routed to / assigned to / must review / must complete` → **Assignment**
+
+不要把“用户看到的界面”和“用户要完成的工作”混为一类。
+
+## 9. Multi-step Forms
 
 ### 核心定义
 
@@ -222,7 +239,7 @@ Multi-step Forms 支持：
 
 关键词：`navigate back and forth = 前后移动`。
 
-## 9. Draft mode
+## 10. Draft mode
 
 ### 作用
 
@@ -257,7 +274,7 @@ Guardrails 是 Pega 的应用设计最佳实践约束 / 检查。
 - App Studio：保存时可自动关闭无错误 Process 的 draft mode。
 - Dev Studio：手动关闭 draft mode。
 
-## 10. 官方题暴露出的深层考点
+## 11. 官方题暴露出的深层考点
 
 本模块的重要经验：**认证知识不只存在于正文。**
 
@@ -274,7 +291,7 @@ Guardrails 是 Pega 的应用设计最佳实践约束 / 检查。
 
 不能只根据正文表面内容判断考试范围。
 
-## 11. 英文高频词
+## 12. 英文高频词
 
 | English | 中文 / 判断 |
 |---|---|
@@ -292,8 +309,13 @@ Guardrails 是 Pega 的应用设计最佳实践约束 / 检查。
 | previous | 上一个 / 前一个 |
 | parallel | 并行 |
 | at the same time | 同时 |
+| in any order | 任意顺序 |
+| independently | 独立地 |
 | deviation | 偏离 / 偏差 |
 | primary path | 主路径 / 正常路径 |
+| normal path | 正常路径 |
+| special path | 特殊路径 |
+| exception | 异常 / 例外 |
 | initial data | 初始数据 |
 | usual Case processing | 正常 Case 处理 |
 | single Assignment | 单个 Assignment |
@@ -301,15 +323,17 @@ Guardrails 是 Pega 的应用设计最佳实践约束 / 检查。
 | logical sequence | 逻辑顺序 |
 | concise | 简洁的 |
 | navigate back and forth | 前后导航 / 前后移动 |
+| routed to | 路由 / 分配给 |
+| assigned to | 分配给 |
 | draft mode | 草稿模式 |
 | run-time behavior | 运行时行为 |
 | configuration issues | 配置问题 |
 | guardrail violation | Guardrail 违规 / 最佳实践违规 |
 | production release | 生产发布 |
 
-## 12. 本模块错题与易混点
+## 13. 本模块错题与易混点
 
-### Stage 类型最初混淆
+### Stage 类型混淆
 
 曾将“第一个收集初始信息”的 Stage 选为 Alternate Stage。
 
@@ -323,13 +347,54 @@ Guardrails 是 Pega 的应用设计最佳实践约束 / 检查。
 
 > `deviation / exception / return to normal flow` → **Alternate Stage**
 
+2026-09-16 复习中再次出现：
+
+- `normal path` 题将 Primary Stage 误选为 Data object。
+- `special investigation path / fraud suspected` 将 Alternate Stage 误选为 Primary Stage。
+- `case is canceled because required information is missing` 的 Alternate Stage 场景误选为正常审批。
+
+固定反射：
+
+> **normal / usual / primary path → Primary Stage**
+
+> **exception / special / deviation / cancellation / investigation → Alternate Stage**
+
+### Stage / Process / Step 层级
+
+2026-09-16 复习中曾将 `Stage → Process → Step` 的关系选反。
+
+固定结构：
+
+```text
+Case
+└─ Stage
+   └─ Process
+      └─ Step
+```
+
+题干出现 `Stage contains several related tasks` 时，应优先判断这些相关工作属于 **Process**，不是 Alternate Stage。
+
 ### Parallel 不熟
 
 最初没有把 `at the same time` 与 Parallel Processes 建立直接联系。
 
+2026-09-16 复习中，`can be completed in any order` 曾误选为 Multi-step Form。
+
 固定反射：
 
-> `at the same time / simultaneously` → **Parallel Processes**
+> `at the same time / simultaneously / independently / in any order` → **Parallel Processes**
+
+> `back and forth between forms / multiple Views / one user` → **Multi-step Form**
+
+### View vs Assignment
+
+2026-09-16 复习中曾把“work that must be completed by a user or operator”误选为 Data object。
+
+固定判断：
+
+> **View = 用户看到 / 输入什么。**
+
+> **Assignment = 用户被分配了什么工作。**
 
 ### Submit vs Resolve
 
@@ -347,29 +412,63 @@ Guardrails 是 Pega 的应用设计最佳实践约束 / 检查。
 
 > **Draft mode 恰恰允许配置未完成时先运行 / 测试 Case Type。**
 
-## 13. 当前掌握情况
+## 14. 2026-09-16 复习与验证结果
 
-- Case Type / Case / Stage / Process / Step：已掌握基础结构。
+本次复习使用英文题，一次一道。
+
+### 前置复习暴露的主要问题
+
+1. `Stage → Process → Step` 层级偶尔会反。
+2. Primary Stage 与 Alternate Stage 仍会受场景措辞干扰。
+3. `in any order` 没有立即映射到 Parallel Processes。
+4. View 与 Assignment 在抽象定义题中曾混淆。
+
+### 5 道定向验证
+
+结果：**4 / 5**。
+
+唯一错误：
+
+- `If fraud is suspected, the case moves to a special investigation path.`
+- 错选：Primary Stage
+- 正确：**Alternate Stage**
+
+### 当前判断
+
+> **Unit 2：达到本轮过关标准，可以结束连续刷题。**
+
+但以下内容进入后续随机复习：
+
+1. Primary Stage vs Alternate Stage。
+2. `Stage → Process → Step`。
+3. Parallel Processes vs Multi-step Form。
+4. View vs Assignment。
+
+## 15. 当前掌握情况
+
+- Case Type / Case / Stage / Process / Step：基础结构已掌握，但层级需要随机抽查。
 - Case Lifecycle design：已掌握基本判断。
-- Stage type：已补齐 Create / Primary / Alternate / Resolution。
+- Stage type：已补齐 Create / Primary / Alternate / Resolution；**Primary vs Alternate 是当前重点**。
 - Stage transitions：基本掌握。
 - Change Stage：基本掌握。
-- Parallel Process：已理解，需随机复习英文关键词。
-- Multi-step Forms：5 题基础练习 **5/5**，官方场景题判断正确。
-- Draft mode：5 题练习 **4/5**，错误点为 draft mode 目的。
+- Parallel Process：已理解，需继续随机复习英文关键词。
+- View / Assignment：基本掌握，需场景混合题巩固。
+- Multi-step Forms：已掌握核心判断。
+- Draft mode：已理解，错误点已纠正。
 
-## 14. 后续随机复习重点
+## 16. 下一窗口衔接
 
-1. Create vs Alternate vs Resolution Stage。
-2. `deviation from the primary path` → Alternate Stage。
-3. `at the same time` → Parallel Processes。
-4. Submit vs Resolve。
-5. automatic Stage transition vs Change Stage。
-6. Multi-step Form：single user + single Assignment + multiple Views。
-7. Draft mode 的目的、Production 前关闭、Dev Studio 手动关闭。
+新窗口开始 PEGA 时：
 
-## 15. 一句话总结
+1. 先读取 `Obsidian/KNOWLEDGE_RULES.md`。
+2. 再读取 `Obsidian/PEGA/PEGA_MOC.md`。
+3. 再读取本目录的 `STUDY_RULES.md`、`01-Low-code-defined.md`、`02-Defining-a-Case-Lifecycle.md`。
+4. Unit 1 已通过；Unit 2 本轮验证 **4/5**，已通过，不再连续刷基础题。
+5. 后续进入下一个 Module / Topic；同时把上述 4 个易错点随机混入后续复习。
+6. 默认使用英文题，一次一道；解释使用中文，保留关键英文术语。
 
-> **Case Lifecycle 决定 Case 怎么从开始走到结束；Stage 定大阶段，Process 组织工作，Step 执行动作；Multi-step Form 用一个用户的多个 View 拆复杂 Assignment；Draft mode 让未完成配置先跑起来，但上线前必须清掉问题并关闭。**
+## 17. 一句话总结
+
+> **Case Lifecycle 决定 Case 怎么从开始走到结束；Stage 定大阶段，Process 组织工作，Step 执行动作；Primary 是正常路径，Alternate 是异常/特殊路径；Multi-step Form 强调单用户多 View，Parallel 强调独立任务可同时或任意顺序完成。**
 
 Related: [[01-Low-code-defined]] · [[STUDY_RULES]]
