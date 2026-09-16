@@ -254,6 +254,79 @@ Create User = email + role
 顺序题：Channel → Role → User → Assign Role
 ```
 
+---
+
+## 11. Role 专项记忆法
+
+Role 是本单元最容易和 Persona 混淆的概念，固定记住：
+
+> **Role = Channel + Permissions**
+
+中文可以记成：
+
+> **从哪里进去 + 能做什么**
+
+例如 Auditor Role：
+
+```text
+Auditor Role
+= Auditor 使用哪个 Channel
++ Auditor 拥有哪些 permissions
+```
+
+### 看到什么题干要想到 Role？
+
+如果题目同时强调：
+
+- different / new Channel interface
+- different / unique permissions
+
+优先想到：
+
+> **Create a new Role**
+
+### 和 Persona / User 对照记忆
+
+```text
+Persona = 哪一类人
+User    = 具体哪个人
+Role    = 通过什么入口 + 能做什么
+Channel = 从哪里进入系统
+```
+
+再记两组配置关系：
+
+```text
+Create Role = name + Channel
+Create User = email + Role
+```
+
+---
+
+## 12. 本次练习记录（2026-09-16）
+
+5 道复习题结果：**4 / 5**。
+
+唯一错题类型：
+
+> 公司招聘了第一个 Claims Reviewer，并且需要不同于现有用户的专用 UI。第一步做什么？
+
+错误选择：先创建 User。
+
+正确判断：
+
+> **first + 新用户类型 + specialized/different UI → 先创建 Persona**
+
+### 本次需要重点复习
+
+```text
+只是多一个人 → User
+第一次出现一种新用户类型 → Persona
+新的 Channel + permissions 组合 → Role
+```
+
+这三个判断以后随机混入复习题。
+
 ## 相关
 
 - [[STUDY_RULES]]
