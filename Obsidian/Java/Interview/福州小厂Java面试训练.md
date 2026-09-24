@@ -4,7 +4,7 @@ tags:
   - interview
   - review
 status: active
-updated: 2026-09-22
+updated: 2026-09-23
 ---
 
 # 福州小厂 Java 30 题训练进度
@@ -376,6 +376,33 @@ updated: 2026-09-22
 2. 实战回炉门槛已通过，可以安排新的常见项目场景；此前暂缓的 String、StringBuilder、StringBuffer 区别与选择可以纳入。
 3. 新一组实战题仍按“一次一道、整组全部 A 后再换新组”执行；只问正常面试和项目使用深度，不问源码。
 4. 如果换到新窗口，以本文件第十八轮结果和第十九轮计划继续，不重做第十八轮的四道实战回炉题。
+
+## 第十九轮（2026-09-23）
+
+### 结果
+
+| 类型 | 等级（首答） | 题目 | 主要表现 |
+| --- | --- | --- | --- |
+| 基础 | A | Redis 分布式锁 | SET NX PX、唯一值和 Lua 解锁正确；补充解锁时核对唯一值 |
+| 基础 | A | Java 创建线程 | Thread、Runnable、Callable/FutureTask、线程池完整 |
+| 基础 | A | Redis 使用场景 | 缓存、Token、分布式锁正确 |
+| 基础 | B | Java 集合 | List、Set 正确；误称 Map 一定无序，提示后纠正为键值对、key 唯一 |
+| 基础 | A | Spring AOP | 横切处理、JDK 接口代理与 CGLIB 类代理正确 |
+| 基础 | A | 事务四大特性 | ACID 四项及含义完整 |
+| 基础 | B | Spring Boot 常用注解 | 用途正确，初答写错 @Transactional 和 @Autowired；复述正确 |
+| 基础 | A | MySQL 慢 SQL 排查 | 慢日志、执行计划、索引失效、扫描行数、分页正确；分库分表应谨慎 |
+| 实战 | B | String、StringBuilder、StringBuffer 选择 | 区别正确，首答漏场景；提示后选对固定文本、单线程循环拼接、共享可变对象 |
+| 实战 | A | 多线程共享 Map | 选择 ConcurrentHashMap；应明确并发修改时 HashMap 不安全 |
+| 实战 | A | @Transactional 异常未回滚 | 独立说出异常被捕获、异常类型、自调用、private、手动 new 对象 |
+| 实战 | B | 联合索引与日期查询 | 首答 created_at = DATE(?) 只匹配零点；拆解后理解当天零点到次日零点的左闭右开范围 |
+
+汇总：基础首答 A 6、B 2、C 0；实战首答 A 2、B 2、C 0。B 项均在提示后完成理解或复述，不计为独立 A。
+
+### 第二十轮安排
+
+1. 基础继续从原30题随机抽8题，同轮不重复，一次一道。优先观察集合中的 Map 特点及注解拼写能否独立答对。
+2. 实战先回测本轮4题，重点是 String 三种类型的场景选择，以及日期条件使用 `status = ? AND created_at >= ? AND created_at < ?`，参数为当天零点和次日零点。
+3. 4道实战回测题全部独立达到 A 后，下一轮才引入新实战题。不问源码。
 
 ## Related
 
