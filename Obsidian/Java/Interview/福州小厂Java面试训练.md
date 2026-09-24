@@ -4,7 +4,7 @@ tags:
   - interview
   - review
 status: active
-updated: 2026-09-23
+updated: 2026-09-24
 ---
 
 # 福州小厂 Java 30 题训练进度
@@ -403,6 +403,33 @@ updated: 2026-09-23
 1. 基础继续从原30题随机抽8题，同轮不重复，一次一道。优先观察集合中的 Map 特点及注解拼写能否独立答对。
 2. 实战先回测本轮4题，重点是 String 三种类型的场景选择，以及日期条件使用 `status = ? AND created_at >= ? AND created_at < ?`，参数为当天零点和次日零点。
 3. 4道实战回测题全部独立达到 A 后，下一轮才引入新实战题。不问源码。
+
+## 第二十轮（2026-09-24）
+
+### 结果
+
+| 类型 | 等级（首答） | 题目 | 主要表现 |
+| --- | --- | --- | --- |
+| 基础 | C | MySQL 锁机制（原题23） | 首次不会；引导后能区分表锁与行锁，学习共享锁 `FOR SHARE`、排他锁 `FOR UPDATE`，下轮独立复测 |
+| 基础 | A | 项目介绍（原题10） | 说明 PHP REST/SOAP API 迁移至 MuleSoft、兼容要求及设计开发和单测职责 |
+| 基础 | A | 常用数据结构（原题15） | List 有序、Set 去重、Map 按键值查找更新；带场景可更完整 |
+| 基础 | A | Java 创建线程（原题6） | Thread、Runnable、Callable/FutureTask、线程池四种方式完整 |
+| 基础 | B | 项目架构（原题18） | 首答漏返回结果与后端关系；提示后按调用方→MuleSoft→后端→响应复述 |
+| 基础 | A | Spring Boot 常用注解（原题3） | @SpringBootApplication、@Autowired、@Service、@Transactional、@GetMapping、@PostMapping 名称和作用正确 |
+| 基础 | A | `==/equals/hashCode`（原题19） | 基本类型值、引用身份、Object 默认和 String 重写，以及相等对象哈希约定正确 |
+| 基础 | A | ArrayList/LinkedList（原题20） | 结构和通常选 ArrayList 正确；LinkedList 指定位置仍要定位，迭代器已定位时适合插删 |
+| 实战回测 | A | String、StringBuilder、StringBuffer | 固定少量文本、单线程循环拼接、多个线程共享修改同一对象的选择正确 |
+| 实战回测 | A | 多线程共享 Map | 选 ConcurrentHashMap；理由应说并发更新时 HashMap 不保证线程安全 |
+| 实战回测 | A | @Transactional 异常未回滚 | 异常类型、catch 吞异常、private、自调用、手动创建对象全部说出 |
+| 实战回测 | A | 联合索引与日期查询 | 独立写出 status 等值 + created_at 当天零点至次日零点的左闭右开范围；正式 SQL 日期字面量用完整年份与标准格式 |
+
+汇总：基础首答 A 6、B 1、C 1；实战回测 A 4、B 0、C 0。四道实战题全部独立达到 A，可以在下一轮换新实战题。
+
+### 第二十一轮安排
+
+1. 基础仍从原30题抽8题，同一轮不重复，一次一道；优先独立复测原题23的表锁/行锁、共享锁/排他锁，再复测项目架构的完整请求与返回流程。
+2. 实战可以换一组新的常见项目应用题，保持4题、一次一道、整组全部独立 A 后再换题；不追问源码。
+3. SQL 日期范围保持 `created_at >= 当天零点 AND created_at < 次日零点`；仅在自然复习时回测。
 
 ## Related
 
