@@ -4,8 +4,9 @@
 
 ## 当前进度
 
-- 最新进度：Day 27
+- 最新进度：Day 28
 - 当前主线：Java 基础、集合、并发、JVM、MySQL、MyBatis、Spring、Spring Boot、Redis、项目排查
+- 当前专项：Spring 高频题回炉、Redis 缓存与分布式锁
 - 训练目标：不是单纯看完资料，而是把高频题练到能说出口、能接追问、能结合项目经验回答
 
 ## 训练方法
@@ -33,7 +34,9 @@ Java
 ├── WrongAnswers_Collected.md         # 从历史训练中整理出来的错题资产
 ├── Daily
 │   ├── Day08-Day12.md                # 已整理的阶段训练记录
-│   └── Day27.md                      # 当前进度模板
+│   ├── Day12-Day26.md                # Day 12～26 阶段记录
+│   ├── Day27.md                      # Day 27 训练记录
+│   └── Day28.md                      # Spring 回炉与 Redis 专项
 └── Notes
     ├── Interview_Training_Rules.md   # 训练规则和节奏
     ├── Fuzhou_Small_Company_Real_Interview.md # 福州小厂真实面经 1～3（含答案）
@@ -46,6 +49,7 @@ Java
 - Notes：按专题整理，比如 MyBatis、Spring Boot、Spring Batch、排查题
 - WrongAnswers：只放真正答错、说不稳、容易混的内容
 - Master：只放最后面试前要背的稳定答案，不堆流水账
+- 未实际使用过的技术只写为学习方案或练习场景，不包装成真实项目经验
 
 ## 真实面经每日抽查
 
@@ -56,4 +60,10 @@ Java
 
 ## 后续整理计划
 
-目前已先整理可访问到的历史练习内容：Day 8～Day 12、MyBatis、Spring Boot 排查、Spring Batch、部分错题。Day 13～Day 27 的完整记录如果有本地文件或聊天内容，可以继续补到 `Daily` 和 `WrongAnswers`。
+目前已整理 Day 8～Day 28 的可访问训练内容。下一阶段优先回炉：
+
+1. `int` 与 `Integer` 默认值的适用范围。
+2. Spring Boot 自动配置完整口述。
+3. Redis 缓存穿透、击穿、雪崩及治理方案。
+4. 布隆过滤器的初始化、增量同步、误判与重建。
+5. Redis 分布式锁的超时、误删、续期和主从切换追问。
