@@ -10,7 +10,8 @@ tags:
 
 ## Core
 - [[Japanese_Training_Master|Japanese Training Master]]
-- [[WrongAnswers|Wrong Answers]]
+- [[Japanese/WrongAnswers|Wrong Answers]]
+- [[Japanese/Grammar/动词分类与ます形|动词分类与ます形]]
 
 ## Learning Areas
 - [[N2 Grammar]]
@@ -26,6 +27,9 @@ tags:
 - Conversation：自由会话记录
 - WrongAnswers：发音、助词、句型、词汇薄弱项
 - Master：稳定后的长期表达与核心规则
+
+## 动词变形练习记录
+- [[Japanese/Daily/2026-10-09-动词变形基础摸底|2026-10-09 基础摸底、错题与第14题续接点]]
 
 ## Career Connections
 - [[01-Career/Career_MOC|Career & Interview]]
