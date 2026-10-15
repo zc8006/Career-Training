@@ -1,0 +1,119 @@
+{
+  "sheet_index": 8,
+  "sheet_name": "区域划分",
+  "total_rows": 4,
+  "observed_row_numbers": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "missing_row_ranges": [],
+  "rows": [
+    {
+      "row_number": 1,
+      "cells": [
+        {
+          "column": 1,
+          "text": "国家",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "省份",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "区域",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 2,
+      "cells": [
+        {
+          "column": 1,
+          "text": "泰国",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Narathiwat",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Zone C",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 3,
+      "cells": [
+        {
+          "column": 1,
+          "text": "泰国",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Pattani",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Zone C",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 4,
+      "cells": [
+        {
+          "column": 1,
+          "text": "泰国",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Yala",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Zone C",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    }
+  ],
+  "scope": "rendered_cell_values_only"
+}

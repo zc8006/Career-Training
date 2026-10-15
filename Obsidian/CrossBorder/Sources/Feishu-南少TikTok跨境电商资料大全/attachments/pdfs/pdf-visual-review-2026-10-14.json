@@ -1,0 +1,420 @@
+{
+  "status": "passed",
+  "review_date": "2026-10-14",
+  "scope": "new PDFs 29-33 visual review; all 30 PDFs pixel integrity verified",
+  "pdf_count": 30,
+  "total_pages": 353,
+  "created_pdf_count": 5,
+  "new_pdf_pages": 27,
+  "cached_pdf_count": 25,
+  "cached_pdf_pages": 326,
+  "all_353_embedded_rgb_pixels_match_source_pngs": true,
+  "page_geometry_verified": true,
+  "render_engine": "Poppler pdftoppm",
+  "render_resolution_dpi": 120,
+  "reviewed_page_count": 9,
+  "reviewed_pages": [
+    {
+      "attachment_index": 29,
+      "page_number": 1,
+      "render_path": "D:\\project\\kuajing\\feishu-archive\\output\\pdf\\qa-render-2026-10-14\\29-page-001.png",
+      "render_size": [
+        993,
+        1402
+      ],
+      "view_image_inspected": true,
+      "status": "passed",
+      "notes": "Registration text, title, bottom browser screenshot and margins preserved without additional PDF clipping."
+    },
+    {
+      "attachment_index": 29,
+      "page_number": 10,
+      "render_path": "D:\\project\\kuajing\\feishu-archive\\output\\pdf\\qa-render-2026-10-14\\29-page-010.png",
+      "render_size": [
+        993,
+        1403
+      ],
+      "view_image_inspected": true,
+      "status": "passed",
+      "notes": "Embedded store registration screenshot, annotations and lower action button visible; full page preserved."
+    },
+    {
+      "attachment_index": 30,
+      "page_number": 1,
+      "render_path": "D:\\project\\kuajing\\feishu-archive\\output\\pdf\\qa-render-2026-10-14\\30-page-001.png",
+      "render_size": [
+        993,
+        1403
+      ],
+      "view_image_inspected": true,
+      "status": "passed",
+      "notes": "Two internal configuration screenshots and red annotations preserved in full."
+    },
+    {
+      "attachment_index": 30,
+      "page_number": 7,
+      "render_path": "D:\\project\\kuajing\\feishu-archive\\output\\pdf\\qa-render-2026-10-14\\30-page-007.png",
+      "render_size": [
+        993,
+        1403
+      ],
+      "view_image_inspected": true,
+      "status": "passed",
+      "notes": "Final bullet list, optimization checklist and weight formula legible and within page."
+    },
+    {
+      "attachment_index": 31,
+      "page_number": 1,
+      "render_path": "D:\\project\\kuajing\\feishu-archive\\output\\pdf\\qa-render-2026-10-14\\31-page-001.png",
+      "render_size": [
+        993,
+        1403
+      ],
+      "view_image_inspected": true,
+      "status": "passed",
+      "notes": "Five-column fulfillment flow illustration and accompanying body text preserved in full."
+    },
+    {
+      "attachment_index": 32,
+      "page_number": 1,
+      "render_path": "D:\\project\\kuajing\\feishu-archive\\output\\pdf\\qa-render-2026-10-14\\32-page-001.png",
+      "render_size": [
+        993,
+        1401
+      ],
+      "view_image_inspected": true,
+      "status": "passed",
+      "notes": "Settlement timeline screenshot and registration steps retain source layout."
+    },
+    {
+      "attachment_index": 32,
+      "page_number": 4,
+      "render_path": "D:\\project\\kuajing\\feishu-archive\\output\\pdf\\qa-render-2026-10-14\\32-page-004.png",
+      "render_size": [
+        993,
+        1403
+      ],
+      "view_image_inspected": true,
+      "status": "passed",
+      "notes": "Six-row payment workflow table, headers and final row intact."
+    },
+    {
+      "attachment_index": 33,
+      "page_number": 1,
+      "render_path": "D:\\project\\kuajing\\feishu-archive\\output\\pdf\\qa-render-2026-10-14\\33-page-001.png",
+      "render_size": [
+        993,
+        1403
+      ],
+      "view_image_inspected": true,
+      "status": "passed",
+      "notes": "Title, market summary table and category section preserve source page and aspect ratio."
+    },
+    {
+      "attachment_index": 33,
+      "page_number": 4,
+      "render_path": "D:\\project\\kuajing\\feishu-archive\\output\\pdf\\qa-render-2026-10-14\\33-page-004.png",
+      "render_size": [
+        993,
+        1403
+      ],
+      "view_image_inspected": true,
+      "status": "passed",
+      "notes": "Large-type final market notes preserve all paragraphs and margins."
+    }
+  ],
+  "new_pdfs": [
+    {
+      "attachment_index": 29,
+      "filename": "29-TikTok跨境小店注册流程-预览整理版.pdf",
+      "pages": 11,
+      "bytes": 2662706,
+      "sha256": "9faf5f1e426d15933676ba8d643d952fb5d5d0dc245fe0115bac7096b2fbb13a",
+      "scope": "preview_page_images_only",
+      "all_source_pixels_verified": true,
+      "path": "D:\\project\\kuajing\\feishu-archive\\output\\pdf\\29-TikTok跨境小店注册流程-预览整理版.pdf",
+      "source_png_dimensions": [
+        [
+          994,
+          1404
+        ],
+        [
+          716,
+          1011
+        ],
+        [
+          716,
+          1011
+        ],
+        [
+          716,
+          1011
+        ],
+        [
+          716,
+          1011
+        ],
+        [
+          716,
+          1011
+        ],
+        [
+          763,
+          1080
+        ],
+        [
+          764,
+          1080
+        ],
+        [
+          764,
+          1080
+        ],
+        [
+          764,
+          1080
+        ],
+        [
+          764,
+          1080
+        ]
+      ],
+      "pdf_media_boxes_pt": [
+        [
+          595.2756,
+          840.8118
+        ],
+        [
+          595.2756,
+          840.5358
+        ],
+        [
+          595.2756,
+          840.5358
+        ],
+        [
+          595.2756,
+          840.5358
+        ],
+        [
+          595.2756,
+          840.5358
+        ],
+        [
+          595.2756,
+          840.5358
+        ],
+        [
+          595.2756,
+          842.5919
+        ],
+        [
+          595.2756,
+          841.4891
+        ],
+        [
+          595.2756,
+          841.4891
+        ],
+        [
+          595.2756,
+          841.4891
+        ],
+        [
+          595.2756,
+          841.4891
+        ]
+      ]
+    },
+    {
+      "attachment_index": 30,
+      "filename": "30-TK产品采集上架优化设置-预览整理版.pdf",
+      "pages": 7,
+      "bytes": 1195465,
+      "sha256": "f111da2620913f5eb23227fd4c5c36b2304089411630db5b52befb9281ea136b",
+      "scope": "preview_page_images_only",
+      "all_source_pixels_verified": true,
+      "path": "D:\\project\\kuajing\\feishu-archive\\output\\pdf\\30-TK产品采集上架优化设置-预览整理版.pdf",
+      "source_png_dimensions": [
+        [
+          764,
+          1080
+        ],
+        [
+          764,
+          1080
+        ],
+        [
+          764,
+          1080
+        ],
+        [
+          764,
+          1080
+        ],
+        [
+          764,
+          1080
+        ],
+        [
+          764,
+          1080
+        ],
+        [
+          764,
+          1080
+        ]
+      ],
+      "pdf_media_boxes_pt": [
+        [
+          595.2756,
+          841.4891
+        ],
+        [
+          595.2756,
+          841.4891
+        ],
+        [
+          595.2756,
+          841.4891
+        ],
+        [
+          595.2756,
+          841.4891
+        ],
+        [
+          595.2756,
+          841.4891
+        ],
+        [
+          595.2756,
+          841.4891
+        ],
+        [
+          595.2756,
+          841.4891
+        ]
+      ]
+    },
+    {
+      "attachment_index": 31,
+      "filename": "31-跨境电商国内一件代发流程-预览整理版.pdf",
+      "pages": 1,
+      "bytes": 330104,
+      "sha256": "53bd1d54b95be6ace570ee89c0e96f21f826aca4eaa6234e9c80d47dd19f7f38",
+      "scope": "preview_page_images_only",
+      "all_source_pixels_verified": true,
+      "path": "D:\\project\\kuajing\\feishu-archive\\output\\pdf\\31-跨境电商国内一件代发流程-预览整理版.pdf",
+      "source_png_dimensions": [
+        [
+          764,
+          1080
+        ]
+      ],
+      "pdf_media_boxes_pt": [
+        [
+          595.2756,
+          841.4891
+        ]
+      ]
+    },
+    {
+      "attachment_index": 32,
+      "filename": "32-资金回款-预览整理版.pdf",
+      "pages": 4,
+      "bytes": 1001111,
+      "sha256": "833c261bc6825b9377b83c1a17a04ca1a318168ed3190c0718bcb402bf769a78",
+      "scope": "preview_page_images_only",
+      "all_source_pixels_verified": true,
+      "path": "D:\\project\\kuajing\\feishu-archive\\output\\pdf\\32-资金回款-预览整理版.pdf",
+      "source_png_dimensions": [
+        [
+          716,
+          1011
+        ],
+        [
+          716,
+          1011
+        ],
+        [
+          764,
+          1080
+        ],
+        [
+          764,
+          1080
+        ]
+      ],
+      "pdf_media_boxes_pt": [
+        [
+          595.2756,
+          840.5358
+        ],
+        [
+          595.2756,
+          840.5358
+        ],
+        [
+          595.2756,
+          841.4891
+        ],
+        [
+          595.2756,
+          841.4891
+        ]
+      ]
+    },
+    {
+      "attachment_index": 33,
+      "filename": "33-tiktok大盘数据分析-预览整理版.pdf",
+      "pages": 4,
+      "bytes": 580132,
+      "sha256": "4011cf9b7b7d92f952f60f4051b07c8c389a242c266b8e8c82f8432c8cb5d05f",
+      "scope": "preview_page_images_only",
+      "all_source_pixels_verified": true,
+      "path": "D:\\project\\kuajing\\feishu-archive\\output\\pdf\\33-tiktok大盘数据分析-预览整理版.pdf",
+      "source_png_dimensions": [
+        [
+          764,
+          1080
+        ],
+        [
+          764,
+          1080
+        ],
+        [
+          764,
+          1080
+        ],
+        [
+          764,
+          1080
+        ]
+      ],
+      "pdf_media_boxes_pt": [
+        [
+          595.2756,
+          841.4891
+        ],
+        [
+          595.2756,
+          841.4891
+        ],
+        [
+          595.2756,
+          841.4891
+        ],
+        [
+          595.2756,
+          841.4891
+        ]
+      ]
+    }
+  ],
+  "issues": [],
+  "reproduction_scope": "Preview page image archive; original files were not downloaded. PDF conversion preserves source preview resolution and appearance.",
+  "cached_25_sha256_unchanged": true,
+  "cached_25_mtime_unchanged": true,
+  "total_pdf_bytes": 53614472,
+  "independent_audit": "30 actual PDF page counts, 353 embedded RGB pixel hashes and dimensions, MediaBox aspect ratio, CropBox=MediaBox, Rotate=0 verified; issues=[]"
+}

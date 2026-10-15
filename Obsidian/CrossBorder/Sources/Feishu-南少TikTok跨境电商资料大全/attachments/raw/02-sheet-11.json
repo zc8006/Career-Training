@@ -1,0 +1,8840 @@
+{
+  "sheet_index": 11,
+  "sheet_name": "PH类目佣金",
+  "total_rows": 215,
+  "observed_row_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215
+  ],
+  "missing_row_ranges": [],
+  "rows": [
+    {
+      "row_number": 1,
+      "cells": [
+        {
+          "column": 1,
+          "text": "类目完整路径",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "一级类目",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "二级类目",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "Marketplace佣金",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "Mall佣金",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "官方来源",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 2,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Womenswear & Underwear > Women's Underwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Womenswear & Underwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Women's Underwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "https://seller-ph.tiktok.com/university/essay?knowledge_id=3157977859229442",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 3,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Womenswear & Underwear > Women's Tops",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Womenswear & Underwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Women's Tops",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 4,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Womenswear & Underwear > Women's Suits & Sets",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Womenswear & Underwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Women's Suits & Sets",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 5,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Womenswear & Underwear > Women's Special Clothing",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Womenswear & Underwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Women's Special Clothing",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 6,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Womenswear & Underwear > Women's Sleepwear & Loungewear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Womenswear & Underwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Women's Sleepwear & Loungewear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 7,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Womenswear & Underwear > Women's Dresses",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Womenswear & Underwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Women's Dresses",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 8,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Womenswear & Underwear > Women's Bottoms",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Womenswear & Underwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Women's Bottoms",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 9,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Toys & Hobbies > Sports & Outdoor Play",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Toys & Hobbies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Sports & Outdoor Play",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 10,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Toys & Hobbies > Musical Instruments & Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Toys & Hobbies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Musical Instruments & Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 11,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Toys & Hobbies > Games & Puzzles",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Toys & Hobbies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Games & Puzzles",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 12,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Toys & Hobbies > Electric & Remote Control Toys",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Toys & Hobbies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Electric & Remote Control Toys",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 13,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Toys & Hobbies > Educational Toys",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Toys & Hobbies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Educational Toys",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 14,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Toys & Hobbies > Dolls & Stuffed Toys",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Toys & Hobbies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Dolls & Stuffed Toys",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 15,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Toys & Hobbies > DIY",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Toys & Hobbies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "DIY",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 16,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Toys & Hobbies > Classic & Novelty Toys",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Toys & Hobbies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Classic & Novelty Toys",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 17,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Tools & Hardware > Tool Organizers",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Tools & Hardware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Tool Organizers",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "9.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 18,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Tools & Hardware > Soldering Equipment",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Tools & Hardware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Soldering Equipment",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "9.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 19,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Tools & Hardware > Pumps & Plumbing",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Tools & Hardware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Pumps & Plumbing",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "9.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 20,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Tools & Hardware > Power Tools",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Tools & Hardware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Power Tools",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "9.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 21,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Tools & Hardware > Measuring Tools",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Tools & Hardware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Measuring Tools",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "9.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 22,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Tools & Hardware > Hardware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Tools & Hardware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Hardware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "9.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 23,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Tools & Hardware > Hand Tools",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Tools & Hardware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Hand Tools",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "9.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 24,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Tools & Hardware > Garden Tools",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Tools & Hardware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Garden Tools",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "9.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 25,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Textiles & Soft Furnishings > Household Textiles",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Textiles & Soft Furnishings",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Household Textiles",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 26,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Textiles & Soft Furnishings > Fabrics & Sewing Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Textiles & Soft Furnishings",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Fabrics & Sewing Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 27,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Textiles & Soft Furnishings > Bedding and Linens",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Textiles & Soft Furnishings",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Bedding and Linens",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 28,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Sports & Outdoor > Winter Sports",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Sports & Outdoor",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Winter Sports",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 29,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Sports & Outdoor > Water Sports",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Sports & Outdoor",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Water Sports",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 30,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Sports & Outdoor > Swimwear, Surfwear & Wetsuits",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Sports & Outdoor",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Swimwear, Surfwear & Wetsuits",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 31,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Sports & Outdoor > Sports Footwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Sports & Outdoor",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Sports Footwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 32,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Sports & Outdoor > Sports & Outdoor Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Sports & Outdoor",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Sports & Outdoor Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 33,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Sports & Outdoor > Sport & Outdoor Clothing",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Sports & Outdoor",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Sport & Outdoor Clothing",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 34,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Sports & Outdoor > Leisure & Outdoor Recreation Equipment",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Sports & Outdoor",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Leisure & Outdoor Recreation Equipment",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 35,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Sports & Outdoor > Fitness",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Sports & Outdoor",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Fitness",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 36,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Sports & Outdoor > Fan Shop",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Sports & Outdoor",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Fan Shop",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 37,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Sports & Outdoor > Camping & Hiking",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Sports & Outdoor",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Camping & Hiking",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 38,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Sports & Outdoor > Ball Sports",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Sports & Outdoor",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Ball Sports",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 39,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Shoes > Women's Shoes",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Shoes",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Women's Shoes",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 40,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Shoes > Shoe Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Shoes",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Shoe Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 41,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Shoes > Men's Shoes",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Shoes",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Men's Shoes",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 42,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Pre-Owned > Womenswear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Pre-Owned",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Womenswear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "5.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "5.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 43,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Pre-Owned > Watches",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Pre-Owned",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Watches",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "5.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "5.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 44,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Pre-Owned > Refurbished Phones & Electronics",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Pre-Owned",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Refurbished Phones & Electronics",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "5.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "5.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 45,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Pre-Owned > Menswear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Pre-Owned",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Menswear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "5.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "5.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 46,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Pre-Owned > Luggage & Travel",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Pre-Owned",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Luggage & Travel",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "5.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "5.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 47,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Pre-Owned > Footwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Pre-Owned",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Footwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "5.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "5.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 48,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Pre-Owned > Fashion Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Pre-Owned",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Fashion Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "5.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "5.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 49,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Pre-Owned > Collectible Trading Cards",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Pre-Owned",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Collectible Trading Cards",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "5.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "5.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 50,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Pre-Owned > Bags",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Pre-Owned",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Bags",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "5.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "5.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 51,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Phones & Electronics > Universal Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Phones & Electronics",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Universal Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "5.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 52,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Phones & Electronics > Tablet & Computer Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Phones & Electronics",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Tablet & Computer Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "5.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 53,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Phones & Electronics > Smart & Wearable Devices",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Phones & Electronics",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Smart & Wearable Devices",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 54,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Phones & Electronics > Phones & Tablets",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Phones & Electronics",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Phones & Tablets",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 55,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Phones & Electronics > Mobile Phone Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Phones & Electronics",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Mobile Phone Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 56,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Phones & Electronics > Gaming & Consoles",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Phones & Electronics",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Gaming & Consoles",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 57,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Phones & Electronics > Education Devices",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Phones & Electronics",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Education Devices",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 58,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Phones & Electronics > Cameras & Photography",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Phones & Electronics",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Cameras & Photography",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 59,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Phones & Electronics > Audio & Video",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Phones & Electronics",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Audio & Video",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 60,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Pet Supplies > Small Animal Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Pet Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Small Animal Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 61,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Pet Supplies > Reptile & Amphibian Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Pet Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Reptile & Amphibian Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 62,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Pet Supplies > Fish & Aquatic Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Pet Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Fish & Aquatic Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 63,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Pet Supplies > Farm Animal & Poultry Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Pet Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Farm Animal & Poultry Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 64,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Pet Supplies > Dog & Cat Litter",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Pet Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Dog & Cat Litter",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 65,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Pet Supplies > Dog & Cat Healthcare",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Pet Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Dog & Cat Healthcare",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 66,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Pet Supplies > Dog & Cat Grooming",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Pet Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Dog & Cat Grooming",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 67,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Pet Supplies > Dog & Cat Furniture",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Pet Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Dog & Cat Furniture",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 68,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Pet Supplies > Dog & Cat Food",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Pet Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Dog & Cat Food",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 69,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Pet Supplies > Dog & Cat Clothing",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Pet Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Dog & Cat Clothing",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 70,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Pet Supplies > Dog & Cat Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Pet Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Dog & Cat Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 71,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Pet Supplies > Bird Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Pet Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Bird Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 72,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Muslim Fashion > Women's Islamic Clothing",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Muslim Fashion",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Women's Islamic Clothing",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 73,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Muslim Fashion > Umroh Equipment",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Muslim Fashion",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Umroh Equipment",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 74,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Muslim Fashion > Prayer Attire & Equipment",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Muslim Fashion",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Prayer Attire & Equipment",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 75,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Muslim Fashion > Outerwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Muslim Fashion",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Outerwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 76,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Muslim Fashion > Men's Islamic Clothing",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Muslim Fashion",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Men's Islamic Clothing",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 77,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Muslim Fashion > Kids' Islamic Clothing",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Muslim Fashion",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Kids' Islamic Clothing",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 78,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Muslim Fashion > Islamic Sportswear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Muslim Fashion",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Islamic Sportswear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 79,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Muslim Fashion > Islamic Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Muslim Fashion",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Islamic Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 80,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Muslim Fashion > Hijabs",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Muslim Fashion",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Hijabs",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 81,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Menswear & Underwear > Men's Underwear & Socks",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Menswear & Underwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Men's Underwear & Socks",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 82,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Menswear & Underwear > Men's Tops",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Menswear & Underwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Men's Tops",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 83,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Menswear & Underwear > Men's Suits & Sets",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Menswear & Underwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Men's Suits & Sets",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 84,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Menswear & Underwear > Men's Special Occasion Clothing",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Menswear & Underwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Men's Special Occasion Clothing",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 85,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Menswear & Underwear > Men's Sleepwear & Loungewear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Menswear & Underwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Men's Sleepwear & Loungewear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 86,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Menswear & Underwear > Men's Bottoms",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Menswear & Underwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Men's Bottoms",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 87,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Luggage & Bags > Women's Bags",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Luggage & Bags",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Women's Bags",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 88,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Luggage & Bags > Men's Bags",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Luggage & Bags",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Men's Bags",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 89,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Luggage & Bags > Luggage & Travel Bags",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Luggage & Bags",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Luggage & Travel Bags",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 90,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Luggage & Bags > Functional Bags",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Luggage & Bags",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Functional Bags",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 91,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Luggage & Bags > Bag Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Luggage & Bags",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Bag Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 92,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Kitchenware > Tea & Coffeeware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Kitchenware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Tea & Coffeeware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 93,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Kitchenware > Kitchen Utensils & Gadgets",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Kitchenware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Kitchen Utensils & Gadgets",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 94,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Kitchenware > Kitchen Knives",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Kitchenware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Kitchen Knives",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 95,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Kitchenware > Drinkware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Kitchenware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Drinkware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 96,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Kitchenware > Cutlery & Tableware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Kitchenware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Cutlery & Tableware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 97,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Kitchenware > Cookware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Kitchenware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Cookware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 98,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Kitchenware > Barbecue",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Kitchenware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Barbecue",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 99,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Kitchenware > Bar & Wine Utensils",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Kitchenware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Bar & Wine Utensils",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 100,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Kitchenware > Bakeware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Kitchenware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Bakeware",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 101,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Kids' Fashion > Kids' Fashion Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Kids' Fashion",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Kids' Fashion Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 102,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Kids' Fashion > Girls' Footwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Kids' Fashion",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Girls' Footwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 103,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Kids' Fashion > Girls' Clothes",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Kids' Fashion",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Girls' Clothes",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 104,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Kids' Fashion > Boys' Footwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Kids' Fashion",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Boys' Footwear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 105,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Kids' Fashion > Boys' Clothes",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Kids' Fashion",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Boys' Clothes",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 106,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Jewelry Accessories & Derivatives > Silver",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Jewelry Accessories & Derivatives",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Silver",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 107,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Jewelry Accessories & Derivatives > Semiprecious Stones",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Jewelry Accessories & Derivatives",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Semiprecious Stones",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 108,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Jewelry Accessories & Derivatives > Ruby, Sapphire & Emerald",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Jewelry Accessories & Derivatives",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Ruby, Sapphire & Emerald",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 109,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Jewelry Accessories & Derivatives > Platinum, Carat Gold",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Jewelry Accessories & Derivatives",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Platinum, Carat Gold",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 110,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Jewelry Accessories & Derivatives > Pearl",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Jewelry Accessories & Derivatives",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Pearl",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 111,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Jewelry Accessories & Derivatives > Non-natural Crystal",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Jewelry Accessories & Derivatives",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Non-natural Crystal",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 112,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Jewelry Accessories & Derivatives > Natural Crystal",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Jewelry Accessories & Derivatives",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Natural Crystal",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 113,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Jewelry Accessories & Derivatives > Mellite",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Jewelry Accessories & Derivatives",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Mellite",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 114,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Jewelry Accessories & Derivatives > Jade",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Jewelry Accessories & Derivatives",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Jade",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 115,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Jewelry Accessories & Derivatives > Gold",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Jewelry Accessories & Derivatives",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Gold",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 116,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Jewelry Accessories & Derivatives > Diamond",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Jewelry Accessories & Derivatives",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Diamond",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 117,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Jewelry Accessories & Derivatives > Artificial Gemstones",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Jewelry Accessories & Derivatives",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Artificial Gemstones",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 118,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Jewelry Accessories & Derivatives > Amber",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Jewelry Accessories & Derivatives",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Amber",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 119,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Household Appliances > Large Home Appliances",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Household Appliances",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Large Home Appliances",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "5.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "5.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 120,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Household Appliances > Kitchen Appliances",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Household Appliances",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Kitchen Appliances",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 121,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Household Appliances > Home Appliances",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Household Appliances",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Home Appliances",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 122,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Household Appliances > Commercial Appliances",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Household Appliances",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Commercial Appliances",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 123,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Home Supplies > Miscellaneous Home",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Home Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Miscellaneous Home",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 124,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Home Supplies > Laundry Tools & Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Home Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Laundry Tools & Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 125,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Home Supplies > Home Organizers",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Home Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Home Organizers",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 126,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Home Supplies > Home Decor",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Home Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Home Decor",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 127,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Home Supplies > Home Care Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Home Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Home Care Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 128,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Home Supplies > Festive & Party Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Home Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Festive & Party Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 129,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Home Supplies > Bathroom Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Home Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Bathroom Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 130,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Home Improvement > Solar & Wind Power",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Home Improvement",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Solar & Wind Power",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 131,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Home Improvement > Smart Home Systems",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Home Improvement",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Smart Home Systems",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 132,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Home Improvement > Security & Safety",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Home Improvement",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Security & Safety",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 133,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Home Improvement > Lights & Lighting",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Home Improvement",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Lights & Lighting",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 134,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Home Improvement > Kitchen Fixtures",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Home Improvement",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Kitchen Fixtures",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 135,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Home Improvement > Garden Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Home Improvement",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Garden Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 136,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Home Improvement > Electrical Equipment & Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Home Improvement",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Electrical Equipment & Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 137,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Home Improvement > Building Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Home Improvement",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Building Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 138,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Home Improvement > Bathroom Fixtures",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Home Improvement",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Bathroom Fixtures",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 139,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Health > Sexual Wellness",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Health",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Sexual Wellness",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 140,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Health > OTC Medications & Treatments",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Health",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "OTC Medications & Treatments",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 141,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Health > Nutrition & Wellness",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Health",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Nutrition & Wellness",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 142,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Health > Medical Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Health",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Medical Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 143,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Health > Alternative Medications & Treatments",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Health",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Alternative Medications & Treatments",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 144,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Furniture > Outdoor Furniture",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Furniture",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Outdoor Furniture",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 145,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Furniture > Indoor Furniture",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Furniture",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Indoor Furniture",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 146,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Furniture > Commercial Furniture",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Furniture",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Commercial Furniture",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 147,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Furniture > Children's Furniture",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Furniture",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Children's Furniture",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 148,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Food & Beverages > Staples & Cooking Essentials",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Food & Beverages",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Staples & Cooking Essentials",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "5.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 149,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Food & Beverages > Snacks",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Food & Beverages",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Snacks",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "5.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 150,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Food & Beverages > Pantry Food",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Food & Beverages",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Pantry Food",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "5.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 151,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Food & Beverages > Milk & Dairy",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Food & Beverages",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Milk & Dairy",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "5.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 152,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Food & Beverages > Fresh & Frozen Food",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Food & Beverages",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Fresh & Frozen Food",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "5.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 153,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Food & Beverages > Drinks",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Food & Beverages",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Drinks",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "5.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 154,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Food & Beverages > Baking",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Food & Beverages",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Baking",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "5.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 155,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Fashion Accessories > Hair Extensions & Wigs",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Fashion Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Hair Extensions & Wigs",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 156,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Fashion Accessories > Hair Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Fashion Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Hair Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 157,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Fashion Accessories > Fashion Watches & Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Fashion Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Fashion Watches & Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 158,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Fashion Accessories > Eyewear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Fashion Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Eyewear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 159,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Fashion Accessories > Dressmaking Fabrics",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Fashion Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Dressmaking Fabrics",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 160,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Fashion Accessories > Costume Jewelry & Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Fashion Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Costume Jewelry & Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 161,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Fashion Accessories > Clothes Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Fashion Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Clothes Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 162,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Computers & Office Equipment > Office Stationery & Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Computers & Office Equipment",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Office Stationery & Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 163,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Computers & Office Equipment > Office Equipment",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Computers & Office Equipment",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Office Equipment",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "5.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 164,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Computers & Office Equipment > Network Components",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Computers & Office Equipment",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Network Components",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "5.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 165,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Computers & Office Equipment > Desktop Computers, Laptops & Tablets",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Computers & Office Equipment",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Desktop Computers, Laptops & Tablets",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 166,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Computers & Office Equipment > Desktop & Laptop Components",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Computers & Office Equipment",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Desktop & Laptop Components",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 167,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Computers & Office Equipment > Data Storage & Software",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Computers & Office Equipment",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Data Storage & Software",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "5.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 168,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Computers & Office Equipment > Computer Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Computers & Office Equipment",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Computer Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "5.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 169,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Collectibles > Trading Cards & Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Collectibles",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Trading Cards & Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 170,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Collectibles > Sports Collectibles",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Collectibles",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Sports Collectibles",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 171,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Collectibles > Entertainment",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Collectibles",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Entertainment",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 172,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Collectibles > Cultural Items",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Collectibles",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Cultural Items",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 173,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Collectibles > Collectible Coins & Money",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Collectibles",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Collectible Coins & Money",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 174,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Books, Magazines & Audio > Video & Music",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Books, Magazines & Audio",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Video & Music",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 175,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Books, Magazines & Audio > Science & Technology",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Books, Magazines & Audio",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Science & Technology",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 176,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Books, Magazines & Audio > Magazines & Newspapers",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Books, Magazines & Audio",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Magazines & Newspapers",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 177,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Books, Magazines & Audio > Literature & Art",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Books, Magazines & Audio",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Literature & Art",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 178,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Books, Magazines & Audio > Lifestyle & Hobbies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Books, Magazines & Audio",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Lifestyle & Hobbies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 179,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Books, Magazines & Audio > Humanities & Social Sciences",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Books, Magazines & Audio",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Humanities & Social Sciences",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 180,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Books, Magazines & Audio > Education & Schooling",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Books, Magazines & Audio",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Education & Schooling",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 181,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Books, Magazines & Audio > Economics & Management",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Books, Magazines & Audio",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Economics & Management",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 182,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Books, Magazines & Audio > Children's & Infants' Books",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Books, Magazines & Audio",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Children's & Infants' Books",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 183,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Beauty & Personal Care > Special Personal Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Beauty & Personal Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Special Personal Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 184,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Beauty & Personal Care > Skincare",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Beauty & Personal Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Skincare",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 185,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Beauty & Personal Care > Personal Care Appliances",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Beauty & Personal Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Personal Care Appliances",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 186,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Beauty & Personal Care > Nasal & Oral Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Beauty & Personal Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Nasal & Oral Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 187,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Beauty & Personal Care > Men's Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Beauty & Personal Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Men's Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 188,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Beauty & Personal Care > Makeup",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Beauty & Personal Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Makeup",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 189,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Beauty & Personal Care > Hand, Foot & Nail Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Beauty & Personal Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Hand, Foot & Nail Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 190,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Beauty & Personal Care > Haircare & Styling",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Beauty & Personal Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Haircare & Styling",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 191,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Beauty & Personal Care > Fragrance",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Beauty & Personal Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Fragrance",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 192,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Beauty & Personal Care > Feminine Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Beauty & Personal Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Feminine Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 193,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Beauty & Personal Care > Eye & Ear Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Beauty & Personal Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Eye & Ear Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 194,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Beauty & Personal Care > Bath & Body Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Beauty & Personal Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Bath & Body Care",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 195,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Baby & Maternity > Nursing & Feeding",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Baby & Maternity",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Nursing & Feeding",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 196,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Baby & Maternity > Maternity Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Baby & Maternity",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Maternity Supplies",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 197,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Baby & Maternity > Formula Milk & Baby Food",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Baby & Maternity",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Formula Milk & Baby Food",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "5.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "5.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 198,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Baby & Maternity > Baby Travel Gear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Baby & Maternity",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Baby Travel Gear",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 199,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Baby & Maternity > Baby Toys",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Baby & Maternity",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Baby Toys",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 200,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Baby & Maternity > Baby Safety",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Baby & Maternity",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Baby Safety",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 201,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Baby & Maternity > Baby Furniture",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Baby & Maternity",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Baby Furniture",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 202,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Baby & Maternity > Baby Fashion Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Baby & Maternity",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Baby Fashion Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.000%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 203,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Baby & Maternity > Baby Clothing & Shoes",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Baby & Maternity",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Baby Clothing & Shoes",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 204,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Baby & Maternity > Baby Care & Health",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Baby & Maternity",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Baby Care & Health",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.300%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.600%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 205,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Automotive & Motorcycle > Quads, Motorhomes & Boats",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Automotive & Motorcycle",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Quads, Motorhomes & Boats",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "7.800%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 206,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Automotive & Motorcycle > Motorcycles",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Automotive & Motorcycle",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Motorcycles",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 207,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Automotive & Motorcycle > Motorcycle Parts",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Automotive & Motorcycle",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Motorcycle Parts",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 208,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Automotive & Motorcycle > Motorcycle Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Automotive & Motorcycle",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Motorcycle Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "7.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.700%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 209,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Automotive & Motorcycle > Car Washing & Maintenance",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Automotive & Motorcycle",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Car Washing & Maintenance",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 210,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Automotive & Motorcycle > Car Repair Tools",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Automotive & Motorcycle",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Car Repair Tools",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 211,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Automotive & Motorcycle > Car Lights",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Automotive & Motorcycle",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Car Lights",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 212,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Automotive & Motorcycle > Car Interior Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Automotive & Motorcycle",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Car Interior Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "6.900%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 213,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Automotive & Motorcycle > Car Exterior Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Automotive & Motorcycle",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Car Exterior Accessories",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.200%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.500%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 214,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Automotive & Motorcycle > Car Electronics",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Automotive & Motorcycle",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Car Electronics",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 215,
+      "cells": [
+        {
+          "column": 1,
+          "text": "Automotive & Motorcycle > Auto Replacement Parts",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Automotive & Motorcycle",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Auto Replacement Parts",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "8.400%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    }
+  ],
+  "scope": "rendered_cell_values_only"
+}

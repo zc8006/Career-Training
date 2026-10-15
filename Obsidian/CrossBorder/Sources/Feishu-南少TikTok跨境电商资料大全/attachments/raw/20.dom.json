@@ -1,0 +1,25 @@
+{
+  "filename": "TikTok Shop税务该如何添加.pdf",
+  "total_pages": 2,
+  "pages": [
+    {
+      "loaded": true,
+      "page_number": 1,
+      "text": "TikTok\u0001Shop税务该如何添加\u0001添加税务信息•只能填英文：基本信息-名称\u0001•按照实际情况填写：基本信息-受益所有人类型-企业或组织所在国家/地区-邮箱地址-永久居住地址\u0001•按照实际情况填写即可•文件预览：需要PDF格式\u0001",
+      "source_file": "20-dom.json",
+      "image_only": false
+    },
+    {
+      "loaded": true,
+      "page_number": 2,
+      "text": "",
+      "source_file": "20-dom.json",
+      "image_only": false
+    }
+  ],
+  "derived_archive_record": true,
+  "source_files": [
+    "20-dom.json"
+  ],
+  "selection_policy": "prefer_explicit_dom_pages; one_longest_record_per_same_page"
+}

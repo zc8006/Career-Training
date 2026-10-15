@@ -1,0 +1,306 @@
+- button:
+- button:
+- heading "飞书云文档" [level=1]
+- generic: 南
+- generic: 南少Tiktok跨境电商资料大全
+- generic: 企业公开
+- button "目录（暂无内容）":
+  - generic: 目录（暂无内容）
+- button "与我分享":
+  - generic: 与我分享
+- list:
+  - button "南少TikTok跨境电商资料大全":
+    - generic: 南少TikTok跨境电商资料大全
+- generic: 用户061619的组织
+- paragraph:
+  - generic: 南少TikTok跨境电商资料大全
+- paragraph: 最新修改时间为10月08日
+- button "登录/注册"
+- button:
+- heading "南少TikTok跨境电商资料大全" [level=1]:
+  - generic: 南少TikTok跨境电商资料大全
+- generic: 昨天修改
+- generic: 您好，我是南少
+- generic: 一个有超过10年电商实战经验的创业者
+- generic: 三家电商公司老板，百人专业运营交付团队
+- generic: 抖音小店孵化学员2w+，累计GMV超2亿
+- generic: 2023投入TK跨境电商，自营店铺超百家
+- generic: 美国自营店铺做到行业类目TOP1
+- generic: TK跨境孵化学员5000+，累计GMV超1000w美元
+- generic: 我可提供（店铺软件都是自己在使用的靠谱推荐）：
+- generic: "1: 跨境线上陪跑线下学习"
+- generic: 2:商务合作 供应链对接
+- generic: "3: 软件工具箱 资源对接"
+- generic: 4:店铺 TK账号 网络对接
+- generic: "5: 跨境答疑 跨境资料（免费）"
+- generic: 6:店铺注册 选品采集 运营店铺
+- generic: 7：执照代办 代下流水 跨境买店
+- generic: 跨境工具推荐.xlsx
+- generic: 16.22KB
+- generic: TK东南亚核算利润表_全类目最终版.xlsx
+- generic: 1.09MB
+- generic: 东南亚跨境物流运费价格表20260515(1).xlsx
+- generic: 845.55KB
+- generic: 货叮咚ERP教程（Toktik）新_20260701135132.pdf
+- generic: 5.09MB
+- generic: tiktok账号搭建注册.doc
+- generic: 2.03MB
+- generic: TEMU采集选品.doc
+- generic: 6.68MB
+- generic: TikTok采集选品.doc
+- generic: 2.79MB
+- generic: 店铺营销活动.doc
+- generic: 2.15MB
+- generic: TikTok Shop × Gemini 深度选品 SOP(3).docx
+- generic: 1.35MB
+- generic: 什么是TikTok跨境电商？.docx
+- generic: 19.64KB
+- generic: 个人简介.docx
+- generic: 3.76MB
+- generic: TikTok 商家必读：Gemini 3 Pro 提示词大全.docx
+- generic: 7.00MB
+- generic: Gemini 3 Pro精准分析GMVMax 广告数据_与素材迭代（2026年3月）.docx
+- generic: 1.64MB
+- generic: TikTok运营实战文档：Gemini 3 Pro & GMVMax 深度融合应用.docx
+- generic: 2.32MB
+- generic: 【0328TK】TIKTOK揭秘内容营销 3 大真相.docx
+- generic: 3.04MB
+- generic: TikTok网红达人营销：全套达人建联技巧+话术策略方案以及团队SOP落地流程 .pdf
+- generic: 1.21MB
+- generic: TTS 24小时回复率解读.pdf
+- generic: 2.31MB
+- generic: TTS 维护店铺评分.pdf
+- generic: 3.98MB
+- generic: 最全TikTok常见术语汇总.pdf
+- generic: 439.07KB
+- generic: TikTok Shop税务该如何添加.pdf
+- generic: 183.27KB
+- generic: TikTok Shop如何绑定TikTok账号？.pdf
+- generic: 1.21MB
+- generic: TIKTOK SHOP 如何缴纳保证金？.pdf
+- generic: 277.90KB
+- generic: 账号注册绑定和账号装修 .pdf
+- generic: 7.37MB
+- generic: 区域市场分析.pdf
+- generic: 1.25MB
+- generic: TikTok 达人合作精细化 SOP.pdf
+- generic: 243.71KB
+- generic: TikTok Shop如何设置店铺客服？.pdf
+- generic: 2.47MB
+- generic: TikTok Shop流量入口分类.pdf
+- generic: 28.40MB
+- generic: TikTok Shop Tab(商城).pdf
+- generic: 10.18MB
+- generic: 评论（0）
+- button:
+- menu:
+  - menuitem "帮助中心":
+    - generic: 帮助中心
+  - menuitem "快捷键":
+    - generic: 快捷键
+- dialog:
+  - button "退出":
+    - generic: 退出
+  - generic: 东南亚跨境物流运费价格表20260515(1).xlsx
+  - generic: 845.55 KB
+  - iframe:
+    - generic: A
+    - generic: B
+    - generic: C
+    - generic: D
+    - generic: E
+    - generic: F
+    - generic: G
+    - generic: H
+    - generic: I
+    - generic: J
+    - generic: K
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "10"
+    - generic: "11"
+    - generic: "12"
+    - generic: "13"
+    - generic: "14"
+    - generic: "15"
+    - generic: "16"
+    - table:
+      - rowgroup:
+        - row "国家 地区 渠道 币种 跨境物流成本 买家支付运费 卖家支付运费=跨境物流成本+买家支付运费":
+          - cell "国家"
+          - cell "地区"
+          - cell "渠道"
+          - cell "币种"
+          - cell "跨境物流成本"
+          - cell "买家支付运费"
+          - cell "卖家支付运费=跨境物流成本+买家支付运费"
+        - row "起重重量 (g) 起重价格 续重价格（每10g） 起重重量 (g) 起重价格 续重价格（每10g）":
+          - cell "起重重量 (g)"
+          - cell "起重价格"
+          - cell "续重价格（每10g）"
+          - cell "起重重量 (g)"
+          - cell "起重价格"
+          - cell "续重价格（每10g）"
+        - row "泰国 Zone A Standard THB 10 1 1 23 10 24 1":
+          - cell "泰国"
+          - cell "Zone A"
+          - cell "Standard"
+          - cell "THB"
+          - cell "10"
+          - cell "1"
+          - cell "1"
+          - cell "23"
+          - cell "10"
+          - cell "24"
+          - cell "1"
+        - row "Zone B 10 1 1 36 10 37 1":
+          - cell "Zone B"
+          - cell "10"
+          - cell "1"
+          - cell "1"
+          - cell "36"
+          - cell "10"
+          - cell "37"
+          - cell "1"
+        - row "Zone C 10 1 1 79 10 80 1":
+          - cell "Zone C"
+          - cell "10"
+          - cell "1"
+          - cell "1"
+          - cell "79"
+          - cell "10"
+          - cell "80"
+          - cell "1"
+        - row "越南 Zone A Economy VND 10 10,900 900 15,000 10 25,900 900":
+          - cell "越南"
+          - cell "Zone A"
+          - cell "Economy"
+          - cell "VND"
+          - cell "10"
+          - cell "10,900"
+          - cell "900"
+          - cell "15,000"
+          - cell "10"
+          - cell "25,900"
+          - cell "900"
+        - row "Zone B 10 10,900 900 17,000 10 27,900 900":
+          - cell "Zone B"
+          - cell "10"
+          - cell "10,900"
+          - cell "900"
+          - cell "17,000"
+          - cell "10"
+          - cell "27,900"
+          - cell "900"
+        - row "Zone C 10 10,900 900 17,000 10 27,900 900":
+          - cell "Zone C"
+          - cell "10"
+          - cell "10,900"
+          - cell "900"
+          - cell "17,000"
+          - cell "10"
+          - cell "27,900"
+          - cell "900"
+        - row "Zone D 10 10,900 900 30,000 10 40,900 900":
+          - cell "Zone D"
+          - cell "10"
+          - cell "10,900"
+          - cell "900"
+          - cell "30,000"
+          - cell "10"
+          - cell "40,900"
+          - cell "900"
+        - row "马来西亚 西马 Standard MYR 10 0.15 0.15 2.90 10 3.05 0.15":
+          - cell "马来西亚"
+          - cell "西马"
+          - cell "Standard"
+          - cell "MYR"
+          - cell "10"
+          - cell "0.15"
+          - cell "0.15"
+          - cell "2.90"
+          - cell "10"
+          - cell "3.05"
+          - cell "0.15"
+        - row "东马 10 0.15 0.15 8.00 10 8.15 0.15":
+          - cell "东马"
+          - cell "10"
+          - cell "0.15"
+          - cell "0.15"
+          - cell "8.00"
+          - cell "10"
+          - cell "8.15"
+          - cell "0.15"
+        - row "菲律宾 马尼拉 Standard PHP 10 10.50 4.50 40.00 10 50.50 4.50":
+          - cell "菲律宾"
+          - cell "马尼拉"
+          - cell "Standard"
+          - cell "PHP"
+          - cell "10"
+          - cell "10.50"
+          - cell "4.50"
+          - cell "40.00"
+          - cell "10"
+          - cell "50.50"
+          - cell "4.50"
+        - row "其他区 10 10.50 4.50 60.00 10 70.50 4.50":
+          - cell "其他区"
+          - cell "10"
+          - cell "10.50"
+          - cell "4.50"
+          - cell "60.00"
+          - cell "10"
+          - cell "70.50"
+          - cell "4.50"
+        - row "新加坡 全境 Standard SGD 40 0.98 0.15 0.00 40 0.98 0.15":
+          - cell "新加坡"
+          - cell "全境"
+          - cell "Standard"
+          - cell "SGD"
+          - cell "40"
+          - cell "0.98"
+          - cell "0.15"
+          - cell "0.00"
+          - cell "40"
+          - cell "0.98"
+          - cell "0.15"
+        - row:
+          - cell
+          - cell
+          - cell
+          - cell
+          - cell
+          - cell
+          - cell
+          - cell
+          - cell
+          - cell
+          - cell
+        - row "备注 计费重为实重":
+          - cell "备注"
+          - cell "计费重为实重"
+          - cell
+          - cell
+          - cell
+          - cell
+          - cell
+          - cell
+          - cell
+          - cell
+          - cell
+    - generic: 价卡
+    - generic: 跨境物流成本计算工具
+    - generic: 菲律宾
+    - generic: 马来西亚
+    - generic: 泰国
+    - generic: 越南
+    - generic: 新加坡
+    - generic: 区域划分
+- textbox

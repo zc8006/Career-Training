@@ -1,0 +1,467 @@
+{
+  "sheet_index": 8,
+  "sheet_name": "全国家费用审计",
+  "total_rows": 6,
+  "observed_row_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "missing_row_ranges": [],
+  "rows": [
+    {
+      "row_number": 1,
+      "cells": [
+        {
+          "column": 1,
+          "text": "国家",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "家居日用佣金",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "时尚配件佣金",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "交易费",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "SFP/BXP/增长费",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "税费估算",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "固定费/订单",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "是否已计入利润公式",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "关键限制",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "结论",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 2,
+      "cells": [
+        {
+          "column": 1,
+          "text": "马来西亚",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "12.42%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "14.58%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "3.78%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "BXP默认0%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "LVG 10%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "MYR0.54",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "是",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "Home Care/类目不明可用14.58%；固定费按订单",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "通过",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 3,
+      "cells": [
+        {
+          "column": 1,
+          "text": "菲律宾",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "6.20%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "7.00%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "2.24%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "SFP 5.5%；增长费1%/1.5%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "-",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "PHP3",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "是",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "SFP每件上限PHP100；增长费按类目",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "通过",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 4,
+      "cells": [
+        {
+          "column": 1,
+          "text": "泰国",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "10.70%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "11.77%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "3.21%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "电商增长费8.03%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "VAT7%+关税10%估算",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "THB1.07",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "是",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "关税应按HS编码修改；增长费上限THB199",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "通过（含估算项）",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 5,
+      "cells": [
+        {
+          "column": 1,
+          "text": "越南",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "9.50%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "14.50%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.00%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "SFP 0%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "VAT10%估算",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "VND3000",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "是",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "三级类目费率可能变化；字段保留0%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "通过（类目需复核）",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 6,
+      "cells": [
+        {
+          "column": 1,
+          "text": "新加坡",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "8.18%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "8.18%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "3.27%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "BXP默认0%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "GST9%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "-",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "是",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "参与BXP时需改活动费及佣金",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "通过",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    }
+  ],
+  "scope": "rendered_cell_values_only"
+}

@@ -1,0 +1,631 @@
+{
+  "sheet_index": 1,
+  "sheet_name": "工具推荐",
+  "total_rows": 24,
+  "observed_row_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "missing_row_ranges": [],
+  "rows": [
+    {
+      "row_number": 1,
+      "cells": [
+        {
+          "column": 1,
+          "text": "平台名称",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "访问地址",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 2,
+      "cells": [
+        {
+          "column": 1,
+          "text": "站斧浏览器",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "https://www.zhanfubrowser.com/register?code=9224",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": [
+            {
+              "href": "https://security.feishu.cn/link/safety?target=https%3A%2F%2Fwww.zhanfubrowser.com%2Fregister%3Fcode%3D9224&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN",
+              "text": "https://www.zhanfubrowser.com/register?code=9224"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row_number": 3,
+      "cells": [
+        {
+          "column": 1,
+          "text": "货叮咚（东南亚）自用多",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "https://www.huodingdong.com/?invitecode=424573",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": [
+            {
+              "href": "https://security.feishu.cn/link/safety?target=https%3A%2F%2Fwww.huodingdong.com%2F%3Finvitecode%3D424573&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN",
+              "text": "https://www.huodingdong.com/?invitecode=424573"
+            }
+          ]
+        },
+        {
+          "column": 3,
+          "text": "邀请码：424573",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 4,
+      "cells": [
+        {
+          "column": 1,
+          "text": "PingPong",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "https://us.pingpongx.com/entrance/signup?cb=true&inviteCode=6NZ3Ur170",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": [
+            {
+              "href": "https://security.feishu.cn/link/safety?target=https%3A%2F%2Fus.pingpongx.com%2Fentrance%2Fsignup%3Fcb%3Dtrue%26inviteCode%3D6NZ3Ur170&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN",
+              "text": "https://us.pingpongx.com/entrance/signup?cb=true&inviteCode=6NZ3Ur170"
+            }
+          ]
+        },
+        {
+          "column": 3,
+          "text": "客户经理：冯林涛",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 5,
+      "cells": [
+        {
+          "column": 1,
+          "text": "妙手（美区）",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "https://erp.91miaoshou.com/?ac=11i6yf",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": [
+            {
+              "href": "https://security.feishu.cn/link/safety?target=https%3A%2F%2Ferp.91miaoshou.com%2F%3Fac%3D11i6yf&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN",
+              "text": "https://erp.91miaoshou.com/?ac=11i6yf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row_number": 6,
+      "cells": [
+        {
+          "column": 1,
+          "text": "熊店长",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "https://xiongdianzhang.com/#/index?inviteCode=khdy838",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": [
+            {
+              "href": "https://security.feishu.cn/link/safety?target=https%3A%2F%2Fxiongdianzhang.com%2F%23%2Findex%3FinviteCode%3Dkhdy838&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN",
+              "text": "https://xiongdianzhang.com/#/index?inviteCode=khdy838"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row_number": 7,
+      "cells": [
+        {
+          "column": 1,
+          "text": "东南亚货代 (代包包)",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "https://dbb.huoyuanjiawms.com/?invitecode=H487249",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": [
+            {
+              "href": "https://security.feishu.cn/link/safety?target=https%3A%2F%2Fdbb.huoyuanjiawms.com%2F%3Finvitecode%3DH487249&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN",
+              "text": "https://dbb.huoyuanjiawms.com/?invitecode=H487249"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row_number": 8,
+      "cells": [
+        {
+          "column": 1,
+          "text": "美区货代 (远东)",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "https://yuandongerp.com/",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": [
+            {
+              "href": "https://security.feishu.cn/link/safety?target=https%3A%2F%2Fyuandongerp.com%2F&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN",
+              "text": "https://yuandongerp.com/"
+            }
+          ]
+        },
+        {
+          "column": 3,
+          "text": "邀请码：nanshao8",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 9,
+      "cells": [
+        {
+          "column": 1,
+          "text": "翻译插件",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "https://chromewebstore.google.com/detail/immersive-translate-trans/bpoadfkcbjbfhfodiogcnhhhpibjhbnh?hl=zh-CN",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": [
+            {
+              "href": "https://security.feishu.cn/link/safety?target=https%3A%2F%2Fchromewebstore.google.com%2Fdetail%2Fimmersive-translate-trans%2Fbpoadfkcbjbfhfodiogcnhhhpibjhbnh%3Fhl%3Dzh-CN&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN",
+              "text": "https://chromewebstore.google.com/detail/immersive-translate-trans/bpoadfkcbjbfhfodiogcnhhhpibjhbnh?hl=zh-CN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row_number": 10,
+      "cells": [
+        {
+          "column": 1,
+          "text": "青虎AI",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "https://www.iqinghu.com/workbench/login?type=1&urlCode=1787294930280",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": [
+            {
+              "href": "https://security.feishu.cn/link/safety?target=https%3A%2F%2Fwww.iqinghu.com%2Fworkbench%2Flogin%3Ftype%3D1%26urlCode%3D1787294930280&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN",
+              "text": "https://www.iqinghu.com/workbench/login?type=1&urlCode=1787294930280"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row_number": 11,
+      "cells": [
+        {
+          "column": 1,
+          "text": "图搜同款",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "https://www.alisold.com/",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": [
+            {
+              "href": "https://security.feishu.cn/link/safety?target=https%3A%2F%2Fwww.alisold.com%2F&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN",
+              "text": "https://www.alisold.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row_number": 12,
+      "cells": [
+        {
+          "column": 1,
+          "text": "ACCU店铺入驻链接",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "https://seller-us-accounts.tiktok.com/account/accu/register",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": [
+            {
+              "href": "https://security.feishu.cn/link/safety?target=https%3A%2F%2Fseller-us-accounts.tiktok.com%2Faccount%2Faccu%2Fregister&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN",
+              "text": "https://seller-us-accounts.tiktok.com/account/accu/register"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row_number": 13,
+      "cells": [
+        {
+          "column": 1,
+          "text": "谷歌浏览器MAC版",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "https://www.google.com/intl/zh-CN/chrome/?_gl=1*1770k79*_up*MQ..&gclid=CjwKCAjwg_nNBhAGEiwAiYPYA3BhW1jqPDyenfxcFHombIZWnvj1-N0uBNVupmqHJe6Llj4PsOVYBxoCf90QAvD_BwE&gclsrc=aw.ds&gbraid=0AAAAAoY3CA76s8-pGmNeiRgVdQXAkkiWs",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": [
+            {
+              "href": "https://security.feishu.cn/link/safety?target=https%3A%2F%2Fwww.google.com%2Fintl%2Fzh-CN%2Fchrome%2F%3F_gl%3D1*1770k79*_up*MQ..%26gclid%3DCjwKCAjwg_nNBhAGEiwAiYPYA3BhW1jqPDyenfxcFHombIZWnvj1-N0uBNVupmqHJe6Llj4PsOVYBxoCf90QAvD_BwE%26gclsrc%3Daw.ds%26gbraid%3D0AAAAAoY3CA76s8-pGmNeiRgVdQXAkkiWs&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN",
+              "text": "https://www.google.com/intl/zh-CN/chrome/?_gl=1*1770k79*_up*MQ..&gclid=CjwKCAjwg_nNBhAGEiwAiYPYA3BhW1jqPDyenfxcFHombIZWnvj1-N0uBNVupmqHJe6Llj4PsOVYBxoCf90QAvD_BwE&gclsrc=aw.ds&gbraid=0AAAAAoY3CA76s8-pGmNeiRgVdQXAkkiWs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row_number": 14,
+      "cells": [
+        {
+          "column": 1,
+          "text": "edge微软浏览器MAC版",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "https://www.microsoft.com/en-us/edge/download?form=MA13FJ",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": [
+            {
+              "href": "https://security.feishu.cn/link/safety?target=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fedge%2Fdownload%3Fform%3DMA13FJ&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN",
+              "text": "https://www.microsoft.com/en-us/edge/download?form=MA13FJ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row_number": 15,
+      "cells": [
+        {
+          "column": 1,
+          "text": "ADS浏览器",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "https://www.adspower.net/download",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": [
+            {
+              "href": "https://security.feishu.cn/link/safety?target=https%3A%2F%2Fwww.adspower.net%2Fdownload&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN",
+              "text": "https://www.adspower.net/download"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row_number": 16,
+      "cells": [
+        {
+          "column": 1,
+          "text": "商标查询",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "https://branddb.wipo.int/zh",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": [
+            {
+              "href": "https://security.feishu.cn/link/safety?target=https%3A%2F%2Fbranddb.wipo.int%2Fzh&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN",
+              "text": "https://branddb.wipo.int/zh"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row_number": 17,
+      "cells": [
+        {
+          "column": 1,
+          "text": "IP查询",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "https://whoer.to/",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": [
+            {
+              "href": "https://security.feishu.cn/link/safety?target=https%3A%2F%2Fwhoer.to%2F&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN",
+              "text": "https://whoer.to/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row_number": 18,
+      "cells": [
+        {
+          "column": 1,
+          "text": "TK选品助手",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "https://www.tiktokshuju.com/download",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": [
+            {
+              "href": "https://security.feishu.cn/link/safety?target=https%3A%2F%2Fwww.tiktokshuju.com%2Fdownload&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN",
+              "text": "https://www.tiktokshuju.com/download"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row_number": 19,
+      "cells": [
+        {
+          "column": 1,
+          "text": "TK达人自动邀约工具",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "https://www.tikclubs.com/?type=1&urlCode=1779267256575",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": [
+            {
+              "href": "https://security.feishu.cn/link/safety?target=https%3A%2F%2Fwww.tikclubs.com%2F%3Ftype%3D1%26urlCode%3D1779267256575&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN",
+              "text": "https://www.tikclubs.com/?type=1&urlCode=1779267256575"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row_number": 20,
+      "cells": [
+        {
+          "column": 1,
+          "text": "达秘安装及使用教程合集",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "https://www.dggclass.com/index.php?m=home&c=View&a=index&aid=191",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": [
+            {
+              "href": "https://security.feishu.cn/link/safety?target=https%3A%2F%2Fwww.dggclass.com%2Findex.php%3Fm%3Dhome%26c%3DView%26a%3Dindex%26aid%3D191&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN",
+              "text": "https://www.dggclass.com/index.php?m=home&c=View&a=index&aid=191"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row_number": 21,
+      "cells": [
+        {
+          "column": 1,
+          "text": "遨虾",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "https://alphashop.cn/",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": [
+            {
+              "href": "https://security.feishu.cn/link/safety?target=https%3A%2F%2Falphashop.cn%2F&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN",
+              "text": "https://alphashop.cn/"
+            }
+          ]
+        },
+        {
+          "column": 3,
+          "text": "需要指令找我来拿",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 22,
+      "cells": [
+        {
+          "column": 1,
+          "text": "火盾浏览器",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "huodunliulanqi.com",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "邀请码：nanshao8",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 23,
+      "cells": [
+        {
+          "column": 1,
+          "text": "远程软件",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "https://www.todesk.com/\nhttps://sunlogin.oray.com/\nhttps://www.asklink.com",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 24,
+      "cells": [
+        {
+          "column": 1,
+          "text": "蜂鸟云号",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "https://fnyunhao.com/system/register?code=810655",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": [
+            {
+              "href": "https://security.feishu.cn/link/safety?target=https%3A%2F%2Ffnyunhao.com%2Fsystem%2Fregister%3Fcode%3D810655&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN",
+              "text": "https://fnyunhao.com/system/register?code=810655"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "scope": "rendered_cell_values_only"
+}

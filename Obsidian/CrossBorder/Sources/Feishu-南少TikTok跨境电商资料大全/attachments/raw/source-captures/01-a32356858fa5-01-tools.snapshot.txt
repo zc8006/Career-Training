@@ -1,0 +1,281 @@
+- button:
+- button:
+- heading "飞书云文档" [level=1]
+- generic: 南
+- generic: 南少Tiktok跨境电商资料大全
+- generic: 企业公开
+- button "目录（暂无内容）":
+  - generic: 目录（暂无内容）
+- button "与我分享":
+  - generic: 与我分享
+- list:
+  - button "南少TikTok跨境电商资料大全":
+    - generic: 南少TikTok跨境电商资料大全
+- generic: 用户061619的组织
+- paragraph:
+  - generic: 南少TikTok跨境电商资料大全
+- paragraph: 最新修改时间为10月10日
+- button "登录/注册"
+- button:
+- heading "南少TikTok跨境电商资料大全" [level=1]:
+  - generic: 南少TikTok跨境电商资料大全
+- generic: 昨天修改
+- generic: 低成本轻启动
+- generic: 我们专注于商品卡的自然搜索与推荐流量，通过精细化店铺运营，将“中国制造”的海量商品，以“店群”模式安静地卖向全球，完美解决了新人面对内容创作畏难、人力成本高的核心痛点，是一条更直接、更高效的跨境路径。
+- generic: 自我介绍
+- generic: 您好，我是南少
+- generic: 一个有超过10年电商实战经验的创业者
+- generic: 三家电商公司老板，百人专业运营交付团队
+- generic: 抖音小店孵化学员2w+，累计GMV超2亿
+- generic: 2023投入TK跨境电商，自营店铺超百家
+- generic: 美国自营店铺做到行业类目TOP1
+- generic: TK跨境孵化学员5000+，累计GMV超1000w美元
+- generic: 我可提供（店铺软件都是自己在使用的靠谱推荐）：
+- generic: "1: 跨境线上陪跑线下学习"
+- generic: 2:商务合作 供应链对接
+- generic: "3: 软件工具箱 资源对接"
+- generic: 4:店铺 TK账号 网络对接
+- generic: "5: 跨境答疑 跨境资料（免费）"
+- generic: 6:店铺注册 选品采集 运营店铺
+- generic: 7：执照代办 代下流水 跨境买店
+- generic: 跨境工具推荐.xlsx
+- generic: 16.35KB
+- generic: TK东南亚核算利润表_全类目最终版.xlsx
+- generic: 1.09MB
+- generic: 东南亚跨境物流运费价格表20260515(1).xlsx
+- generic: 845.55KB
+- generic: 货叮咚ERP教程（Toktik）新_20260701135132.pdf
+- generic: 5.09MB
+- generic: tiktok账号搭建注册.doc
+- generic: 2.03MB
+- generic: TEMU采集选品.doc
+- generic: 6.68MB
+- generic: TikTok采集选品.doc
+- generic: 2.79MB
+- generic: 店铺营销活动.doc
+- generic: 2.15MB
+- generic: TikTok Shop × Gemini 深度选品 SOP(3).docx
+- generic: 1.35MB
+- generic: 什么是TikTok跨境电商？.docx
+- generic: 19.64KB
+- generic: 个人简介.docx
+- generic: 3.76MB
+- generic: TikTok 商家必读：Gemini 3 Pro 提示词大全.docx
+- generic: 7.00MB
+- generic: Gemini 3 Pro精准分析GMVMax 广告数据_与素材迭代（2026年3月）.docx
+- generic: 1.64MB
+- generic: TikTok运营实战文档：Gemini 3 Pro & GMVMax 深度融合应用.docx
+- generic: 2.32MB
+- generic: 【0328TK】TIKTOK揭秘内容营销 3 大真相.docx
+- generic: 3.04MB
+- generic: TikTok网红达人营销：全套达人建联技巧+话术策略方案以及团队SOP落地流程 .pdf
+- generic: 1.21MB
+- generic: TTS 24小时回复率解读.pdf
+- generic: 2.31MB
+- generic: TTS 维护店铺评分.pdf
+- generic: 3.98MB
+- generic: 最全TikTok常见术语汇总.pdf
+- generic: 439.07KB
+- generic: TikTok Shop税务该如何添加.pdf
+- generic: 183.27KB
+- generic: TikTok Shop如何绑定TikTok账号？.pdf
+- generic: 1.21MB
+- generic: TIKTOK SHOP 如何缴纳保证金？.pdf
+- generic: 277.90KB
+- generic: 账号注册绑定和账号装修 .pdf
+- generic: 7.37MB
+- generic: 区域市场分析.pdf
+- generic: 1.25MB
+- generic: TikTok 达人合作精细化 SOP.pdf
+- generic: 243.71KB
+- generic: TikTok Shop如何设置店铺客服？.pdf
+- generic: 2.47MB
+- generic: TikTok Shop流量入口分类.pdf
+- generic: 28.40MB
+- generic: TikTok Shop Tab(商城).pdf
+- generic: 10.18MB
+- generic: 评论（0）
+- button:
+- menu:
+  - menuitem "帮助中心":
+    - generic: 帮助中心
+  - menuitem "快捷键":
+    - generic: 快捷键
+- dialog:
+  - button "退出":
+    - generic: 退出
+  - generic: 跨境工具推荐.xlsx
+  - generic: 16.35 KB
+  - iframe:
+    - generic: A
+    - generic: B
+    - generic: C
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "10"
+    - generic: "11"
+    - generic: "12"
+    - generic: "13"
+    - generic: "14"
+    - generic: "15"
+    - generic: "16"
+    - generic: "17"
+    - generic: "18"
+    - generic: "19"
+    - generic: "20"
+    - generic: "21"
+    - generic: "22"
+    - generic: "23"
+    - generic: "24"
+    - table:
+      - rowgroup:
+        - row "平台名称 访问地址":
+          - cell "平台名称"
+          - cell "访问地址"
+          - cell
+        - row "站斧浏览器 https://www.zhanfubrowser.com/register?code=9224":
+          - cell "站斧浏览器"
+          - cell "https://www.zhanfubrowser.com/register?code=9224":
+            - link "https://www.zhanfubrowser.com/register?code=9224":
+              - /url: https://security.feishu.cn/link/safety?target=https%3A%2F%2Fwww.zhanfubrowser.com%2Fregister%3Fcode%3D9224&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN
+          - cell
+        - row "货叮咚（东南亚）自用多 https://www.huodingdong.com/?invitecode=424573 邀请码：424573":
+          - cell "货叮咚（东南亚）自用多"
+          - cell "https://www.huodingdong.com/?invitecode=424573":
+            - link "https://www.huodingdong.com/?invitecode=424573":
+              - /url: https://security.feishu.cn/link/safety?target=https%3A%2F%2Fwww.huodingdong.com%2F%3Finvitecode%3D424573&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN
+          - cell "邀请码：424573"
+        - row "PingPong https://us.pingpongx.com/entrance/signup?cb=true&inviteCode=6NZ3Ur170 客户经理：冯林涛":
+          - cell "PingPong"
+          - cell "https://us.pingpongx.com/entrance/signup?cb=true&inviteCode=6NZ3Ur170":
+            - link "https://us.pingpongx.com/entrance/signup?cb=true&inviteCode=6NZ3Ur170":
+              - /url: https://security.feishu.cn/link/safety?target=https%3A%2F%2Fus.pingpongx.com%2Fentrance%2Fsignup%3Fcb%3Dtrue%26inviteCode%3D6NZ3Ur170&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN
+          - cell "客户经理：冯林涛"
+        - row "妙手（美区） https://erp.91miaoshou.com/?ac=11i6yf":
+          - cell "妙手（美区）"
+          - cell "https://erp.91miaoshou.com/?ac=11i6yf":
+            - link "https://erp.91miaoshou.com/?ac=11i6yf":
+              - /url: https://security.feishu.cn/link/safety?target=https%3A%2F%2Ferp.91miaoshou.com%2F%3Fac%3D11i6yf&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN
+          - cell
+        - row "熊店长 https://xiongdianzhang.com/#/index?inviteCode=khdy838":
+          - cell "熊店长"
+          - cell "https://xiongdianzhang.com/#/index?inviteCode=khdy838":
+            - link "https://xiongdianzhang.com/#/index?inviteCode=khdy838":
+              - /url: https://security.feishu.cn/link/safety?target=https%3A%2F%2Fxiongdianzhang.com%2F%23%2Findex%3FinviteCode%3Dkhdy838&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN
+          - cell
+        - row "东南亚货代 (代包包) https://dbb.huoyuanjiawms.com/?invitecode=H487249":
+          - cell "东南亚货代 (代包包)"
+          - cell "https://dbb.huoyuanjiawms.com/?invitecode=H487249":
+            - link "https://dbb.huoyuanjiawms.com/?invitecode=H487249":
+              - /url: https://security.feishu.cn/link/safety?target=https%3A%2F%2Fdbb.huoyuanjiawms.com%2F%3Finvitecode%3DH487249&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN
+          - cell
+        - row "美区货代 (远东) https://yuandongerp.com/ 邀请码：nanshao8":
+          - cell "美区货代 (远东)"
+          - cell "https://yuandongerp.com/":
+            - link "https://yuandongerp.com/":
+              - /url: https://security.feishu.cn/link/safety?target=https%3A%2F%2Fyuandongerp.com%2F&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN
+          - cell "邀请码：nanshao8"
+        - row "翻译插件 https://chromewebstore.google.com/detail/immersive-translate-trans/bpoadfkcbjbfhfodiogcnhhhpibjhbnh?hl=zh-CN":
+          - cell "翻译插件"
+          - cell "https://chromewebstore.google.com/detail/immersive-translate-trans/bpoadfkcbjbfhfodiogcnhhhpibjhbnh?hl=zh-CN":
+            - link "https://chromewebstore.google.com/detail/immersive-translate-trans/bpoadfkcbjbfhfodiogcnhhhpibjhbnh?hl=zh-CN":
+              - /url: https://security.feishu.cn/link/safety?target=https%3A%2F%2Fchromewebstore.google.com%2Fdetail%2Fimmersive-translate-trans%2Fbpoadfkcbjbfhfodiogcnhhhpibjhbnh%3Fhl%3Dzh-CN&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN
+          - cell
+        - row "青虎AI https://www.iqinghu.com/workbench/login?type=1&urlCode=1787294930280":
+          - cell "青虎AI"
+          - cell "https://www.iqinghu.com/workbench/login?type=1&urlCode=1787294930280":
+            - link "https://www.iqinghu.com/workbench/login?type=1&urlCode=1787294930280":
+              - /url: https://security.feishu.cn/link/safety?target=https%3A%2F%2Fwww.iqinghu.com%2Fworkbench%2Flogin%3Ftype%3D1%26urlCode%3D1787294930280&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN
+          - cell
+        - row "图搜同款 https://www.alisold.com/":
+          - cell "图搜同款"
+          - cell "https://www.alisold.com/":
+            - link "https://www.alisold.com/":
+              - /url: https://security.feishu.cn/link/safety?target=https%3A%2F%2Fwww.alisold.com%2F&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN
+          - cell
+        - row "ACCU店铺入驻链接 https://seller-us-accounts.tiktok.com/account/accu/register":
+          - cell "ACCU店铺入驻链接"
+          - cell "https://seller-us-accounts.tiktok.com/account/accu/register":
+            - link "https://seller-us-accounts.tiktok.com/account/accu/register":
+              - /url: https://security.feishu.cn/link/safety?target=https%3A%2F%2Fseller-us-accounts.tiktok.com%2Faccount%2Faccu%2Fregister&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN
+          - cell
+        - row "谷歌浏览器MAC版 https://www.google.com/intl/zh-CN/chrome/?_gl=1*1770k79*_up*MQ..&gclid=CjwKCAjwg_nNBhAGEiwAiYPYA3BhW1jqPDyenfxcFHombIZWnvj1-N0uBNVupmqHJe6Llj4PsOVYBxoCf90QAvD_BwE&gclsrc=aw.ds&gbraid=0AAAAAoY3CA76s8-pGmNeiRgVdQXAkkiWs":
+          - cell "谷歌浏览器MAC版"
+          - cell "https://www.google.com/intl/zh-CN/chrome/?_gl=1*1770k79*_up*MQ..&gclid=CjwKCAjwg_nNBhAGEiwAiYPYA3BhW1jqPDyenfxcFHombIZWnvj1-N0uBNVupmqHJe6Llj4PsOVYBxoCf90QAvD_BwE&gclsrc=aw.ds&gbraid=0AAAAAoY3CA76s8-pGmNeiRgVdQXAkkiWs":
+            - link "https://www.google.com/intl/zh-CN/chrome/?_gl=1*1770k79*_up*MQ..&gclid=CjwKCAjwg_nNBhAGEiwAiYPYA3BhW1jqPDyenfxcFHombIZWnvj1-N0uBNVupmqHJe6Llj4PsOVYBxoCf90QAvD_BwE&gclsrc=aw.ds&gbraid=0AAAAAoY3CA76s8-pGmNeiRgVdQXAkkiWs":
+              - /url: https://security.feishu.cn/link/safety?target=https%3A%2F%2Fwww.google.com%2Fintl%2Fzh-CN%2Fchrome%2F%3F_gl%3D1*1770k79*_up*MQ..%26gclid%3DCjwKCAjwg_nNBhAGEiwAiYPYA3BhW1jqPDyenfxcFHombIZWnvj1-N0uBNVupmqHJe6Llj4PsOVYBxoCf90QAvD_BwE%26gclsrc%3Daw.ds%26gbraid%3D0AAAAAoY3CA76s8-pGmNeiRgVdQXAkkiWs&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN
+          - cell
+        - row "edge微软浏览器MAC版 https://www.microsoft.com/en-us/edge/download?form=MA13FJ":
+          - cell "edge微软浏览器MAC版"
+          - cell "https://www.microsoft.com/en-us/edge/download?form=MA13FJ":
+            - link "https://www.microsoft.com/en-us/edge/download?form=MA13FJ":
+              - /url: https://security.feishu.cn/link/safety?target=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fedge%2Fdownload%3Fform%3DMA13FJ&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN
+          - cell
+        - row "ADS浏览器 https://www.adspower.net/download":
+          - cell "ADS浏览器"
+          - cell "https://www.adspower.net/download":
+            - link "https://www.adspower.net/download":
+              - /url: https://security.feishu.cn/link/safety?target=https%3A%2F%2Fwww.adspower.net%2Fdownload&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN
+          - cell
+        - row "商标查询 https://branddb.wipo.int/zh":
+          - cell "商标查询"
+          - cell "https://branddb.wipo.int/zh":
+            - link "https://branddb.wipo.int/zh":
+              - /url: https://security.feishu.cn/link/safety?target=https%3A%2F%2Fbranddb.wipo.int%2Fzh&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN
+          - cell
+        - row "IP查询 https://whoer.to/":
+          - cell "IP查询"
+          - cell "https://whoer.to/":
+            - link "https://whoer.to/":
+              - /url: https://security.feishu.cn/link/safety?target=https%3A%2F%2Fwhoer.to%2F&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN
+          - cell
+        - row "TK选品助手 https://www.tiktokshuju.com/download":
+          - cell "TK选品助手"
+          - cell "https://www.tiktokshuju.com/download":
+            - link "https://www.tiktokshuju.com/download":
+              - /url: https://security.feishu.cn/link/safety?target=https%3A%2F%2Fwww.tiktokshuju.com%2Fdownload&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN
+          - cell
+        - row "TK达人自动邀约工具 https://www.tikclubs.com/?type=1&urlCode=1779267256575":
+          - cell "TK达人自动邀约工具"
+          - cell "https://www.tikclubs.com/?type=1&urlCode=1779267256575":
+            - link "https://www.tikclubs.com/?type=1&urlCode=1779267256575":
+              - /url: https://security.feishu.cn/link/safety?target=https%3A%2F%2Fwww.tikclubs.com%2F%3Ftype%3D1%26urlCode%3D1779267256575&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN
+          - cell
+        - row "达秘安装及使用教程合集 https://www.dggclass.com/index.php?m=home&c=View&a=index&aid=191":
+          - cell "达秘安装及使用教程合集"
+          - cell "https://www.dggclass.com/index.php?m=home&c=View&a=index&aid=191":
+            - link "https://www.dggclass.com/index.php?m=home&c=View&a=index&aid=191":
+              - /url: https://security.feishu.cn/link/safety?target=https%3A%2F%2Fwww.dggclass.com%2Findex.php%3Fm%3Dhome%26c%3DView%26a%3Dindex%26aid%3D191&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN
+          - cell
+        - row "遨虾 https://alphashop.cn/ 需要指令找我来拿":
+          - cell "遨虾"
+          - cell "https://alphashop.cn/":
+            - link "https://alphashop.cn/":
+              - /url: https://security.feishu.cn/link/safety?target=https%3A%2F%2Falphashop.cn%2F&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN
+          - cell "需要指令找我来拿"
+      - rowgroup:
+        - row "火盾浏览器 huodunliulanqi.com 邀请码：nanshao8":
+          - cell "火盾浏览器"
+          - cell "huodunliulanqi.com"
+          - cell "邀请码：nanshao8"
+        - row "远程软件 https://www.todesk.com/ https://sunlogin.oray.com/ https://www.asklink.com":
+          - cell "远程软件"
+          - cell "https://www.todesk.com/ https://sunlogin.oray.com/ https://www.asklink.com":
+            - text: https://www.todesk.com/
+            - text: https://sunlogin.oray.com/
+            - text: https://www.asklink.com
+          - cell
+        - row "蜂鸟云号 https://fnyunhao.com/system/register?code=810655":
+          - cell "蜂鸟云号"
+          - cell "https://fnyunhao.com/system/register?code=810655":
+            - link "https://fnyunhao.com/system/register?code=810655":
+              - /url: https://security.feishu.cn/link/safety?target=https%3A%2F%2Ffnyunhao.com%2Fsystem%2Fregister%3Fcode%3D810655&scene=ccm&logParams=%7B%22location%22%3A%22ccm_drive%22%7D&lang=zh-CN
+          - cell
+- textbox

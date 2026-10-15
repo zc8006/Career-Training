@@ -1,0 +1,6387 @@
+{
+  "filename": "tiktok大盘数据分析.doc",
+  "total_pages": 4,
+  "pages": [
+    {
+      "images": [
+        {
+          "height": 1404,
+          "id": "page1",
+          "tag": "CANVAS",
+          "width": 993
+        }
+      ],
+      "links": [],
+      "loaded": true,
+      "page_number": 1,
+      "paragraphs": [],
+      "spans": [
+        {
+          "fontSize": "30px",
+          "left": "354.598px",
+          "text": "T",
+          "top": "137.279px"
+        },
+        {
+          "fontSize": "30px",
+          "left": "372.398px",
+          "text": "i",
+          "top": "137.279px"
+        },
+        {
+          "fontSize": "30px",
+          "left": "380.798px",
+          "text": "k",
+          "top": "137.279px"
+        },
+        {
+          "fontSize": "30px",
+          "left": "397.197px",
+          "text": "T",
+          "top": "137.279px"
+        },
+        {
+          "fontSize": "30px",
+          "left": "415.197px",
+          "text": "o",
+          "top": "137.279px"
+        },
+        {
+          "fontSize": "30px",
+          "left": "433.397px",
+          "text": "k",
+          "top": "137.279px"
+        },
+        {
+          "fontSize": "30px",
+          "left": "457.4px",
+          "text": "大",
+          "top": "137.279px"
+        },
+        {
+          "fontSize": "30px",
+          "left": "487.4px",
+          "text": "盘",
+          "top": "137.279px"
+        },
+        {
+          "fontSize": "30px",
+          "left": "517.4px",
+          "text": "数",
+          "top": "137.279px"
+        },
+        {
+          "fontSize": "30px",
+          "left": "547.4px",
+          "text": "据",
+          "top": "137.279px"
+        },
+        {
+          "fontSize": "30px",
+          "left": "577.4px",
+          "text": "分",
+          "top": "137.279px"
+        },
+        {
+          "fontSize": "30px",
+          "left": "607.4px",
+          "text": "析",
+          "top": "137.279px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "150px",
+          "text": "T",
+          "top": "206.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "163.799px",
+          "text": "i",
+          "top": "206.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "170.199px",
+          "text": "k",
+          "top": "206.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "183.199px",
+          "text": "T",
+          "top": "206.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "197.199px",
+          "text": "o",
+          "top": "206.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "211.199px",
+          "text": "k",
+          "top": "206.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "229.4px",
+          "text": "大",
+          "top": "206.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "252.8px",
+          "text": "盘",
+          "top": "206.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "275.999px",
+          "text": "核",
+          "top": "206.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "299.399px",
+          "text": "心",
+          "top": "206.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "322.798px",
+          "text": "结",
+          "top": "206.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "345.998px",
+          "text": "论",
+          "top": "206.916px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "369.4px",
+          "text": "：",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "387px",
+          "text": "2",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "396.599px",
+          "text": "0",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "406.198px",
+          "text": "2",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "415.997px",
+          "text": "5",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "429.8px",
+          "text": "年",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "447.2px",
+          "text": "全",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "464.799px",
+          "text": "球",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "486.2px",
+          "text": "G",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "498.2px",
+          "text": "M",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "512.399px",
+          "text": "V",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "526.4px",
+          "text": "6",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "535.999px",
+          "text": "2",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "545.798px",
+          "text": "3",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "559.4px",
+          "text": "亿",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "576.8px",
+          "text": "美",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "594.399px",
+          "text": "元",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "611.798px",
+          "text": "、",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "629.397px",
+          "text": "同",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "646.797px",
+          "text": "比",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "668.4px",
+          "text": "+",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "682px",
+          "text": "9",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "691.599px",
+          "text": "5",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "701.399px",
+          "text": ".",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "706.198px",
+          "text": "5",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "715.997px",
+          "text": "%",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "732.2px",
+          "text": "；",
+          "top": "214.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "150px",
+          "text": "2",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "159.599px",
+          "text": "0",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "169.398px",
+          "text": "2",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "178.997px",
+          "text": "6",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "192.8px",
+          "text": "年",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "210.2px",
+          "text": "预",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "227.799px",
+          "text": "计",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "249.2px",
+          "text": "8",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "258.799px",
+          "text": "7",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "268.398px",
+          "text": "0",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "278.4px",
+          "text": "–",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "287.598px",
+          "text": "1",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "297.197px",
+          "text": "5",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "306.997px",
+          "text": "0",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "316.596px",
+          "text": "0",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "330.4px",
+          "text": "亿",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "347.8px",
+          "text": "美",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "365.399px",
+          "text": "元",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "383px",
+          "text": "，",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "399.8px",
+          "text": "东",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "417.2px",
+          "text": "南",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "434.799px",
+          "text": "亚",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "456.2px",
+          "text": "+",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "469.8px",
+          "text": "美",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "487.2px",
+          "text": "国",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "504.799px",
+          "text": "双",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "522.198px",
+          "text": "引",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "539.797px",
+          "text": "擎",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "557.197px",
+          "text": "驱",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "574.796px",
+          "text": "动",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "592.4px",
+          "text": "，",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "609px",
+          "text": "美",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "626.4px",
+          "text": "妆",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "644px",
+          "text": "、",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "660.8px",
+          "text": "女",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "678.2px",
+          "text": "装",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "695.8px",
+          "text": "、",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "712.598px",
+          "text": "家",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "729.998px",
+          "text": "居",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "747.598px",
+          "text": "、",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "764.4px",
+          "text": "3",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "773.999px",
+          "text": "C",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "789.598px",
+          "text": "为",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "806.998px",
+          "text": "核",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "824.597px",
+          "text": "心",
+          "top": "263.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "150px",
+          "text": "品",
+          "top": "315.476px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "167.4px",
+          "text": "类",
+          "top": "315.476px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "150px",
+          "text": "一",
+          "top": "362.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "173.4px",
+          "text": "、",
+          "top": "362.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "196.599px",
+          "text": "全",
+          "top": "362.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "219.999px",
+          "text": "球",
+          "top": "362.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "243.399px",
+          "text": "大",
+          "top": "362.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "266.598px",
+          "text": "盘",
+          "top": "362.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "289.998px",
+          "text": "总",
+          "top": "362.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "313.397px",
+          "text": "览",
+          "top": "362.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "336.596px",
+          "text": "（",
+          "top": "362.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "360px",
+          "text": "2",
+          "top": "362.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "373.599px",
+          "text": "0",
+          "top": "362.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "387.398px",
+          "text": "2",
+          "top": "362.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "401.198px",
+          "text": "5",
+          "top": "362.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "415px",
+          "text": "–",
+          "top": "362.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "427.598px",
+          "text": "2",
+          "top": "362.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "441.197px",
+          "text": "0",
+          "top": "362.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "454.997px",
+          "text": "2",
+          "top": "362.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "468.796px",
+          "text": "6",
+          "top": "362.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "482.598px",
+          "text": "）",
+          "top": "362.916px"
+        },
+        {
+          "fontSize": "16.5833px",
+          "left": "120px",
+          "text": "",
+          "top": "412.811px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "210px",
+          "text": "用",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "230px",
+          "text": "户",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "250px",
+          "text": "规",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "270px",
+          "text": "模",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "290px",
+          "text": "：",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "310px",
+          "text": "全",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "330px",
+          "text": "球",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "350px",
+          "text": "月",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "370px",
+          "text": "活",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "390px",
+          "text": "近",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "420px",
+          "text": "2",
+          "top": "414.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "430px",
+          "text": "0",
+          "top": "414.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "450.4px",
+          "text": "亿",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "470.4px",
+          "text": "，",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "490.4px",
+          "text": "日",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "510.4px",
+          "text": "均",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "530.4px",
+          "text": "使",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "550.4px",
+          "text": "用",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "575.4px",
+          "text": "9",
+          "top": "414.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "585.4px",
+          "text": "5",
+          "top": "414.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "605.598px",
+          "text": "分",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "625.598px",
+          "text": "钟",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "645.598px",
+          "text": "，",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "665.598px",
+          "text": "用",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "685.598px",
+          "text": "户",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "705.598px",
+          "text": "粘",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "725.598px",
+          "text": "性",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "745.598px",
+          "text": "全",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "765.598px",
+          "text": "球",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "785.598px",
+          "text": "第",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "805.598px",
+          "text": "一",
+          "top": "412.943px"
+        },
+        {
+          "fontSize": "16.5833px",
+          "left": "120px",
+          "text": "",
+          "top": "442.811px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "210px",
+          "text": "G",
+          "top": "444.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "222.599px",
+          "text": "M",
+          "top": "444.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "240.198px",
+          "text": "V",
+          "top": "444.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "262px",
+          "text": "规",
+          "top": "442.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "282px",
+          "text": "模",
+          "top": "442.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "302px",
+          "text": "：",
+          "top": "442.943px"
+        },
+        {
+          "fontSize": "16.5833px",
+          "left": "120px",
+          "text": "o",
+          "top": "475.677px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "270px",
+          "text": "2",
+          "top": "474.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "280px",
+          "text": "0",
+          "top": "474.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "290.199px",
+          "text": "2",
+          "top": "474.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "300.399px",
+          "text": "5",
+          "top": "474.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "320.4px",
+          "text": "年",
+          "top": "472.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "340.4px",
+          "text": "：",
+          "top": "472.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "360.4px",
+          "text": "6",
+          "top": "474.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "370.4px",
+          "text": "2",
+          "top": "474.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "380.599px",
+          "text": "3",
+          "top": "474.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "390.798px",
+          "text": ".",
+          "top": "474.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "395.998px",
+          "text": "0",
+          "top": "474.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "406.197px",
+          "text": "5",
+          "top": "474.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "426.4px",
+          "text": "亿",
+          "top": "472.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "446.4px",
+          "text": "美",
+          "top": "472.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "466.4px",
+          "text": "元",
+          "top": "472.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "486.598px",
+          "text": "，",
+          "top": "472.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "506.598px",
+          "text": "同",
+          "top": "472.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "526.598px",
+          "text": "比",
+          "top": "472.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "556.598px",
+          "text": "*",
+          "top": "474.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "566.398px",
+          "text": "*",
+          "top": "474.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "576.398px",
+          "text": "+",
+          "top": "474.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "586.398px",
+          "text": "9",
+          "top": "474.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "596.597px",
+          "text": "5",
+          "top": "474.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "606.597px",
+          "text": ".",
+          "top": "474.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "611.597px",
+          "text": "5",
+          "top": "474.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "621.796px",
+          "text": "%",
+          "top": "474.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "636.196px",
+          "text": "*",
+          "top": "474.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "645.996px",
+          "text": "*",
+          "top": "474.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "656.2px",
+          "text": "（",
+          "top": "472.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "676.2px",
+          "text": "行",
+          "top": "472.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "696.2px",
+          "text": "业",
+          "top": "472.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "716.2px",
+          "text": "平",
+          "top": "472.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "736.2px",
+          "text": "均",
+          "top": "472.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "756.2px",
+          "text": "约",
+          "top": "472.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "786.2px",
+          "text": "2",
+          "top": "474.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "796.2px",
+          "text": "0",
+          "top": "474.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "806.399px",
+          "text": "%",
+          "top": "474.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "820.8px",
+          "text": "，",
+          "top": "472.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "150px",
+          "text": "增",
+          "top": "502.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "170px",
+          "text": "速",
+          "top": "502.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "200px",
+          "text": "5",
+          "top": "504.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "220px",
+          "text": "倍",
+          "top": "502.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "240px",
+          "text": "）",
+          "top": "502.943px"
+        },
+        {
+          "fontSize": "16.5833px",
+          "left": "120px",
+          "text": "o",
+          "top": "535.677px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "270px",
+          "text": "2",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "280px",
+          "text": "0",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "290.199px",
+          "text": "2",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "300.399px",
+          "text": "6",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "320.4px",
+          "text": "年",
+          "top": "532.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "340.4px",
+          "text": "预",
+          "top": "532.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "360.4px",
+          "text": "测",
+          "top": "532.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "380.4px",
+          "text": "：",
+          "top": "532.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "400.4px",
+          "text": "8",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "410.4px",
+          "text": "7",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "420.599px",
+          "text": "0",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "431px",
+          "text": "–",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "441px",
+          "text": "1",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "451px",
+          "text": "5",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "461px",
+          "text": "0",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "471.199px",
+          "text": "0",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "491.4px",
+          "text": "亿",
+          "top": "532.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "511.4px",
+          "text": "美",
+          "top": "532.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "531.4px",
+          "text": "元",
+          "top": "532.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "551.4px",
+          "text": "，",
+          "top": "532.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "571.4px",
+          "text": "同",
+          "top": "532.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "591.4px",
+          "text": "比",
+          "top": "532.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "621.4px",
+          "text": "*",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "631.199px",
+          "text": "*",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "641.199px",
+          "text": "+",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "651.199px",
+          "text": "5",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "661.399px",
+          "text": "6",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "671.399px",
+          "text": "%",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "686px",
+          "text": "–",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "696px",
+          "text": "1",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "706px",
+          "text": "4",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "716px",
+          "text": "1",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "726.199px",
+          "text": "%",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "740.599px",
+          "text": "*",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "750.399px",
+          "text": "*",
+          "top": "534.483px"
+        },
+        {
+          "fontSize": "16.5833px",
+          "left": "120px",
+          "text": "",
+          "top": "562.811px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "210px",
+          "text": "平",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "230px",
+          "text": "台",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "250px",
+          "text": "定",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "270px",
+          "text": "位",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "290px",
+          "text": "：",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "310px",
+          "text": "从",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "340px",
+          "text": "“",
+          "top": "564.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "348.4px",
+          "text": "短",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "368.4px",
+          "text": "视",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "388.4px",
+          "text": "频",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "408.4px",
+          "text": "流",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "428.4px",
+          "text": "量",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "448.4px",
+          "text": "”",
+          "top": "564.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "466.8px",
+          "text": "转",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "486.8px",
+          "text": "向",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "506.8px",
+          "text": "全",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "526.8px",
+          "text": "球",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "546.8px",
+          "text": "社",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "566.8px",
+          "text": "交",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "586.8px",
+          "text": "电",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "606.8px",
+          "text": "商",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "626.999px",
+          "text": "基",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "646.999px",
+          "text": "础",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "666.999px",
+          "text": "设",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "686.999px",
+          "text": "施",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "707px",
+          "text": "，",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "727px",
+          "text": "2",
+          "top": "564.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "737px",
+          "text": "0",
+          "top": "564.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "747.199px",
+          "text": "3",
+          "top": "564.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "757.398px",
+          "text": "0",
+          "top": "564.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "777.4px",
+          "text": "年",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "797.4px",
+          "text": "目",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "817.4px",
+          "text": "标",
+          "top": "562.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "150px",
+          "text": "全",
+          "top": "592.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "170px",
+          "text": "球",
+          "top": "592.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "190px",
+          "text": "电",
+          "top": "592.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "210px",
+          "text": "商",
+          "top": "592.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "230px",
+          "text": "份",
+          "top": "592.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "250px",
+          "text": "额",
+          "top": "592.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "275px",
+          "text": "1",
+          "top": "594.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "285px",
+          "text": "4",
+          "top": "594.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "295.199px",
+          "text": ".",
+          "top": "594.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "300.599px",
+          "text": "6",
+          "top": "594.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "310.599px",
+          "text": "%",
+          "top": "594.483px"
+        },
+        {
+          "fontSize": "16.5833px",
+          "left": "120px",
+          "text": "",
+          "top": "625.611px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "150px",
+          "text": "二",
+          "top": "654.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "173.4px",
+          "text": "、",
+          "top": "654.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "196.598px",
+          "text": "各",
+          "top": "654.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "219.998px",
+          "text": "站",
+          "top": "654.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "243.197px",
+          "text": "点",
+          "top": "654.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "266.597px",
+          "text": "大",
+          "top": "654.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "289.997px",
+          "text": "盘",
+          "top": "654.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "313.196px",
+          "text": "（",
+          "top": "654.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "336.598px",
+          "text": "2",
+          "top": "654.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "349.398px",
+          "text": "0",
+          "top": "654.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "362.398px",
+          "text": "2",
+          "top": "654.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "375.398px",
+          "text": "5",
+          "top": "654.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "400px",
+          "text": "年",
+          "top": "654.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "423.4px",
+          "text": "，",
+          "top": "654.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "446.599px",
+          "text": "按",
+          "top": "654.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "481.8px",
+          "text": "G",
+          "top": "654.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "497.8px",
+          "text": "M",
+          "top": "654.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "516.599px",
+          "text": "V",
+          "top": "654.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "542px",
+          "text": "排",
+          "top": "654.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "565.4px",
+          "text": "序",
+          "top": "654.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "588.599px",
+          "text": "）",
+          "top": "654.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "150px",
+          "text": "三",
+          "top": "1022.92px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "173.4px",
+          "text": "、",
+          "top": "1022.92px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "196.599px",
+          "text": "品",
+          "top": "1022.92px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "219.999px",
+          "text": "类",
+          "top": "1022.92px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "243.399px",
+          "text": "大",
+          "top": "1022.92px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "266.598px",
+          "text": "盘",
+          "top": "1022.92px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "289.998px",
+          "text": "（",
+          "top": "1022.92px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "313.397px",
+          "text": "全",
+          "top": "1022.92px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "336.596px",
+          "text": "球",
+          "top": "1022.92px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "371.598px",
+          "text": "T",
+          "top": "1022.92px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "385.998px",
+          "text": "O",
+          "top": "1022.92px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "403.998px",
+          "text": "P",
+          "top": "1022.92px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "419.597px",
+          "text": "1",
+          "top": "1022.92px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "433.397px",
+          "text": "0",
+          "top": "1022.92px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "447.2px",
+          "text": "，",
+          "top": "1022.92px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "470.598px",
+          "text": "2",
+          "top": "1022.92px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "484.197px",
+          "text": "0",
+          "top": "1022.92px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "497.997px",
+          "text": "2",
+          "top": "1022.92px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "511.796px",
+          "text": "5",
+          "top": "1022.92px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "525.4px",
+          "text": "）",
+          "top": "1022.92px"
+        },
+        {
+          "fontSize": "16.5833px",
+          "left": "120px",
+          "text": "",
+          "top": "1072.81px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "210px",
+          "text": "T",
+          "top": "1074.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "219.199px",
+          "text": "O",
+          "top": "1074.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "232.798px",
+          "text": "P",
+          "top": "1074.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "243.397px",
+          "text": "3",
+          "top": "1074.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "263.598px",
+          "text": "品",
+          "top": "1072.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "283.598px",
+          "text": "类",
+          "top": "1072.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "303.598px",
+          "text": "（",
+          "top": "1072.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "323.598px",
+          "text": "合",
+          "top": "1072.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "343.598px",
+          "text": "计",
+          "top": "1072.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "373.8px",
+          "text": "5",
+          "top": "1074.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "383.8px",
+          "text": "8",
+          "top": "1074.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "393.999px",
+          "text": ".",
+          "top": "1074.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "399.198px",
+          "text": "5",
+          "top": "1074.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "409.398px",
+          "text": "%",
+          "top": "1074.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "428.598px",
+          "text": "G",
+          "top": "1074.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "441.197px",
+          "text": "M",
+          "top": "1074.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "458.796px",
+          "text": "V",
+          "top": "1074.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "470.598px",
+          "text": "）",
+          "top": "1072.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "490.598px",
+          "text": "：",
+          "top": "1072.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "120px",
+          "text": "1",
+          "top": "1104.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "130px",
+          "text": ".",
+          "top": "1104.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "270px",
+          "text": "美",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "290px",
+          "text": "妆",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "310px",
+          "text": "个",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "330px",
+          "text": "护",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "350px",
+          "text": "：",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "367.4px",
+          "text": "口",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "387.4px",
+          "text": "红",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "407.4px",
+          "text": "、",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "424.598px",
+          "text": "面",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "444.598px",
+          "text": "膜",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "464.598px",
+          "text": "、",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "482px",
+          "text": "香",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "502px",
+          "text": "水",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "522px",
+          "text": "、",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "539.2px",
+          "text": "护",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "559.2px",
+          "text": "肤",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "579.2px",
+          "text": "套",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "599.2px",
+          "text": "装",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "619.2px",
+          "text": "，",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "636.4px",
+          "text": "客",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "656.4px",
+          "text": "单",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "686.4px",
+          "text": "$",
+          "top": "1104.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "696.4px",
+          "text": "1",
+          "top": "1104.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "706.599px",
+          "text": "5",
+          "top": "1104.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "717px",
+          "text": "–",
+          "top": "1104.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "726.8px",
+          "text": "5",
+          "top": "1104.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "736.8px",
+          "text": "0",
+          "top": "1104.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "747px",
+          "text": "，",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "764.4px",
+          "text": "东",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "784.4px",
+          "text": "南",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "804.4px",
+          "text": "亚",
+          "top": "1102.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "834.4px",
+          "text": "/",
+          "top": "1104.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "150px",
+          "text": "美",
+          "top": "1132.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "170px",
+          "text": "国",
+          "top": "1132.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "190px",
+          "text": "爆",
+          "top": "1132.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "210px",
+          "text": "发",
+          "top": "1132.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "120px",
+          "text": "2",
+          "top": "1164.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "130px",
+          "text": ".",
+          "top": "1164.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "270px",
+          "text": "女",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "290px",
+          "text": "装",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "320px",
+          "text": "/",
+          "top": "1164.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "338.598px",
+          "text": "女",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "358.598px",
+          "text": "士",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "378.598px",
+          "text": "内",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "398.598px",
+          "text": "衣",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "418.598px",
+          "text": "：",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "438.598px",
+          "text": "连",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "458.598px",
+          "text": "衣",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "478.598px",
+          "text": "裙",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "498.598px",
+          "text": "、",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "518.598px",
+          "text": "瑜",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "538.598px",
+          "text": "伽",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "558.598px",
+          "text": "服",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "578.598px",
+          "text": "、",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "598.598px",
+          "text": "内",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "618.598px",
+          "text": "衣",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "638.598px",
+          "text": "，",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "658.598px",
+          "text": "视",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "678.598px",
+          "text": "觉",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "698.598px",
+          "text": "强",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "718.598px",
+          "text": "、",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "738.598px",
+          "text": "转",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "758.598px",
+          "text": "化",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "778.798px",
+          "text": "高",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "798.8px",
+          "text": "，",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "818.8px",
+          "text": "全",
+          "top": "1162.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "150px",
+          "text": "球",
+          "top": "1192.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "170px",
+          "text": "通",
+          "top": "1192.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "190px",
+          "text": "吃",
+          "top": "1192.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "120px",
+          "text": "3",
+          "top": "1224.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "130px",
+          "text": ".",
+          "top": "1224.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "270px",
+          "text": "手",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "290px",
+          "text": "机",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "320px",
+          "text": "/",
+          "top": "1224.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "333px",
+          "text": "3",
+          "top": "1224.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "343px",
+          "text": "C",
+          "top": "1224.48px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "363.8px",
+          "text": "配",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "383.8px",
+          "text": "件",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "404px",
+          "text": "：",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "423.598px",
+          "text": "手",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "443.598px",
+          "text": "机",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "463.598px",
+          "text": "壳",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "483.598px",
+          "text": "、",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "503.2px",
+          "text": "充",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "523.2px",
+          "text": "电",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "543.2px",
+          "text": "线",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "563.2px",
+          "text": "、",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "583px",
+          "text": "耳",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "603px",
+          "text": "机",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "623px",
+          "text": "、",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "642.598px",
+          "text": "小",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "662.598px",
+          "text": "家",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "682.598px",
+          "text": "电",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "702.598px",
+          "text": "，",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "722.4px",
+          "text": "复",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "742.4px",
+          "text": "购",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "762.4px",
+          "text": "强",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "782.4px",
+          "text": "、",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "802px",
+          "text": "客",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "822px",
+          "text": "单",
+          "top": "1222.94px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "150px",
+          "text": "$",
+          "top": "1255.68px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "160px",
+          "text": "1",
+          "top": "1255.68px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "170.199px",
+          "text": "0",
+          "top": "1255.68px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "180.4px",
+          "text": "–",
+          "top": "1255.68px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "190.4px",
+          "text": "4",
+          "top": "1255.68px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "200.4px",
+          "text": "0",
+          "top": "1255.68px"
+        }
+      ],
+      "image_only": false,
+      "text": "TikTok大盘数据分析TikTok大盘核心结论：2025年全球GMV623亿美元、同比+95.5%；2026年预计870–1500亿美元，东南亚+美国双引擎驱动，美妆、女装、家居、3C为核心品类一、全球大盘总览（2025–2026）用户规模：全球月活近20亿，日均使用95分钟，用户粘性全球第一GMV规模：o2025年：623.05亿美元，同比**+95.5%**（行业平均约20%，增速5倍）o2026年预测：870–1500亿美元，同比**+56%–141%**平台定位：从“短视频流量”转向全球社交电商基础设施，2030年目标全球电商份额14.6%二、各站点大盘（2025年，按GMV排序）三、品类大盘（全球TOP10，2025）TOP3品类（合计58.5%GMV）：1.美妆个护：口红、面膜、香水、护肤套装，客单$15–50，东南亚/美国爆发2.女装/女士内衣：连衣裙、瑜伽服、内衣，视觉强、转化高，全球通吃3.手机/3C配件：手机壳、充电线、耳机、小家电，复购强、客单$10–40",
+      "source_file": "33-dom.json"
+    },
+    {
+      "images": [
+        {
+          "height": 1404,
+          "id": "page2",
+          "tag": "CANVAS",
+          "width": 993
+        }
+      ],
+      "links": [],
+      "loaded": true,
+      "page_number": 2,
+      "paragraphs": [],
+      "spans": [
+        {
+          "fontSize": "16.5833px",
+          "left": "120px",
+          "text": "",
+          "top": "126.811px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "210px",
+          "text": "高",
+          "top": "126.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "230px",
+          "text": "增",
+          "top": "126.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "250px",
+          "text": "长",
+          "top": "126.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "270px",
+          "text": "潜",
+          "top": "126.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "290px",
+          "text": "力",
+          "top": "126.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "310px",
+          "text": "品",
+          "top": "126.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "330.199px",
+          "text": "类",
+          "top": "126.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "350px",
+          "text": "：",
+          "top": "126.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "120px",
+          "text": "1",
+          "top": "158.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "130px",
+          "text": ".",
+          "top": "158.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "270px",
+          "text": "家",
+          "top": "156.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "290px",
+          "text": "居",
+          "top": "156.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "310px",
+          "text": "百",
+          "top": "156.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "330px",
+          "text": "货",
+          "top": "156.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "350px",
+          "text": "：",
+          "top": "156.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "370px",
+          "text": "收",
+          "top": "156.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "390px",
+          "text": "纳",
+          "top": "156.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "410px",
+          "text": "、",
+          "top": "156.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "430px",
+          "text": "清",
+          "top": "156.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "450px",
+          "text": "洁",
+          "top": "156.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "470px",
+          "text": "、",
+          "top": "156.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "490px",
+          "text": "小",
+          "top": "156.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "510px",
+          "text": "家",
+          "top": "156.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "530px",
+          "text": "电",
+          "top": "156.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "550px",
+          "text": "，",
+          "top": "156.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "570px",
+          "text": "2",
+          "top": "158.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "580px",
+          "text": "0",
+          "top": "158.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "590.199px",
+          "text": "2",
+          "top": "158.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "600.399px",
+          "text": "5",
+          "top": "158.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "620.598px",
+          "text": "同",
+          "top": "156.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "640.598px",
+          "text": "比",
+          "top": "156.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "670.598px",
+          "text": "+",
+          "top": "158.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "685px",
+          "text": "1",
+          "top": "158.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "695px",
+          "text": "2",
+          "top": "158.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "705.199px",
+          "text": "0",
+          "top": "158.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "715.398px",
+          "text": "%",
+          "top": "158.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "120px",
+          "text": "2",
+          "top": "188.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "130px",
+          "text": ".",
+          "top": "188.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "270px",
+          "text": "时",
+          "top": "186.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "290px",
+          "text": "尚",
+          "top": "186.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "310px",
+          "text": "配",
+          "top": "186.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "330px",
+          "text": "饰",
+          "top": "186.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "350px",
+          "text": "：",
+          "top": "186.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "370px",
+          "text": "首",
+          "top": "186.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "390px",
+          "text": "饰",
+          "top": "186.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "410px",
+          "text": "、",
+          "top": "186.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "430px",
+          "text": "包",
+          "top": "186.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "450px",
+          "text": "包",
+          "top": "186.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "470px",
+          "text": "、",
+          "top": "186.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "490px",
+          "text": "帽",
+          "top": "186.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "510px",
+          "text": "子",
+          "top": "186.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "530px",
+          "text": "，",
+          "top": "186.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "550px",
+          "text": "内",
+          "top": "186.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "570px",
+          "text": "容",
+          "top": "186.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "590px",
+          "text": "易",
+          "top": "186.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "610px",
+          "text": "爆",
+          "top": "186.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "630px",
+          "text": "、",
+          "top": "186.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "650px",
+          "text": "利",
+          "top": "186.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "670.199px",
+          "text": "润",
+          "top": "186.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "690.199px",
+          "text": "高",
+          "top": "186.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "120px",
+          "text": "3",
+          "top": "218.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "130px",
+          "text": ".",
+          "top": "218.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "270px",
+          "text": "健",
+          "top": "216.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "290px",
+          "text": "康",
+          "top": "216.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "320px",
+          "text": "/",
+          "top": "218.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "338.598px",
+          "text": "运",
+          "top": "216.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "358.598px",
+          "text": "动",
+          "top": "216.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "378.598px",
+          "text": "：",
+          "top": "216.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "398.598px",
+          "text": "补",
+          "top": "216.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "418.598px",
+          "text": "剂",
+          "top": "216.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "438.598px",
+          "text": "、",
+          "top": "216.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "458.598px",
+          "text": "健",
+          "top": "216.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "478.598px",
+          "text": "身",
+          "top": "216.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "498.598px",
+          "text": "器",
+          "top": "216.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "518.598px",
+          "text": "材",
+          "top": "216.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "538.598px",
+          "text": "，",
+          "top": "216.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "558.598px",
+          "text": "欧",
+          "top": "216.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "578.598px",
+          "text": "美",
+          "top": "216.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "608.598px",
+          "text": "/",
+          "top": "218.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "627.2px",
+          "text": "日",
+          "top": "216.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "647.2px",
+          "text": "本",
+          "top": "216.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "667.2px",
+          "text": "增",
+          "top": "216.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "687.2px",
+          "text": "速",
+          "top": "216.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "707.2px",
+          "text": "最",
+          "top": "216.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "727.2px",
+          "text": "快",
+          "top": "216.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "120px",
+          "text": "4",
+          "top": "248.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "130px",
+          "text": ".",
+          "top": "248.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "270px",
+          "text": "母",
+          "top": "246.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "290px",
+          "text": "婴",
+          "top": "246.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "320px",
+          "text": "/",
+          "top": "248.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "338.598px",
+          "text": "玩",
+          "top": "246.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "358.598px",
+          "text": "具",
+          "top": "246.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "378.598px",
+          "text": "：",
+          "top": "246.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "398.598px",
+          "text": "东",
+          "top": "246.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "418.598px",
+          "text": "南",
+          "top": "246.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "438.598px",
+          "text": "亚",
+          "top": "246.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "458.598px",
+          "text": "刚",
+          "top": "246.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "478.598px",
+          "text": "需",
+          "top": "246.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "498.598px",
+          "text": "、",
+          "top": "246.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "518.598px",
+          "text": "美",
+          "top": "246.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "538.598px",
+          "text": "国",
+          "top": "246.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "558.598px",
+          "text": "增",
+          "top": "246.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "578.598px",
+          "text": "长",
+          "top": "246.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "598.598px",
+          "text": "快",
+          "top": "246.943px"
+        },
+        {
+          "fontSize": "16.5833px",
+          "left": "120px",
+          "text": "",
+          "top": "276.811px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "210px",
+          "text": "品",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "230px",
+          "text": "类",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "250px",
+          "text": "逻",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "270px",
+          "text": "辑",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "290px",
+          "text": "：",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "307.8px",
+          "text": "内",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "327.8px",
+          "text": "容",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "347.8px",
+          "text": "可",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "367.8px",
+          "text": "表",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "387.8px",
+          "text": "达",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "407.8px",
+          "text": "度",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "428px",
+          "text": "决",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "448px",
+          "text": "定",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "468px",
+          "text": "爆",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "488px",
+          "text": "品",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "508px",
+          "text": "概",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "528px",
+          "text": "率",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "558px",
+          "text": "—",
+          "top": "278.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "576px",
+          "text": "—",
+          "top": "278.483px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "594px",
+          "text": "视",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "614px",
+          "text": "觉",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "634px",
+          "text": "冲",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "654px",
+          "text": "击",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "674px",
+          "text": "强",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "694.2px",
+          "text": "、",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "712px",
+          "text": "使",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "732px",
+          "text": "用",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "752px",
+          "text": "场",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "772px",
+          "text": "景",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "792px",
+          "text": "清",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "812px",
+          "text": "晰",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "832px",
+          "text": "、",
+          "top": "276.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "150px",
+          "text": "效",
+          "top": "306.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "170px",
+          "text": "果",
+          "top": "306.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "190px",
+          "text": "可",
+          "top": "306.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "210px",
+          "text": "展",
+          "top": "306.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "230px",
+          "text": "示",
+          "top": "306.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "250px",
+          "text": "的",
+          "top": "306.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "270px",
+          "text": "品",
+          "top": "306.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "290px",
+          "text": "类",
+          "top": "306.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "310px",
+          "text": "更",
+          "top": "306.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "330px",
+          "text": "容",
+          "top": "306.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "350px",
+          "text": "易",
+          "top": "306.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "370px",
+          "text": "起",
+          "top": "306.943px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "390px",
+          "text": "量",
+          "top": "306.943px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "150px",
+          "text": "四",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "173.4px",
+          "text": "、",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "196.598px",
+          "text": "打",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "219.998px",
+          "text": "开",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "249.2px",
+          "text": "F",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "262px",
+          "text": "a",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "275.199px",
+          "text": "s",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "285.998px",
+          "text": "t",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "294.798px",
+          "text": "M",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "313.798px",
+          "text": "o",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "327.798px",
+          "text": "s",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "338.798px",
+          "text": "s",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "361.4px",
+          "text": "先",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "384.8px",
+          "text": "确",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "407.999px",
+          "text": "定",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "431.399px",
+          "text": "好",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "454.798px",
+          "text": "自",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "477.998px",
+          "text": "己",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "501.397px",
+          "text": "要",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "524.797px",
+          "text": "做",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "547.996px",
+          "text": "的",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "571.396px",
+          "text": "国",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "594.796px",
+          "text": "家",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "617.995px",
+          "text": "以",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "641.395px",
+          "text": "及",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "664.795px",
+          "text": "品",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "687.994px",
+          "text": "类",
+          "top": "368.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "150px",
+          "text": "F",
+          "top": "420.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "162.799px",
+          "text": "a",
+          "top": "420.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "175.999px",
+          "text": "s",
+          "top": "420.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "186.798px",
+          "text": "t",
+          "top": "420.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "195.598px",
+          "text": "M",
+          "top": "420.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "214.598px",
+          "text": "o",
+          "top": "420.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "228.797px",
+          "text": "s",
+          "top": "420.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "239.596px",
+          "text": "s",
+          "top": "420.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "256.4px",
+          "text": "链",
+          "top": "420.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "279.8px",
+          "text": "接",
+          "top": "420.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "302.999px",
+          "text": "：",
+          "top": "420.916px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "326.4px",
+          "text": "h",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "336.999px",
+          "text": "t",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "343.598px",
+          "text": "t",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "350.197px",
+          "text": "p",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "360.996px",
+          "text": "s",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "369.196px",
+          "text": ":",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "373.995px",
+          "text": "/",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "380.795px",
+          "text": "/",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "387.795px",
+          "text": "w",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "401.795px",
+          "text": "w",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "415.795px",
+          "text": "w",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "429.795px",
+          "text": ".",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "434.594px",
+          "text": "f",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "440.394px",
+          "text": "a",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "450.193px",
+          "text": "s",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "458.392px",
+          "text": "t",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "464.991px",
+          "text": "m",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "481.191px",
+          "text": "o",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "491.79px",
+          "text": "s",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "499.989px",
+          "text": "s",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "508.188px",
+          "text": ".",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "512.988px",
+          "text": "c",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "521.988px",
+          "text": "o",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "532.587px",
+          "text": "m",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "548.786px",
+          "text": "/",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "555.586px",
+          "text": "z",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "563.985px",
+          "text": "h",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "574.584px",
+          "text": "/",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "581.384px",
+          "text": "m",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "597.583px",
+          "text": "a",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "607.383px",
+          "text": "r",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "614.182px",
+          "text": "k",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "623.981px",
+          "text": "e",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "633.581px",
+          "text": "t",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "640.179px",
+          "text": "/",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "647.179px",
+          "text": "m",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "663.379px",
+          "text": "a",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "673.178px",
+          "text": "r",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "679.978px",
+          "text": "k",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "689.577px",
+          "text": "e",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "699.376px",
+          "text": "t",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "705.975px",
+          "text": "-",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "711.975px",
+          "text": "a",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "721.775px",
+          "text": "n",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "732.574px",
+          "text": "a",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "742.374px",
+          "text": "l",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "747.374px",
+          "text": "y",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "756.573px",
+          "text": "z",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "17.4167px",
+          "left": "764.772px",
+          "text": "e",
+          "top": "428.077px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "150px",
+          "text": "选",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "170px",
+          "text": "品",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "190px",
+          "text": "：",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "210px",
+          "text": "通",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "230px",
+          "text": "过",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "250px",
+          "text": "商",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "270px",
+          "text": "品",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "300px",
+          "text": "→",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "320px",
+          "text": "新",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "340px",
+          "text": "品",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "360px",
+          "text": "榜",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "380px",
+          "text": "→",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "400px",
+          "text": "上",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "420px",
+          "text": "架",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "440px",
+          "text": "时",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "460px",
+          "text": "间",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "480px",
+          "text": "优",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "500px",
+          "text": "先",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "520px",
+          "text": "选",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "540px",
+          "text": "择",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "565px",
+          "text": "3",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "576.599px",
+          "text": "-",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "583.999px",
+          "text": "1",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "595.798px",
+          "text": "0",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "612.598px",
+          "text": "天",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "632.598px",
+          "text": "→",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "652.598px",
+          "text": "确",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "672.598px",
+          "text": "定",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "692.598px",
+          "text": "好",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "712.598px",
+          "text": "自",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "732.598px",
+          "text": "己",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "752.598px",
+          "text": "的",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "772.598px",
+          "text": "品",
+          "top": "661.479px"
+        },
+        {
+          "fontSize": "20px",
+          "left": "792.598px",
+          "text": "类",
+          "top": "661.479px"
+        }
+      ],
+      "image_only": false,
+      "text": "高增长潜力品类：1.家居百货：收纳、清洁、小家电，2025同比+120%2.时尚配饰：首饰、包包、帽子，内容易爆、利润高3.健康/运动：补剂、健身器材，欧美/日本增速最快4.母婴/玩具：东南亚刚需、美国增长快品类逻辑：内容可表达度决定爆品概率——视觉冲击强、使用场景清晰、效果可展示的品类更容易起量四、打开FastMoss先确定好自己要做的国家以及品类FastMoss链接：https://www.fastmoss.com/zh/market/market-analyze选品：通过商品→新品榜→上架时间优先选择3-10天→确定好自己的品类",
+      "source_file": "33-dom.json"
+    },
+    {
+      "images": [
+        {
+          "height": 1404,
+          "id": "page3",
+          "tag": "CANVAS",
+          "width": 993
+        }
+      ],
+      "links": [],
+      "loaded": true,
+      "page_number": 3,
+      "paragraphs": [],
+      "spans": [
+        {
+          "fontSize": "23.4167px",
+          "left": "150px",
+          "text": "选",
+          "top": "248.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "173.4px",
+          "text": "品",
+          "top": "248.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "196.599px",
+          "text": "的",
+          "top": "248.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "219.999px",
+          "text": "维",
+          "top": "248.916px"
+        },
+        {
+          "fontSize": "23.4167px",
+          "left": "243.399px",
+          "text": "度",
+          "top": "248.916px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "150px",
+          "text": "上",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "177.199px",
+          "text": "架",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "210.8px",
+          "text": "3",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "225.599px",
+          "text": "-",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "234.799px",
+          "text": "1",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "249.598px",
+          "text": "0",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "271.598px",
+          "text": "天",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "298.798px",
+          "text": "为",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "325.798px",
+          "text": "首",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "352.997px",
+          "text": "选",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "379.997px",
+          "text": "，",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "407.196px",
+          "text": "近",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "441px",
+          "text": "7",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "463px",
+          "text": "天",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "490.199px",
+          "text": "销",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "517.199px",
+          "text": "量",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "544.398px",
+          "text": "（",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "571.398px",
+          "text": "排",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "598.598px",
+          "text": "除",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "625.598px",
+          "text": "掉",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "652.797px",
+          "text": "那",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "679.996px",
+          "text": "种",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "706.996px",
+          "text": "单",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "734.195px",
+          "text": "日",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "761.195px",
+          "text": "销",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "788.395px",
+          "text": "量",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "815.594px",
+          "text": "占",
+          "top": "844.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "150px",
+          "text": "比",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "176.599px",
+          "text": "超",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "203.398px",
+          "text": "过",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "229.998px",
+          "text": "总",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "256.596px",
+          "text": "销",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "283.396px",
+          "text": "量",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "323.4px",
+          "text": "7",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "338.199px",
+          "text": "0",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "352.999px",
+          "text": "%",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "390.8px",
+          "text": "的",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "417.399px",
+          "text": "产",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "444.198px",
+          "text": "品",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "468.8px",
+          "text": "（",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "495.4px",
+          "text": "这",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "521.999px",
+          "text": "种",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "548.798px",
+          "text": "通",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "575.398px",
+          "text": "常",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "601.996px",
+          "text": "是",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "628.796px",
+          "text": "单",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "655.395px",
+          "text": "次",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "681.994px",
+          "text": "投",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "708.793px",
+          "text": "流",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "735.393px",
+          "text": "失",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "761.991px",
+          "text": "败",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "788.791px",
+          "text": "或",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "815.39px",
+          "text": "补",
+          "top": "896.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "150px",
+          "text": "单",
+          "top": "948.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "176.599px",
+          "text": "）",
+          "top": "948.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "203.398px",
+          "text": "）",
+          "top": "948.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "150px",
+          "text": "日",
+          "top": "1000.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "176.599px",
+          "text": "均",
+          "top": "1000.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "203.398px",
+          "text": "增",
+          "top": "1000.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "229.998px",
+          "text": "长",
+          "top": "1000.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "256.596px",
+          "text": "量",
+          "top": "1000.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "283.396px",
+          "text": "大",
+          "top": "1000.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "309.995px",
+          "text": "于",
+          "top": "1000.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "343.4px",
+          "text": "3",
+          "top": "1000.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "358.199px",
+          "text": "0",
+          "top": "1000.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "372.999px",
+          "text": "%",
+          "top": "1000.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "150px",
+          "text": "达",
+          "top": "1052.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "176.599px",
+          "text": "人",
+          "top": "1052.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "203.398px",
+          "text": "数",
+          "top": "1052.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "229.998px",
+          "text": "＜",
+          "top": "1052.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "256.598px",
+          "text": "3",
+          "top": "1052.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "271.398px",
+          "text": "0",
+          "top": "1052.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "293px",
+          "text": "个",
+          "top": "1052.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "150px",
+          "text": "评",
+          "top": "1104.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "176.599px",
+          "text": "价",
+          "top": "1104.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "203.398px",
+          "text": "数",
+          "top": "1104.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "229.998px",
+          "text": "少",
+          "top": "1104.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "256.596px",
+          "text": "于",
+          "top": "1104.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "290px",
+          "text": "5",
+          "top": "1104.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "304.8px",
+          "text": "0",
+          "top": "1104.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "326.2px",
+          "text": "个",
+          "top": "1104.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "150px",
+          "text": "最",
+          "top": "1156.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "176.599px",
+          "text": "新",
+          "top": "1156.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "203.398px",
+          "text": "评",
+          "top": "1156.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "229.998px",
+          "text": "价",
+          "top": "1156.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "256.596px",
+          "text": "日",
+          "top": "1156.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "283.396px",
+          "text": "期",
+          "top": "1156.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "309.995px",
+          "text": "近",
+          "top": "1156.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "336.594px",
+          "text": "（",
+          "top": "1156.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "363.393px",
+          "text": "如",
+          "top": "1156.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "396.598px",
+          "text": "3",
+          "top": "1156.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "418px",
+          "text": "天",
+          "top": "1156.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "444.599px",
+          "text": "内",
+          "top": "1156.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "471.399px",
+          "text": "）",
+          "top": "1156.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "150px",
+          "text": "商",
+          "top": "1208.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "176.599px",
+          "text": "品",
+          "top": "1208.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "203.398px",
+          "text": "卡",
+          "top": "1208.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "229.998px",
+          "text": "来",
+          "top": "1208.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "256.596px",
+          "text": "源",
+          "top": "1208.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "283.396px",
+          "text": "＞",
+          "top": "1208.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "310px",
+          "text": "6",
+          "top": "1208.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "324.799px",
+          "text": "0",
+          "top": "1208.84px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "339.599px",
+          "text": "%",
+          "top": "1208.84px"
+        }
+      ],
+      "image_only": false,
+      "text": "选品的维度上架3-10天为首选，近7天销量（排除掉那种单日销量占比超过总销量70%的产品（这种通常是单次投流失败或补单））日均增长量大于30%达人数＜30个评价数少于50个最新评价日期近（如3天内）商品卡来源＞60%",
+      "source_file": "33-dom.json"
+    },
+    {
+      "images": [
+        {
+          "height": 1404,
+          "id": "page4",
+          "tag": "CANVAS",
+          "width": 993
+        }
+      ],
+      "links": [],
+      "loaded": true,
+      "page_number": 4,
+      "paragraphs": [],
+      "spans": [
+        {
+          "fontSize": "26.5833px",
+          "left": "150px",
+          "text": "定",
+          "top": "126.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "176.599px",
+          "text": "价",
+          "top": "126.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "203.398px",
+          "text": "比",
+          "top": "126.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "229.998px",
+          "text": "竞",
+          "top": "126.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "256.596px",
+          "text": "品",
+          "top": "126.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "283.396px",
+          "text": "低",
+          "top": "126.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "316.598px",
+          "text": "1",
+          "top": "126.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "331.398px",
+          "text": "-",
+          "top": "126.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "340.597px",
+          "text": "2",
+          "top": "126.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "355.397px",
+          "text": "$",
+          "top": "126.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "370.4px",
+          "text": "（",
+          "top": "126.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "396.999px",
+          "text": "保",
+          "top": "126.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "423.798px",
+          "text": "留",
+          "top": "126.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "457px",
+          "text": "3",
+          "top": "126.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "471.799px",
+          "text": "0",
+          "top": "126.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "486.599px",
+          "text": "%",
+          "top": "126.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "511.2px",
+          "text": "的",
+          "top": "126.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "537.799px",
+          "text": "利",
+          "top": "126.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "564.598px",
+          "text": "润",
+          "top": "126.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "591.197px",
+          "text": "比",
+          "top": "126.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "150px",
+          "text": "能",
+          "top": "178.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "176.599px",
+          "text": "低",
+          "top": "178.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "203.398px",
+          "text": "出",
+          "top": "178.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "229.998px",
+          "text": "更",
+          "top": "178.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "256.596px",
+          "text": "多",
+          "top": "178.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "283.396px",
+          "text": "更",
+          "top": "178.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "309.995px",
+          "text": "好",
+          "top": "178.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "336.594px",
+          "text": "）",
+          "top": "178.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "150px",
+          "text": "总",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "176.599px",
+          "text": "销",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "203.398px",
+          "text": "量",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "229.998px",
+          "text": "在",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "263.4px",
+          "text": "1",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "278.199px",
+          "text": "0",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "292.999px",
+          "text": "0",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "307.798px",
+          "text": "-",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "316.998px",
+          "text": "8",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "331.797px",
+          "text": "0",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "346.597px",
+          "text": "0",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "360.4px",
+          "text": "（",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "387px",
+          "text": "如",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "413.599px",
+          "text": "果",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "453.598px",
+          "text": "1",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "468.398px",
+          "text": "0",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "496.598px",
+          "text": "天",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "523.197px",
+          "text": "内",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "549.997px",
+          "text": "已",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "576.596px",
+          "text": "经",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "603.195px",
+          "text": "卖",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "629.994px",
+          "text": "了",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "656.593px",
+          "text": "几",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "683.192px",
+          "text": "万",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "709.992px",
+          "text": "单",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "736.598px",
+          "text": "，",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "762.2px",
+          "text": "那",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "788.799px",
+          "text": "是",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "815.598px",
+          "text": "超",
+          "top": "230.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "150px",
+          "text": "级",
+          "top": "282.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "176.599px",
+          "text": "大",
+          "top": "282.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "203.398px",
+          "text": "爆",
+          "top": "282.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "229.998px",
+          "text": "款",
+          "top": "282.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "256.596px",
+          "text": "，",
+          "top": "282.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "283.396px",
+          "text": "无",
+          "top": "282.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "309.995px",
+          "text": "货",
+          "top": "282.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "336.594px",
+          "text": "源",
+          "top": "282.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "363.393px",
+          "text": "截",
+          "top": "282.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "389.992px",
+          "text": "流",
+          "top": "282.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "416.591px",
+          "text": "已",
+          "top": "282.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "443.391px",
+          "text": "经",
+          "top": "282.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "469.99px",
+          "text": "进",
+          "top": "282.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "496.589px",
+          "text": "不",
+          "top": "282.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "523.388px",
+          "text": "去",
+          "top": "282.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "549.987px",
+          "text": "了",
+          "top": "282.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "576.587px",
+          "text": "）",
+          "top": "282.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "150px",
+          "text": "理",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "176.599px",
+          "text": "想",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "203.398px",
+          "text": "数",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "229.998px",
+          "text": "值",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "256.596px",
+          "text": "是",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "296.598px",
+          "text": "<",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "317.4px",
+          "text": "3",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "332.2px",
+          "text": "0",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "360.4px",
+          "text": "人",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "387px",
+          "text": "。",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "421.2px",
+          "text": "达",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "447.799px",
+          "text": "人",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "474.598px",
+          "text": "越",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "501.197px",
+          "text": "少",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "528px",
+          "text": "，",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "548.8px",
+          "text": "说",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "575.399px",
+          "text": "明",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "602.198px",
+          "text": "目",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "628.798px",
+          "text": "前",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "655.396px",
+          "text": "的",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "682.196px",
+          "text": "订",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "708.795px",
+          "text": "单",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "735.394px",
+          "text": "大",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "762.193px",
+          "text": "多",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "788.793px",
+          "text": "来",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "815.391px",
+          "text": "自",
+          "top": "334.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "150px",
+          "text": "商",
+          "top": "386.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "176.599px",
+          "text": "城",
+          "top": "386.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "203.398px",
+          "text": "搜",
+          "top": "386.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "229.998px",
+          "text": "索",
+          "top": "386.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "256.596px",
+          "text": "或",
+          "top": "386.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "283.396px",
+          "text": "系",
+          "top": "386.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "309.995px",
+          "text": "统",
+          "top": "386.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "336.594px",
+          "text": "推",
+          "top": "386.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "363.393px",
+          "text": "荐",
+          "top": "386.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "389.992px",
+          "text": "，",
+          "top": "386.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "416.591px",
+          "text": "这",
+          "top": "386.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "443.391px",
+          "text": "对",
+          "top": "386.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "469.99px",
+          "text": "做",
+          "top": "386.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "496.589px",
+          "text": "商",
+          "top": "386.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "523.388px",
+          "text": "品",
+          "top": "386.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "549.987px",
+          "text": "卡",
+          "top": "386.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "576.587px",
+          "text": "自",
+          "top": "386.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "603.386px",
+          "text": "然",
+          "top": "386.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "629.985px",
+          "text": "流",
+          "top": "386.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "656.584px",
+          "text": "的",
+          "top": "386.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "683.384px",
+          "text": "你",
+          "top": "386.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "709.982px",
+          "text": "最",
+          "top": "386.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "736.582px",
+          "text": "有",
+          "top": "386.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "763.381px",
+          "text": "利",
+          "top": "386.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "150px",
+          "text": "价",
+          "top": "438.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "176.599px",
+          "text": "格",
+          "top": "438.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "203.398px",
+          "text": "合",
+          "top": "438.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "229.998px",
+          "text": "理",
+          "top": "438.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "150px",
+          "text": "近",
+          "top": "490.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "190px",
+          "text": "7",
+          "top": "490.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "218px",
+          "text": "天",
+          "top": "490.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "244.599px",
+          "text": "内",
+          "top": "490.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "271.398px",
+          "text": "新",
+          "top": "490.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "297.997px",
+          "text": "增",
+          "top": "490.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "324.596px",
+          "text": "挂",
+          "top": "490.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "351.396px",
+          "text": "车",
+          "top": "490.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "377.995px",
+          "text": "视",
+          "top": "490.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "404.594px",
+          "text": "频",
+          "top": "490.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "431.393px",
+          "text": "数",
+          "top": "490.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "471.4px",
+          "text": ">",
+          "top": "490.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "492.2px",
+          "text": "5",
+          "top": "490.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "520.4px",
+          "text": "条",
+          "top": "490.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "150px",
+          "text": "美",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "176.599px",
+          "text": "区",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "216.598px",
+          "text": "：",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "245.598px",
+          "text": "由",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "272.197px",
+          "text": "于",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "298.997px",
+          "text": "体",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "325.596px",
+          "text": "量",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "352.195px",
+          "text": "大",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "379px",
+          "text": "，",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "394.4px",
+          "text": "日",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "420.999px",
+          "text": "增",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "447.798px",
+          "text": "销",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "474.397px",
+          "text": "量",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "500.996px",
+          "text": "达",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "527.796px",
+          "text": "到",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "567.8px",
+          "text": "2",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "582.6px",
+          "text": "0",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "597.399px",
+          "text": "0",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "612.198px",
+          "text": "-",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "621.398px",
+          "text": "5",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "636.197px",
+          "text": "0",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "650.997px",
+          "text": "0",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "679.2px",
+          "text": "单",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "719.2px",
+          "text": "仍",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "745.799px",
+          "text": "属",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "772.598px",
+          "text": "于",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "788.8px",
+          "text": "“",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "815.4px",
+          "text": "早",
+          "top": "594.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "150px",
+          "text": "期",
+          "top": "646.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "176.598px",
+          "text": "”",
+          "top": "646.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "203.4px",
+          "text": "，",
+          "top": "646.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "229.999px",
+          "text": "可",
+          "top": "646.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "256.798px",
+          "text": "以",
+          "top": "646.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "283.397px",
+          "text": "大",
+          "top": "646.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "309.996px",
+          "text": "胆",
+          "top": "646.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "336.796px",
+          "text": "入",
+          "top": "646.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "363.395px",
+          "text": "场",
+          "top": "646.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "389.994px",
+          "text": "。",
+          "top": "646.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "150px",
+          "text": "东",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "176.599px",
+          "text": "南",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "203.398px",
+          "text": "亚",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "243.4px",
+          "text": "：",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "281.8px",
+          "text": "竞",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "308.399px",
+          "text": "争",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "335.198px",
+          "text": "极",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "361.797px",
+          "text": "快",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "388.4px",
+          "text": "，",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "413.598px",
+          "text": "日",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "440.197px",
+          "text": "增",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "466.997px",
+          "text": "达",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "493.596px",
+          "text": "到",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "533.598px",
+          "text": "5",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "548.398px",
+          "text": "0",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "563.197px",
+          "text": "-",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "572.397px",
+          "text": "1",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "587.196px",
+          "text": "0",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "601.996px",
+          "text": "0",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "630.2px",
+          "text": "单",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "656.799px",
+          "text": "就",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "683.598px",
+          "text": "必",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "710.197px",
+          "text": "须",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "736.797px",
+          "text": "动",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "763.596px",
+          "text": "作",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "790.2px",
+          "text": "，",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "815.4px",
+          "text": "否",
+          "top": "750.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "150px",
+          "text": "则",
+          "top": "802.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "176.599px",
+          "text": "要",
+          "top": "802.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "203.398px",
+          "text": "不",
+          "top": "802.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "229.998px",
+          "text": "了",
+          "top": "802.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "256.596px",
+          "text": "几",
+          "top": "802.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "283.396px",
+          "text": "天",
+          "top": "802.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "309.995px",
+          "text": "全",
+          "top": "802.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "336.594px",
+          "text": "网",
+          "top": "802.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "363.393px",
+          "text": "都",
+          "top": "802.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "389.992px",
+          "text": "是",
+          "top": "802.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "416.591px",
+          "text": "同",
+          "top": "802.841px"
+        },
+        {
+          "fontSize": "26.5833px",
+          "left": "443.391px",
+          "text": "款",
+          "top": "802.841px"
+        }
+      ],
+      "image_only": false,
+      "text": "定价比竞品低1-2$（保留30%的利润比能低出更多更好）总销量在100-800（如果10天内已经卖了几万单，那是超级大爆款，无货源截流已经进不去了）理想数值是<30人。达人越少，说明目前的订单大多来自商城搜索或系统推荐，这对做商品卡自然流的你最有利价格合理近7天内新增挂车视频数>5条美区：由于体量大，日增销量达到200-500单仍属于“早期”，可以大胆入场。东南亚：竞争极快，日增达到50-100单就必须动作，否则要不了几天全网都是同款",
+      "source_file": "33-dom.json"
+    }
+  ],
+  "derived_archive_record": true,
+  "source_files": [
+    "33-dom.json"
+  ],
+  "selection_policy": "prefer_explicit_dom_pages; one_longest_record_per_same_page"
+}

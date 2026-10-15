@@ -7,3 +7,7 @@
 [经验摘录](Knowledge/%E7%BB%8F%E9%AA%8C%E6%91%98%E5%BD%95.md)
 
 [待核对内容](Review/%E5%BE%85%E6%A0%B8%E5%AF%B9.md)
+
+## 来源资料
+
+- [南少 TikTok 跨境电商资料大全](Sources/Feishu-%E5%8D%97%E5%B0%91TikTok%E8%B7%A8%E5%A2%83%E7%94%B5%E5%95%86%E8%B5%84%E6%96%99%E5%A4%A7%E5%85%A8/README.md)

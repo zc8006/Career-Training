@@ -1,0 +1,988 @@
+{
+  "sheet_index": 1,
+  "sheet_name": "价卡",
+  "total_rows": 16,
+  "observed_row_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "missing_row_ranges": [],
+  "rows": [
+    {
+      "row_number": 1,
+      "cells": [
+        {
+          "column": 1,
+          "text": "国家",
+          "rowspan": 2,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "地区",
+          "rowspan": 2,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "渠道",
+          "rowspan": 2,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "币种",
+          "rowspan": 2,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "跨境物流成本",
+          "rowspan": 1,
+          "colspan": 3,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "买家支付运费",
+          "rowspan": 2,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "卖家支付运费=跨境物流成本+买家支付运费",
+          "rowspan": 1,
+          "colspan": 3,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 2,
+      "cells": [
+        {
+          "column": 5,
+          "text": "起重重量 (g)",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "起重价格",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "续重价格（每10g）",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "起重重量 (g)",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "起重价格",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 11,
+          "text": "续重价格（每10g）",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 3,
+      "cells": [
+        {
+          "column": 1,
+          "text": "泰国",
+          "rowspan": 3,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Zone A",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Standard",
+          "rowspan": 3,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "THB",
+          "rowspan": 3,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "1",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "1",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "23",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "24",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 11,
+          "text": "1",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 4,
+      "cells": [
+        {
+          "column": 2,
+          "text": "Zone B",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "1",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "1",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "36",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "37",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 11,
+          "text": "1",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 5,
+      "cells": [
+        {
+          "column": 2,
+          "text": "Zone C",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "1",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "1",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "79",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "80",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 11,
+          "text": "1",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 6,
+      "cells": [
+        {
+          "column": 1,
+          "text": "越南",
+          "rowspan": 4,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "Zone A",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Economy",
+          "rowspan": 4,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "VND",
+          "rowspan": 4,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "10,900 ",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "900",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "15,000 ",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "25,900 ",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 11,
+          "text": "900",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 7,
+      "cells": [
+        {
+          "column": 2,
+          "text": "Zone B",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "10,900 ",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "900",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "17,000 ",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "27,900 ",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 11,
+          "text": "900",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 8,
+      "cells": [
+        {
+          "column": 2,
+          "text": "Zone C",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "10,900 ",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "900",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "17,000 ",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "27,900 ",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 11,
+          "text": "900",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 9,
+      "cells": [
+        {
+          "column": 2,
+          "text": "Zone D",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "10,900 ",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "900",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "30,000 ",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "40,900 ",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 11,
+          "text": "900",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 10,
+      "cells": [
+        {
+          "column": 1,
+          "text": "马来西亚",
+          "rowspan": 2,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "西马",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Standard",
+          "rowspan": 2,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "MYR",
+          "rowspan": 2,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "0.15",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "0.15",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "2.90",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "3.05",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 11,
+          "text": "0.15",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 11,
+      "cells": [
+        {
+          "column": 2,
+          "text": "东马",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "0.15",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "0.15",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "8.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "8.15",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 11,
+          "text": "0.15",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 12,
+      "cells": [
+        {
+          "column": 1,
+          "text": "菲律宾",
+          "rowspan": 2,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "马尼拉",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Standard",
+          "rowspan": 2,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "PHP",
+          "rowspan": 2,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "10.50",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "4.50",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "40.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "50.50",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 11,
+          "text": "4.50",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 13,
+      "cells": [
+        {
+          "column": 2,
+          "text": "其他区",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "10.50",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "4.50",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "60.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "70.50",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 11,
+          "text": "4.50",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 14,
+      "cells": [
+        {
+          "column": 1,
+          "text": "新加坡",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "全境",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "Standard",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "SGD",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "40",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "0.98",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "0.15",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "0.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "40",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "0.98",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 11,
+          "text": "0.15",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 15,
+      "cells": []
+    },
+    {
+      "row_number": 16,
+      "cells": [
+        {
+          "column": 1,
+          "text": "备注",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "计费重为实重",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    }
+  ],
+  "scope": "rendered_cell_values_only"
+}

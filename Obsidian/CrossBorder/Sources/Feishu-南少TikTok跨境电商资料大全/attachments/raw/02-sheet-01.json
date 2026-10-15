@@ -1,0 +1,155 @@
+{
+  "sheet_index": 1,
+  "sheet_name": "使用说明||请不要申请编辑权限||不会通过",
+  "total_rows": 24,
+  "observed_row_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "missing_row_ranges": [],
+  "rows": [
+    {
+      "row_number": 1,
+      "cells": [
+        {
+          "column": 1,
+          "text": "请不要直接在表格中编辑，请按下方图示创建副本使用",
+          "rowspan": 1,
+          "colspan": 8,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 2,
+      "cells": [
+        {
+          "column": 1,
+          "text": "请自行检查相关可修改部分的数据是否是最新数据",
+          "rowspan": 1,
+          "colspan": 8,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 3,
+      "cells": [
+        {
+          "column": 1,
+          "text": "最终费用版本：2026-07-23｜普通Marketplace/Non-Mall｜支持“家居日用/时尚配件”类目切换｜固定订单费已纳入利润公式。",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 4,
+      "cells": []
+    },
+    {
+      "row_number": 5,
+      "cells": []
+    },
+    {
+      "row_number": 6,
+      "cells": []
+    },
+    {
+      "row_number": 7,
+      "cells": []
+    },
+    {
+      "row_number": 8,
+      "cells": []
+    },
+    {
+      "row_number": 9,
+      "cells": []
+    },
+    {
+      "row_number": 10,
+      "cells": []
+    },
+    {
+      "row_number": 11,
+      "cells": []
+    },
+    {
+      "row_number": 12,
+      "cells": []
+    },
+    {
+      "row_number": 13,
+      "cells": []
+    },
+    {
+      "row_number": 14,
+      "cells": []
+    },
+    {
+      "row_number": 15,
+      "cells": []
+    },
+    {
+      "row_number": 16,
+      "cells": []
+    },
+    {
+      "row_number": 17,
+      "cells": []
+    },
+    {
+      "row_number": 18,
+      "cells": []
+    },
+    {
+      "row_number": 19,
+      "cells": []
+    },
+    {
+      "row_number": 20,
+      "cells": []
+    },
+    {
+      "row_number": 21,
+      "cells": []
+    },
+    {
+      "row_number": 22,
+      "cells": []
+    },
+    {
+      "row_number": 23,
+      "cells": []
+    },
+    {
+      "row_number": 24,
+      "cells": []
+    }
+  ],
+  "scope": "rendered_cell_values_only"
+}

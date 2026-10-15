@@ -1,0 +1,207 @@
+[
+  {
+    "index": 1,
+    "worksheets": [
+      {
+        "sheet_index": 1,
+        "sheet_name": "工具推荐",
+        "observed_rows": 24,
+        "total_rows": 24,
+        "missing_row_ranges": [],
+        "local_path": "raw/01-sheet-01.json"
+      }
+    ],
+    "missing_worksheet_indices": [],
+    "complete": true
+  },
+  {
+    "index": 2,
+    "worksheets": [
+      {
+        "sheet_index": 1,
+        "sheet_name": "使用说明||请不要申请编辑权限||不会通过",
+        "observed_rows": 24,
+        "total_rows": 24,
+        "missing_row_ranges": [],
+        "local_path": "raw/02-sheet-01.json"
+      },
+      {
+        "sheet_index": 2,
+        "sheet_name": "马来西亚",
+        "observed_rows": 100,
+        "total_rows": 100,
+        "missing_row_ranges": [],
+        "local_path": "raw/02-sheet-02.json"
+      },
+      {
+        "sheet_index": 3,
+        "sheet_name": "菲律宾",
+        "observed_rows": 100,
+        "total_rows": 100,
+        "missing_row_ranges": [],
+        "local_path": "raw/02-sheet-03.json"
+      },
+      {
+        "sheet_index": 4,
+        "sheet_name": "泰国",
+        "observed_rows": 100,
+        "total_rows": 100,
+        "missing_row_ranges": [],
+        "local_path": "raw/02-sheet-04.json"
+      },
+      {
+        "sheet_index": 5,
+        "sheet_name": "越南",
+        "observed_rows": 100,
+        "total_rows": 100,
+        "missing_row_ranges": [],
+        "local_path": "raw/02-sheet-05.json"
+      },
+      {
+        "sheet_index": 6,
+        "sheet_name": "新加坡",
+        "observed_rows": 100,
+        "total_rows": 100,
+        "missing_row_ranges": [],
+        "local_path": "raw/02-sheet-06.json"
+      },
+      {
+        "sheet_index": 7,
+        "sheet_name": "物流价卡(更新时间25年10月8）",
+        "observed_rows": 3004,
+        "total_rows": 3004,
+        "missing_row_ranges": [],
+        "local_path": "raw/02-sheet-07.json"
+      },
+      {
+        "sheet_index": 8,
+        "sheet_name": "全国家费用审计",
+        "observed_rows": 6,
+        "total_rows": 6,
+        "missing_row_ranges": [],
+        "local_path": "raw/02-sheet-08.json"
+      },
+      {
+        "sheet_index": 9,
+        "sheet_name": "最终费用参数",
+        "observed_rows": 10,
+        "total_rows": 10,
+        "missing_row_ranges": [],
+        "local_path": "raw/02-sheet-09.json"
+      },
+      {
+        "sheet_index": 10,
+        "sheet_name": "MY类目佣金",
+        "observed_rows": 187,
+        "total_rows": 187,
+        "missing_row_ranges": [],
+        "local_path": "raw/02-sheet-10.json"
+      },
+      {
+        "sheet_index": 11,
+        "sheet_name": "PH类目佣金",
+        "observed_rows": 215,
+        "total_rows": 215,
+        "missing_row_ranges": [],
+        "local_path": "raw/02-sheet-11.json"
+      },
+      {
+        "sheet_index": 12,
+        "sheet_name": "TH类目佣金",
+        "observed_rows": 1814,
+        "total_rows": 1814,
+        "missing_row_ranges": [],
+        "local_path": "raw/02-sheet-12.json"
+      },
+      {
+        "sheet_index": 13,
+        "sheet_name": "VN类目佣金",
+        "observed_rows": 2041,
+        "total_rows": 2041,
+        "missing_row_ranges": [],
+        "local_path": "raw/02-sheet-13.json"
+      },
+      {
+        "sheet_index": 14,
+        "sheet_name": "SG类目佣金",
+        "observed_rows": 2177,
+        "total_rows": 2177,
+        "missing_row_ranges": [],
+        "local_path": "raw/02-sheet-14.json"
+      }
+    ],
+    "missing_worksheet_indices": [],
+    "complete": true
+  },
+  {
+    "index": 3,
+    "worksheets": [
+      {
+        "sheet_index": 1,
+        "sheet_name": "价卡",
+        "observed_rows": 16,
+        "total_rows": 16,
+        "missing_row_ranges": [],
+        "local_path": "raw/03-sheet-01.json"
+      },
+      {
+        "sheet_index": 2,
+        "sheet_name": "跨境物流成本计算工具",
+        "observed_rows": 994,
+        "total_rows": 994,
+        "missing_row_ranges": [],
+        "local_path": "raw/03-sheet-02.json"
+      },
+      {
+        "sheet_index": 3,
+        "sheet_name": "菲律宾",
+        "observed_rows": 3009,
+        "total_rows": 3009,
+        "missing_row_ranges": [],
+        "local_path": "raw/03-sheet-03.json"
+      },
+      {
+        "sheet_index": 4,
+        "sheet_name": "马来西亚",
+        "observed_rows": 3009,
+        "total_rows": 3009,
+        "missing_row_ranges": [],
+        "local_path": "raw/03-sheet-04.json"
+      },
+      {
+        "sheet_index": 5,
+        "sheet_name": "泰国",
+        "observed_rows": 2010,
+        "total_rows": 2010,
+        "missing_row_ranges": [],
+        "local_path": "raw/03-sheet-05.json"
+      },
+      {
+        "sheet_index": 6,
+        "sheet_name": "越南",
+        "observed_rows": 3009,
+        "total_rows": 3009,
+        "missing_row_ranges": [],
+        "local_path": "raw/03-sheet-06.json"
+      },
+      {
+        "sheet_index": 7,
+        "sheet_name": "新加坡",
+        "observed_rows": 3008,
+        "total_rows": 3008,
+        "missing_row_ranges": [],
+        "local_path": "raw/03-sheet-07.json"
+      },
+      {
+        "sheet_index": 8,
+        "sheet_name": "区域划分",
+        "observed_rows": 4,
+        "total_rows": 4,
+        "missing_row_ranges": [],
+        "local_path": "raw/03-sheet-08.json"
+      }
+    ],
+    "missing_worksheet_indices": [],
+    "complete": true
+  }
+]

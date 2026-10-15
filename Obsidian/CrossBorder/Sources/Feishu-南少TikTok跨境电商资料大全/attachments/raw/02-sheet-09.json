@@ -1,0 +1,671 @@
+{
+  "sheet_index": 9,
+  "sheet_name": "最终费用参数",
+  "total_rows": 10,
+  "observed_row_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "missing_row_ranges": [],
+  "rows": [
+    {
+      "row_number": 1,
+      "cells": [
+        {
+          "column": 1,
+          "text": "国家",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "家居日用佣金",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "时尚配件佣金",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "交易手续费",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "SFP/BXP/活动费",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "消费税/VAT/GST",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "关税估算",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "增长费-家居",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "增长费-时尚",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "固定费（本币/订单）",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 11,
+          "text": "项目费上限（本币/件）",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 12,
+          "text": "固定费单位",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 13,
+          "text": "适用说明",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 14,
+          "text": "官方来源",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 2,
+      "cells": [
+        {
+          "column": 1,
+          "text": "马来西亚",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "12.42%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "14.58%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "3.78%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "-",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "10.00%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "-",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "-",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "-",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "0.54",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 11,
+          "text": "5.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 12,
+          "text": "MYR/订单",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 13,
+          "text": "普通Marketplace、未加入BXP。家居日用按常见Home Supplies 12.42%；Home Care或类目不明可改14.58%。LVG 10%仅按跨境低价值进口商品估算。",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 14,
+          "text": "https://seller-my.tiktok.com/university/essay?knowledge_id=6907739532281602&lang=en\nhttps://seller-my.tiktok.com/university/essay?knowledge_id=7992113007347457&lang=en",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 3,
+      "cells": [
+        {
+          "column": 1,
+          "text": "菲律宾",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "6.20%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "7.00%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "2.24%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "5.50%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "-",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "-",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "1.00%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "1.50%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "3.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 11,
+          "text": "100.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 12,
+          "text": "PHP/订单",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 13,
+          "text": "普通Marketplace。Shipping Service Fee 5.5%，每件上限PHP100；Seller Growth Fee家居1%、时尚1.5%；订单处理费PHP3/成功订单。",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 14,
+          "text": "https://seller-ph.tiktok.com/university/essay?knowledge_id=3157977859229442\nhttps://seller-ph.tiktok.com/university/essay?knowledge_id=2675772847064834\nhttps://seller-ph.tiktok.com/university/essay?knowledge_id=7913173433534224",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 4,
+      "cells": [
+        {
+          "column": 1,
+          "text": "泰国",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "10.70%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "11.77%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "3.21%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "-",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "7.00%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "10.00%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "8.03%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "8.03%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "1.07",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 11,
+          "text": "199.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 12,
+          "text": "THB/订单",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 13,
+          "text": "普通Non-Mall。电商增长服务费8.03%（每件上限THB199）；VAT 7%；关税10%为普货保守估算，正式核算按HS编码修改；基础设施费THB1.07/订单。",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 14,
+          "text": "https://seller-th.tiktok.com/university/essay?knowledge_id=3233897186412289&lang=en\nhttps://seller-th.tiktok.com/university/essay?knowledge_id=4831419884979969&lang=en\nhttps://seller-th.tiktok.com/university/essay?knowledge_id=4832028500215569&lang=en",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 5,
+      "cells": [
+        {
+          "column": 1,
+          "text": "越南",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "9.50%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "14.50%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "6.00%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "-",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "10.00%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "-",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "-",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "-",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "3,000.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 11,
+          "text": "30,000.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 12,
+          "text": "VND/订单",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 13,
+          "text": "普通Non-Mall。SFP字段保留并按0%核算；订单处理费VND3000/成功订单。家居日用9.5%与时尚配件14.5%为本模型选定普货基准，实际三级类目应以后台费率为准。",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 14,
+          "text": "https://seller-vn.tiktok.com/university/essay?knowledge_id=3396736626312961&lang=en\nhttps://seller-vn.tiktok.com/university/essay?knowledge_id=8858869405370113&lang=en",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 6,
+      "cells": [
+        {
+          "column": 1,
+          "text": "新加坡",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 2,
+          "text": "8.18%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 3,
+          "text": "8.18%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 4,
+          "text": "3.27%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 5,
+          "text": "-",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 6,
+          "text": "9.00%",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 7,
+          "text": "-",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 8,
+          "text": "-",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 9,
+          "text": "-",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 10,
+          "text": "-",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 11,
+          "text": "30.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 12,
+          "text": "SGD/订单",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 13,
+          "text": "普通Marketplace、未参加BXP。平台佣金8.175%，交易手续费3.27%；跨境低价值商品GST按9%估算；BXP/活动费默认0%。",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        },
+        {
+          "column": 14,
+          "text": "https://seller-sg.tiktok.com/university/essay?knowledge_id=113323786536705",
+          "rowspan": 1,
+          "colspan": 1,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 7,
+      "cells": []
+    },
+    {
+      "row_number": 8,
+      "cells": [
+        {
+          "column": 1,
+          "text": "模型口径：普通Marketplace/Non-Mall跨境店；默认不参加可选BXP/活动、无达人佣金、无新店/广告/小卖家费率减免。税费字段用于商品进口/销售税估算，不对已含税的平台服务费重复计税。",
+          "rowspan": 1,
+          "colspan": 14,
+          "links": []
+        }
+      ]
+    },
+    {
+      "row_number": 9,
+      "cells": []
+    },
+    {
+      "row_number": 10,
+      "cells": [
+        {
+          "column": 1,
+          "text": "类目佣金升级：五国均已改为完整类目路径下拉选择。选择各国家工作表R2中的具体类目后，C2平台佣金会自动读取对应官方佣金库。",
+          "rowspan": 1,
+          "colspan": 14,
+          "links": []
+        }
+      ]
+    }
+  ],
+  "scope": "rendered_cell_values_only"
+}

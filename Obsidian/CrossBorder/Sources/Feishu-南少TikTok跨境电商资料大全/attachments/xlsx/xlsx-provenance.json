@@ -1,0 +1,1239 @@
+{
+  "format": "xlsx",
+  "reconstruction": "browser_preview_display_values",
+  "authoring_library": "@oai/artifact-tool",
+  "source_coverage_sha256": "c282b642a70f20a61360ea397af3b0823791d20d8721ef16caeed30ce9c92334",
+  "source_page_displayed_last_updated": "2026-10-12",
+  "generated_at": "2026-10-14T12:28:58.375Z",
+  "limitations": [
+    "原始公式未恢复；显示值作为静态值保存。",
+    "隐藏行、隐藏列、原始格式及数据验证规则未从预览恢复。"
+  ],
+  "workbooks": [
+    {
+      "index": 1,
+      "filename": "01-跨境工具推荐_预览整理版.xlsx",
+      "sheets": [
+        {
+          "sheet_index": 1,
+          "sheet_name": "工具推荐",
+          "total_rows": 24,
+          "observed_rows": 24,
+          "used_columns": 3,
+          "nonblank_cells": 53,
+          "type_counts": {
+            "text": 53,
+            "number": 0,
+            "percentage": 0,
+            "date": 0,
+            "blank": 0
+          },
+          "source_error_literals": [],
+          "merges": [],
+          "merge_normalizations": [],
+          "source_sha256": "39c906f2197c3d476ec660fba819462ab7905abd7ab2fd6a6e9215171375636d",
+          "in_memory_cells_checked": 72,
+          "in_memory_value_comparison": "passed",
+          "visual_preview_range": "A1:C24",
+          "visual_preview_file": "tmp/xlsx-qa/01-sheet-01.png",
+          "visual_preview_files": [
+            {
+              "range": "A1:C24",
+              "file": "tmp/xlsx-qa/01-sheet-01.png",
+              "purpose": "opening view and headers"
+            }
+          ],
+          "visual_review": "passed",
+          "visual_review_record": {
+            "workbook_index": 1,
+            "sheet_index": 1,
+            "sheet_name": "工具推荐",
+            "review": "passed",
+            "previews": [
+              {
+                "range": "A1:C24",
+                "file": "tmp/xlsx-qa/01-sheet-01.png",
+                "purpose": "opening view and headers",
+                "sha256": "d9a56a9907ff6b878fa722a55934f06dae3f6c06c5dbb2a29634cebff8b15141",
+                "review": "passed"
+              }
+            ],
+            "notes": "24行全表；长URL、多行远程软件地址和备注完整，字号清晰。"
+          }
+        }
+      ],
+      "images": [],
+      "bytes": 5298,
+      "sha256": "79766b0060cbdff6e4b968a74a4af9ea9b2e22177a4143a779dc04cfd9fd0bca"
+    },
+    {
+      "index": 2,
+      "filename": "02-TK东南亚核算利润表_全类目最终版_预览整理版.xlsx",
+      "sheets": [
+        {
+          "sheet_index": 1,
+          "sheet_name": "使用说明||请不要申请编辑权限||不会通过",
+          "total_rows": 24,
+          "observed_rows": 24,
+          "used_columns": 8,
+          "nonblank_cells": 3,
+          "type_counts": {
+            "text": 3,
+            "number": 0,
+            "percentage": 0,
+            "date": 0,
+            "blank": 0
+          },
+          "source_error_literals": [],
+          "merges": [
+            "A1:H1",
+            "A2:H2"
+          ],
+          "merge_normalizations": [],
+          "source_sha256": "ee7f49ef0cdc638b2953379f4e65c57c448e4cf0bff7e0bbee98d475b1438ebe",
+          "in_memory_cells_checked": 192,
+          "in_memory_value_comparison": "passed",
+          "visual_preview_range": "A1:O35",
+          "visual_preview_file": "tmp/xlsx-qa/02-sheet-01.png",
+          "visual_preview_files": [
+            {
+              "range": "A1:O35",
+              "file": "tmp/xlsx-qa/02-sheet-01.png",
+              "purpose": "opening view and headers"
+            }
+          ],
+          "visual_review": "passed",
+          "visual_review_record": {
+            "workbook_index": 2,
+            "sheet_index": 1,
+            "sheet_name": "使用说明||请不要申请编辑权限||不会通过",
+            "review": "passed",
+            "previews": [
+              {
+                "range": "A1:O35",
+                "file": "tmp/xlsx-qa/02-sheet-01.png",
+                "purpose": "opening view and headers",
+                "sha256": "8578d8cbe972b465f741c2dd0f66c82c2cf17bc5dacf5fc1d0fdd98f8ac560b9",
+                "review": "passed"
+              }
+            ],
+            "notes": "原三段说明完整，A3末尾“固定订单费已纳入利润公式。”可见；原说明图完整显示在A5下方。"
+          }
+        },
+        {
+          "sheet_index": 2,
+          "sheet_name": "马来西亚",
+          "total_rows": 100,
+          "observed_rows": 100,
+          "used_columns": 17,
+          "nonblank_cells": 81,
+          "type_counts": {
+            "text": 50,
+            "number": 26,
+            "percentage": 5,
+            "date": 0,
+            "blank": 0
+          },
+          "source_error_literals": [],
+          "merges": [],
+          "merge_normalizations": [],
+          "source_sha256": "5161e702bcc23b46c57a4efd05a76ad1cc0d2ed436d7b906379525d6649e3002",
+          "in_memory_cells_checked": 1700,
+          "in_memory_value_comparison": "passed",
+          "visual_preview_range": "A1:Q7",
+          "visual_preview_file": "tmp/xlsx-qa/02-sheet-02.png",
+          "visual_preview_files": [
+            {
+              "range": "A1:Q7",
+              "file": "tmp/xlsx-qa/02-sheet-02.png",
+              "purpose": "opening view and headers"
+            }
+          ],
+          "visual_review": "passed",
+          "visual_review_record": {
+            "workbook_index": 2,
+            "sheet_index": 2,
+            "sheet_name": "马来西亚",
+            "review": "passed",
+            "previews": [
+              {
+                "range": "A1:Q7",
+                "file": "tmp/xlsx-qa/02-sheet-02.png",
+                "purpose": "opening view and headers",
+                "sha256": "be61ba233e4ef09537a5cce25db818509460d792be49fc36e40318ec48def625",
+                "review": "passed"
+              }
+            ],
+            "notes": "MYR/RMB及MYR/订单完整，双层表头、类目路径、百分比和两条产品金额清晰。"
+          }
+        },
+        {
+          "sheet_index": 3,
+          "sheet_name": "菲律宾",
+          "total_rows": 100,
+          "observed_rows": 100,
+          "used_columns": 17,
+          "nonblank_cells": 80,
+          "type_counts": {
+            "text": 46,
+            "number": 28,
+            "percentage": 6,
+            "date": 0,
+            "blank": 0
+          },
+          "source_error_literals": [],
+          "merges": [],
+          "merge_normalizations": [],
+          "source_sha256": "db2dc27071e7d4860cef9fb8ede8965fb86a202adb3301a6e595ab5ef612ea49",
+          "in_memory_cells_checked": 1700,
+          "in_memory_value_comparison": "passed",
+          "visual_preview_range": "A1:Q7",
+          "visual_preview_file": "tmp/xlsx-qa/02-sheet-03.png",
+          "visual_preview_files": [
+            {
+              "range": "A1:Q7",
+              "file": "tmp/xlsx-qa/02-sheet-03.png",
+              "purpose": "opening view and headers"
+            }
+          ],
+          "visual_review": "passed",
+          "visual_review_record": {
+            "workbook_index": 2,
+            "sheet_index": 3,
+            "sheet_name": "菲律宾",
+            "review": "passed",
+            "previews": [
+              {
+                "range": "A1:Q7",
+                "file": "tmp/xlsx-qa/02-sheet-03.png",
+                "purpose": "opening view and headers",
+                "sha256": "6f27f9aea480961a962fe623e5c03e9b666769dd350aa70d35c30525dfe5ef91",
+                "review": "passed"
+              }
+            ],
+            "notes": "PHP/RMB及PHP/订单完整，包邮/增长服务费与两条产品金额未截断。"
+          }
+        },
+        {
+          "sheet_index": 4,
+          "sheet_name": "泰国",
+          "total_rows": 100,
+          "observed_rows": 100,
+          "used_columns": 18,
+          "nonblank_cells": 87,
+          "type_counts": {
+            "text": 50,
+            "number": 30,
+            "percentage": 7,
+            "date": 0,
+            "blank": 0
+          },
+          "source_error_literals": [],
+          "merges": [],
+          "merge_normalizations": [],
+          "source_sha256": "0b25b5fba82e730c1c8e5d24359353e5ad36d6af73e33598da6d465a8d177731",
+          "in_memory_cells_checked": 1800,
+          "in_memory_value_comparison": "passed",
+          "visual_preview_range": "A1:R7",
+          "visual_preview_file": "tmp/xlsx-qa/02-sheet-04.png",
+          "visual_preview_files": [
+            {
+              "range": "A1:R7",
+              "file": "tmp/xlsx-qa/02-sheet-04.png",
+              "purpose": "opening view and headers"
+            }
+          ],
+          "visual_review": "passed",
+          "visual_review_record": {
+            "workbook_index": 2,
+            "sheet_index": 4,
+            "sheet_name": "泰国",
+            "review": "passed",
+            "previews": [
+              {
+                "range": "A1:R7",
+                "file": "tmp/xlsx-qa/02-sheet-04.png",
+                "purpose": "opening view and headers",
+                "sha256": "7d19c8682fc2ccc3ddafac5c7c225db67f2b12a3f46bf507dbccc8ccb53a976a",
+                "review": "passed"
+              }
+            ],
+            "notes": "THB/RMB及THB/订单完整，VAT/关税字段和产品金额清晰。"
+          }
+        },
+        {
+          "sheet_index": 5,
+          "sheet_name": "越南",
+          "total_rows": 100,
+          "observed_rows": 100,
+          "used_columns": 17,
+          "nonblank_cells": 81,
+          "type_counts": {
+            "text": 50,
+            "number": 26,
+            "percentage": 5,
+            "date": 0,
+            "blank": 0
+          },
+          "source_error_literals": [],
+          "merges": [],
+          "merge_normalizations": [],
+          "source_sha256": "ae27f5cb4607a3e69dcfab7035e30110425f73c6a729adaef94b0a5c1af4c459",
+          "in_memory_cells_checked": 1700,
+          "in_memory_value_comparison": "passed",
+          "visual_preview_range": "A1:Q7",
+          "visual_preview_file": "tmp/xlsx-qa/02-sheet-05.png",
+          "visual_preview_files": [
+            {
+              "range": "A1:Q7",
+              "file": "tmp/xlsx-qa/02-sheet-05.png",
+              "purpose": "opening view and headers"
+            }
+          ],
+          "visual_review": "passed",
+          "visual_review_record": {
+            "workbook_index": 2,
+            "sheet_index": 5,
+            "sheet_name": "越南",
+            "review": "passed",
+            "previews": [
+              {
+                "range": "A1:Q7",
+                "file": "tmp/xlsx-qa/02-sheet-05.png",
+                "purpose": "opening view and headers",
+                "sha256": "ca330658c3d90448f6d1b739f02b1d9fb0f367b1f7796f8b1849ad641ba6bea0",
+                "review": "passed"
+              }
+            ],
+            "notes": "VND/RMB及VND/订单完整，六位汇率小数、千位分隔金额、类目路径清晰。"
+          }
+        },
+        {
+          "sheet_index": 6,
+          "sheet_name": "新加坡",
+          "total_rows": 100,
+          "observed_rows": 100,
+          "used_columns": 16,
+          "nonblank_cells": 68,
+          "type_counts": {
+            "text": 40,
+            "number": 23,
+            "percentage": 5,
+            "date": 0,
+            "blank": 0
+          },
+          "source_error_literals": [],
+          "merges": [],
+          "merge_normalizations": [],
+          "source_sha256": "3c03a3ecbfb58233242ffb8e93a9e8b18617f2b250b1b584c93b24250c0b35c8",
+          "in_memory_cells_checked": 1600,
+          "in_memory_value_comparison": "passed",
+          "visual_preview_range": "A1:P7",
+          "visual_preview_file": "tmp/xlsx-qa/02-sheet-06.png",
+          "visual_preview_files": [
+            {
+              "range": "A1:P7",
+              "file": "tmp/xlsx-qa/02-sheet-06.png",
+              "purpose": "opening view and headers"
+            }
+          ],
+          "visual_review": "passed",
+          "visual_review_record": {
+            "workbook_index": 2,
+            "sheet_index": 6,
+            "sheet_name": "新加坡",
+            "review": "passed",
+            "previews": [
+              {
+                "range": "A1:P7",
+                "file": "tmp/xlsx-qa/02-sheet-06.png",
+                "purpose": "opening view and headers",
+                "sha256": "79e22dbb5ab2916d6f3df4d6426e167bbc781cdc9cddb2c94a8e5f6500f200c0",
+                "review": "passed"
+              }
+            ],
+            "notes": "SGD/RMB与GST字段完整，8.175%等显示精度及两条产品金额清晰。"
+          }
+        },
+        {
+          "sheet_index": 7,
+          "sheet_name": "物流价卡(更新时间25年10月8）",
+          "total_rows": 3004,
+          "observed_rows": 3004,
+          "used_columns": 15,
+          "nonblank_cells": 42017,
+          "type_counts": {
+            "text": 17,
+            "number": 42000,
+            "percentage": 0,
+            "date": 0,
+            "blank": 0
+          },
+          "source_error_literals": [],
+          "merges": [
+            "A1:O1"
+          ],
+          "merge_normalizations": [
+            {
+              "source_range": "A1:XFD1",
+              "saved_range": "A1:O1",
+              "reason": "Browser preview span extends beyond the actual data table; clipped to the table width/observed row extent."
+            }
+          ],
+          "source_sha256": "ccbe8d8367fb68e868cd5774b999c2621a2f0ad5f9257992525c7e3689caf7b0",
+          "in_memory_cells_checked": 45060,
+          "in_memory_value_comparison": "passed",
+          "visual_preview_range": "A1:O7",
+          "visual_preview_file": "tmp/xlsx-qa/02-sheet-07.png",
+          "visual_preview_files": [
+            {
+              "range": "A1:O7",
+              "file": "tmp/xlsx-qa/02-sheet-07.png",
+              "purpose": "opening view and headers"
+            }
+          ],
+          "visual_review": "passed",
+          "visual_review_record": {
+            "workbook_index": 2,
+            "sheet_index": 7,
+            "sheet_name": "物流价卡(更新时间25年10月8）",
+            "review": "passed",
+            "previews": [
+              {
+                "range": "A1:O7",
+                "file": "tmp/xlsx-qa/02-sheet-07.png",
+                "purpose": "opening view and headers",
+                "sha256": "c8b94f115bfa5724c1554cd2a09f108dedffc8c26c1ed0ddaea2fc036c521a1f",
+                "review": "passed"
+              }
+            ],
+            "notes": "A1标题URL完整；A2 URL末尾course_type=1&identity=1可见；五国家价卡首三条重量和金额清晰。"
+          }
+        },
+        {
+          "sheet_index": 8,
+          "sheet_name": "全国家费用审计",
+          "total_rows": 6,
+          "observed_rows": 6,
+          "used_columns": 10,
+          "nonblank_cells": 60,
+          "type_counts": {
+            "text": 45,
+            "number": 0,
+            "percentage": 15,
+            "date": 0,
+            "blank": 0
+          },
+          "source_error_literals": [],
+          "merges": [],
+          "merge_normalizations": [],
+          "source_sha256": "7e7656ca8c5dc8ce36b8de08de126a44cda63ffdf685c6ce04cb5995cacf0c39",
+          "in_memory_cells_checked": 60,
+          "in_memory_value_comparison": "passed",
+          "visual_preview_range": "A1:J6",
+          "visual_preview_file": "tmp/xlsx-qa/02-sheet-08.png",
+          "visual_preview_files": [
+            {
+              "range": "A1:J6",
+              "file": "tmp/xlsx-qa/02-sheet-08.png",
+              "purpose": "opening view and headers"
+            }
+          ],
+          "visual_review": "passed",
+          "visual_review_record": {
+            "workbook_index": 2,
+            "sheet_index": 8,
+            "sheet_name": "全国家费用审计",
+            "review": "passed",
+            "previews": [
+              {
+                "range": "A1:J6",
+                "file": "tmp/xlsx-qa/02-sheet-08.png",
+                "purpose": "opening view and headers",
+                "sha256": "04fd941ae19338fe98ca75ae5812472e234092352ae35748caa598f249f8778e",
+                "review": "passed"
+              }
+            ],
+            "notes": "六行全表；国家、费用、限制和结论完整，结论括号不再拆成单独行。"
+          }
+        },
+        {
+          "sheet_index": 9,
+          "sheet_name": "最终费用参数",
+          "total_rows": 10,
+          "observed_rows": 10,
+          "used_columns": 14,
+          "nonblank_cells": 86,
+          "type_counts": {
+            "text": 52,
+            "number": 9,
+            "percentage": 25,
+            "date": 0,
+            "blank": 0
+          },
+          "source_error_literals": [],
+          "merges": [
+            "A8:N8",
+            "A10:N10"
+          ],
+          "merge_normalizations": [],
+          "source_sha256": "d2103d496669b010dfba5cf91ee56a2e8330768601742f36d4996196565d82da",
+          "in_memory_cells_checked": 140,
+          "in_memory_value_comparison": "passed",
+          "visual_preview_range": "A1:N10",
+          "visual_preview_file": "tmp/xlsx-qa/02-sheet-09.png",
+          "visual_preview_files": [
+            {
+              "range": "A1:N10",
+              "file": "tmp/xlsx-qa/02-sheet-09.png",
+              "purpose": "opening view and headers"
+            }
+          ],
+          "visual_review": "passed",
+          "visual_review_record": {
+            "workbook_index": 2,
+            "sheet_index": 9,
+            "sheet_name": "最终费用参数",
+            "review": "passed",
+            "previews": [
+              {
+                "range": "A1:N10",
+                "file": "tmp/xlsx-qa/02-sheet-09.png",
+                "purpose": "opening view and headers",
+                "sha256": "dbdff9b323408dbf7141ea68841867d7e3dff88c3f2e3a6cde1b4077e6e0fee8",
+                "review": "passed"
+              }
+            ],
+            "notes": "十行全表；两处模型说明、官方来源URL、多行适用说明和费用值完整。"
+          }
+        },
+        {
+          "sheet_index": 10,
+          "sheet_name": "MY类目佣金",
+          "total_rows": 187,
+          "observed_rows": 187,
+          "used_columns": 10,
+          "nonblank_cells": 376,
+          "type_counts": {
+            "text": 190,
+            "number": 0,
+            "percentage": 186,
+            "date": 0,
+            "blank": 0
+          },
+          "source_error_literals": [],
+          "merges": [],
+          "merge_normalizations": [],
+          "source_sha256": "108b5196f65253e922b17ba471329b0cf387bf109623d46a4bae3068fcbc1251",
+          "in_memory_cells_checked": 1870,
+          "in_memory_value_comparison": "passed",
+          "visual_preview_range": "A1:J7",
+          "visual_preview_file": "tmp/xlsx-qa/02-sheet-10.png",
+          "visual_preview_files": [
+            {
+              "range": "A1:J7",
+              "file": "tmp/xlsx-qa/02-sheet-10.png",
+              "purpose": "opening view and headers"
+            }
+          ],
+          "visual_review": "passed",
+          "visual_review_record": {
+            "workbook_index": 2,
+            "sheet_index": 10,
+            "sheet_name": "MY类目佣金",
+            "review": "passed",
+            "previews": [
+              {
+                "range": "A1:J7",
+                "file": "tmp/xlsx-qa/02-sheet-10.png",
+                "purpose": "opening view and headers",
+                "sha256": "dd01343511ce05c4001dd4f19fadc1005f1028f09baf1f7198a43add0f70239c",
+                "review": "passed"
+              }
+            ],
+            "notes": "完整类目路径、Marketplace非BXP佣金标题、11.340%精度及官方来源URL清晰。"
+          }
+        },
+        {
+          "sheet_index": 11,
+          "sheet_name": "PH类目佣金",
+          "total_rows": 215,
+          "observed_rows": 215,
+          "used_columns": 10,
+          "nonblank_cells": 1077,
+          "type_counts": {
+            "text": 649,
+            "number": 0,
+            "percentage": 428,
+            "date": 0,
+            "blank": 0
+          },
+          "source_error_literals": [],
+          "merges": [],
+          "merge_normalizations": [],
+          "source_sha256": "f6118f60adf1a155f08bc7cfb3f27f9b363710cadccd5ea59b082090de6c0983",
+          "in_memory_cells_checked": 2150,
+          "in_memory_value_comparison": "passed",
+          "visual_preview_range": "A1:J7",
+          "visual_preview_file": "tmp/xlsx-qa/02-sheet-11.png",
+          "visual_preview_files": [
+            {
+              "range": "A1:J7",
+              "file": "tmp/xlsx-qa/02-sheet-11.png",
+              "purpose": "opening view and headers"
+            }
+          ],
+          "visual_review": "passed",
+          "visual_review_record": {
+            "workbook_index": 2,
+            "sheet_index": 11,
+            "sheet_name": "PH类目佣金",
+            "review": "passed",
+            "previews": [
+              {
+                "range": "A1:J7",
+                "file": "tmp/xlsx-qa/02-sheet-11.png",
+                "purpose": "opening view and headers",
+                "sha256": "c8a17f28b21deb1c32e7f143bd9c5f5f35861e8f8cba22a606ef5b2f54e3f679",
+                "review": "passed"
+              }
+            ],
+            "notes": "Marketplace/Mall佣金、一级/二级类目、路径与官方URL完整。"
+          }
+        },
+        {
+          "sheet_index": 12,
+          "sheet_name": "TH类目佣金",
+          "total_rows": 1814,
+          "observed_rows": 1814,
+          "used_columns": 10,
+          "nonblank_cells": 10886,
+          "type_counts": {
+            "text": 9073,
+            "number": 0,
+            "percentage": 1813,
+            "date": 0,
+            "blank": 0
+          },
+          "source_error_literals": [],
+          "merges": [],
+          "merge_normalizations": [],
+          "source_sha256": "48acdf3c8c9d0465eff9fd53f55cfcf04e9416b041e30f89a0fcff1501d1f5f3",
+          "in_memory_cells_checked": 18140,
+          "in_memory_value_comparison": "passed",
+          "visual_preview_range": "A1:J7",
+          "visual_preview_file": "tmp/xlsx-qa/02-sheet-12.png",
+          "visual_preview_files": [
+            {
+              "range": "A1:J7",
+              "file": "tmp/xlsx-qa/02-sheet-12.png",
+              "purpose": "opening view and headers"
+            },
+            {
+              "range": "A60:J62",
+              "file": "tmp/xlsx-qa/02-sheet-12-body.png",
+              "purpose": "longest body text"
+            }
+          ],
+          "visual_review": "passed",
+          "visual_review_record": {
+            "workbook_index": 2,
+            "sheet_index": 12,
+            "sheet_name": "TH类目佣金",
+            "review": "passed",
+            "previews": [
+              {
+                "range": "A1:J7",
+                "file": "tmp/xlsx-qa/02-sheet-12.png",
+                "purpose": "opening view and headers",
+                "sha256": "eacb968b03d7bc64f87dc440d8b9341187aa6da7e2a614082c090a190ae2e4c4",
+                "review": "passed"
+              },
+              {
+                "range": "A60:J62",
+                "file": "tmp/xlsx-qa/02-sheet-12-body.png",
+                "purpose": "longest body text",
+                "sha256": "9f72f4e577017dc2a76183a944c39a620a6852420efcb52eea30cfe3b495337a",
+                "review": "passed"
+              }
+            ],
+            "notes": "表头、Non-Mall佣金及官方URL完整；A60:J62最长正文的Calendars, Planners & Personal Organisers完整换行。"
+          }
+        },
+        {
+          "sheet_index": 13,
+          "sheet_name": "VN类目佣金",
+          "total_rows": 2041,
+          "observed_rows": 2041,
+          "used_columns": 10,
+          "nonblank_cells": 14289,
+          "type_counts": {
+            "text": 10209,
+            "number": 0,
+            "percentage": 4080,
+            "date": 0,
+            "blank": 0
+          },
+          "source_error_literals": [],
+          "merges": [],
+          "merge_normalizations": [],
+          "source_sha256": "e17ac928b35bcfc96c2f5cbec056f630ac8c8d7aa826f21da86df0ae8dab0510",
+          "in_memory_cells_checked": 20410,
+          "in_memory_value_comparison": "passed",
+          "visual_preview_range": "A1:J7",
+          "visual_preview_file": "tmp/xlsx-qa/02-sheet-13.png",
+          "visual_preview_files": [
+            {
+              "range": "A1:J7",
+              "file": "tmp/xlsx-qa/02-sheet-13.png",
+              "purpose": "opening view and headers"
+            },
+            {
+              "range": "A343:J345",
+              "file": "tmp/xlsx-qa/02-sheet-13-body.png",
+              "purpose": "longest body text"
+            }
+          ],
+          "visual_review": "passed",
+          "visual_review_record": {
+            "workbook_index": 2,
+            "sheet_index": 13,
+            "sheet_name": "VN类目佣金",
+            "review": "passed",
+            "previews": [
+              {
+                "range": "A1:J7",
+                "file": "tmp/xlsx-qa/02-sheet-13.png",
+                "purpose": "opening view and headers",
+                "sha256": "56e7b96d8e246b534bbf9fbbc11d2331123478656c40f56a7086ebcc80553aec",
+                "review": "passed"
+              },
+              {
+                "range": "A343:J345",
+                "file": "tmp/xlsx-qa/02-sheet-13-body.png",
+                "purpose": "longest body text",
+                "sha256": "c3e20a4f505d74c2a893dc21dec24bfc51676b466dca1cffdb66a5110da7b824",
+                "review": "passed"
+              }
+            ],
+            "notes": "Marketplace/Mall佣金标题完整；A343:J345最长路径和Necklaces & Pendants末尾完整换行。"
+          }
+        },
+        {
+          "sheet_index": 14,
+          "sheet_name": "SG类目佣金",
+          "total_rows": 2177,
+          "observed_rows": 2177,
+          "used_columns": 10,
+          "nonblank_cells": 15241,
+          "type_counts": {
+            "text": 10889,
+            "number": 0,
+            "percentage": 4352,
+            "date": 0,
+            "blank": 0
+          },
+          "source_error_literals": [],
+          "merges": [],
+          "merge_normalizations": [],
+          "source_sha256": "18fecb7ad7d731e8f6f331bc9599ed6d531dd74a2d22d074917fd57375a11247",
+          "in_memory_cells_checked": 21770,
+          "in_memory_value_comparison": "passed",
+          "visual_preview_range": "A1:J7",
+          "visual_preview_file": "tmp/xlsx-qa/02-sheet-14.png",
+          "visual_preview_files": [
+            {
+              "range": "A1:J7",
+              "file": "tmp/xlsx-qa/02-sheet-14.png",
+              "purpose": "opening view and headers"
+            },
+            {
+              "range": "A470:J472",
+              "file": "tmp/xlsx-qa/02-sheet-14-body.png",
+              "purpose": "longest body text"
+            }
+          ],
+          "visual_review": "passed",
+          "visual_review_record": {
+            "workbook_index": 2,
+            "sheet_index": 14,
+            "sheet_name": "SG类目佣金",
+            "review": "passed",
+            "previews": [
+              {
+                "range": "A1:J7",
+                "file": "tmp/xlsx-qa/02-sheet-14.png",
+                "purpose": "opening view and headers",
+                "sha256": "24cac663fe9e19ef37584c87e6323bd2f705d8fc45427e6778a83e5b188cba4b",
+                "review": "passed"
+              },
+              {
+                "range": "A470:J472",
+                "file": "tmp/xlsx-qa/02-sheet-14-body.png",
+                "purpose": "longest body text",
+                "sha256": "ba54af04e5299becad362dd2c5616f180f9f958f7e9d9149ce5e8061c53dab25",
+                "review": "passed"
+              }
+            ],
+            "notes": "标准/BXP佣金及官方URL完整；A470:J472最长路径和Children's Humanities & Social Sciences完整。"
+          }
+        }
+      ],
+      "images": [
+        {
+          "sheet": "使用说明||请不要申请编辑权限||不会通过",
+          "source_path": "images/02/sheet-01-image-01.png",
+          "source_sha256": "a6b42f721510c12bd7af4cbbf8b4809e7e6f5c7b077fb51b641cc6104068b572",
+          "original_pixels": [
+            2868,
+            1456
+          ],
+          "anchor": "A5",
+          "display_pixels": [
+            1440,
+            731.0460251046026
+          ],
+          "position_reason": "below all original text, on originally blank rows"
+        }
+      ],
+      "bytes": 962934,
+      "sha256": "f1600671df005e7a6652cf30c6d984bb1120032eb03d5cf4e762c7b53362a64d"
+    },
+    {
+      "index": 3,
+      "filename": "03-东南亚跨境物流运费价格表20260515(1)_预览整理版.xlsx",
+      "sheets": [
+        {
+          "sheet_index": 1,
+          "sheet_name": "价卡",
+          "total_rows": 16,
+          "observed_rows": 16,
+          "used_columns": 11,
+          "nonblank_cells": 126,
+          "type_counts": {
+            "text": 42,
+            "number": 84,
+            "percentage": 0,
+            "date": 0,
+            "blank": 0
+          },
+          "source_error_literals": [],
+          "merges": [
+            "A1:A2",
+            "B1:B2",
+            "C1:C2",
+            "D1:D2",
+            "E1:G1",
+            "H1:H2",
+            "I1:K1",
+            "A3:A5",
+            "C3:C5",
+            "D3:D5",
+            "A6:A9",
+            "C6:C9",
+            "D6:D9",
+            "A10:A11",
+            "C10:C11",
+            "D10:D11",
+            "A12:A13",
+            "C12:C13",
+            "D12:D13"
+          ],
+          "merge_normalizations": [],
+          "source_sha256": "7fc64f11b64973c0a10f6e52427d990e20ec0e1726832efd74131b1fd687796e",
+          "in_memory_cells_checked": 176,
+          "in_memory_value_comparison": "passed",
+          "visual_preview_range": "A1:K16",
+          "visual_preview_file": "tmp/xlsx-qa/03-sheet-01.png",
+          "visual_preview_files": [
+            {
+              "range": "A1:K16",
+              "file": "tmp/xlsx-qa/03-sheet-01.png",
+              "purpose": "opening view and headers"
+            }
+          ],
+          "visual_review": "passed",
+          "visual_review_record": {
+            "workbook_index": 3,
+            "sheet_index": 1,
+            "sheet_name": "价卡",
+            "review": "passed",
+            "previews": [
+              {
+                "range": "A1:K16",
+                "file": "tmp/xlsx-qa/03-sheet-01.png",
+                "purpose": "opening view and headers",
+                "sha256": "f0b14dac10650d683d509383b12a83c301497811a027044c0d573eb0a6f0e281",
+                "review": "passed"
+              }
+            ],
+            "notes": "16行全表，双层表头完整，金额、小数和备注未截断。"
+          }
+        },
+        {
+          "sheet_index": 2,
+          "sheet_name": "跨境物流成本计算工具",
+          "total_rows": 994,
+          "observed_rows": 994,
+          "used_columns": 9,
+          "nonblank_cells": 37,
+          "type_counts": {
+            "text": 19,
+            "number": 18,
+            "percentage": 0,
+            "date": 0,
+            "blank": 0
+          },
+          "source_error_literals": [],
+          "merges": [
+            "A2:I2",
+            "A4:B4",
+            "C4:G4"
+          ],
+          "merge_normalizations": [],
+          "source_sha256": "ea3fb579e60b580a786e493b2583958f544196e383249ee056000942573a79ee",
+          "in_memory_cells_checked": 8946,
+          "in_memory_value_comparison": "passed",
+          "visual_preview_range": "A1:I7",
+          "visual_preview_file": "tmp/xlsx-qa/03-sheet-02.png",
+          "visual_preview_files": [
+            {
+              "range": "A1:I7",
+              "file": "tmp/xlsx-qa/03-sheet-02.png",
+              "purpose": "opening view and headers"
+            }
+          ],
+          "visual_review": "passed",
+          "visual_review_record": {
+            "workbook_index": 3,
+            "sheet_index": 2,
+            "sheet_name": "跨境物流成本计算工具",
+            "review": "passed",
+            "previews": [
+              {
+                "range": "A1:I7",
+                "file": "tmp/xlsx-qa/03-sheet-02.png",
+                "purpose": "opening view and headers",
+                "sha256": "a8b746a6b3b114bd09ada4a7f6e4448edeb3f6960b55f3a0675273ae021a82e1",
+                "review": "passed"
+              }
+            ],
+            "notes": "标题、整段说明完整，表头及首条SKU/重量/金额清晰。"
+          }
+        },
+        {
+          "sheet_index": 3,
+          "sheet_name": "菲律宾",
+          "total_rows": 3009,
+          "observed_rows": 3009,
+          "used_columns": 9,
+          "nonblank_cells": 15021,
+          "type_counts": {
+            "text": 18,
+            "number": 15002,
+            "percentage": 0,
+            "date": 1,
+            "blank": 0
+          },
+          "source_error_literals": [],
+          "merges": [
+            "A8:A9",
+            "B8:B9",
+            "D8:E8",
+            "G8:G9",
+            "H8:I8"
+          ],
+          "merge_normalizations": [],
+          "source_sha256": "e7649819cc40b79620c95525239f62cfb7ad3f3e85de433e1e379e1db29a2b2c",
+          "in_memory_cells_checked": 27081,
+          "in_memory_value_comparison": "passed",
+          "visual_preview_range": "A1:I13",
+          "visual_preview_file": "tmp/xlsx-qa/03-sheet-03.png",
+          "visual_preview_files": [
+            {
+              "range": "A1:I13",
+              "file": "tmp/xlsx-qa/03-sheet-03.png",
+              "purpose": "opening view and headers"
+            }
+          ],
+          "visual_review": "passed",
+          "visual_review_record": {
+            "workbook_index": 3,
+            "sheet_index": 3,
+            "sheet_name": "菲律宾",
+            "review": "passed",
+            "previews": [
+              {
+                "range": "A1:I13",
+                "file": "tmp/xlsx-qa/03-sheet-03.png",
+                "purpose": "opening view and headers",
+                "sha256": "b4553228ff09f1888a1b0df5946afe018d253068727a42c1742b856db0243c4c",
+                "review": "passed"
+              }
+            ],
+            "notes": "日期、PHP、三个表格区域及马尼拉/其他区表头完整。"
+          }
+        },
+        {
+          "sheet_index": 4,
+          "sheet_name": "马来西亚",
+          "total_rows": 3009,
+          "observed_rows": 3009,
+          "used_columns": 9,
+          "nonblank_cells": 15021,
+          "type_counts": {
+            "text": 18,
+            "number": 15002,
+            "percentage": 0,
+            "date": 1,
+            "blank": 0
+          },
+          "source_error_literals": [],
+          "merges": [
+            "A8:A9",
+            "B8:B9",
+            "D8:E8",
+            "G8:G9",
+            "H8:I8"
+          ],
+          "merge_normalizations": [],
+          "source_sha256": "a3f3fa439f183cdbc815e4ec1b435bd854493981928b358f604f7d0edb3b364b",
+          "in_memory_cells_checked": 27081,
+          "in_memory_value_comparison": "passed",
+          "visual_preview_range": "A1:I13",
+          "visual_preview_file": "tmp/xlsx-qa/03-sheet-04.png",
+          "visual_preview_files": [
+            {
+              "range": "A1:I13",
+              "file": "tmp/xlsx-qa/03-sheet-04.png",
+              "purpose": "opening view and headers"
+            }
+          ],
+          "visual_review": "passed",
+          "visual_review_record": {
+            "workbook_index": 3,
+            "sheet_index": 4,
+            "sheet_name": "马来西亚",
+            "review": "passed",
+            "previews": [
+              {
+                "range": "A1:I13",
+                "file": "tmp/xlsx-qa/03-sheet-04.png",
+                "purpose": "opening view and headers",
+                "sha256": "9faaa797926903f69add1198f881a6ec254108c5c8e73ec191cc2dfb314d7ddc",
+                "review": "passed"
+              }
+            ],
+            "notes": "日期、MYR、西马/东马标签及小数金额清晰。"
+          }
+        },
+        {
+          "sheet_index": 5,
+          "sheet_name": "泰国",
+          "total_rows": 2010,
+          "observed_rows": 2010,
+          "used_columns": 11,
+          "nonblank_cells": 12024,
+          "type_counts": {
+            "text": 20,
+            "number": 12003,
+            "percentage": 0,
+            "date": 1,
+            "blank": 0
+          },
+          "source_error_literals": [],
+          "merges": [
+            "A9:A10",
+            "B9:B10",
+            "D9:F9",
+            "H9:H10",
+            "I9:K9"
+          ],
+          "merge_normalizations": [],
+          "source_sha256": "06ee36d30ff2329eca76c24c237617d935c129247cb338f01eb950965fbde76e",
+          "in_memory_cells_checked": 22110,
+          "in_memory_value_comparison": "passed",
+          "visual_preview_range": "A1:K13",
+          "visual_preview_file": "tmp/xlsx-qa/03-sheet-05.png",
+          "visual_preview_files": [
+            {
+              "range": "A1:K13",
+              "file": "tmp/xlsx-qa/03-sheet-05.png",
+              "purpose": "opening view and headers"
+            }
+          ],
+          "visual_review": "passed",
+          "visual_review_record": {
+            "workbook_index": 3,
+            "sheet_index": 5,
+            "sheet_name": "泰国",
+            "review": "passed",
+            "previews": [
+              {
+                "range": "A1:K13",
+                "file": "tmp/xlsx-qa/03-sheet-05.png",
+                "purpose": "opening view and headers",
+                "sha256": "c263ceab935b1a619d56c415cc90516ee949539b49734fac309da8dc4de46e4a",
+                "review": "passed"
+              }
+            ],
+            "notes": "顶部空行保留；日期、THB、Zone A–C和数值完整。"
+          }
+        },
+        {
+          "sheet_index": 6,
+          "sheet_name": "越南",
+          "total_rows": 3009,
+          "observed_rows": 3009,
+          "used_columns": 13,
+          "nonblank_cells": 21027,
+          "type_counts": {
+            "text": 22,
+            "number": 21004,
+            "percentage": 0,
+            "date": 1,
+            "blank": 0
+          },
+          "source_error_literals": [],
+          "merges": [
+            "A8:A9",
+            "B8:B9",
+            "D8:G8",
+            "I8:I9",
+            "J8:M8"
+          ],
+          "merge_normalizations": [],
+          "source_sha256": "9c37f75c3f8ead19bcf45013fd1df50f524be791b198091b5f87c7bf738a77b9",
+          "in_memory_cells_checked": 39117,
+          "in_memory_value_comparison": "passed",
+          "visual_preview_range": "A1:M13",
+          "visual_preview_file": "tmp/xlsx-qa/03-sheet-06.png",
+          "visual_preview_files": [
+            {
+              "range": "A1:M13",
+              "file": "tmp/xlsx-qa/03-sheet-06.png",
+              "purpose": "opening view and headers"
+            }
+          ],
+          "visual_review": "passed",
+          "visual_review_record": {
+            "workbook_index": 3,
+            "sheet_index": 6,
+            "sheet_name": "越南",
+            "review": "passed",
+            "previews": [
+              {
+                "range": "A1:M13",
+                "file": "tmp/xlsx-qa/03-sheet-06.png",
+                "purpose": "opening view and headers",
+                "sha256": "05d8f58ad625244a7c79b2dfed75be26e1e7815bfacedf8c054bdd4ce2854a30",
+                "review": "passed"
+              }
+            ],
+            "notes": "宽表完整呈现，Zone A–D、千位分隔金额清晰。"
+          }
+        },
+        {
+          "sheet_index": 7,
+          "sheet_name": "新加坡",
+          "total_rows": 3008,
+          "observed_rows": 3008,
+          "used_columns": 7,
+          "nonblank_cells": 12016,
+          "type_counts": {
+            "text": 14,
+            "number": 12001,
+            "percentage": 0,
+            "date": 1,
+            "blank": 0
+          },
+          "source_error_literals": [],
+          "merges": [],
+          "merge_normalizations": [],
+          "source_sha256": "0cc77164ca9cbcd6a367b9d8b485bfb8ef77f43c987922183255fb8f941220d4",
+          "in_memory_cells_checked": 21056,
+          "in_memory_value_comparison": "passed",
+          "visual_preview_range": "A1:G13",
+          "visual_preview_file": "tmp/xlsx-qa/03-sheet-07.png",
+          "visual_preview_files": [
+            {
+              "range": "A1:G13",
+              "file": "tmp/xlsx-qa/03-sheet-07.png",
+              "purpose": "opening view and headers"
+            }
+          ],
+          "visual_review": "passed",
+          "visual_review_record": {
+            "workbook_index": 3,
+            "sheet_index": 7,
+            "sheet_name": "新加坡",
+            "review": "passed",
+            "previews": [
+              {
+                "range": "A1:G13",
+                "file": "tmp/xlsx-qa/03-sheet-07.png",
+                "purpose": "opening view and headers",
+                "sha256": "a93204faf8983950fd30726321aa933a5d49cdadebff77b505467c55d1232c62",
+                "review": "passed"
+              }
+            ],
+            "notes": "日期、SGD、藏价说明及0.00/0.98等金额完整。"
+          }
+        },
+        {
+          "sheet_index": 8,
+          "sheet_name": "区域划分",
+          "total_rows": 4,
+          "observed_rows": 4,
+          "used_columns": 3,
+          "nonblank_cells": 12,
+          "type_counts": {
+            "text": 12,
+            "number": 0,
+            "percentage": 0,
+            "date": 0,
+            "blank": 0
+          },
+          "source_error_literals": [],
+          "merges": [],
+          "merge_normalizations": [],
+          "source_sha256": "46dbf6136d38b29062b8f672659ea0a0e47466ec8bfb396c2946fe0cb004dafc",
+          "in_memory_cells_checked": 12,
+          "in_memory_value_comparison": "passed",
+          "visual_preview_range": "A1:C4",
+          "visual_preview_file": "tmp/xlsx-qa/03-sheet-08.png",
+          "visual_preview_files": [
+            {
+              "range": "A1:C4",
+              "file": "tmp/xlsx-qa/03-sheet-08.png",
+              "purpose": "opening view and headers"
+            }
+          ],
+          "visual_review": "passed",
+          "visual_review_record": {
+            "workbook_index": 3,
+            "sheet_index": 8,
+            "sheet_name": "区域划分",
+            "review": "passed",
+            "previews": [
+              {
+                "range": "A1:C4",
+                "file": "tmp/xlsx-qa/03-sheet-08.png",
+                "purpose": "opening view and headers",
+                "sha256": "256eaef379f4d5180052e440adeb68bdda4a6f679adb7cedb99e00f2e4c46689",
+                "review": "passed"
+              }
+            ],
+            "notes": "四行全表，国家/省份/区域及三个省名完整。"
+          }
+        }
+      ],
+      "images": [],
+      "bytes": 585636,
+      "sha256": "c814e652d0cac632090556f8fe1addc6acf6b76eee7583ab389771e0ec16c4ba"
+    }
+  ],
+  "visual_review": "passed",
+  "visual_reviewed_at": "2026-10-14T12:32:32.227Z",
+  "visual_review_scope": "Manual review of all 23 worksheet opening ranges and three longest-body-text ranges; full saved-cell validation separately covers 25061 source rows."
+}
