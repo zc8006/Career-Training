@@ -12,6 +12,7 @@ tags:
 - [[Japanese_Training_Master|Japanese Training Master]]
 - [[Japanese/WrongAnswers|Wrong Answers]]
 - [[Japanese/Grammar/动词分类与ます形|动词分类与ます形]]
+- [[Japanese/Training/Self-Growth-FreeTalk-Mode|Self-Growth Free Talk Mode]]
 
 ## Learning Areas
 - [[N2 Grammar]]
@@ -25,6 +26,7 @@ tags:
 ## Training Flow
 - Daily：每天练习与复盘
 - Conversation：自由会话记录
+- Self-Growth：根据前一天真实表现自动调整听力难度、词块复现与连续输出长度
 - WrongAnswers：发音、助词、句型、词汇薄弱项
 - Master：稳定后的长期表达与核心规则
 
