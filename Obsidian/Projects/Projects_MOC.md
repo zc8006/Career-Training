@@ -18,6 +18,8 @@ tags:
 ## 创作试验计划
 - [AI漫剧低成本30天执行计划](AI漫剧低成本30天执行计划.md)：首月200元预算、制作步骤、在线画布与低配置电脑安排。
 
+- [AI漫剧 Day02 动作与配音实验](AI漫剧/2026-10-17-Day02/Day02-动作与配音实验.md)：继续精修第一集，先测试10秒连续表演与短配音。
+
 ## Technology Links
 - [[Java/Java_MOC|Java]]
 - [[MuleSoft/MuleSoft_MOC|MuleSoft]]
