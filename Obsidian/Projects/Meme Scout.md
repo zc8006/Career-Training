@@ -13,6 +13,9 @@ tags:
 
 ## 复盘与经验
 
+- [[Projects/Meme-Scout/2026-10-16-signal-audit-plan|2026-10-16 选币优势验证与改善方案]]：第一阶段已实施，固定V7.5基准、前瞻同类对照、七日记录及后续信号研究。
+- [[Projects/Meme-Scout/2026-10-16-implementation-review|2026-10-16 实施总结]]：第42版发布、79项测试、上线核对及固定时点数据。
+- [[Projects/Meme-Scout/Self-Growth-Mode|自我成长模式]]：假设、冻结规则、新证据、复核门槛、结论修正及下一轮实验。
 - [[Projects/Meme-Scout/2026-09-30-trading-lessons|2026-09-30 买卖经验与卖出后价格复盘]]：BSC覆盖、止损与反弹、分批止盈、盈利集中度、二次入场实验建议及数据缺口。
 
 ## 维护原则
