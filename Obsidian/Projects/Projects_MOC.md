@@ -15,6 +15,9 @@ tags:
 - [[IBM Process Mining PoC]]
 - [[Meme Scout]]
 
+## 创作试验计划
+- [AI漫剧低成本30天执行计划](AI漫剧低成本30天执行计划.md)：首月200元预算、制作步骤、在线画布与低配置电脑安排。
+
 ## Technology Links
 - [[Java/Java_MOC|Java]]
 - [[MuleSoft/MuleSoft_MOC|MuleSoft]]
