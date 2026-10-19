@@ -13,6 +13,8 @@ tags:
 
 ## 复盘与经验
 
+- [[Projects/Meme-Scout/2026-10-19-wallet-flow-plan|2026-10-19 BSC钱包行为实验方案]]：第43版已上线，VPS待升级；48h覆盖观察后，按冻结规则做独立配对模拟。
+- [[Projects/Meme-Scout/2026-10-19-wallet-flow-implementation-review|2026-10-19 实施总结]]：90项测试、线上核验、账户固定时点与工程/收益结论的边界。
 - [[Projects/Meme-Scout/2026-10-16-signal-audit-plan|2026-10-16 选币优势验证与改善方案]]：第一阶段已实施，固定V7.5基准、前瞻同类对照、七日记录及后续信号研究。
 - [[Projects/Meme-Scout/2026-10-16-implementation-review|2026-10-16 实施总结]]：第42版发布、79项测试、上线核对及固定时点数据。
 - [[Projects/Meme-Scout/Self-Growth-Mode|自我成长模式]]：假设、冻结规则、新证据、复核门槛、结论修正及下一轮实验。
