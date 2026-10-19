@@ -7,7 +7,13 @@ date: 2026-10-19
 
 [[Projects/Meme Scout|← Meme Scout 项目]]
 
-## 交付状态
+## 最新验收 · 10月19日13:19
+
+用户已完成第46版VPS升级。预检warming，verifiedActions=1、coalescedRows=1、issues=[]；网站/api/wallet-study随后确认北京时间13:19:28.406的新上报：returned=100、valid=99、coalescedRows=1、verifiedActions=1、newTrades=3、overlap=96，diagnostics=[]。当前partial唯一原因是此前30分钟交易或覆盖缺口仍在等待窗口；原冲突已核清，不应手动清空缺口或再次升级。
+
+首次观察仍为12:51:04.833，钱包实验0对。继续只读积累：48h最早10月21日12:51满足，覆盖与其他准入条件另行检查。安装器末尾的partial日志位于Stopping/Started之前，属于旧进程；真实新入库已证明新代码生效。本次验收确认部署和核算行为，尚无选币收益结论。
+
+## 初次交付状态（第43版，历史记录）
 
 2026-10-19，第43版已发布至 [Meme Scout](https://meme-scout.zc8006.chatgpt.site)，继续仅站点所有者可访问。网站源码提交：6eb14e0ea9f51a07d5b942b3fd501de776451d49。
 
@@ -21,7 +27,7 @@ date: 2026-10-19
 - 新增Drizzle 0008迁移，仅添加wallet_feed_runs与wallet_feed_state，旧迁移未修改。
 - 固定SHA-256升级包、预检与失败恢复脚本，站内升级说明。
 
-尚未完成的外部步骤：Oracle VPS需安装这次采集器更新。当前无法直接连接该终端；官方smartmoney真实key权限、真实字段返回、实际轮询覆盖和真实新样本尚未验证。网站发布成功不等于VPS已更新。
+初次发布时尚未完成的外部步骤（现已更新，见最新验收）：Oracle VPS需安装这次采集器更新。当前无法直接连接该终端；官方smartmoney真实key权限、真实字段返回、实际轮询覆盖和真实新样本尚未验证。网站发布成功不等于VPS已更新。
 
 ## 检查结果
 

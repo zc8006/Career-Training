@@ -7,9 +7,9 @@ date: 2026-10-19
 
 [[Projects/Meme Scout|← Meme Scout 项目]]
 
-## 最新状态 · 10月19日13:09
+## 最新状态 · 10月19日13:19
 
-VPS第45版已经成功安装，网站确认首个真实钱包观察为2026-10-19 12:51:04.833（北京时间）；12:52:24已出现后续轮询与95条重叠记录，真实入库已接通。第46版网站与升级包现已发布，新增经回执验证的分笔合并；VPS仍需重跑原sudo更新命令以同步这项修复。48h计时和已保存覆盖记录保留，最早10月21日12:51之后才可能满足观察时长，还必须通过质量与配对条件。
+用户已在Oracle VPS成功安装第46版。只读预检为warming、verifiedActions=1、coalescedRows=1、issues=[]；网站确认13:19:28.406（北京时间）收到重启后的新上报，同样包含1组已核验合并，冲突diagnostics为空。当前partial仅因此前30分钟交易或覆盖缺口的等待窗口仍在；不清除历史缺口、不需要再次升级。首个真实观察时间仍为2026-10-19 12:51:04.833，48h计时与覆盖记录保留；最早10月21日12:51之后才可能满足观察时长，还必须通过质量与配对条件。钱包配对仍为0。
 
 ## 当前判断与实施状态
 
@@ -90,7 +90,7 @@ SH
 
 更新器校验固定SHA-256，备份采集器，保留配置和状态，停止服务后检查真实token/info与smartmoney只读权限，通过才安装；失败恢复原采集器。若无smartmoney读取权限，需要在GMGN检查现有key权限，不能凭本地模拟测试视为已开通。
 
-验收日志：gmgn_wallet_check且records>0，随后gmgn_wallet_collected。网站必须出现真实首次采样时间与覆盖比例；48h、覆盖和风控全部达标后，后台自动按固定规则筛查。当前没有VPS终端连接，本次没有执行远端升级，12:33 VPS预检已确认smartmoney读取权限；持续采集与冲突原始样本仍待新版安装后验证。
+验收日志：gmgn_wallet_check且records>0，随后gmgn_wallet_collected。网站必须出现真实首次采样时间与覆盖比例；48h、覆盖和风控全部达标后，后台自动按固定规则筛查。助手没有VPS终端连接；升级由用户执行。13:19已通过新字段与重启后入库确认第46版运行。更新器末尾显示的旧partial行发生在Stopping/Started之前，不能当作新进程仍有同一冲突；应以重启后上报时间、计数和具体issues核验。
 
 官方依据：[GMGN track](https://github.com/GMGNAI/gmgn-skills/blob/main/skills/gmgn-track/SKILL.md)、[官方客户端认证](https://github.com/GMGNAI/gmgn-skills/blob/main/src/client/OpenApiClient.ts)。
 
