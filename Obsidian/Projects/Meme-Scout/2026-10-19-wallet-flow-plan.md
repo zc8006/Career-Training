@@ -65,16 +65,22 @@ GMGN 标记钱包出现持续、分散的实际净买入时，选出的币在24h
 
 网站「模拟账户 → 钱包行为有没有选币优势」提供升级步骤：[升级说明](https://meme-scout.zc8006.chatgpt.site/wallet-update-guide.txt)。
 
-在当前Oracle采集器VPS，以root执行一次；令牌只从现有服务器文件经curl标准输入传递：
+在当前Oracle采集器VPS，ubuntu用户直接执行下面整段，sudo负责使用root；令牌只从现有服务器文件经curl标准输入传递：
 
 ```bash
+sudo bash <<'SH'
+set -euo pipefail
 task_update=$(mktemp)
-if printf 'header = "OAI-Sites-Authorization: Bearer %s"\n' "$(cat /etc/meme-scout/sites-bypass.token)" |
-  curl --fail --silent --show-error --config - https://meme-scout.zc8006.chatgpt.site/update-collector.sh --output "$task_update"; then
-  bash "$task_update"
-fi
-rm -f "$task_update"
+trap 'rm -f "$task_update"' EXIT
+task_token=$(cat /etc/meme-scout/sites-bypass.token)
+printf 'header = "OAI-Sites-Authorization: Bearer %s"\n' "$task_token" |
+  curl --fail --silent --show-error --config - https://meme-scout.zc8006.chatgpt.site/update-collector.sh --output "$task_update"
+unset task_token
+bash "$task_update"
+SH
 ```
+
+2026-10-19 12:32（北京时间）第44版修复sudo找不到Node的问题：优先从运行中采集器的/proc/<MainPID>/exe取得Node绝对路径，再检查systemd的ExecStart及命令路径；Node检查均在停止服务前完成。不会另行安装Node或改变服务配置。
 
 更新器校验固定SHA-256，备份采集器，保留配置和状态，停止服务后检查真实token/info与smartmoney只读权限，通过才安装；失败恢复原采集器。若无smartmoney读取权限，需要在GMGN检查现有key权限，不能凭本地模拟测试视为已开通。
 

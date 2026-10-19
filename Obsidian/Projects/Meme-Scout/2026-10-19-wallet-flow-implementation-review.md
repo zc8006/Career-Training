@@ -60,3 +60,11 @@ date: 2026-10-19
 
 [[Projects/Meme-Scout/2026-10-19-wallet-flow-plan|冻结方案与VPS升级命令]]
 [[Projects/Meme-Scout/Self-Growth-Mode|自我成长模式]]
+
+## 12:32 部署跟进：Oracle用户与Node路径
+
+用户以ubuntu身份读取root管理的令牌时遇到Permission denied/401；改用sudo后，升级器在第一处node --check报node: command not found。该行在systemctl stop之前，因此这次失败尚未进入安装/停止服务阶段。
+
+根因是更新器直接调用node，假定sudo后的PATH包含现有运行时。第44版已修复：优先解析运行中采集器的Node可执行文件，再检查systemd ExecStart及命令路径，所有调用使用解析出的绝对路径，并在停止服务前检查Node≥22。同步将站内和本方案的命令改为完整sudo代码块。
+
+新增3项脚本解析测试通过（运行中进程、停止服务后的ExecStart、常规PATH回退），bash语法、diff检查及生产构建通过。只修改更新器和说明，采集器包及其固定SHA-256未变。修复源码提交4eaefbc49ebcdd7c41760757dc238ed1e943cb6e，私有站点发布成功。VPS仍需重跑更新命令；尚未将本地通过视为远端安装或GMGN权限已通过。
