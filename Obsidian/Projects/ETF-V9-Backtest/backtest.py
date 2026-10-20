@@ -1,6 +1,8 @@
 import json
 import pathlib
 import traceback
+import time
+import random
 import pandas as pd
 import akshare as ak
 
@@ -10,14 +12,36 @@ OUT = ROOT / 'reports'
 OUT.mkdir(exist_ok=True)
 
 def fetch(symbol):
-    df = ak.fund_etf_hist_em(symbol=symbol, period='daily', start_date=CFG['start'], end_date=pd.Timestamp.today().strftime('%Y%m%d'), adjust='qfq')
-    if df is None or df.empty:
-        raise ValueError('empty ETF data')
-    df = df.rename(columns={'日期':'date','开盘':'open','收盘':'close','最高':'high','最低':'low','成交量':'volume','成交额':'turnover'})
-    df['date'] = pd.to_datetime(df['date'])
-    for col in ['open','close','high','low','volume','turnover']:
-        df[col] = pd.to_numeric(df[col], errors='coerce')
-    return df.sort_values('date').dropna(subset=['open','close','high','low']).reset_index(drop=True)
+    # Eastmoney sometimes resets connections from hosted runners.
+    # Retry the same official AKShare endpoint with bounded exponential backoff.
+    # Do not silently accept missing or short history.
+    errors = []
+    for attempt in range(4):
+        try:
+            df = ak.fund_etf_hist_em(
+                symbol=symbol, period='daily', start_date=CFG['start'],
+                end_date=pd.Timestamp.today().strftime('%Y%m%d'), adjust='qfq'
+            )
+            if df is None or df.empty:
+                raise ValueError('empty ETF data')
+            df = df.rename(columns={'日期':'date','开盘':'open','收盘':'close','最高':'high','最低':'low','成交量':'volume','成交额':'turnover'})
+            df['date'] = pd.to_datetime(df['date'])
+            for col in ['open','close','high','low','volume','turnover']:
+                df[col] = pd.to_numeric(df[col], errors='coerce')
+            df = df.sort_values('date').dropna(subset=['open','close','high','low']).drop_duplicates(subset=['date']).reset_index(drop=True)
+            if len(df) < 100:
+                raise ValueError(f'insufficient history: {len(df)} bars')
+            if (df[['open','close','high','low']] <= 0).any().any():
+                raise ValueError('non-positive price in downloaded history')
+            print(f'Downloaded {symbol}: {len(df)} bars, last date {df.date.iloc[-1].date()}', flush=True)
+            return df
+        except Exception as e:
+            errors.append(f'{type(e).__name__}: {e}')
+            if attempt < 3:
+                delay = min(12, 2**attempt * 2 + random.random())
+                print(f'{symbol} fetch attempt {attempt+1}/4 failed ({errors[-1]}); retry in {delay:.1f}s', flush=True)
+                time.sleep(delay)
+    raise RuntimeError(f'{symbol} download failed after 4 attempts: {" | ".join(errors)}')
 
 def indicators(df, benchmark):
     d=df.copy()
