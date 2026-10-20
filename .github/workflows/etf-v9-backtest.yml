@@ -1,0 +1,26 @@
+name: ETF V8 V9 Research Backtest
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 9 * * 1-5'
+permissions:
+  contents: read
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: Obsidian/Projects/ETF-V9-Backtest/requirements.txt
+      - run: pip install -r Obsidian/Projects/ETF-V9-Backtest/requirements.txt
+      - run: python Obsidian/Projects/ETF-V9-Backtest/backtest.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: etf-backtest-reports
+          path: Obsidian/Projects/ETF-V9-Backtest/reports/
+          retention-days: 30
