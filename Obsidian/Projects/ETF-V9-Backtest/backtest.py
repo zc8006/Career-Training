@@ -3,6 +3,8 @@ import pathlib
 import traceback
 import time
 import random
+import io
+import requests
 import pandas as pd
 import akshare as ak
 
@@ -10,6 +12,34 @@ ROOT = pathlib.Path(__file__).resolve().parent
 CFG = json.loads((ROOT / 'config.json').read_text(encoding='utf-8'))
 OUT = ROOT / 'reports'
 OUT.mkdir(exist_ok=True)
+
+def fetch_sina(symbol):
+    # Independent Sina ETF daily price endpoint; returns unadjusted historical bars.
+    # Source differences are recorded, not silently mixed.
+    market = 'sh' if symbol.startswith('5') else 'sz'
+    url = 'https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_data=/CN_MarketData.getKLineData'
+    params = {'symbol': market + symbol, 'scale': 240, 'ma': 'no', 'datalen': 1023}
+    response = requests.get(url, params=params, timeout=20, headers={'User-Agent':'Mozilla/5.0','Referer':'https://finance.sina.com.cn/'})
+    response.raise_for_status()
+    raw = response.text.strip()
+    left, right = raw.find('['), raw.rfind(']')
+    if left < 0 or right < left:
+        raise ValueError('Sina endpoint returned no parseable JSON array')
+    import json as _json
+    rows = _json.loads(raw[left:right + 1])
+    if not isinstance(rows,list) or len(rows)<100:
+        raise ValueError('Sina insufficient history')
+    d = pd.DataFrame(rows)
+    d = d.rename(columns={'day':'date'})
+    d['date'] = pd.to_datetime(d['date'])
+    for col in ['open','close','high','low','volume']:
+        d[col] = pd.to_numeric(d[col],errors='coerce')
+    d['turnover'] = float('nan')
+    d=d.sort_values('date').dropna(subset=['open','close','high','low']).drop_duplicates('date').reset_index(drop=True)
+    if len(d)<100 or (d[['open','close','high','low']]<=0).any().any():
+        raise ValueError('Sina bars invalid')
+    print(f'Downloaded {symbol} via Sina (unadjusted): {len(d)} bars',flush=True)
+    return d
 
 def fetch(symbol):
     # Eastmoney sometimes resets connections from hosted runners.
@@ -41,7 +71,10 @@ def fetch(symbol):
                 delay = min(12, 2**attempt * 2 + random.random())
                 print(f'{symbol} fetch attempt {attempt+1}/4 failed ({errors[-1]}); retry in {delay:.1f}s', flush=True)
                 time.sleep(delay)
-    raise RuntimeError(f'{symbol} download failed after 4 attempts: {" | ".join(errors)}')
+    try:
+        return fetch_sina(symbol)
+    except Exception as fallback_error:
+        raise RuntimeError(f'{symbol}: Eastmoney and Sina failed; Eastmoney errors={errors}; Sina error={fallback_error}') from fallback_error
 
 def indicators(df, benchmark):
     d=df.copy()
