@@ -1,0 +1,2443 @@
+{
+  "schema": "v75-diagnostic-review-v1",
+  "summary": {
+    "frozenAsOf": "2026-10-22T01:00:01.450082+00:00",
+    "strategyVersion": "paper-v7.5-gmgn-contract-tracking",
+    "positions": 24,
+    "closed": 20,
+    "open": 4,
+    "wins": 4,
+    "losses": 16,
+    "netPnlUsd": -29.00925584454818,
+    "exactFrictionUsd": 7.3039590103892875,
+    "grossPricePnlUsd": -21.70529683415889,
+    "lossPaths": {
+      "peak_below_10": 14,
+      "peak_10_to_50": 2
+    },
+    "allPathCoverage": {
+      "true": 20
+    },
+    "byChain": [
+      {
+        "group": "bsc",
+        "closed": 5,
+        "wins": 2,
+        "netPnlUsd": -2.403429406056722
+      },
+      {
+        "group": "ethereum",
+        "closed": 8,
+        "wins": 2,
+        "netPnlUsd": -11.89665337643423
+      },
+      {
+        "group": "solana",
+        "closed": 7,
+        "wins": 0,
+        "netPnlUsd": -14.709173062057227
+      }
+    ],
+    "byTrigger": [
+      {
+        "group": "标准动量",
+        "closed": 18,
+        "wins": 4,
+        "netPnlUsd": -25.022108013280516
+      },
+      {
+        "group": "结构改善",
+        "closed": 2,
+        "wins": 0,
+        "netPnlUsd": -3.987147831267664
+      }
+    ],
+    "lossesClosedWithin1h": 6,
+    "lossesClosedWithin3h": 10,
+    "initialStopQuoteToExitMinutes": [
+      {
+        "symbol": "BUNKER",
+        "firstBreach": "2026-10-12T04:49:37.354Z",
+        "delay": 0.28829999999999995,
+        "exitVsStopPct": -0.6809069484576269,
+        "pathComplete": true
+      },
+      {
+        "symbol": "DNA",
+        "firstBreach": "2026-10-12T05:17:23.000Z",
+        "delay": 0.2889333333333333,
+        "exitVsStopPct": -0.6244263152091034,
+        "pathComplete": true
+      },
+      {
+        "symbol": "SI",
+        "firstBreach": "2026-10-13T20:48:04.550Z",
+        "delay": 0.39333333333333337,
+        "exitVsStopPct": -0.9201364443118032,
+        "pathComplete": true
+      },
+      {
+        "symbol": "DOGEBALL",
+        "firstBreach": "2026-10-13T17:50:09.627Z",
+        "delay": 0.24543333333333334,
+        "exitVsStopPct": -9.496043003720434,
+        "pathComplete": true
+      },
+      {
+        "symbol": "Temo",
+        "firstBreach": "2026-10-14T03:54:56.884Z",
+        "delay": 0.26813333333333333,
+        "exitVsStopPct": -12.785704673849363,
+        "pathComplete": true
+      },
+      {
+        "symbol": "DOPE",
+        "firstBreach": "2026-10-14T12:29:12.982Z",
+        "delay": 0.3217666666666667,
+        "exitVsStopPct": -2.0501542895792313,
+        "pathComplete": true
+      },
+      {
+        "symbol": "DAWG",
+        "firstBreach": "2026-10-16T19:19:27.739Z",
+        "delay": 0.1897,
+        "exitVsStopPct": -7.431892070993373,
+        "pathComplete": true
+      },
+      {
+        "symbol": "MAKERS",
+        "firstBreach": "2026-10-17T11:48:19.949Z",
+        "delay": 0.32598333333333335,
+        "exitVsStopPct": -6.149445984101554,
+        "pathComplete": true
+      },
+      {
+        "symbol": "GROKLET",
+        "firstBreach": "2026-10-17T19:19:39.973Z",
+        "delay": 0.26361666666666667,
+        "exitVsStopPct": -3.3159110880115583,
+        "pathComplete": true
+      },
+      {
+        "symbol": "sauce",
+        "firstBreach": "2026-10-18T17:03:29.847Z",
+        "delay": 0.13236666666666666,
+        "exitVsStopPct": -0.8051426890112734,
+        "pathComplete": true
+      },
+      {
+        "symbol": "mucron",
+        "firstBreach": "2026-10-18T16:30:06.772Z",
+        "delay": 0.372,
+        "exitVsStopPct": -0.18623246845627106,
+        "pathComplete": true
+      },
+      {
+        "symbol": "BFC",
+        "firstBreach": "2026-10-20T14:23:55.451Z",
+        "delay": 0.18045,
+        "exitVsStopPct": -2.979132708703014,
+        "pathComplete": true
+      },
+      {
+        "symbol": "DACITY",
+        "firstBreach": "2026-10-21T02:47:25.506Z",
+        "delay": 0.3837,
+        "exitVsStopPct": -6.89673492145082,
+        "pathComplete": true
+      },
+      {
+        "symbol": "CHOO",
+        "firstBreach": "2026-10-21T22:41:03.981Z",
+        "delay": 0.17315,
+        "exitVsStopPct": -10.726994357215858,
+        "pathComplete": true
+      }
+    ],
+    "referenceDelays": [
+      {
+        "symbol": "BFC",
+        "at": "2026-10-20T13:04:52.133Z",
+        "price": 0.00169513,
+        "delayMinutes": 11.291066666666667,
+        "priceDistancePct": 33.0753393545038
+      },
+      {
+        "symbol": "DACITY",
+        "at": "2026-10-21T02:02:42.718Z",
+        "price": 0.00633315,
+        "delayMinutes": 11.3184,
+        "priceDistancePct": 4.832666208758685
+      },
+      {
+        "symbol": "CHOO",
+        "at": "2026-10-21T20:03:40.488Z",
+        "price": 0.000749461,
+        "delayMinutes": 0,
+        "priceDistancePct": 0
+      }
+    ],
+    "postExit24hLosses": {
+      "statuses": {
+        "sampled": 14,
+        "pending": 2
+      },
+      "higher": 4,
+      "returns": [
+        {
+          "symbol": "BUNKER",
+          "changePct": 7.520407982575739
+        },
+        {
+          "symbol": "DNA",
+          "changePct": -77.60969152253053
+        },
+        {
+          "symbol": "SI",
+          "changePct": 1.6952534280033404
+        },
+        {
+          "symbol": "DOGEBALL",
+          "changePct": -79.75613649844934
+        },
+        {
+          "symbol": "Temo",
+          "changePct": -86.43348079065636
+        },
+        {
+          "symbol": "DOPE",
+          "changePct": 123.57086699946005
+        },
+        {
+          "symbol": "DAWG",
+          "changePct": 9.574328152660417
+        },
+        {
+          "symbol": "Aloooong",
+          "changePct": -74.93872119121914
+        },
+        {
+          "symbol": "MAKERS",
+          "changePct": -85.23749799286749
+        },
+        {
+          "symbol": "GROKLET",
+          "changePct": -99.87917661406097
+        },
+        {
+          "symbol": "sauce",
+          "changePct": -2.1618187072377726
+        },
+        {
+          "symbol": "mucron",
+          "changePct": -87.0719466322078
+        },
+        {
+          "symbol": "NOX",
+          "changePct": -23.000227268019056
+        },
+        {
+          "symbol": "BFC",
+          "changePct": -2.9743780084303006
+        }
+      ]
+    },
+    "allClosedSaleEvidenceOk": true,
+    "entryEventsMatched": 24,
+    "recentLossAuditCases": 12
+  },
+  "method": {
+    "asOf": "2026-10-22T01:00:01.450082Z",
+    "source": "gmgn",
+    "peakBasis": "sampled market price relative to original entry execution price",
+    "maxPathGapMinutes": 20,
+    "pricePathIsExecutableProfit": false,
+    "nativeServerAuditCases": 12,
+    "costDefinition": "same executed quantities: price movement minus entry execution price friction, gas, platform fees and exit slippage",
+    "openPositionsExcludedFromClosedWinRate": true,
+    "aztecExportBoundary": "first seven days only; not an observed collection outage"
+  },
+  "positions": [
+    {
+      "positionId": "paper:2026-10-12T00:20:00.000Z:ethereum:0x73df7018cbcb919ccde48c3f12f4326688ac4446",
+      "tokenId": "ethereum:0x73df7018cbcb919ccde48c3f12f4326688ac4446",
+      "symbol": "DOPE",
+      "chain": "ethereum",
+      "status": "closed",
+      "openedAt": "2026-10-12T00:24:30.027Z",
+      "closedAt": "2026-10-12T10:44:52.900Z",
+      "holdingHours": 10.339686944444445,
+      "netPnlUsd": 2.7803536149396186,
+      "entryScore": 92,
+      "discoveryScore": 38,
+      "trigger": "标准动量",
+      "entry1hChangePct": 22.4102,
+      "entryLiquidityUsd": 302390,
+      "entryMetrics": {
+        "score": 38,
+        "stage": "watch",
+        "signals": [
+          "流动性达到$100K",
+          "买盘占比76%"
+        ],
+        "liquidityGrowth": 0.012740048093346612,
+        "holderGrowth": 0,
+        "smartDegenDelta": 0,
+        "buyRatio": 0.7637130801687764,
+        "turnover": 0.8676411256986012,
+        "recovered": []
+      },
+      "entryQuality": {
+        "currentFresh": true,
+        "historyAligned": true,
+        "currentAgeMinutes": 0.12355,
+        "previousMarketGapMinutes": 10.674083333333334,
+        "previousRiskGapMinutes": 10.674083333333334
+      },
+      "exitReason": "ETH上涨50%，卖出25%并跟踪余仓 → 金狗仓峰值回撤25%",
+      "exitExecutionOk": true,
+      "bookPeakGainPct": 69.45265882582514,
+      "sampledPeakGainPct": 69.45265882582514,
+      "sampledLowGainPct": -19.696594818602385,
+      "pathComplete": true,
+      "samples": 112,
+      "maxQuoteGapMinutes": 5.667766666666666,
+      "pathCategory": "peak_at_least_50",
+      "firstInitialStopQuoteAt": null,
+      "initialStopQuoteToExitMinutes": null,
+      "exitVsInitialStopPct": null,
+      "bookCostsUsd": 0.5029679754741376,
+      "entryFrictionUsd": 0.04963508285142314,
+      "exactFrictionUsd": 0.502716566992042,
+      "grossPricePnlUsd": 3.283070181931661,
+      "postExit24hStatus": "sampled",
+      "postExit24hPriceChangePct": 37.94397283531408,
+      "postExit24hQuoteAt": "2026-10-13T10:47:10.972Z",
+      "referenceEntryDelay": null,
+      "existingAuditIssues": null,
+      "existingAuditExecution": null,
+      "saleEvents": [
+        {
+          "at": "2026-10-12T10:44:52.900Z",
+          "action": "sell",
+          "soldFraction": 0.75,
+          "marketPriceUsd": 0.01178,
+          "netPnlUsd": 1.6750087690711783
+        },
+        {
+          "at": "2026-10-12T07:47:13.863Z",
+          "action": "sell_partial",
+          "soldFraction": 0.25,
+          "marketPriceUsd": 0.0140101,
+          "netPnlUsd": 1.1053448458684403
+        }
+      ],
+      "sampledPathScope": "entry_to_exit"
+    },
+    {
+      "positionId": "paper:2026-10-12T01:15:00.000Z:ethereum:0x41a4594575557efbf85cd950749bb0c1e99bcefd",
+      "tokenId": "ethereum:0x41a4594575557efbf85cd950749bb0c1e99bcefd",
+      "symbol": "BUNKER",
+      "chain": "ethereum",
+      "status": "closed",
+      "openedAt": "2026-10-12T01:19:05.378Z",
+      "closedAt": "2026-10-12T04:49:54.652Z",
+      "holdingHours": 3.513687222222222,
+      "netPnlUsd": -2.3447583436019235,
+      "entryScore": 81,
+      "discoveryScore": 33,
+      "trigger": "标准动量",
+      "entry1hChangePct": 25.8031,
+      "entryLiquidityUsd": 533491,
+      "entryMetrics": {
+        "score": 33,
+        "stage": "watch",
+        "signals": [
+          "流动性达到$100K",
+          "买盘占比67%"
+        ],
+        "liquidityGrowth": 0.0058618128066185715,
+        "holderGrowth": 0.000492368291482137,
+        "smartDegenDelta": 0,
+        "buyRatio": 0.6740331491712708,
+        "turnover": 0.4512034879688692,
+        "recovered": []
+      },
+      "entryQuality": {
+        "currentFresh": true,
+        "historyAligned": true,
+        "currentAgeMinutes": 0.30188333333333334,
+        "previousMarketGapMinutes": 11.141233333333334,
+        "previousRiskGapMinutes": 11.141233333333334
+      },
+      "exitReason": "初始止损",
+      "exitExecutionOk": true,
+      "bookPeakGainPct": -0.501167757873322,
+      "sampledPeakGainPct": -0.501167757873322,
+      "sampledLowGainPct": -20.544725558766107,
+      "pathComplete": true,
+      "samples": 38,
+      "maxQuoteGapMinutes": 5.611633333333333,
+      "pathCategory": "peak_below_10",
+      "firstInitialStopQuoteAt": "2026-10-12T04:49:37.354Z",
+      "initialStopQuoteToExitMinutes": 0.28829999999999995,
+      "exitVsInitialStopPct": -0.6809069484576269,
+      "bookCostsUsd": 0.3709420136350725,
+      "entryFrictionUsd": 0.04935938591152397,
+      "exactFrictionUsd": 0.37069339430749093,
+      "grossPricePnlUsd": -1.9740649492944327,
+      "postExit24hStatus": "sampled",
+      "postExit24hPriceChangePct": 7.520407982575739,
+      "postExit24hQuoteAt": "2026-10-13T04:53:12.618Z",
+      "referenceEntryDelay": null,
+      "existingAuditIssues": null,
+      "existingAuditExecution": null,
+      "saleEvents": [
+        {
+          "at": "2026-10-12T04:49:54.652Z",
+          "action": "sell",
+          "soldFraction": 1,
+          "marketPriceUsd": 0.0225892,
+          "netPnlUsd": -2.3447583436019235
+        }
+      ],
+      "sampledPathScope": "entry_to_exit"
+    },
+    {
+      "positionId": "paper:2026-10-12T02:45:00.000Z:ethereum:0x39772d019ed525f667a7cbbf8e64b07120378402",
+      "tokenId": "ethereum:0x39772d019ed525f667a7cbbf8e64b07120378402",
+      "symbol": "DNA",
+      "chain": "ethereum",
+      "status": "closed",
+      "openedAt": "2026-10-12T02:47:58.049Z",
+      "closedAt": "2026-10-12T05:17:40.336Z",
+      "holdingHours": 2.495079722222222,
+      "netPnlUsd": -2.379804855303692,
+      "entryScore": 74,
+      "discoveryScore": 43,
+      "trigger": "标准动量",
+      "entry1hChangePct": 7.72132,
+      "entryLiquidityUsd": 178219,
+      "entryMetrics": {
+        "score": 43,
+        "stage": "watch",
+        "signals": [
+          "流动性达到$100K",
+          "已有2项初期风险改善"
+        ],
+        "liquidityGrowth": 0.09742115050677969,
+        "holderGrowth": 0.013973799126637543,
+        "smartDegenDelta": 0,
+        "buyRatio": 0.5617283950617284,
+        "turnover": 0.24382248806244006,
+        "recovered": [
+          "流动性低于$30K",
+          "1小时涨幅超过300%"
+        ]
+      },
+      "entryQuality": {
+        "currentFresh": true,
+        "historyAligned": true,
+        "currentAgeMinutes": 0.35906666666666665,
+        "previousMarketGapMinutes": 11.089666666666666,
+        "previousRiskGapMinutes": 11.089666666666666
+      },
+      "exitReason": "初始止损",
+      "exitExecutionOk": true,
+      "bookPeakGainPct": 2.4038708083655047,
+      "sampledPeakGainPct": 2.4038708083655047,
+      "sampledLowGainPct": -20.49954105216728,
+      "pathComplete": true,
+      "samples": 27,
+      "maxQuoteGapMinutes": 5.6057,
+      "pathCategory": "peak_below_10",
+      "firstInitialStopQuoteAt": "2026-10-12T05:17:23.000Z",
+      "initialStopQuoteToExitMinutes": 0.2889333333333333,
+      "exitVsInitialStopPct": -0.6244263152091034,
+      "bookCostsUsd": 0.4112022048394403,
+      "entryFrictionUsd": 0.05007588167251802,
+      "exactFrictionUsd": 0.4109462914880941,
+      "grossPricePnlUsd": -1.9688585638155978,
+      "postExit24hStatus": "sampled",
+      "postExit24hPriceChangePct": -77.60969152253053,
+      "postExit24hQuoteAt": "2026-10-13T05:20:57.656Z",
+      "referenceEntryDelay": null,
+      "existingAuditIssues": null,
+      "existingAuditExecution": null,
+      "saleEvents": [
+        {
+          "at": "2026-10-12T05:17:40.336Z",
+          "action": "sell",
+          "soldFraction": 1,
+          "marketPriceUsd": 0.000918576,
+          "netPnlUsd": -2.379804855303692
+        }
+      ],
+      "sampledPathScope": "entry_to_exit"
+    },
+    {
+      "positionId": "paper:2026-10-13T03:05:00.000Z:ethereum:0xa27ec0006e59f245217ff08cd52a7e8b169e62d2",
+      "tokenId": "ethereum:0xa27ec0006e59f245217ff08cd52a7e8b169e62d2",
+      "symbol": "AZTEC",
+      "chain": "ethereum",
+      "status": "open",
+      "openedAt": "2026-10-13T03:08:12.535Z",
+      "closedAt": null,
+      "holdingHours": 213.86358752277778,
+      "netPnlUsd": null,
+      "entryScore": 78,
+      "discoveryScore": 28,
+      "trigger": "标准动量",
+      "entry1hChangePct": 5.100158696024648,
+      "entryLiquidityUsd": 15349601.289943656,
+      "entryMetrics": {
+        "score": 28,
+        "stage": "risky",
+        "signals": [
+          "流动性达到$100K",
+          "买盘占比61%"
+        ],
+        "liquidityGrowth": 0.005429563752801458,
+        "holderGrowth": 0.00020350020350012876,
+        "smartDegenDelta": 0,
+        "buyRatio": 0.6064139941690962,
+        "turnover": 0.028668421476503076,
+        "recovered": []
+      },
+      "entryQuality": {
+        "currentFresh": true,
+        "historyAligned": true,
+        "currentAgeMinutes": 0.030166666666666668,
+        "previousMarketGapMinutes": 11.1602,
+        "previousRiskGapMinutes": 11.027966666666666
+      },
+      "exitReason": null,
+      "exitExecutionOk": null,
+      "bookPeakGainPct": 6.016720769024508,
+      "sampledPeakGainPct": 6.016720769024508,
+      "sampledLowGainPct": -12.563167040226785,
+      "pathComplete": false,
+      "samples": 1820,
+      "maxQuoteGapMinutes": null,
+      "pathCategory": "open_censored",
+      "firstInitialStopQuoteAt": null,
+      "initialStopQuoteToExitMinutes": null,
+      "exitVsInitialStopPct": null,
+      "bookCostsUsd": 0.19919009109757704,
+      "entryFrictionUsd": 0.04901785426187574,
+      "exactFrictionUsd": 0.19894493891534107,
+      "grossPricePnlUsd": null,
+      "postExit24hStatus": "open",
+      "postExit24hPriceChangePct": null,
+      "postExit24hQuoteAt": null,
+      "referenceEntryDelay": null,
+      "existingAuditIssues": null,
+      "existingAuditExecution": null,
+      "saleEvents": [],
+      "pathMissingReason": "导出接口只返回买入后7日；不把导出边界后的未知当成实际停采",
+      "sampledPathScope": "first_7_days_only"
+    },
+    {
+      "positionId": "paper:2026-10-13T03:40:00.000Z:solana:DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP",
+      "tokenId": "solana:DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP",
+      "symbol": "SI",
+      "chain": "solana",
+      "status": "closed",
+      "openedAt": "2026-10-13T03:41:31.669Z",
+      "closedAt": "2026-10-13T20:48:28.150Z",
+      "holdingHours": 17.115689166666666,
+      "netPnlUsd": -2.278454106990548,
+      "entryScore": 76,
+      "discoveryScore": 33,
+      "trigger": "标准动量",
+      "entry1hChangePct": 5.8693,
+      "entryLiquidityUsd": 761259,
+      "entryMetrics": {
+        "score": 33,
+        "stage": "risky",
+        "signals": [
+          "流动性达到$100K",
+          "已有4项初期风险改善"
+        ],
+        "liquidityGrowth": 0.018834667673109484,
+        "holderGrowth": 0.0002796524851784721,
+        "smartDegenDelta": 0,
+        "buyRatio": 0.5714285714285714,
+        "turnover": 0.14034382516331498,
+        "recovered": [
+          "Bundler比例超过20%",
+          "机器人地址比例超过50%",
+          "开发团队持仓超过15%",
+          "1小时涨幅超过300%"
+        ]
+      },
+      "entryQuality": {
+        "currentFresh": true,
+        "historyAligned": true,
+        "currentAgeMinutes": 0.44515,
+        "previousMarketGapMinutes": 16.634383333333332,
+        "previousRiskGapMinutes": 16.634383333333332
+      },
+      "exitReason": "初始止损",
+      "exitExecutionOk": true,
+      "bookPeakGainPct": -0.5000864128490545,
+      "sampledPeakGainPct": -0.5000864128490545,
+      "sampledLowGainPct": -20.736109155449434,
+      "pathComplete": true,
+      "samples": 185,
+      "maxQuoteGapMinutes": 5.9707333333333334,
+      "pathCategory": "peak_below_10",
+      "firstInitialStopQuoteAt": "2026-10-13T20:48:04.550Z",
+      "initialStopQuoteToExitMinutes": 0.39333333333333337,
+      "exitVsInitialStopPct": -0.9201364443118032,
+      "bookCostsUsd": 0.2761380124951965,
+      "entryFrictionUsd": 0.04948874946956732,
+      "exactFrictionUsd": 0.27588928211638053,
+      "grossPricePnlUsd": -2.0025648248741676,
+      "postExit24hStatus": "sampled",
+      "postExit24hPriceChangePct": 1.6952534280033404,
+      "postExit24hQuoteAt": "2026-10-14T20:48:49.262Z",
+      "referenceEntryDelay": null,
+      "existingAuditIssues": null,
+      "existingAuditExecution": null,
+      "saleEvents": [
+        {
+          "at": "2026-10-13T20:48:28.150Z",
+          "action": "sell",
+          "soldFraction": 1,
+          "marketPriceUsd": 0.0145347,
+          "netPnlUsd": -2.278454106990548
+        }
+      ],
+      "sampledPathScope": "entry_to_exit"
+    },
+    {
+      "positionId": "paper:2026-10-13T16:45:00.000Z:ethereum:0xba41ff65fd0a19aa75dd4e6a04e9d3c15acab887",
+      "tokenId": "ethereum:0xba41ff65fd0a19aa75dd4e6a04e9d3c15acab887",
+      "symbol": "DOGEBALL",
+      "chain": "ethereum",
+      "status": "closed",
+      "openedAt": "2026-10-13T16:49:01.964Z",
+      "closedAt": "2026-10-13T17:50:24.353Z",
+      "holdingHours": 1.0228858333333333,
+      "netPnlUsd": -3.0637931723315726,
+      "entryScore": 95,
+      "discoveryScore": 56,
+      "trigger": "标准动量",
+      "entry1hChangePct": 14.1876,
+      "entryLiquidityUsd": 328540,
+      "entryMetrics": {
+        "score": 56,
+        "stage": "emerging",
+        "signals": [
+          "流动性达到$100K",
+          "持币人数增长6%",
+          "买盘占比73%",
+          "新池6小时内"
+        ],
+        "liquidityGrowth": 0.03323563081025993,
+        "holderGrowth": 0.0635696821515892,
+        "smartDegenDelta": 0,
+        "buyRatio": 0.7252252252252253,
+        "turnover": 1.304672186035186,
+        "recovered": []
+      },
+      "entryQuality": {
+        "currentFresh": true,
+        "historyAligned": true,
+        "currentAgeMinutes": 0.28121666666666667,
+        "previousMarketGapMinutes": 11.205133333333333,
+        "previousRiskGapMinutes": 11.205133333333333
+      },
+      "exitReason": "初始止损",
+      "exitExecutionOk": true,
+      "bookPeakGainPct": -0.5034294795685512,
+      "sampledPeakGainPct": -0.5034294795685512,
+      "sampledLowGainPct": -27.596834402976334,
+      "pathComplete": true,
+      "samples": 11,
+      "maxQuoteGapMinutes": 5.6181,
+      "pathCategory": "peak_below_10",
+      "firstInitialStopQuoteAt": "2026-10-13T17:50:09.627Z",
+      "initialStopQuoteToExitMinutes": 0.24543333333333334,
+      "exitVsInitialStopPct": -9.496043003720434,
+      "bookCostsUsd": 0.40386717797837507,
+      "entryFrictionUsd": 0.049429411740176475,
+      "exactFrictionUsd": 0.403617076664355,
+      "grossPricePnlUsd": -2.6601760956672176,
+      "postExit24hStatus": "sampled",
+      "postExit24hPriceChangePct": -79.75613649844934,
+      "postExit24hQuoteAt": "2026-10-14T17:52:21.797Z",
+      "referenceEntryDelay": null,
+      "existingAuditIssues": null,
+      "existingAuditExecution": null,
+      "saleEvents": [
+        {
+          "at": "2026-10-13T17:50:24.353Z",
+          "action": "sell",
+          "soldFraction": 1,
+          "marketPriceUsd": 0.00797401,
+          "netPnlUsd": -3.0637931723315726
+        }
+      ],
+      "sampledPathScope": "entry_to_exit"
+    },
+    {
+      "positionId": "paper:2026-10-14T03:05:00.000Z:ethereum:0x0f8b5b82a8a62137e4ea563a3709fe4ca1ff1a2d",
+      "tokenId": "ethereum:0x0f8b5b82a8a62137e4ea563a3709fe4ca1ff1a2d",
+      "symbol": "Temo",
+      "chain": "ethereum",
+      "status": "closed",
+      "openedAt": "2026-10-14T03:05:16.902Z",
+      "closedAt": "2026-10-14T03:55:12.972Z",
+      "holdingHours": 0.8322416666666667,
+      "netPnlUsd": -3.283401042779733,
+      "entryScore": 71,
+      "discoveryScore": 43,
+      "trigger": "标准动量",
+      "entry1hChangePct": 50.265,
+      "entryLiquidityUsd": 146357,
+      "entryMetrics": {
+        "score": 43,
+        "stage": "risky",
+        "signals": [
+          "流动性达到$100K",
+          "买盘占比64%",
+          "已有2项初期风险改善"
+        ],
+        "liquidityGrowth": 0.09617573923724487,
+        "holderGrowth": 0.011121408711770142,
+        "smartDegenDelta": 0,
+        "buyRatio": 0.6419753086419753,
+        "turnover": 0.1951461153207568,
+        "recovered": [
+          "流动性低于$30K",
+          "1小时涨幅超过300%"
+        ]
+      },
+      "entryQuality": {
+        "currentFresh": true,
+        "historyAligned": true,
+        "currentAgeMinutes": 0.22173333333333334,
+        "previousMarketGapMinutes": 11.0962,
+        "previousRiskGapMinutes": 11.0962
+      },
+      "exitReason": "初始止损",
+      "exitExecutionOk": true,
+      "bookPeakGainPct": 2.5154708854838503,
+      "sampledPeakGainPct": 2.5154708854838503,
+      "sampledLowGainPct": -30.228563739079494,
+      "pathComplete": true,
+      "samples": 9,
+      "maxQuoteGapMinutes": 5.634516666666667,
+      "pathCategory": "peak_below_10",
+      "firstInitialStopQuoteAt": "2026-10-14T03:54:56.884Z",
+      "initialStopQuoteToExitMinutes": 0.26813333333333333,
+      "exitVsInitialStopPct": -12.785704673849363,
+      "bookCostsUsd": 0.3566063583092757,
+      "entryFrictionUsd": 0.05031476967328441,
+      "exactFrictionUsd": 0.35634801321619247,
+      "grossPricePnlUsd": -2.927053029563541,
+      "postExit24hStatus": "sampled",
+      "postExit24hPriceChangePct": -86.43348079065636,
+      "postExit24hQuoteAt": "2026-10-15T03:58:13.474Z",
+      "referenceEntryDelay": null,
+      "existingAuditIssues": null,
+      "existingAuditExecution": null,
+      "saleEvents": [
+        {
+          "at": "2026-10-14T03:55:12.972Z",
+          "action": "sell",
+          "soldFraction": 1,
+          "marketPriceUsd": 0.000823063,
+          "netPnlUsd": -3.283401042779733
+        }
+      ],
+      "sampledPathScope": "entry_to_exit"
+    },
+    {
+      "positionId": "paper:2026-10-14T03:25:00.000Z:solana:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump",
+      "tokenId": "solana:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump",
+      "symbol": "DOPE",
+      "chain": "solana",
+      "status": "closed",
+      "openedAt": "2026-10-14T03:27:27.587Z",
+      "closedAt": "2026-10-14T12:29:32.288Z",
+      "holdingHours": 9.034639166666667,
+      "netPnlUsd": -2.367011784488337,
+      "entryScore": 78,
+      "discoveryScore": 48,
+      "trigger": "标准动量",
+      "entry1hChangePct": 8.27021,
+      "entryLiquidityUsd": 210159,
+      "entryMetrics": {
+        "score": 48,
+        "stage": "watch",
+        "signals": [
+          "流动性达到$100K",
+          "买盘占比70%",
+          "已有4项初期风险改善"
+        ],
+        "liquidityGrowth": 0.06023105640197768,
+        "holderGrowth": 0.00590219224283306,
+        "smartDegenDelta": 0,
+        "buyRatio": 0.7046728971962617,
+        "turnover": 0.236636546614706,
+        "recovered": [
+          "流动性低于$30K",
+          "Bundler比例超过20%",
+          "机器人地址比例超过50%",
+          "1小时涨幅超过300%"
+        ]
+      },
+      "entryQuality": {
+        "currentFresh": true,
+        "historyAligned": true,
+        "currentAgeMinutes": 0.36893333333333334,
+        "previousMarketGapMinutes": 11.0751,
+        "previousRiskGapMinutes": 11.0751
+      },
+      "exitReason": "初始止损",
+      "exitExecutionOk": true,
+      "bookPeakGainPct": 3.4552855989933517,
+      "sampledPeakGainPct": 3.4552855989933517,
+      "sampledLowGainPct": -21.640123431663383,
+      "pathComplete": true,
+      "samples": 98,
+      "maxQuoteGapMinutes": 6.342716666666666,
+      "pathCategory": "peak_below_10",
+      "firstInitialStopQuoteAt": "2026-10-14T12:29:12.982Z",
+      "initialStopQuoteToExitMinutes": 0.3217666666666667,
+      "exitVsInitialStopPct": -2.0501542895792313,
+      "bookCostsUsd": 0.2759086858667378,
+      "entryFrictionUsd": 0.05015658048333217,
+      "exactFrictionUsd": 0.27565317982834675,
+      "grossPricePnlUsd": -2.0913586046599906,
+      "postExit24hStatus": "sampled",
+      "postExit24hPriceChangePct": 123.57086699946005,
+      "postExit24hQuoteAt": "2026-10-15T12:31:02.035Z",
+      "referenceEntryDelay": null,
+      "existingAuditIssues": [],
+      "existingAuditExecution": "越线报价附近退出",
+      "saleEvents": [
+        {
+          "at": "2026-10-14T12:29:32.288Z",
+          "action": "sell",
+          "soldFraction": 1,
+          "marketPriceUsd": 0.00211142,
+          "netPnlUsd": -2.367011784488337
+        }
+      ],
+      "sampledPathScope": "entry_to_exit"
+    },
+    {
+      "positionId": "paper:2026-10-16T07:45:00.000Z:bsc:0x7d0443cddfc8e11af105f4fe44dd28c630237777",
+      "tokenId": "bsc:0x7d0443cddfc8e11af105f4fe44dd28c630237777",
+      "symbol": "DAWG",
+      "chain": "bsc",
+      "status": "closed",
+      "openedAt": "2026-10-16T07:47:37.632Z",
+      "closedAt": "2026-10-16T19:19:39.121Z",
+      "holdingHours": 11.533746944444445,
+      "netPnlUsd": -2.864132552273902,
+      "entryScore": 77,
+      "discoveryScore": 48,
+      "trigger": "标准动量",
+      "entry1hChangePct": 11.8658,
+      "entryLiquidityUsd": 229024,
+      "entryMetrics": {
+        "score": 48,
+        "stage": "watch",
+        "signals": [
+          "流动性达到$100K",
+          "买盘占比75%",
+          "已有4项初期风险改善"
+        ],
+        "liquidityGrowth": 0.09564610033918419,
+        "holderGrowth": 0.018393030009680622,
+        "smartDegenDelta": 0,
+        "buyRatio": 0.7525773195876289,
+        "turnover": 0.06315451655721671,
+        "recovered": [
+          "流动性低于$30K",
+          "前10持仓超过50%",
+          "Bundler比例超过20%",
+          "1小时涨幅超过300%"
+        ]
+      },
+      "entryQuality": {
+        "currentFresh": true,
+        "historyAligned": true,
+        "currentAgeMinutes": 0.17248333333333332,
+        "previousMarketGapMinutes": 11.04355,
+        "previousRiskGapMinutes": 11.04355
+      },
+      "exitReason": "初始止损",
+      "exitExecutionOk": true,
+      "bookPeakGainPct": 8.89214221924346,
+      "sampledPeakGainPct": 8.89214221924346,
+      "sampledLowGainPct": -25.945513656794695,
+      "pathComplete": true,
+      "samples": 124,
+      "maxQuoteGapMinutes": 5.8722666666666665,
+      "pathCategory": "peak_below_10",
+      "firstInitialStopQuoteAt": "2026-10-16T19:19:27.739Z",
+      "initialStopQuoteToExitMinutes": 0.1897,
+      "exitVsInitialStopPct": -7.431892070993373,
+      "bookCostsUsd": 0.35821900530271167,
+      "entryFrictionUsd": 0.04985133262175885,
+      "exactFrictionUsd": 0.3579654602906387,
+      "grossPricePnlUsd": -2.5061670919832633,
+      "postExit24hStatus": "sampled",
+      "postExit24hPriceChangePct": 9.574328152660417,
+      "postExit24hQuoteAt": "2026-10-17T19:25:25.597Z",
+      "referenceEntryDelay": null,
+      "existingAuditIssues": [],
+      "existingAuditExecution": "相邻采样报价跨过止损线",
+      "saleEvents": [
+        {
+          "at": "2026-10-16T19:19:39.121Z",
+          "action": "sell",
+          "soldFraction": 1,
+          "marketPriceUsd": 0.00368871,
+          "netPnlUsd": -2.864132552273902
+        }
+      ],
+      "sampledPathScope": "entry_to_exit"
+    },
+    {
+      "positionId": "paper:2026-10-17T03:35:00.000Z:solana:1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp",
+      "tokenId": "solana:1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp",
+      "symbol": "Aloooong",
+      "chain": "solana",
+      "status": "closed",
+      "openedAt": "2026-10-17T03:39:37.851Z",
+      "closedAt": "2026-10-17T04:01:56.187Z",
+      "holdingHours": 0.37176,
+      "netPnlUsd": -1.4683438354942453,
+      "entryScore": 81,
+      "discoveryScore": 77,
+      "trigger": "结构改善",
+      "entry1hChangePct": 45.5456,
+      "entryLiquidityUsd": 52116.4,
+      "entryMetrics": {
+        "score": 77,
+        "stage": "focus",
+        "signals": [
+          "流动性达到$50K",
+          "流动性快速增长30%",
+          "持币人数增长12%",
+          "买盘占比59%",
+          "成交速度显著高于流动性",
+          "已有2项初期风险改善"
+        ],
+        "liquidityGrowth": 0.2952518235930064,
+        "holderGrowth": 0.11906501095690292,
+        "smartDegenDelta": 2,
+        "buyRatio": 0.5879201169020944,
+        "turnover": 1.6797226976537136,
+        "recovered": [
+          "流动性低于$30K",
+          "Bundler比例超过20%"
+        ]
+      },
+      "entryQuality": {
+        "currentFresh": true,
+        "historyAligned": true,
+        "currentAgeMinutes": 0.42728333333333335,
+        "previousMarketGapMinutes": 11.137316666666667,
+        "previousRiskGapMinutes": 11.137316666666667
+      },
+      "exitReason": "持仓紧急风险：关联Rug比例超过50%",
+      "exitExecutionOk": true,
+      "bookPeakGainPct": 17.24341922272561,
+      "sampledPeakGainPct": 17.24341922272561,
+      "sampledLowGainPct": -12.395944795279835,
+      "pathComplete": true,
+      "samples": 4,
+      "maxQuoteGapMinutes": 5.87,
+      "pathCategory": "peak_10_to_50",
+      "firstInitialStopQuoteAt": null,
+      "initialStopQuoteToExitMinutes": null,
+      "exitVsInitialStopPct": null,
+      "bookCostsUsd": 0.29487318803096424,
+      "entryFrictionUsd": 0.05295209646536312,
+      "exactFrictionUsd": 0.29458832573364757,
+      "grossPricePnlUsd": -1.1737555097605976,
+      "postExit24hStatus": "sampled",
+      "postExit24hPriceChangePct": -74.93872119121914,
+      "postExit24hQuoteAt": "2026-10-18T04:03:16.465Z",
+      "referenceEntryDelay": null,
+      "existingAuditIssues": [],
+      "existingAuditExecution": "未观察到价格越线，可能由风险或跟踪规则退出",
+      "saleEvents": [
+        {
+          "at": "2026-10-17T04:01:56.187Z",
+          "action": "sell",
+          "soldFraction": 1,
+          "marketPriceUsd": 0.000274005,
+          "netPnlUsd": -1.4683438354942453
+        }
+      ],
+      "sampledPathScope": "entry_to_exit"
+    },
+    {
+      "positionId": "paper:2026-10-17T11:35:00.000Z:solana:3XEqNHe3jHTRWAZCTHbb1UwpSfNbJL9oU1ErsM86pump",
+      "tokenId": "solana:3XEqNHe3jHTRWAZCTHbb1UwpSfNbJL9oU1ErsM86pump",
+      "symbol": "MAKERS",
+      "chain": "solana",
+      "status": "closed",
+      "openedAt": "2026-10-17T11:37:33.962Z",
+      "closedAt": "2026-10-17T11:48:39.508Z",
+      "holdingHours": 0.1848738888888889,
+      "netPnlUsd": -2.687875041144541,
+      "entryScore": 76,
+      "discoveryScore": 43,
+      "trigger": "标准动量",
+      "entry1hChangePct": 22.9427,
+      "entryLiquidityUsd": 69992,
+      "entryMetrics": {
+        "score": 43,
+        "stage": "watch",
+        "signals": [
+          "流动性达到$50K",
+          "买盘占比65%",
+          "已有3项初期风险改善"
+        ],
+        "liquidityGrowth": 0.004942008218493665,
+        "holderGrowth": 0.046955245781364674,
+        "smartDegenDelta": 0,
+        "buyRatio": 0.6481927710843374,
+        "turnover": 0.463481540747514,
+        "recovered": [
+          "流动性低于$30K",
+          "开发团队持仓超过15%",
+          "1小时涨幅超过300%"
+        ]
+      },
+      "entryQuality": {
+        "currentFresh": true,
+        "historyAligned": true,
+        "currentAgeMinutes": 0.3053,
+        "previousMarketGapMinutes": 11.162316666666667,
+        "previousRiskGapMinutes": 11.162316666666667
+      },
+      "exitReason": "初始止损",
+      "exitExecutionOk": true,
+      "bookPeakGainPct": -0.5254936134122534,
+      "sampledPeakGainPct": -0.5254936134122534,
+      "sampledLowGainPct": -24.919556787281238,
+      "pathComplete": true,
+      "samples": 2,
+      "maxQuoteGapMinutes": 5.58,
+      "pathCategory": "peak_below_10",
+      "firstInitialStopQuoteAt": "2026-10-17T11:48:19.949Z",
+      "initialStopQuoteToExitMinutes": 0.32598333333333335,
+      "exitVsInitialStopPct": -6.149445984101554,
+      "bookCostsUsd": 0.2741036047988328,
+      "entryFrictionUsd": 0.05200305609955913,
+      "exactFrictionUsd": 0.2738288884433474,
+      "grossPricePnlUsd": -2.414046152701194,
+      "postExit24hStatus": "sampled",
+      "postExit24hPriceChangePct": -85.23749799286749,
+      "postExit24hQuoteAt": "2026-10-18T11:51:59.625Z",
+      "referenceEntryDelay": null,
+      "existingAuditIssues": [],
+      "existingAuditExecution": "相邻采样报价跨过止损线",
+      "saleEvents": [
+        {
+          "at": "2026-10-17T11:48:39.508Z",
+          "action": "sell",
+          "soldFraction": 1,
+          "marketPriceUsd": 0.000504451,
+          "netPnlUsd": -2.687875041144541
+        }
+      ],
+      "sampledPathScope": "entry_to_exit"
+    },
+    {
+      "positionId": "paper:2026-10-17T18:55:00.000Z:ethereum:0xbc7bbb30759a428282716b008201e718c91561d3",
+      "tokenId": "ethereum:0xbc7bbb30759a428282716b008201e718c91561d3",
+      "symbol": "GROKLET",
+      "chain": "ethereum",
+      "status": "closed",
+      "openedAt": "2026-10-17T18:57:44.551Z",
+      "closedAt": "2026-10-17T19:19:55.790Z",
+      "holdingHours": 0.3697886111111111,
+      "netPnlUsd": -2.5448382128443967,
+      "entryScore": 84,
+      "discoveryScore": 58,
+      "trigger": "标准动量",
+      "entry1hChangePct": 7.14781,
+      "entryLiquidityUsd": 155719,
+      "entryMetrics": {
+        "score": 58,
+        "stage": "emerging",
+        "signals": [
+          "流动性达到$100K",
+          "买盘占比75%",
+          "新池6小时内",
+          "已有1项初期风险改善"
+        ],
+        "liquidityGrowth": 0.036371743847085636,
+        "holderGrowth": 0.006564551422319376,
+        "smartDegenDelta": 0,
+        "buyRatio": 0.75,
+        "turnover": 0.6418619436292297,
+        "recovered": [
+          "1小时涨幅超过300%"
+        ]
+      },
+      "entryQuality": {
+        "currentFresh": true,
+        "historyAligned": true,
+        "currentAgeMinutes": 0.29868333333333336,
+        "previousMarketGapMinutes": 11.0744,
+        "previousRiskGapMinutes": 11.0744
+      },
+      "exitReason": "初始止损",
+      "exitExecutionOk": true,
+      "bookPeakGainPct": 5.066556051641924,
+      "sampledPeakGainPct": 5.066556051641924,
+      "sampledLowGainPct": -22.652728870409245,
+      "pathComplete": true,
+      "samples": 4,
+      "maxQuoteGapMinutes": 5.59295,
+      "pathCategory": "peak_below_10",
+      "firstInitialStopQuoteAt": "2026-10-17T19:19:39.973Z",
+      "initialStopQuoteToExitMinutes": 0.26361666666666667,
+      "exitVsInitialStopPct": -3.3159110880115583,
+      "bookCostsUsd": 0.36370747833024175,
+      "entryFrictionUsd": 0.05024628007304277,
+      "exactFrictionUsd": 0.3634498901098382,
+      "grossPricePnlUsd": -2.1813883227345583,
+      "postExit24hStatus": "sampled",
+      "postExit24hPriceChangePct": -99.87917661406097,
+      "postExit24hQuoteAt": "2026-10-18T19:27:53.679Z",
+      "referenceEntryDelay": null,
+      "existingAuditIssues": [],
+      "existingAuditExecution": "越线报价附近退出",
+      "saleEvents": [
+        {
+          "at": "2026-10-17T19:19:55.790Z",
+          "action": "sell",
+          "soldFraction": 1,
+          "marketPriceUsd": 0.00201309,
+          "netPnlUsd": -2.5448382128443967
+        }
+      ],
+      "sampledPathScope": "entry_to_exit"
+    },
+    {
+      "positionId": "paper:2026-10-18T02:30:00.000Z:ethereum:0xd58813e2bdb4647bd63d42304bd1d50cef605261",
+      "tokenId": "ethereum:0xd58813e2bdb4647bd63d42304bd1d50cef605261",
+      "symbol": "CLAUDIA",
+      "chain": "ethereum",
+      "status": "closed",
+      "openedAt": "2026-10-18T02:34:17.109Z",
+      "closedAt": "2026-10-18T05:10:09.880Z",
+      "holdingHours": 2.597991944444445,
+      "netPnlUsd": 1.7633388087732853,
+      "entryScore": 90,
+      "discoveryScore": 38,
+      "trigger": "标准动量",
+      "entry1hChangePct": 14.9377,
+      "entryLiquidityUsd": 263928,
+      "entryMetrics": {
+        "score": 38,
+        "stage": "watch",
+        "signals": [
+          "流动性达到$100K",
+          "买盘占比71%"
+        ],
+        "liquidityGrowth": 0.06462074640592474,
+        "holderGrowth": 0.03974895397489542,
+        "smartDegenDelta": 0,
+        "buyRatio": 0.7085714285714285,
+        "turnover": 0.9101535267194083,
+        "recovered": []
+      },
+      "entryQuality": {
+        "currentFresh": true,
+        "historyAligned": true,
+        "currentAgeMinutes": 0.29251666666666665,
+        "previousMarketGapMinutes": 11.268633333333334,
+        "previousRiskGapMinutes": 11.268633333333334
+      },
+      "exitReason": "ETH上涨50%，卖出25%并跟踪余仓 → 金狗仓峰值回撤25%",
+      "exitExecutionOk": true,
+      "bookPeakGainPct": 51.47562848685181,
+      "sampledPeakGainPct": 51.47562848685181,
+      "sampledLowGainPct": -0.5049026134505197,
+      "pathComplete": true,
+      "samples": 28,
+      "maxQuoteGapMinutes": 5.631583333333333,
+      "pathCategory": "peak_at_least_50",
+      "firstInitialStopQuoteAt": null,
+      "initialStopQuoteToExitMinutes": null,
+      "exitVsInitialStopPct": null,
+      "bookCostsUsd": 0.47905756549770834,
+      "entryFrictionUsd": 0.049741015883401726,
+      "exactFrictionUsd": 0.4788051473426936,
+      "grossPricePnlUsd": 2.242143956115979,
+      "postExit24hStatus": "sampled",
+      "postExit24hPriceChangePct": 123.572087937145,
+      "postExit24hQuoteAt": "2026-10-19T05:13:21.470Z",
+      "referenceEntryDelay": null,
+      "existingAuditIssues": null,
+      "existingAuditExecution": null,
+      "saleEvents": [
+        {
+          "at": "2026-10-18T05:10:09.880Z",
+          "action": "sell",
+          "soldFraction": 0.75,
+          "marketPriceUsd": 0.00815719,
+          "netPnlUsd": 0.6385947130517753
+        },
+        {
+          "at": "2026-10-18T04:08:53.866Z",
+          "action": "sell_partial",
+          "soldFraction": 0.25,
+          "marketPriceUsd": 0.0109819,
+          "netPnlUsd": 1.12474409572151
+        }
+      ],
+      "sampledPathScope": "entry_to_exit"
+    },
+    {
+      "positionId": "paper:2026-10-18T10:20:00.000Z:bsc:0xd7ccd29b6fd1464edb425f24b01115556e737777",
+      "tokenId": "bsc:0xd7ccd29b6fd1464edb425f24b01115556e737777",
+      "symbol": "sauce",
+      "chain": "bsc",
+      "status": "closed",
+      "openedAt": "2026-10-18T10:22:56.061Z",
+      "closedAt": "2026-10-18T17:03:37.789Z",
+      "holdingHours": 6.678257777777778,
+      "netPnlUsd": -2.349665941540761,
+      "entryScore": 75,
+      "discoveryScore": 38,
+      "trigger": "标准动量",
+      "entry1hChangePct": 6.968702304903296,
+      "entryLiquidityUsd": 260010.82026733007,
+      "entryMetrics": {
+        "score": 38,
+        "stage": "watch",
+        "signals": [
+          "流动性达到$100K",
+          "买盘占比63%"
+        ],
+        "liquidityGrowth": 0.06749422443926334,
+        "holderGrowth": 0.0015073212747631626,
+        "smartDegenDelta": 0,
+        "buyRatio": 0.628140703517588,
+        "turnover": 0.2284361498617717,
+        "recovered": []
+      },
+      "entryQuality": {
+        "currentFresh": true,
+        "historyAligned": true,
+        "currentAgeMinutes": 0.15025,
+        "previousMarketGapMinutes": 11.164283333333334,
+        "previousRiskGapMinutes": 11.250333333333334
+      },
+      "exitReason": "初始止损",
+      "exitExecutionOk": true,
+      "bookPeakGainPct": 1.6141767608150337,
+      "sampledPeakGainPct": 1.6141767608150337,
+      "sampledLowGainPct": -20.644114151209013,
+      "pathComplete": true,
+      "samples": 72,
+      "maxQuoteGapMinutes": 5.876716666666667,
+      "pathCategory": "peak_below_10",
+      "firstInitialStopQuoteAt": "2026-10-18T17:03:29.847Z",
+      "initialStopQuoteToExitMinutes": 0.13236666666666666,
+      "exitVsInitialStopPct": -0.8051426890112734,
+      "bookCostsUsd": 0.36591799199896335,
+      "entryFrictionUsd": 0.049751363540947884,
+      "exactFrictionUsd": 0.3656654654328999,
+      "grossPricePnlUsd": -1.984000476107861,
+      "postExit24hStatus": "sampled",
+      "postExit24hPriceChangePct": -2.1618187072377726,
+      "postExit24hQuoteAt": "2026-10-19T17:11:33.480Z",
+      "referenceEntryDelay": null,
+      "existingAuditIssues": [],
+      "existingAuditExecution": "越线报价附近退出",
+      "saleEvents": [
+        {
+          "at": "2026-10-18T17:03:37.789Z",
+          "action": "sell",
+          "soldFraction": 1,
+          "marketPriceUsd": 0.0034964264,
+          "netPnlUsd": -2.349665941540761
+        }
+      ],
+      "sampledPathScope": "entry_to_exit"
+    },
+    {
+      "positionId": "paper:2026-10-18T13:10:00.000Z:bsc:0x8449740659e5b644b0e4430aa34c46c6a8887777",
+      "tokenId": "bsc:0x8449740659e5b644b0e4430aa34c46c6a8887777",
+      "symbol": "1001",
+      "chain": "bsc",
+      "status": "closed",
+      "openedAt": "2026-10-18T13:10:11.335Z",
+      "closedAt": "2026-10-19T11:11:46.486Z",
+      "holdingHours": 22.026430833333333,
+      "netPnlUsd": 1.8528541027344105,
+      "entryScore": 83,
+      "discoveryScore": 53,
+      "trigger": "标准动量",
+      "entry1hChangePct": 16.6931,
+      "entryLiquidityUsd": 61697,
+      "entryMetrics": {
+        "score": 53,
+        "stage": "recovering",
+        "signals": [
+          "流动性达到$50K",
+          "买盘占比63%",
+          "新池6小时内",
+          "已有4项初期风险改善"
+        ],
+        "liquidityGrowth": 0.04243614134566975,
+        "holderGrowth": 0.0072289156626506035,
+        "smartDegenDelta": 1,
+        "buyRatio": 0.6287799791449427,
+        "turnover": 0.9541533624001167,
+        "recovered": [
+          "前10持仓超过50%",
+          "Bundler比例超过20%",
+          "开发团队持仓超过15%",
+          "1小时涨幅超过300%"
+        ]
+      },
+      "entryQuality": {
+        "currentFresh": true,
+        "historyAligned": true,
+        "currentAgeMinutes": 0.19871666666666668,
+        "previousMarketGapMinutes": 11.09275,
+        "previousRiskGapMinutes": 11.09275
+      },
+      "exitReason": "BSC上涨50%，卖出25% → 金狗仓峰值回撤25%",
+      "exitExecutionOk": true,
+      "bookPeakGainPct": 53.00355034983595,
+      "sampledPeakGainPct": 53.00355034983595,
+      "sampledLowGainPct": -9.286240787436151,
+      "pathComplete": true,
+      "samples": 237,
+      "maxQuoteGapMinutes": 7.012083333333334,
+      "pathCategory": "peak_at_least_50",
+      "firstInitialStopQuoteAt": null,
+      "initialStopQuoteToExitMinutes": null,
+      "exitVsInitialStopPct": null,
+      "bookCostsUsd": 0.48484531280796267,
+      "entryFrictionUsd": 0.05212523140520753,
+      "exactFrictionUsd": 0.48456804574439677,
+      "grossPricePnlUsd": 2.337422148478807,
+      "postExit24hStatus": "sampled",
+      "postExit24hPriceChangePct": -27.02085553422915,
+      "postExit24hQuoteAt": "2026-10-20T11:17:57.454Z",
+      "referenceEntryDelay": null,
+      "existingAuditIssues": null,
+      "existingAuditExecution": null,
+      "saleEvents": [
+        {
+          "at": "2026-10-19T11:11:46.486Z",
+          "action": "sell",
+          "soldFraction": 0.75,
+          "marketPriceUsd": 0.0004596286,
+          "netPnlUsd": 0.7304911053103726
+        },
+        {
+          "at": "2026-10-19T01:12:09.879Z",
+          "action": "sell_partial",
+          "soldFraction": 0.25,
+          "marketPriceUsd": 0.00061143372,
+          "netPnlUsd": 1.122362997424038
+        }
+      ],
+      "sampledPathScope": "entry_to_exit"
+    },
+    {
+      "positionId": "paper:2026-10-18T14:35:00.000Z:bsc:0x409d03c4a795059af05faa9a0d02ebbf563b7777",
+      "tokenId": "bsc:0x409d03c4a795059af05faa9a0d02ebbf563b7777",
+      "symbol": "JC",
+      "chain": "bsc",
+      "status": "closed",
+      "openedAt": "2026-10-18T14:39:12.372Z",
+      "closedAt": "2026-10-19T12:30:19.926Z",
+      "holdingHours": 21.852098333333334,
+      "netPnlUsd": 3.4763189807969486,
+      "entryScore": 75,
+      "discoveryScore": 56,
+      "trigger": "标准动量",
+      "entry1hChangePct": 10.9402,
+      "entryLiquidityUsd": 72807.6,
+      "entryMetrics": {
+        "score": 56,
+        "stage": "recovering",
+        "signals": [
+          "流动性达到$50K",
+          "持币人数增长9%",
+          "买盘占比68%",
+          "新池6小时内",
+          "已有4项初期风险改善"
+        ],
+        "liquidityGrowth": 0.004374366296273413,
+        "holderGrowth": 0.08850289495450792,
+        "smartDegenDelta": 0,
+        "buyRatio": 0.68,
+        "turnover": 0.35034529362319317,
+        "recovered": [
+          "前10持仓超过50%",
+          "Bundler比例超过20%",
+          "开发团队持仓超过15%",
+          "1小时涨幅超过300%"
+        ]
+      },
+      "entryQuality": {
+        "currentFresh": true,
+        "historyAligned": true,
+        "currentAgeMinutes": 0.20505,
+        "previousMarketGapMinutes": 11.167433333333333,
+        "previousRiskGapMinutes": 11.167433333333333
+      },
+      "exitReason": "BSC上涨50%，卖出25% → 金狗仓峰值回撤25%",
+      "exitExecutionOk": true,
+      "bookPeakGainPct": 79.2147007402368,
+      "sampledPeakGainPct": 79.2147007402368,
+      "sampledLowGainPct": -4.6752510732722685,
+      "pathComplete": true,
+      "samples": 236,
+      "maxQuoteGapMinutes": 7.0118,
+      "pathCategory": "peak_at_least_50",
+      "firstInitialStopQuoteAt": null,
+      "initialStopQuoteToExitMinutes": null,
+      "exitVsInitialStopPct": null,
+      "bookCostsUsd": 0.5090478305252725,
+      "entryFrictionUsd": 0.051650457301023724,
+      "exactFrictionUsd": 0.5087756045313176,
+      "grossPricePnlUsd": 3.985094585328266,
+      "postExit24hStatus": "sampled",
+      "postExit24hPriceChangePct": -23.714754413793315,
+      "postExit24hQuoteAt": "2026-10-20T12:36:30.956Z",
+      "referenceEntryDelay": null,
+      "existingAuditIssues": null,
+      "existingAuditExecution": null,
+      "saleEvents": [
+        {
+          "at": "2026-10-19T12:30:19.926Z",
+          "action": "sell",
+          "soldFraction": 0.75,
+          "marketPriceUsd": 0.00068965905,
+          "netPnlUsd": 2.2168802538192516
+        },
+        {
+          "at": "2026-10-19T03:25:34.340Z",
+          "action": "sell_partial",
+          "soldFraction": 0.25,
+          "marketPriceUsd": 0.0008068608,
+          "netPnlUsd": 1.259438726977697
+        }
+      ],
+      "sampledPathScope": "entry_to_exit"
+    },
+    {
+      "positionId": "paper:2026-10-18T16:10:00.000Z:solana:3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+      "tokenId": "solana:3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+      "symbol": "mucron",
+      "chain": "solana",
+      "status": "closed",
+      "openedAt": "2026-10-18T16:13:37.958Z",
+      "closedAt": "2026-10-18T16:30:29.092Z",
+      "holdingHours": 0.28087055555555557,
+      "netPnlUsd": -2.222957319291784,
+      "entryScore": 84,
+      "discoveryScore": 63,
+      "trigger": "标准动量",
+      "entry1hChangePct": 11.4724,
+      "entryLiquidityUsd": 72805.3,
+      "entryMetrics": {
+        "score": 63,
+        "stage": "emerging",
+        "signals": [
+          "流动性达到$50K",
+          "流动性增长17%",
+          "聪明钱包增加3个",
+          "买盘占比59%",
+          "已有4项初期风险改善"
+        ],
+        "liquidityGrowth": 0.1670882626398642,
+        "holderGrowth": 0.03750597228858088,
+        "smartDegenDelta": 3,
+        "buyRatio": 0.5912408759124088,
+        "turnover": 0.979434189543893,
+        "recovered": [
+          "流动性低于$30K",
+          "Bundler比例超过20%",
+          "开发团队持仓超过15%",
+          "1小时涨幅超过300%"
+        ]
+      },
+      "entryQuality": {
+        "currentFresh": true,
+        "historyAligned": true,
+        "currentAgeMinutes": 0.41178333333333333,
+        "previousMarketGapMinutes": 11.334116666666667,
+        "previousRiskGapMinutes": 11.334116666666667
+      },
+      "exitReason": "初始止损",
+      "exitExecutionOk": true,
+      "bookPeakGainPct": -0.5244129672057452,
+      "sampledPeakGainPct": -0.5244129672057452,
+      "sampledLowGainPct": -20.14898597476501,
+      "pathComplete": true,
+      "samples": 3,
+      "maxQuoteGapMinutes": 5.602183333333333,
+      "pathCategory": "peak_below_10",
+      "firstInitialStopQuoteAt": "2026-10-18T16:30:06.772Z",
+      "initialStopQuoteToExitMinutes": 0.372,
+      "exitVsInitialStopPct": -0.18623246845627106,
+      "bookCostsUsd": 0.2811753870252129,
+      "entryFrictionUsd": 0.05189611492298438,
+      "exactFrictionUsd": 0.2809018023555957,
+      "grossPricePnlUsd": -1.9420555169361884,
+      "postExit24hStatus": "sampled",
+      "postExit24hPriceChangePct": -87.0719466322078,
+      "postExit24hQuoteAt": "2026-10-19T16:32:19.934Z",
+      "referenceEntryDelay": null,
+      "existingAuditIssues": [],
+      "existingAuditExecution": "越线报价附近退出",
+      "saleEvents": [
+        {
+          "at": "2026-10-18T16:30:29.092Z",
+          "action": "sell",
+          "soldFraction": 1,
+          "marketPriceUsd": 0.000521588,
+          "netPnlUsd": -2.222957319291784
+        }
+      ],
+      "sampledPathScope": "entry_to_exit"
+    },
+    {
+      "positionId": "paper:2026-10-18T17:05:00.000Z:ethereum:0x626e8036deb333b408be468f951bdb42433cbf18",
+      "tokenId": "ethereum:0x626e8036deb333b408be468f951bdb42433cbf18",
+      "symbol": "AIOZ",
+      "chain": "ethereum",
+      "status": "open",
+      "openedAt": "2026-10-18T17:09:10.709Z",
+      "closedAt": null,
+      "holdingHours": 79.84742807833334,
+      "netPnlUsd": null,
+      "entryScore": 73,
+      "discoveryScore": 28,
+      "trigger": "标准动量",
+      "entry1hChangePct": 13.1328,
+      "entryLiquidityUsd": 2017640,
+      "entryMetrics": {
+        "score": 28,
+        "stage": "risky",
+        "signals": [
+          "流动性达到$100K",
+          "买盘占比72%"
+        ],
+        "liquidityGrowth": 0.01226168974513353,
+        "holderGrowth": 0.00017101325352708585,
+        "smartDegenDelta": 0,
+        "buyRatio": 0.7222222222222222,
+        "turnover": 0.0054884419420709344,
+        "recovered": []
+      },
+      "entryQuality": {
+        "currentFresh": true,
+        "historyAligned": true,
+        "currentAgeMinutes": 0.23446666666666666,
+        "previousMarketGapMinutes": 11.128083333333333,
+        "previousRiskGapMinutes": 11.128083333333333
+      },
+      "exitReason": null,
+      "exitExecutionOk": null,
+      "bookPeakGainPct": -0.4984793687179523,
+      "sampledPeakGainPct": -0.4984793687179523,
+      "sampledLowGainPct": -11.061505722037213,
+      "pathComplete": true,
+      "samples": 854,
+      "maxQuoteGapMinutes": 7.0121166666666666,
+      "pathCategory": "open_censored",
+      "firstInitialStopQuoteAt": null,
+      "initialStopQuoteToExitMinutes": null,
+      "exitVsInitialStopPct": null,
+      "bookCostsUsd": 0.19678496304483317,
+      "entryFrictionUsd": 0.049113049331614804,
+      "exactFrictionUsd": 0.196538918143496,
+      "grossPricePnlUsd": null,
+      "postExit24hStatus": "open",
+      "postExit24hPriceChangePct": null,
+      "postExit24hQuoteAt": null,
+      "referenceEntryDelay": null,
+      "existingAuditIssues": null,
+      "existingAuditExecution": null,
+      "saleEvents": [],
+      "sampledPathScope": "entry_to_frozen_asof"
+    },
+    {
+      "positionId": "paper:2026-10-18T21:30:00.000Z:ethereum:0x95af4af910c28e8ece4512bfe46f1f33687424ce",
+      "tokenId": "ethereum:0x95af4af910c28e8ece4512bfe46f1f33687424ce",
+      "symbol": "MANYU",
+      "chain": "ethereum",
+      "status": "open",
+      "openedAt": "2026-10-18T21:30:19.482Z",
+      "closedAt": null,
+      "holdingHours": 75.49499113388889,
+      "netPnlUsd": null,
+      "entryScore": 75,
+      "discoveryScore": 33,
+      "trigger": "标准动量",
+      "entry1hChangePct": 5.81691,
+      "entryLiquidityUsd": 513120,
+      "entryMetrics": {
+        "score": 33,
+        "stage": "risky",
+        "signals": [
+          "流动性达到$100K",
+          "买盘占比84%"
+        ],
+        "liquidityGrowth": 0.0012449217728622841,
+        "holderGrowth": 0,
+        "smartDegenDelta": 0,
+        "buyRatio": 0.8431372549019608,
+        "turnover": 0.016306400062363578,
+        "recovered": []
+      },
+      "entryQuality": {
+        "currentFresh": true,
+        "historyAligned": true,
+        "currentAgeMinutes": 0.29623333333333335,
+        "previousMarketGapMinutes": 11.178266666666667,
+        "previousRiskGapMinutes": 11.178266666666667
+      },
+      "exitReason": null,
+      "exitExecutionOk": null,
+      "bookPeakGainPct": 7.9425267128087285,
+      "sampledPeakGainPct": 7.9425267128087285,
+      "sampledLowGainPct": -1.8382464167754575,
+      "pathComplete": true,
+      "samples": 806,
+      "maxQuoteGapMinutes": 7.039933333333334,
+      "pathCategory": "open_censored",
+      "firstInitialStopQuoteAt": null,
+      "initialStopQuoteToExitMinutes": null,
+      "exitVsInitialStopPct": null,
+      "bookCostsUsd": 0.19696289150852944,
+      "entryFrictionUsd": 0.049392891180360186,
+      "exactFrictionUsd": 0.1967140302892711,
+      "grossPricePnlUsd": null,
+      "postExit24hStatus": "open",
+      "postExit24hPriceChangePct": null,
+      "postExit24hQuoteAt": null,
+      "referenceEntryDelay": null,
+      "existingAuditIssues": null,
+      "existingAuditExecution": null,
+      "saleEvents": [],
+      "sampledPathScope": "entry_to_frozen_asof"
+    },
+    {
+      "positionId": "paper:2026-10-19T09:55:00.000Z:bsc:0xd270d4e1ec6e6e0d28c0ecb8be966ec75997ffff",
+      "tokenId": "bsc:0xd270d4e1ec6e6e0d28c0ecb8be966ec75997ffff",
+      "symbol": "4Stock",
+      "chain": "bsc",
+      "status": "open",
+      "openedAt": "2026-10-19T09:58:47.008Z",
+      "closedAt": null,
+      "holdingHours": 63.02067835611111,
+      "netPnlUsd": null,
+      "entryScore": 74,
+      "discoveryScore": 43,
+      "trigger": "标准动量",
+      "entry1hChangePct": 5.7252,
+      "entryLiquidityUsd": 219818,
+      "entryMetrics": {
+        "score": 43,
+        "stage": "watch",
+        "signals": [
+          "流动性达到$100K",
+          "买盘占比71%",
+          "已有1项初期风险改善"
+        ],
+        "liquidityGrowth": 0.0011613978675824033,
+        "holderGrowth": 0,
+        "smartDegenDelta": 0,
+        "buyRatio": 0.7056277056277056,
+        "turnover": 0.06785386092130763,
+        "recovered": [
+          "Bundler比例超过20%"
+        ]
+      },
+      "entryQuality": {
+        "currentFresh": true,
+        "historyAligned": true,
+        "currentAgeMinutes": 0.26208333333333333,
+        "previousMarketGapMinutes": 11.2845,
+        "previousRiskGapMinutes": 11.2845
+      },
+      "exitReason": null,
+      "exitExecutionOk": null,
+      "bookPeakGainPct": 31.66957486481996,
+      "sampledPeakGainPct": 31.66957486481996,
+      "sampledLowGainPct": -2.4489971522011045,
+      "pathComplete": true,
+      "samples": 672,
+      "maxQuoteGapMinutes": 5.868616666666667,
+      "pathCategory": "open_censored",
+      "firstInitialStopQuoteAt": null,
+      "initialStopQuoteToExitMinutes": null,
+      "exitVsInitialStopPct": null,
+      "bookCostsUsd": 0.1986552173087017,
+      "entryFrictionUsd": 0.049886462433520636,
+      "exactFrictionUsd": 0.19840131391866914,
+      "grossPricePnlUsd": null,
+      "postExit24hStatus": "open",
+      "postExit24hPriceChangePct": null,
+      "postExit24hQuoteAt": null,
+      "referenceEntryDelay": null,
+      "existingAuditIssues": null,
+      "existingAuditExecution": null,
+      "saleEvents": [],
+      "sampledPathScope": "entry_to_frozen_asof"
+    },
+    {
+      "positionId": "paper:2026-10-19T16:40:00.000Z:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z",
+      "tokenId": "solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z",
+      "symbol": "NOX",
+      "chain": "solana",
+      "status": "closed",
+      "openedAt": "2026-10-19T16:43:40.767Z",
+      "closedAt": "2026-10-20T19:40:16.839Z",
+      "holdingHours": 26.943353333333334,
+      "netPnlUsd": -0.639894917172489,
+      "entryScore": 82,
+      "discoveryScore": 63,
+      "trigger": "标准动量",
+      "entry1hChangePct": 8.716335564681499,
+      "entryLiquidityUsd": 52415.71644271675,
+      "entryMetrics": {
+        "score": 63,
+        "stage": "emerging",
+        "signals": [
+          "流动性达到$50K",
+          "买盘占比61%",
+          "成交速度显著高于流动性",
+          "新池6小时内",
+          "已有4项初期风险改善"
+        ],
+        "liquidityGrowth": 0.00779105070546815,
+        "holderGrowth": 0.026252983293556076,
+        "smartDegenDelta": 0,
+        "buyRatio": 0.6103225806451613,
+        "turnover": 1.7029143049851938,
+        "recovered": [
+          "前10持仓超过50%",
+          "Bundler比例超过20%",
+          "开发团队持仓超过15%",
+          "1小时涨幅超过300%"
+        ]
+      },
+      "entryQuality": {
+        "currentFresh": true,
+        "historyAligned": true,
+        "currentAgeMinutes": 0.14358333333333334,
+        "previousMarketGapMinutes": 11.563716666666666,
+        "previousRiskGapMinutes": 11.4075
+      },
+      "exitReason": "成本价保护（扣费后仍可能小亏）",
+      "exitExecutionOk": true,
+      "bookPeakGainPct": 35.61506293144734,
+      "sampledPeakGainPct": 35.61506293144734,
+      "sampledLowGainPct": -11.52788989839838,
+      "pathComplete": true,
+      "samples": 288,
+      "maxQuoteGapMinutes": 5.9312000000000005,
+      "pathCategory": "peak_10_to_50",
+      "firstInitialStopQuoteAt": null,
+      "initialStopQuoteToExitMinutes": null,
+      "exitVsInitialStopPct": null,
+      "bookCostsUsd": 0.3078652426220874,
+      "entryFrictionUsd": 0.052930880665645205,
+      "exactFrictionUsd": 0.3075806091585349,
+      "grossPricePnlUsd": -0.3323143080139541,
+      "postExit24hStatus": "sampled",
+      "postExit24hPriceChangePct": -23.000227268019056,
+      "postExit24hQuoteAt": "2026-10-21T19:41:00.282Z",
+      "referenceEntryDelay": null,
+      "existingAuditIssues": [],
+      "existingAuditExecution": "越线报价附近退出",
+      "saleEvents": [
+        {
+          "at": "2026-10-20T19:40:16.839Z",
+          "action": "sell",
+          "soldFraction": 1,
+          "marketPriceUsd": 0.0003282468,
+          "netPnlUsd": -0.639894917172489
+        }
+      ],
+      "sampledPathScope": "entry_to_exit"
+    },
+    {
+      "positionId": "paper:2026-10-20T13:15:00.000Z:bsc:0xd4b52d40cdc439677be7c03ad3cb00a4b4b17777",
+      "tokenId": "bsc:0xd4b52d40cdc439677be7c03ad3cb00a4b4b17777",
+      "symbol": "BFC",
+      "chain": "bsc",
+      "status": "closed",
+      "openedAt": "2026-10-20T13:16:09.597Z",
+      "closedAt": "2026-10-20T14:24:06.278Z",
+      "holdingHours": 1.132411388888889,
+      "netPnlUsd": -2.5188039957734185,
+      "entryScore": 91,
+      "discoveryScore": 79,
+      "trigger": "结构改善",
+      "entry1hChangePct": 47.7056,
+      "entryLiquidityUsd": 146570,
+      "entryMetrics": {
+        "score": 79,
+        "stage": "focus",
+        "signals": [
+          "流动性达到$100K",
+          "流动性增长15%",
+          "持币人数增长5%",
+          "买盘占比62%",
+          "新池6小时内",
+          "已有4项初期风险改善"
+        ],
+        "liquidityGrowth": 0.15356766201262406,
+        "holderGrowth": 0.05316742081447967,
+        "smartDegenDelta": 1,
+        "buyRatio": 0.6210596914822267,
+        "turnover": 1.1470696595483387,
+        "recovered": [
+          "前10持仓超过50%",
+          "Bundler比例超过20%",
+          "开发团队持仓超过15%",
+          "1小时涨幅超过300%"
+        ]
+      },
+      "entryQuality": {
+        "currentFresh": true,
+        "historyAligned": true,
+        "currentAgeMinutes": 0.32731666666666664,
+        "previousMarketGapMinutes": 11.3112,
+        "previousRiskGapMinutes": 11.3112
+      },
+      "exitReason": "初始止损",
+      "exitExecutionOk": true,
+      "bookPeakGainPct": -0.510818147253167,
+      "sampledPeakGainPct": -0.510818147253167,
+      "sampledLowGainPct": -22.383306166962413,
+      "pathComplete": true,
+      "samples": 12,
+      "maxQuoteGapMinutes": 5.798966666666667,
+      "pathCategory": "peak_below_10",
+      "firstInitialStopQuoteAt": "2026-10-20T14:23:55.451Z",
+      "initialStopQuoteToExitMinutes": 0.18045,
+      "exitVsInitialStopPct": -2.979132708703014,
+      "bookCostsUsd": 0.3642974666563703,
+      "entryFrictionUsd": 0.05032317391256447,
+      "exactFrictionUsd": 0.36403908690107134,
+      "grossPricePnlUsd": -2.1547649088723473,
+      "postExit24hStatus": "sampled",
+      "postExit24hPriceChangePct": -2.9743780084303006,
+      "postExit24hQuoteAt": "2026-10-21T14:25:16.251Z",
+      "referenceEntryDelay": {
+        "at": "2026-10-20T13:04:52.133Z",
+        "price": 0.00169513,
+        "delayMinutes": 11.291066666666667,
+        "priceDistancePct": 33.0753393545038
+      },
+      "existingAuditIssues": [],
+      "existingAuditExecution": "越线报价附近退出",
+      "saleEvents": [
+        {
+          "at": "2026-10-20T14:24:06.278Z",
+          "action": "sell",
+          "soldFraction": 1,
+          "marketPriceUsd": 0.0017598671,
+          "netPnlUsd": -2.5188039957734185
+        }
+      ],
+      "sampledPathScope": "entry_to_exit"
+    },
+    {
+      "positionId": "paper:2026-10-21T02:10:00.000Z:ethereum:0x54ce4b27caabba24926865f035d432dbde2901f7",
+      "tokenId": "ethereum:0x54ce4b27caabba24926865f035d432dbde2901f7",
+      "symbol": "DACITY",
+      "chain": "ethereum",
+      "status": "closed",
+      "openedAt": "2026-10-21T02:14:01.822Z",
+      "closedAt": "2026-10-21T02:47:48.528Z",
+      "holdingHours": 0.5629738888888889,
+      "netPnlUsd": -2.8237501732858155,
+      "entryScore": 74,
+      "discoveryScore": 38,
+      "trigger": "标准动量",
+      "entry1hChangePct": 9.64454,
+      "entryLiquidityUsd": 251278,
+      "entryMetrics": {
+        "score": 38,
+        "stage": "watch",
+        "signals": [
+          "流动性达到$100K",
+          "买盘占比58%"
+        ],
+        "liquidityGrowth": 0.023543979991690334,
+        "holderGrowth": 0.0011507479861909697,
+        "smartDegenDelta": 0,
+        "buyRatio": 0.5842696629213483,
+        "turnover": 0.595877872316717,
+        "recovered": []
+      },
+      "entryQuality": {
+        "currentFresh": true,
+        "historyAligned": true,
+        "currentAgeMinutes": 0.3725833333333333,
+        "previousMarketGapMinutes": 11.35665,
+        "previousRiskGapMinutes": 11.35665
+      },
+      "exitReason": "初始止损",
+      "exitExecutionOk": true,
+      "bookPeakGainPct": 2.003070808604468,
+      "sampledPeakGainPct": 2.003070808604468,
+      "sampledLowGainPct": -25.517387937160663,
+      "pathComplete": true,
+      "samples": 6,
+      "maxQuoteGapMinutes": 5.6409,
+      "pathCategory": "peak_below_10",
+      "firstInitialStopQuoteAt": "2026-10-21T02:47:25.506Z",
+      "initialStopQuoteToExitMinutes": 0.3837,
+      "exitVsInitialStopPct": -6.89673492145082,
+      "bookCostsUsd": 0.3601299424114996,
+      "entryFrictionUsd": 0.04977311036272233,
+      "exactFrictionUsd": 0.35987717470772035,
+      "grossPricePnlUsd": -2.463872998578095,
+      "postExit24hStatus": "pending",
+      "postExit24hPriceChangePct": null,
+      "postExit24hQuoteAt": null,
+      "referenceEntryDelay": {
+        "at": "2026-10-21T02:02:42.718Z",
+        "price": 0.00633315,
+        "delayMinutes": 11.3184,
+        "priceDistancePct": 4.832666208758685
+      },
+      "existingAuditIssues": [],
+      "existingAuditExecution": "相邻采样报价跨过止损线",
+      "saleEvents": [
+        {
+          "at": "2026-10-21T02:47:48.528Z",
+          "action": "sell",
+          "soldFraction": 1,
+          "marketPriceUsd": 0.00497017,
+          "netPnlUsd": -2.8237501732858155
+        }
+      ],
+      "sampledPathScope": "entry_to_exit"
+    },
+    {
+      "positionId": "paper:2026-10-21T20:00:00.000Z:solana:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump",
+      "tokenId": "solana:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump",
+      "symbol": "CHOO",
+      "chain": "solana",
+      "status": "closed",
+      "openedAt": "2026-10-21T20:03:40.488Z",
+      "closedAt": "2026-10-21T22:41:14.370Z",
+      "holdingHours": 2.626078333333333,
+      "netPnlUsd": -3.044636057475282,
+      "entryScore": 84,
+      "discoveryScore": 77,
+      "trigger": "标准动量",
+      "entry1hChangePct": 14.652,
+      "entryLiquidityUsd": 73816.8,
+      "entryMetrics": {
+        "score": 77,
+        "stage": "focus",
+        "signals": [
+          "流动性达到$50K",
+          "持币人数快速增长73%",
+          "买盘占比59%",
+          "成交速度显著高于流动性",
+          "新池6小时内",
+          "已有3项初期风险改善"
+        ],
+        "liquidityGrowth": 0.03085723223363024,
+        "holderGrowth": 0.7296137339055795,
+        "smartDegenDelta": 0,
+        "buyRatio": 0.592274678111588,
+        "turnover": 1.987460849020819,
+        "recovered": [
+          "Bundler比例超过20%",
+          "开发团队持仓超过15%",
+          "1小时涨幅超过300%"
+        ]
+      },
+      "entryQuality": {
+        "currentFresh": true,
+        "historyAligned": true,
+        "currentAgeMinutes": 0.4405,
+        "previousMarketGapMinutes": 11.226733333333334,
+        "previousRiskGapMinutes": 11.226733333333334
+      },
+      "exitReason": "初始止损",
+      "exitExecutionOk": true,
+      "bookPeakGainPct": 9.530650828073917,
+      "sampledPeakGainPct": 9.530650828073917,
+      "sampledLowGainPct": -28.58159548577268,
+      "pathComplete": true,
+      "samples": 28,
+      "maxQuoteGapMinutes": 6.060183333333333,
+      "pathCategory": "peak_below_10",
+      "firstInitialStopQuoteAt": "2026-10-21T22:41:03.981Z",
+      "initialStopQuoteToExitMinutes": 0.17315,
+      "exitVsInitialStopPct": -10.726994357215858,
+      "bookCostsUsd": 0.2683229044137878,
+      "entryFrictionUsd": 0.05185965626522375,
+      "exactFrictionUsd": 0.2680497050246834,
+      "grossPricePnlUsd": -2.7765863524505985,
+      "postExit24hStatus": "pending",
+      "postExit24hPriceChangePct": null,
+      "postExit24hQuoteAt": null,
+      "referenceEntryDelay": {
+        "at": "2026-10-21T20:03:40.488Z",
+        "price": 0.000749461,
+        "delayMinutes": 0,
+        "priceDistancePct": 0
+      },
+      "existingAuditIssues": [],
+      "existingAuditExecution": "相邻采样报价跨过止损线",
+      "saleEvents": [
+        {
+          "at": "2026-10-21T22:41:14.370Z",
+          "action": "sell",
+          "soldFraction": 1,
+          "marketPriceUsd": 0.00053807283,
+          "netPnlUsd": -3.044636057475282
+        }
+      ],
+      "sampledPathScope": "entry_to_exit"
+    }
+  ],
+  "sourceDownloads": [
+    {
+      "positionId": "paper:2026-10-19T09:55:00.000Z:bsc:0xd270d4e1ec6e6e0d28c0ecb8be966ec75997ffff",
+      "symbol": "4Stock",
+      "tokenId": "bsc:0xd270d4e1ec6e6e0d28c0ecb8be966ec75997ffff",
+      "path": "/api/paper-review?run=1792403926939-simulation-5a7ce502-c894-48f5-bd64-fd95f53aaed3&index=0&format=csv",
+      "file": "d1f9140a3d4b6b7e.csv",
+      "kind": "quotes",
+      "ok": true,
+      "bytes": 24535,
+      "sha256": "6c04ba0813dac7a12c1e8d3262da3546faf3a17c09c8ddac143bee0aa43cdd7a"
+    },
+    {
+      "positionId": "paper:2026-10-18T21:30:00.000Z:ethereum:0x95af4af910c28e8ece4512bfe46f1f33687424ce",
+      "symbol": "MANYU",
+      "tokenId": "ethereum:0x95af4af910c28e8ece4512bfe46f1f33687424ce",
+      "path": "/api/paper-review?run=1792359019435-simulation-56fc6a3c-4363-4f3c-bd9d-85f3b555fd9a&index=0&format=csv",
+      "file": "f20769727f88263f.csv",
+      "kind": "quotes",
+      "ok": true,
+      "bytes": 29987,
+      "sha256": "9986b9253d86a1048dca4877e7bc1135840e72041f222ba2d64e10763d55b8ba"
+    },
+    {
+      "positionId": "paper:2026-10-18T17:05:00.000Z:ethereum:0x626e8036deb333b408be468f951bdb42433cbf18",
+      "symbol": "AIOZ",
+      "tokenId": "ethereum:0x626e8036deb333b408be468f951bdb42433cbf18",
+      "path": "/api/paper-review?run=1792343350651-simulation-fec47d4c-6322-4cab-91a6-d87eab05944d&index=0&format=csv",
+      "file": "15e1ca27d3ec4b86.csv",
+      "kind": "quotes",
+      "ok": true,
+      "bytes": 30630,
+      "sha256": "64ce5e6f75dd0e1bc17ab406e9e94d09f601db428ad4ba61016f0c22618b39ab"
+    },
+    {
+      "positionId": "paper:2026-10-13T03:05:00.000Z:ethereum:0xa27ec0006e59f245217ff08cd52a7e8b169e62d2",
+      "symbol": "AZTEC",
+      "tokenId": "ethereum:0xa27ec0006e59f245217ff08cd52a7e8b169e62d2",
+      "path": "/api/paper-review?run=1791860892428-simulation-a2562df0-3a3e-437a-8441-3cffd61818f8&index=0&format=csv",
+      "file": "a6a272865da94008.csv",
+      "kind": "quotes",
+      "ok": true,
+      "bytes": 64975,
+      "sha256": "904c0a615ae8ff1c17d270c2e6e60e64fa6483cb205c8a7ac015e8a5bbc7edc0"
+    },
+    {
+      "positionId": "paper:2026-10-21T20:00:00.000Z:solana:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump",
+      "symbol": "CHOO",
+      "tokenId": "solana:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump",
+      "path": "/api/paper-review?run=1792613020437-simulation-a3413864-3265-4c30-aeba-d0ffddbf4b47&index=0&format=csv",
+      "file": "4d59045e0587f250.csv",
+      "kind": "quotes",
+      "ok": true,
+      "bytes": 2141,
+      "sha256": "3ccff1da6c9ae92de9ad08bbbabbd2d708246da6473a29224c61e3a8f77b8999"
+    },
+    {
+      "positionId": "paper:2026-10-21T02:10:00.000Z:ethereum:0x54ce4b27caabba24926865f035d432dbde2901f7",
+      "symbol": "DACITY",
+      "tokenId": "ethereum:0x54ce4b27caabba24926865f035d432dbde2901f7",
+      "path": "/api/paper-review?run=1792548841757-simulation-e2de6e67-3e78-4551-8c0d-397c72571202&index=0&format=csv",
+      "file": "f4bd1e4524f49c55.csv",
+      "kind": "quotes",
+      "ok": true,
+      "bytes": 8826,
+      "sha256": "0903c05a80bcdef6d0e0102dd5264fdf351d71c0572b0b5a17ddee3d2b35f393"
+    },
+    {
+      "positionId": "paper:2026-10-19T16:40:00.000Z:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z",
+      "symbol": "NOX",
+      "tokenId": "solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z",
+      "path": "/api/paper-review?run=1792428220664-simulation-8d3de626-75c2-44eb-bfa6-580d7e6ded9e&index=0&format=csv",
+      "file": "6762af221e6d88db.csv",
+      "kind": "quotes",
+      "ok": true,
+      "bytes": 18377,
+      "sha256": "c59d50f7241eef8598ff5bd74ac122f55e1c365c5012f921fc3acb733a7729f7"
+    },
+    {
+      "positionId": "paper:2026-10-20T13:15:00.000Z:bsc:0xd4b52d40cdc439677be7c03ad3cb00a4b4b17777",
+      "symbol": "BFC",
+      "tokenId": "bsc:0xd4b52d40cdc439677be7c03ad3cb00a4b4b17777",
+      "path": "/api/paper-review?run=1792502169541-simulation-d61783fc-1dc6-4887-85a9-c3d9ec0ce6ba&index=0&format=csv",
+      "file": "b84e18b6f82980eb.csv",
+      "kind": "quotes",
+      "ok": true,
+      "bytes": 14526,
+      "sha256": "e8a12ff9662524a7684558cffe192ec5bde4411c9be5166597b49b99b2b628da"
+    },
+    {
+      "positionId": "paper:2026-10-18T14:35:00.000Z:bsc:0x409d03c4a795059af05faa9a0d02ebbf563b7777",
+      "symbol": "JC",
+      "tokenId": "bsc:0x409d03c4a795059af05faa9a0d02ebbf563b7777",
+      "path": "/api/paper-review?run=1792334352299-simulation-a6e0fb8e-3c75-4dcb-bb69-afaec570dab5&index=0&format=csv",
+      "file": "c40bf5eb43c49610.csv",
+      "kind": "quotes",
+      "ok": true,
+      "bytes": 26768,
+      "sha256": "84be4f92a091fcacc92762f7ac599c5d16963b5f8b26324faf13b28f70dc104d"
+    },
+    {
+      "positionId": "paper:2026-10-18T13:10:00.000Z:bsc:0x8449740659e5b644b0e4430aa34c46c6a8887777",
+      "symbol": "1001",
+      "tokenId": "bsc:0x8449740659e5b644b0e4430aa34c46c6a8887777",
+      "path": "/api/paper-review?run=1792329011295-simulation-8f3c9852-9570-4178-bbf3-e5c6a7d742f3&index=0&format=csv",
+      "file": "04349a677bdc720c.csv",
+      "kind": "quotes",
+      "ok": true,
+      "bytes": 27240,
+      "sha256": "6a72dca69c7ade28deb5aea11c3620a6a5e3f996c2cd8b8aaec89df333ab4c45"
+    },
+    {
+      "positionId": "paper:2026-10-18T10:20:00.000Z:bsc:0xd7ccd29b6fd1464edb425f24b01115556e737777",
+      "symbol": "sauce",
+      "tokenId": "bsc:0xd7ccd29b6fd1464edb425f24b01115556e737777",
+      "path": "/api/paper-review?run=1792318976006-simulation-85aa82bb-6a06-4d82-9baa-b2ee89363d62&index=0&format=csv",
+      "file": "1b38ca016e47d77f.csv",
+      "kind": "quotes",
+      "ok": true,
+      "bytes": 26765,
+      "sha256": "e729ba1a698abe6bbe4e581164f245d7260c6155d5f3acf9718707ef8264046d"
+    },
+    {
+      "positionId": "paper:2026-10-18T16:10:00.000Z:solana:3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+      "symbol": "mucron",
+      "tokenId": "solana:3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+      "path": "/api/paper-review?run=1792340017898-simulation-451d96e6-f8c2-488f-98eb-8463d8171ab3&index=0&format=csv",
+      "file": "ddd9296517d40322.csv",
+      "kind": "quotes",
+      "ok": true,
+      "bytes": 23664,
+      "sha256": "42d0ef57456f1d9979e8a83e8eed9c69ae7fe17781d84357a3241bf6aebebdd6"
+    },
+    {
+      "positionId": "paper:2026-10-18T02:30:00.000Z:ethereum:0xd58813e2bdb4647bd63d42304bd1d50cef605261",
+      "symbol": "CLAUDIA",
+      "tokenId": "ethereum:0xd58813e2bdb4647bd63d42304bd1d50cef605261",
+      "path": "/api/paper-review?run=1792290857056-simulation-3d5902d4-f545-4e5f-b0bd-7fd23d2e45d4&index=0&format=csv",
+      "file": "32e5c26b913db350.csv",
+      "kind": "quotes",
+      "ok": true,
+      "bytes": 32223,
+      "sha256": "698868ec79c80e8b8c2993c7fe986ab6ae6e39cc7347e1b657a35ad410431d03"
+    },
+    {
+      "positionId": "paper:2026-10-17T18:55:00.000Z:ethereum:0xbc7bbb30759a428282716b008201e718c91561d3",
+      "symbol": "GROKLET",
+      "tokenId": "ethereum:0xbc7bbb30759a428282716b008201e718c91561d3",
+      "path": "/api/paper-review?run=1792263464483-simulation-e0e69e7c-1e41-489e-bc33-b47f6476830c&index=0&format=csv",
+      "file": "c87fc66a70f725f0.csv",
+      "kind": "quotes",
+      "ok": true,
+      "bytes": 26720,
+      "sha256": "c69312579efb3fb061a3ffca3850861b302ab470ef07084112bf8a4ce71752a0"
+    },
+    {
+      "positionId": "paper:2026-10-17T11:35:00.000Z:solana:3XEqNHe3jHTRWAZCTHbb1UwpSfNbJL9oU1ErsM86pump",
+      "symbol": "MAKERS",
+      "tokenId": "solana:3XEqNHe3jHTRWAZCTHbb1UwpSfNbJL9oU1ErsM86pump",
+      "path": "/api/paper-review?run=1792237053927-simulation-3efe13d2-c056-404d-ae04-7f7a9c364061&index=0&format=csv",
+      "file": "a60a32b02030e12e.csv",
+      "kind": "quotes",
+      "ok": true,
+      "bytes": 28531,
+      "sha256": "38580f7ee7aa6d730bcfbd9fcbc9772c7f1ee955c0d4f7e0c9ab46c38751ed02"
+    },
+    {
+      "positionId": "paper:2026-10-17T03:35:00.000Z:solana:1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp",
+      "symbol": "Aloooong",
+      "tokenId": "solana:1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp",
+      "path": "/api/paper-review?run=1792208377771-simulation-e2a52095-43e8-4bf2-b1a5-23fb5534d518&index=0&format=csv",
+      "file": "df1f090077950b5e.csv",
+      "kind": "quotes",
+      "ok": true,
+      "bytes": 30104,
+      "sha256": "0c94fef4283a102fa46cb2034a0d59051e96b632e70cdaf4747eec50bcbe85f6"
+    },
+    {
+      "positionId": "paper:2026-10-16T07:45:00.000Z:bsc:0x7d0443cddfc8e11af105f4fe44dd28c630237777",
+      "symbol": "DAWG",
+      "tokenId": "bsc:0x7d0443cddfc8e11af105f4fe44dd28c630237777",
+      "path": "/api/paper-review?run=1792136857573-simulation-988dfa6c-90a1-4c88-a090-4a970a2b067b&index=0&format=csv",
+      "file": "1f116e0d865bc480.csv",
+      "kind": "quotes",
+      "ok": true,
+      "bytes": 43782,
+      "sha256": "25b1d57e0d4eb18726da20657adc2a1540ef7d5310ee49904bfa3fabb5598716"
+    },
+    {
+      "positionId": "paper:2026-10-14T03:25:00.000Z:solana:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump",
+      "symbol": "DOPE",
+      "tokenId": "solana:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump",
+      "path": "/api/paper-review?run=1791948447564-simulation-e2cf018d-3b02-42e7-ab2d-652a095db4f2&index=0&format=csv",
+      "file": "76b3179cb1fff511.csv",
+      "kind": "quotes",
+      "ok": true,
+      "bytes": 58620,
+      "sha256": "186ee7d768c3670dadd6c373286d350e63f207a2f963e7aa41d9d9423c314719"
+    },
+    {
+      "positionId": "paper:2026-10-14T03:05:00.000Z:ethereum:0x0f8b5b82a8a62137e4ea563a3709fe4ca1ff1a2d",
+      "symbol": "Temo",
+      "tokenId": "ethereum:0x0f8b5b82a8a62137e4ea563a3709fe4ca1ff1a2d",
+      "path": "/api/paper-review?run=1791947116869-simulation-9f7046a0-bd39-4295-a5de-3bfc4ea2df28&index=0&format=csv",
+      "file": "3bb611a45fd2189c.csv",
+      "kind": "quotes",
+      "ok": true,
+      "bytes": 54681,
+      "sha256": "3f8edc0a48ef80d87228ff6dc26d70bc4b8cb1e745131d91272dcfb53344b864"
+    },
+    {
+      "positionId": "paper:2026-10-13T03:40:00.000Z:solana:DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP",
+      "symbol": "SI",
+      "tokenId": "solana:DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP",
+      "path": "/api/paper-review?run=1791862891635-simulation-ff16f402-7761-4ac8-ac66-397c5c775f5c&index=0&format=csv",
+      "file": "a8be3d440897ff88.csv",
+      "kind": "quotes",
+      "ok": true,
+      "bytes": 58699,
+      "sha256": "a1a79f06aab68f3f11c00d8584478d858e523165570caf6a7c408bb9ff4c3e3a"
+    },
+    {
+      "positionId": "paper:2026-10-13T16:45:00.000Z:ethereum:0xba41ff65fd0a19aa75dd4e6a04e9d3c15acab887",
+      "symbol": "DOGEBALL",
+      "tokenId": "ethereum:0xba41ff65fd0a19aa75dd4e6a04e9d3c15acab887",
+      "path": "/api/paper-review?run=1791910141923-simulation-ffa1f64b-5eb9-4732-80c3-0c46fb414d3a&index=0&format=csv",
+      "file": "e17b489baabac179.csv",
+      "kind": "quotes",
+      "ok": true,
+      "bytes": 53367,
+      "sha256": "fb44061bb873b0ba3012cf6a52ccb66e98be49a446c08f13f10ae179ba0cb10a"
+    },
+    {
+      "positionId": "paper:2026-10-12T00:20:00.000Z:ethereum:0x73df7018cbcb919ccde48c3f12f4326688ac4446",
+      "symbol": "DOPE",
+      "tokenId": "ethereum:0x73df7018cbcb919ccde48c3f12f4326688ac4446",
+      "path": "/api/paper-review?run=1791764670004-simulation-391a354f-7f94-4826-a706-066b9fd03f04&index=0&format=csv",
+      "file": "655f12202fc8e836.csv",
+      "kind": "quotes",
+      "ok": true,
+      "bytes": 64162,
+      "sha256": "0e747e6134efa210899f4829f9f0d9f1113dc7a99b6f02b44f8f464d510d626a"
+    },
+    {
+      "positionId": "paper:2026-10-12T02:45:00.000Z:ethereum:0x39772d019ed525f667a7cbbf8e64b07120378402",
+      "symbol": "DNA",
+      "tokenId": "ethereum:0x39772d019ed525f667a7cbbf8e64b07120378402",
+      "path": "/api/paper-review?run=1791773278033-simulation-ac174ed2-a60f-486c-8847-2069537362d8&index=0&format=csv",
+      "file": "315ac49bab6798a3.csv",
+      "kind": "quotes",
+      "ok": true,
+      "bytes": 62391,
+      "sha256": "7434587a1c5bc344ff8549ca78fdca2eca0558d5878fa1fecf1e1a7a03e77ca1"
+    },
+    {
+      "positionId": "paper:2026-10-12T01:15:00.000Z:ethereum:0x41a4594575557efbf85cd950749bb0c1e99bcefd",
+      "symbol": "BUNKER",
+      "tokenId": "ethereum:0x41a4594575557efbf85cd950749bb0c1e99bcefd",
+      "path": "/api/paper-review?run=1791767945340-simulation-5dec28dd-6d37-4a9d-889d-75e76697284e&index=0&format=csv",
+      "file": "1acd2e4ddae7fba8.csv",
+      "kind": "quotes",
+      "ok": true,
+      "bytes": 62393,
+      "sha256": "07973b4f4677534abe36f1f6e3079bb641af8408c2a0462a9ef8e00cd3f65d78"
+    },
+    {
+      "path": "/api/improvement?audit=losses",
+      "file": "recent-loss-audit.json",
+      "kind": "audit",
+      "ok": true,
+      "bytes": 29995,
+      "sha256": "0324a3f7f28644eb12b1490ceb700910dc32af3090595cbcf45158b595408b04"
+    }
+  ],
+  "signalAudit": {
+    "version": "signal-audit-v1",
+    "baseline": "paper-v7.5-gmgn-contract-tracking",
+    "screening": {
+      "observations": 123,
+      "tokens": 22,
+      "latest": "2026-10-22T00:22:29.148Z",
+      "firstAttemptReasons": [
+        {
+          "status": "daily_or_active_limit",
+          "n": 8
+        },
+        {
+          "status": "enrolled",
+          "n": 6
+        },
+        {
+          "status": "enrollment_spacing",
+          "n": 26
+        },
+        {
+          "status": "no_matched_control",
+          "n": 83
+        }
+      ]
+    },
+    "comparisons": [
+      {
+        "horizon": "15m",
+        "total": 6,
+        "paired": 6,
+        "missing": 0,
+        "pending": 0,
+        "signalNetPnl": -3.3168764918266334,
+        "controlNetPnl": -4.509812950509306,
+        "signalMean": -0.5528127486377722,
+        "controlMean": -0.751635491751551,
+        "meanDelta": 0.1988227431137788,
+        "medianDelta": 0.05390459538318293,
+        "better": 4,
+        "signalWins": 0,
+        "controlWins": 0,
+        "withoutBestSignal": -2.966431205729764,
+        "withoutBestDelta": -0.2611859682811577,
+        "stressedSignal": -4.483707726908367,
+        "stressedDelta": 1.181007094095846
+      },
+      {
+        "horizon": "1h",
+        "total": 6,
+        "paired": 6,
+        "missing": 0,
+        "pending": 0,
+        "signalNetPnl": -6.052940944819277,
+        "controlNetPnl": -6.859438875890171,
+        "signalMean": -1.0088234908032128,
+        "controlMean": -1.1432398126483618,
+        "meanDelta": 0.13441632184514907,
+        "medianDelta": -0.020453851023219727,
+        "better": 3,
+        "signalWins": 1,
+        "controlWins": 0,
+        "withoutBestSignal": -6.184925324645002,
+        "withoutBestDelta": -0.8408015150297352,
+        "stressedSignal": -7.192411535371083,
+        "stressedDelta": 0.7984329517601856
+      },
+      {
+        "horizon": "6h",
+        "total": 6,
+        "paired": 6,
+        "missing": 0,
+        "pending": 0,
+        "signalNetPnl": -8.61238255422818,
+        "controlNetPnl": -1.6513384097239365,
+        "signalMean": -1.4353970923713633,
+        "controlMean": -0.27522306828732274,
+        "meanDelta": -1.1601740240840408,
+        "medianDelta": -0.3264927066957739,
+        "better": 2,
+        "signalWins": 1,
+        "controlWins": 2,
+        "withoutBestSignal": -9.219515332454133,
+        "withoutBestDelta": -7.601485029326016,
+        "stressedSignal": -9.726258728685899,
+        "stressedDelta": -6.891433703059203
+      },
+      {
+        "horizon": "24h",
+        "total": 6,
+        "paired": 5,
+        "missing": 0,
+        "pending": 1,
+        "signalNetPnl": -10.479033576684689,
+        "controlNetPnl": -9.671632422320124,
+        "signalMean": -2.0958067153369377,
+        "controlMean": -1.9343264844640249,
+        "meanDelta": -0.16148023087291302,
+        "medianDelta": -0.029319444921808824,
+        "better": 2,
+        "signalWins": 1,
+        "controlWins": 1,
+        "withoutBestSignal": -10.50772325338915,
+        "withoutBestDelta": -0.8793885718862251,
+        "stressedSignal": -11.374243240917844,
+        "stressedDelta": -0.7993271428209197
+      },
+      {
+        "horizon": "7d",
+        "total": 6,
+        "paired": 0,
+        "missing": 0,
+        "pending": 6,
+        "signalNetPnl": 0,
+        "controlNetPnl": 0,
+        "signalMean": null,
+        "controlMean": null,
+        "meanDelta": null,
+        "medianDelta": null,
+        "better": 0,
+        "signalWins": 0,
+        "controlWins": 0,
+        "withoutBestSignal": null,
+        "withoutBestDelta": null,
+        "stressedSignal": null,
+        "stressedDelta": null
+      }
+    ],
+    "growth": {
+      "phase": "固定规则积累证据",
+      "primary": "24h扣费配对收益差",
+      "minimumPairs": 30,
+      "paired": 5,
+      "days": 3,
+      "coverage": 1,
+      "firstStartedAt": "2026-10-16T02:31:35.992Z",
+      "earliestReviewAt": "2026-10-23T02:31:35.992Z",
+      "verdict": "证据不足，继续观察；不据此调整主策略",
+      "promotion": "人工复核后另立版本；本模式只生成复盘结论，不自动修改参数",
+      "hypotheses": [
+        "H1：当前技术信号的24h扣费收益优于同类未入选币",
+        "H2：已保存观察到确认入场之间的等待与涨价值得单独检验"
+      ],
+      "next": "继续采集，优先保证两边到期报价完整"
+    }
+  }
+}
