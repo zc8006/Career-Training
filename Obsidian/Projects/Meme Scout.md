@@ -13,6 +13,8 @@ tags:
 
 ## 复盘与经验
 
+- [[Projects/Meme-Scout/2026-10-23-v49-code-review|2026-10-23 第49版审查与第50版修复]]：修正停采时逾期样本漏出覆盖率分母的问题；129项测试、类型及构建通过，已上线，无需VPS更新。
+
 - [[Projects/Meme-Scout/2026-10-23-improvement-implementation-review|2026-10-23 第49版改善实施与验收]]：未买候选四时点复盘、配对诊断、收益指标与入场涨价过滤独立实验；126项检查通过，已发布并确认新入库，收益仍待验证。
 - [[Projects/Meme-Scout/2026-10-23-improvement-implementation-plan|2026-10-23 四项改善清单]]：已实施，保留原基准和冻结协议，附验收边界。
 
