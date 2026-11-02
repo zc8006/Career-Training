@@ -1,0 +1,344 @@
+{
+  "version": 53,
+  "projectId": "appgprj_6a8a4c6944808191b5319d81f40bb19a",
+  "sourceCommit": "1b7162055bcf7a37358fcc6fe8bcf3c93411c9ae",
+  "deploymentId": "appgdep_6ae7d370d34c81919c7951fb45b4c0f8",
+  "publishedAt": "2026-11-02T00:04:06.369009+00:00",
+  "gmgnEvents": [
+    {
+      "at": "2026-11-02T00:04:21.381Z",
+      "requestId": "7b1ea365adba68c54e1507b84ef62e30",
+      "claimed": true,
+      "budgetReached": true,
+      "level": "info",
+      "event": "gmgn_retention_complete",
+      "runId": "1793577848035-sol-2e5228de-04b7-4128-a96f-0c4f6a21fd6f",
+      "chunks": 8,
+      "counts": {
+        "market_snapshots": {
+          "examined": 5000,
+          "deleted": 0
+        },
+        "gmgn_risk_snapshots": {
+          "examined": 149,
+          "deleted": 149
+        },
+        "radar_scores": {
+          "examined": 149,
+          "deleted": 149
+        },
+        "collector_runs": {
+          "examined": 4,
+          "deleted": 4
+        }
+      },
+      "elapsedMs": 8965
+    },
+    {
+      "at": "2026-11-02T00:04:20.779Z",
+      "requestId": "274aeffbeb694f65152944ded3589f66",
+      "level": "info",
+      "event": "gmgn_ingest_acknowledged",
+      "runId": "1793577857276-bsc-e420f36a-9375-4be7-a7de-3e26b223565a",
+      "chain": "bsc",
+      "accepted": 50,
+      "batches": 8,
+      "elapsedMs": 3223
+    },
+    {
+      "at": "2026-11-02T00:04:17.258Z",
+      "requestId": "5c5ec435663018926a0c86c7536192e5",
+      "level": "info",
+      "event": "gmgn_ingest_acknowledged",
+      "runId": "1793577852438-eth-efcfc8dd-250f-498d-a30f-fdd0708852af",
+      "chain": "ethereum",
+      "accepted": 50,
+      "batches": 8,
+      "elapsedMs": 4539
+    },
+    {
+      "at": "2026-11-02T00:04:12.416Z",
+      "requestId": "7b1ea365adba68c54e1507b84ef62e30",
+      "level": "info",
+      "event": "gmgn_ingest_acknowledged",
+      "runId": "1793577848035-sol-2e5228de-04b7-4128-a96f-0c4f6a21fd6f",
+      "chain": "solana",
+      "accepted": 50,
+      "batches": 8,
+      "elapsedMs": 4033
+    }
+  ],
+  "gmgnRequests": [
+    {
+      "at": "2026-11-02T00:04:21.381Z",
+      "requestId": "7b1ea365adba68c54e1507b84ef62e30",
+      "outcome": "ok",
+      "status": 200,
+      "workerWallTimeMs": 13007
+    },
+    {
+      "at": "2026-11-02T00:04:20.996Z",
+      "requestId": "274aeffbeb694f65152944ded3589f66",
+      "outcome": "ok",
+      "status": 200,
+      "workerWallTimeMs": 3451
+    },
+    {
+      "at": "2026-11-02T00:04:17.474Z",
+      "requestId": "5c5ec435663018926a0c86c7536192e5",
+      "outcome": "ok",
+      "status": 200,
+      "workerWallTimeMs": 4763
+    }
+  ],
+  "errorQuery": {
+    "sinceMinutes": 10,
+    "events": 0
+  },
+  "metrics": {
+    "asOf": "2026-11-02T00:04:57.695Z",
+    "timezone": "Asia/Shanghai",
+    "account": {
+      "initialCashUsd": 500,
+      "cashUsd": 381.283606,
+      "realizedPnlUsd": -98.716396,
+      "totalCostsUsd": 46.714071,
+      "equityUsd": 397.78950851296827,
+      "totalReturnPct": -20.442098297406343,
+      "knownEquityUsd": 397.78950851296827,
+      "valuationComplete": true,
+      "unpricedPositions": 0,
+      "executionVersion": "execution-quality-v2-gmgn",
+      "quoteSource": "gmgn",
+      "strategyVersion": "paper-v7.5-gmgn-contract-tracking",
+      "startedAt": "2026-09-09T05:54:23.733Z",
+      "updatedAt": "2026-11-02T00:04:34.536Z"
+    },
+    "v75": {
+      "version": "paper-v7.5-gmgn-contract-tracking",
+      "positions": 44,
+      "open": 2,
+      "closed": 42,
+      "measuredClosed": 42,
+      "unknownClosed": 0,
+      "wins": 9,
+      "losses": 33,
+      "flat": 0,
+      "closedNetPnlUsd": -26.643626600597553,
+      "openRealizedPnlUsd": 0,
+      "grossProfitUsd": 46.37342363001752,
+      "grossLossUsd": 73.01705023061508,
+      "totalCostsUsd": 16.88580063190717,
+      "firstEntryAt": "2026-10-12T00:24:30.027Z",
+      "lastEntryAt": "2026-10-31T09:57:00.146Z",
+      "winRate": 0.21428571428571427,
+      "avgClosedPnlUsd": -0.6343720619189893,
+      "avgWinUsd": 5.152602625557503,
+      "avgLossUsd": 2.2126378857762146,
+      "payoffRatio": 2.328714815325473,
+      "profitFactor": 0.6351040405433107,
+      "breakEvenWinRate": 0.30041624334892825,
+      "realizedPnlUsd": -26.643626600597553
+    },
+    "open": [
+      {
+        "token_id": "ethereum:0x95af4af910c28e8ece4512bfe46f1f33687424ce",
+        "name": "Manyu",
+        "symbol": "MANYU",
+        "chain": "ethereum",
+        "opened_at": "2026-10-18T21:30:19.482Z",
+        "current_price_usd": 3.2065e-9,
+        "quote_captured_at": "2026-11-02T00:04:12.665Z"
+      },
+      {
+        "token_id": "ethereum:0x626e8036deb333b408be468f951bdb42433cbf18",
+        "name": "AIOZ Network",
+        "symbol": "AIOZ",
+        "chain": "ethereum",
+        "opened_at": "2026-10-18T17:09:10.709Z",
+        "current_price_usd": 0.091533858,
+        "quote_captured_at": "2026-11-02T00:04:23.345Z"
+      }
+    ],
+    "closedSinceOct30Snapshot": [
+      {
+        "token_id": "bsc:0x53e32932382fcc2ec3e921c3d6ba3598d0e57777",
+        "name": "Giggle Academy",
+        "symbol": "咯咯",
+        "chain": "bsc",
+        "opened_at": "2026-10-31T09:57:00.146Z",
+        "closed_at": "2026-10-31T11:25:26.404Z",
+        "realized_pnl_usd": -2.511859337854779,
+        "exit_reason": "初始止损"
+      },
+      {
+        "token_id": "ethereum:0x7fae52142bc5cc81c9d5c61399fe46331ec596a3",
+        "name": "Bitcoin Pepe",
+        "symbol": "BITPEPE",
+        "chain": "ethereum",
+        "opened_at": "2026-10-31T00:33:20.451Z",
+        "closed_at": "2026-10-31T03:30:20.256Z",
+        "realized_pnl_usd": -2.991474927465493,
+        "exit_reason": "初始止损"
+      },
+      {
+        "token_id": "ethereum:0x1e635120fe4441702d826369114f0665c49ded5e",
+        "name": "Wolfina",
+        "symbol": "WOLFINA",
+        "chain": "ethereum",
+        "opened_at": "2026-10-30T08:54:37.208Z",
+        "closed_at": "2026-10-31T01:23:05.656Z",
+        "realized_pnl_usd": -2.4854553755762945,
+        "exit_reason": "初始止损"
+      },
+      {
+        "token_id": "ethereum:0x6d34013052c8fe696805dde682ae8086be5655cc",
+        "name": "Super Inu",
+        "symbol": "SI",
+        "chain": "ethereum",
+        "opened_at": "2026-10-29T09:55:51.141Z",
+        "closed_at": "2026-10-30T06:29:45.272Z",
+        "realized_pnl_usd": 3.7032407633686133,
+        "exit_reason": "ETH上涨50%，卖出25%并跟踪余仓 → 金狗仓峰值回撤25%"
+      }
+    ],
+    "audit24h": {
+      "horizon": "24h",
+      "total": 17,
+      "paired": 17,
+      "missing": 0,
+      "pending": 0,
+      "signalNetPnl": -14.201575370545694,
+      "controlNetPnl": -26.356730085562425,
+      "signalMean": -0.8353867865026878,
+      "controlMean": -1.550395887386025,
+      "meanDelta": 0.715009100883337,
+      "medianDelta": -0.029319444921808824,
+      "better": 7,
+      "signalWins": 4,
+      "controlWins": 6,
+      "withoutBestSignal": -47.148033559141794,
+      "withoutBestDelta": -14.35956516210487,
+      "stressedSignal": -17.460128869749262,
+      "stressedDelta": 12.034175267790307
+    },
+    "auditGrowth": {
+      "phase": "固定规则积累证据",
+      "primary": "24h扣费配对收益差",
+      "minimumPairs": 30,
+      "paired": 17,
+      "days": 12,
+      "coverage": 1,
+      "firstStartedAt": "2026-10-16T02:31:35.992Z",
+      "earliestReviewAt": "2026-10-23T02:31:35.992Z",
+      "verdict": "证据不足，继续观察；不据此调整主策略",
+      "promotion": "人工复核后另立版本；本模式只生成复盘结论，不自动修改参数",
+      "hypotheses": [
+        "H1：当前技术信号的24h扣费收益优于同类未入选币",
+        "H2：已保存观察到确认入场之间的等待与涨价值得单独检验"
+      ],
+      "next": "继续采集，优先保证两边到期报价完整"
+    },
+    "entryDistance": {
+      "version": "entry-distance-v1",
+      "maxRisePct": 20,
+      "total": 11,
+      "unknownReference": 7,
+      "paired": 4,
+      "pending": 0,
+      "missing": 0,
+      "days": 4,
+      "coverage": 1,
+      "entered": 3,
+      "skipped": 1,
+      "baselineNetPnl": -13.03848529120045,
+      "alternativeNetPnl": -5.5607151106373465,
+      "meanDelta": 1.8694425451407755,
+      "medianDelta": 0,
+      "withoutBest": -8.680325158537032,
+      "withoutBestDelta": 0,
+      "stressedNetPnl": -6.105107959530972,
+      "avoidedLosses": 1,
+      "missedWinners": 0,
+      "verdict": "等待新样本，尚未达到复核条件",
+      "ready": false
+    },
+    "decisionSummary": {
+      "tokens": 20354,
+      "first": "2026-10-23T00:58:57.891Z",
+      "latest": "2026-11-02T00:04:34.536Z"
+    },
+    "decisionHorizons": [
+      {
+        "horizon": "1h",
+        "total": 20354,
+        "sampled": 3644,
+        "missing": 16596,
+        "pending": 114,
+        "due_pending": 13
+      },
+      {
+        "horizon": "24h",
+        "total": 20354,
+        "sampled": 305,
+        "missing": 18171,
+        "pending": 1878,
+        "due_pending": 10
+      },
+      {
+        "horizon": "6h",
+        "total": 20354,
+        "sampled": 519,
+        "missing": 19246,
+        "pending": 589,
+        "due_pending": 16
+      },
+      {
+        "horizon": "7d",
+        "total": 20354,
+        "sampled": 137,
+        "missing": 6515,
+        "pending": 13702,
+        "due_pending": 9
+      }
+    ],
+    "wallet": {
+      "phase": "观察与覆盖检查",
+      "status": "complete",
+      "asOf": "2026-11-02T00:04:33.144Z",
+      "readiness": {
+        "ready": false,
+        "reasons": [
+          "最近24小时连续覆盖比例不足95%",
+          "最近24小时时间覆盖不足95%"
+        ],
+        "observedHours": 331.23277194444444,
+        "latestAgeSeconds": 29.668,
+        "completeRate": 0.8302469135802469,
+        "timeCoverage": 0.8264227199074076
+      },
+      "coverageCauses": [
+        {
+          "code": "waiting",
+          "label": "旧缺口等待",
+          "polls": 141,
+          "lastAt": "2026-11-01T14:09:00.824Z"
+        },
+        {
+          "code": "conflict",
+          "label": "交易标识冲突",
+          "polls": 75,
+          "lastAt": "2026-11-01T13:39:05.875Z"
+        },
+        {
+          "code": "page_overlap",
+          "label": "返回页无重叠",
+          "polls": 4,
+          "lastAt": "2026-11-01T07:28:41.351Z"
+        }
+      ],
+      "paired": 0
+    }
+  },
+  "note": "时间字段为UTC。第一轮三条真实VPS请求验证；不是长期延迟分位数或零故障承诺。Worker wall time包含响应后工作，不等于HTTP确认耗时。收益为模拟并含模型成本。"
+}
